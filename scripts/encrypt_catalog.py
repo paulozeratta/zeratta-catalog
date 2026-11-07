@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Atualiza o catalogo cifrado, preservando a sincronizacao permanente de fretes.
+"""Atualiza o catalogo cifrado, preservando preços, descontos, fretes e sincronizacao permanente.
 
 Uso:
   python -m pip install cryptography
@@ -53,6 +53,28 @@ def inject_cloud(new_html, old_html):
     new_html = new_html.replace(". Edição somente local.</p></aside></article>'", ". Frete: salvo no GitHub quando conectado.</p></aside></article>'")
     return new_html
 
+
+def replace_products(old_html, new_html):
+    """Importa apenas PRODUCTS e preserva todo CSS/JS, precificação e integração."""
+    def extract(text):
+        m = re.search(r'\\bconst\\s+PRODUCTS\\s*=\\s*', text)
+        if not m:
+            raise ValueError('Bloco PRODUCTS não encontrado; abortando.')
+        arr, consumed = json.JSONDecoder().raw_decode(text[m.end():])
+        ids = [str(x.get('id', '')) for x in arr]
+        if not isinstance(arr, list) or not arr or len(ids) != len(set(ids)) or not all(ids):
+            raise ValueError('Produtos vazios, inválidos ou duplicados; abortando.')
+        return arr, (m.start(), m.end() + consumed)
+    products, _ = extract(new_html)
+    old_products, old_range = extract(old_html)
+    if len(products) < max(1, int(len(old_products) * .6)):
+        raise ValueError('Catálogo importado é menor que 60% do atual; importação bloqueada.')
+    original = {str(x['id']): x for x in old_products}
+    for item in products:
+        if not item.get('sourceUrl') and str(item['id']) in original:
+            item['sourceUrl'] = original[str(item['id'])].get('sourceUrl') or ''
+    return old_html[:old_range[0]] + 'const PRODUCTS=' + json.dumps(products, separators=(',', ':'), ensure_ascii=False) + old_html[old_range[1]:]
+
 def main():
     if len(sys.argv)!=2:
         raise SystemExit('Uso: python scripts/encrypt_catalog.py catalogo-original.html')
@@ -69,9 +91,9 @@ def main():
         raise SystemExit('Painel protegido atual nao encontrado.')
     prior=json.loads(match.group(2))
     old_plain=AESGCM(key(password,b64decode(prior['salt']),prior['iterations'])).decrypt(b64decode(prior['iv']),b64decode(prior['ciphertext']),AAD).decode('utf-8')
-    fresh=inject_cloud(source.read_text(encoding='utf-8'),old_plain)
-    if 'cloudInit();' not in fresh or 'cloudMarkDirty(id)' not in fresh:
-        raise SystemExit('Sincronizacao de fretes nao localizada; publicacao abortada.')
+    fresh=replace_products(old_plain,source.read_text(encoding='utf-8'))
+    if not all(x in fresh for x in ('cloudInit();', 'function priceModel(p)', 'function refreshProductFinance(id)', 'id="bulk-discount"')):
+        raise SystemExit('Precificacao e sincronizacao ausentes; publicacao abortada.')
     salt=secrets.token_bytes(32)
     iv=secrets.token_bytes(12)
     ct=AESGCM(key(password,salt)).encrypt(iv,fresh.encode('utf-8'),AAD)
@@ -80,7 +102,7 @@ def main():
     if n!=1:
         raise SystemExit('Falha ao atualizar o payload; arquivo nao foi alterado.')
     index.write_text(updated,encoding='utf-8')
-    print('Catálogo protegido atualizado. Os fretes sincronizados no GitHub foram preservados.')
+    print('Catálogo protegido atualizado. Fretes e precos sincronizados permanecem no arquivo separado.')
     print('Faça commit/push apenas de index.html para a branch main.')
 
 if __name__=='__main__':
