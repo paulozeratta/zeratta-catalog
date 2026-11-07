@@ -433,16 +433,16 @@ $('count-all').textContent=PRODUCTS.length;$('count-new').textContent=PRODUCTS.f
 load();render();cloudInit();
 </script><script>
 'use strict';
-const FINANCE_DEFAULTS={"cpaOuter":45,"cpaHoodie":35,"processingPct":6,"taxPct":10,"returnPct":0,"chargePct":0,"reserve":5,"duty":0,"freightDelta":0,"fxPct":0,"cpaTarget":17.5,"marginTarget":20,"cpaMode":"stress","freeShipping":true};
+const FINANCE_DEFAULTS={"cpaOuter":40,"cpaHoodie":40,"processingPct":6.1,"taxPct":0,"returnPct":0,"chargePct":0,"reserve":0,"duty":0,"freightDelta":0,"fxPct":0,"cpaTarget":10,"marginTarget":0,"cpaMode":"stress","freeShipping":true};
 const financeState={...FINANCE_DEFAULTS};
 const financeSliderSpecs=[
  ['cpaOuter','Stress test CPA · jackets',0,100,1,'USD','Scenario estimate, not observed CPA'],
  ['cpaHoodie','Stress test CPA · hoodies/fleece',0,100,1,'USD','Scenario estimate, not observed CPA'],
- ['processingPct','Payment processor rate',0,12,.25,'%','Estimated processor fee; actual Stripe contract pending'],
- ['taxPct','Brazil tax reserve',0,25,.5,'%','Hypothetical provision, NOT confirmed tax'],
+ ['processingPct','Payment processor rate',0,12,.1,'%','Scenario benchmark: ~6.1% observed on one Zeratta Stripe charge (including FX), not a guaranteed rate'],
+ ['taxPct','Brazil tax reserve',0,25,.5,'%','Default 0% pending tax advice: adjust for applicable real tax; not an exemption claim'],
  ['returnPct','Returns reserve',0,15,.5,'%','Additional expected losses; avoid double counting'],
  ['chargePct','Chargeback reserve',0,8,.25,'%','Additional expected disputes; avoid double counting'],
- ['reserve','Other variable reserve',0,20,.5,'USD','Per-order reserve, separate from specific items above'],
+ ['reserve','Other variable reserve',0,20,.5,'USD','Default 0: enter empirically measured per-order operational costs when available'],
  ['duty','Additional import/customs',0,35,.5,'USD','Add only costs not already included in supplier delivered cost'],
  ['freightDelta','Supplier freight adjustment',-15,30,.5,'USD','Simulate supplier shipping changes'],
  ['fxPct','FX conversion reserve',0,10,.25,'%','Only if not already part of payment fee'],
