@@ -6,17 +6,17 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 
 ## Estrutura atual
 
-- `index.html`: interface do catálogo com preço único, simulação financeira, senha visual de entrada e sincronização.
+- `index.html`: interface do catálogo com preço normal, desconto e preço promocional, simulação financeira, senha visual de entrada e sincronização.
 - `data/products.js`: cadastro dos **100 produtos** (não criptografado). Mantém a constante `window.ZERATTA_PRODUCTS`.
 - `data/freights.json`: fretes individuais e links EPROLO, com suas datas de atualização (não criptografado).
-- `data/pricing.json`: **preço de venda único** por Shopify Product ID, com 100 registros. Formato por item: `{ "price": 89.90, "pricingUpdatedAt": 1794081882461 }` (não criptografado). Não existem campos de desconto nem preço normal.
+- `data/pricing.json`: preço normal de referência, desconto percentual e preço final por Shopify Product ID, com 100 registros. Formato por item: `{ "regularPrice": 149.90, "discountPct": 40.03, "salePrice": 89.90, "pricingUpdatedAt": 1794095764612 }` (não criptografado). Os valores de referência de simulação não comprovam descontos reais ou preços históricos de venda.
 - `.github/workflows/pages.yml`: publica os quatro arquivos acima no GitHub Pages após commits na `main`.
 - `data/freights.enc.json`: **arquivo histórico criptografado**, preservado apenas para recuperação; a aplicação atual não o utiliza.
 - `scripts/encrypt_catalog.py`: utilitário histórico, **não utilizar** nesta versão. Não existe mais payload criptografado no `index.html`.
 
 ## Atualizações rápidas
 
-Para alterar apenas o preço único de venda, edite `data/pricing.json`. Para alterar somente fretes e links EPROLO, edite `data/freights.json`. Para alterar a lista de produtos ou títulos sincronizados, edite `data/products.js`. Não precisa reconstruir o catálogo nem realizar etapas de criptografia. Um commit em `main` inicia a publicação. Os preços de referência (`compare-at`) do snapshot Shopify são preservados no histórico de produtos, mas não são exibidos ou usados para calcular promoções.
+Para alterar preços finais, preços de referência ou percentuais de desconto, edite `data/pricing.json`. Para alterar somente fretes e links EPROLO, edite `data/freights.json`. Para alterar a lista de produtos ou títulos sincronizados, edite `data/products.js`. Não precisa reconstruir o catálogo nem realizar etapas de criptografia. Um commit em `main` inicia a publicação. Os preços de referência (`compare-at`) do snapshot Shopify são preservados em `data/products.js`. O catálogo mostra descontos de simulação, sem que isso implique promoções publicadas na Shopify.
 
 O formulário **Ativar salvamento permanente** também pode salvar edições feitas nos cards com um token fine-grained autorizado, limitado ao repositório e à permissão **Contents: Read and write**. O token fica somente na memória do navegador e nunca deve ser publicado no repositório. Sem token, as edições ficam locais no navegador.
 
