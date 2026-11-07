@@ -21,7 +21,7 @@ if len(secret)<24:
 source=Path(sys.argv[1])
 if not source.is_file(): raise SystemExit(f'Arquivo nao encontrado: {source}')
 base=Path(__file__).resolve().parent.parent
-index=base/'site'/'index.html'
+index=base/'index.html'
 html=index.read_text(encoding='utf-8')
 salt=secrets.token_bytes(32);iv=secrets.token_bytes(12)
 kdf=PBKDF2HMAC(algorithm=hashes.SHA256(),length=32,salt=salt,iterations=600000)
