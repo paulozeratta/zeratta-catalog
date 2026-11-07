@@ -1,6 +1,6 @@
 # Zeratta Catalog
 
-Central de produtos e custos Zeratta com GitHub Pages e fretes persistidos no GitHub.
+Central de produtos e custos Zeratta com GitHub Pages, precificação promocional e dados financeiros criptografados.
 
 **Site:** https://paulozeratta.github.io/zeratta-catalog/
 
@@ -14,7 +14,7 @@ O site mantém o HTML financeiro criptografado com AES-256-GCM. A senha é infor
 
 **Aviso de segurança:** uma senha curta reduz significativamente a resistência contra ataques de adivinhação, mesmo com criptografia. O Pages é público e o desbloqueio no navegador não equivale a controle de acesso de uma aplicação privada.
 
-## Como salvar os fretes permanentemente
+## Como salvar fretes, links e preços permanentemente
 
 Os campos **Frete EPROLO → EUA** permitem valores individuais por Shopify Product ID. Os cards sem vínculo exibem também **Link oficial do produto na EPROLO**, que permite salvar um URL verificado da EPROLO no mesmo armazenamento criptografado de fretes; após o preenchimento, o botão EPROLO passa a abrir o endereço cadastrado. Para cards já vinculados, o link pode ser editado em **Notas, SKU e link EPROLO**.
 
@@ -22,11 +22,21 @@ Os campos **Frete EPROLO → EUA** permitem valores individuais por Shopify Prod
 - **Gravação:** por segurança, não há token GitHub no código da página. Para poder salvar do navegador, crie um **fine-grained personal access token** em https://github.com/settings/personal-access-tokens/new.
 - Selecione o proprietário `paulozeratta`, em **Repository access** escolha **Only select repositories → zeratta-catalog** e em **Repository permissions** dê apenas **Contents: Read and write**. Não é necessária autorização para outros repositórios.
 - Abra o catálogo, digite a senha de acesso, cole o token no campo **Ativar salvamento permanente** e clique em conectar. O token fica somente na memória da aba e precisa ser reinserido ao reabrir.
-- A partir da conexão, cada frete e link EPROLO alterado é salvo automaticamente como **arquivo criptografado** no GitHub. O botão **Salvar fretes no GitHub** permite gravar alterações pendentes. Confira a mensagem **Salvo permanentemente no GitHub**.
+- A partir da conexão, cada frete, link EPROLO, preço normal, desconto e preço promocional alterado é salvo automaticamente como **arquivo criptografado** no GitHub. O botão **Salvar alterações no GitHub** permite gravar alterações pendentes. Confira a mensagem **Salvo permanentemente no GitHub**.
 - Se o GitHub estiver desconectado, valores digitados ficam **somente no localStorage do navegador**, com aviso claro. Conecte e salve antes de trocar de dispositivo.
-- Notas, SKUs, títulos e outros campos editados no navegador continuam locais e podem ser exportados pelo backup JSON. Apenas **fretes** são persistidos neste mecanismo de nuvem.
+- Notas, SKUs, títulos e outros campos editados no navegador continuam locais e podem ser exportados pelo backup JSON. **Fretes, links EPROLO e precificação por produto** são persistidos neste mecanismo de nuvem.
 
 Não crie um token clássico com permissões amplas. **Nunca** registre o token em commits, arquivos ou capturas de tela. O GitHub pode registrar versões criptografadas anteriores no histórico do repositório.
+
+## Preços promocionais e rentabilidade
+
+- **Preço normal** é a referência. Por padrão, usa o compare-at da captura Shopify quando maior que o preço de venda; caso contrário, usa o preço capturado na Shopify.
+- **Desconto (%)** é editável de 0 a 100%. Exemplo: US$ 100 e desconto de 50% resultam em preço promocional de US$ 50.
+- **Preço promocional** também pode ser editado diretamente: a porcentagem é recalculada. Este é sempre o valor usado para receitas, taxas percentuais, CPA, margens, contribuição e ROAS.
+- **Aplicar desconto em lote** permite alterar todos os produtos ou apenas os filtrados, com confirmação e uma opção para desfazer o último lote. Backup JSON e CSV incluem os preços.
+- **CPA de estresse** é o cenário padrão do resultado principal. O **CPA teto** é apenas um limite calculado para a meta e não significa CPA medido na campanha.
+- Ao conectar o token GitHub, preços, descontos, fretes e links são sincronizados automaticamente no arquivo criptografado `data/freights.enc.json`; campos têm backup local. O token não fica no Git.
+- **Os preços não são publicados na Shopify**. Aplicar uma alteração comercial real exige atualização separada na loja e conferência de margens, tributos e custos.
 
 ## Atualizar todo o catálogo
 
@@ -41,12 +51,12 @@ Os fretes permanecem em arquivo separado (`data/freights.enc.json`), portanto **
 
 ## Limitações
 
-O GitHub Pages é hospedagem estática: não obtém, por si só, novos dados da Shopify ou EPROLO. Para atualizar produtos/custos de fornecedores, ainda é necessário gerar e publicar uma nova versão do catálogo. Só os fretes editados e salvos pelo mecanismo acima são sincronizados diretamente do navegador. A versão não oferece usuários, permissões por pessoa nem revogação individual de acesso. O Pages não possui SLA de disponibilidade absoluta.
+O GitHub Pages é hospedagem estática: não obtém, por si só, novos dados da Shopify ou EPROLO. Para atualizar produtos/custos de fornecedores, ainda é necessário gerar e publicar uma nova versão do catálogo. Fretes, links EPROLO e preços editados e salvos pelo mecanismo acima são sincronizados diretamente do navegador. A versão não oferece usuários, permissões por pessoa nem revogação individual de acesso. O Pages não possui SLA de disponibilidade absoluta.
 
 ## Estrutura
 
 - `index.html`: tela de desbloqueio e catálogo cifrado.
-- `data/freights.enc.json`: valores de frete criptografados e sincronizados.
-- `scripts/encrypt_catalog.py`: atualização protegida mantendo o módulo de fretes.
+- `data/freights.enc.json`: fretes, links EPROLO e preços (normal, percentual, promocional) criptografados e sincronizados.
+- `scripts/encrypt_catalog.py`: atualização protegida mantendo o módulo de fretes e precificação.
 - `.nojekyll`: publicação estática sem Jekyll.
 - `.gitignore`: evita upload acidental de credenciais e arquivos de origem privados.
