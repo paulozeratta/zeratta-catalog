@@ -1,0 +1,12 @@
+# Never upload plaintext business data, passwords or environment files
+*.key
+*.secret
+*.env
+.env*
+credentials*
+password*
+*access-key*
+*_plain.html
+*.private.html
+__pycache__/
+.pytest_cache/
