@@ -6,7 +6,7 @@ Central de produtos e custos Zeratta com GitHub Pages e fretes persistidos no Gi
 
 ## Publicação
 
-Em **Settings → Pages**, use **Deploy from a branch → main → /(root)**. Todo commit na `main` publica automaticamente a nova versão. Não configure domínio personalizado nem crie arquivo `CNAME`. O redirecionamento externo de `zeratta.com.br` para a loja não faz parte deste projeto.
+A publicação é feita pelo workflow **GitHub Actions** em `.github/workflows/pages.yml`, que cria um pacote somente com o `index.html` cifrado e o publica no GitHub Pages. Em **Settings → Pages → Build and deployment → Source**, selecione **GitHub Actions**. Cada commit em `main` aciona a publicação da versão atual. Não configure domínio personalizado nem crie arquivo `CNAME`. O redirecionamento externo de `zeratta.com.br` para a loja não faz parte deste projeto.
 
 ## Acesso ao catálogo
 
