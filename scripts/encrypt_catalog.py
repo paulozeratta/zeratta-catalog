@@ -57,7 +57,7 @@ def inject_cloud(new_html, old_html):
 def replace_products(old_html, new_html):
     """Importa apenas PRODUCTS e preserva todo CSS/JS, precificação e integração."""
     def extract(text):
-        m = re.search(r'\\bconst\\s+PRODUCTS\\s*=\\s*', text)
+        m = re.search(r'\bconst\s+PRODUCTS\s*=\s*', text)
         if not m:
             raise ValueError('Bloco PRODUCTS não encontrado; abortando.')
         arr, consumed = json.JSONDecoder().raw_decode(text[m.end():])
