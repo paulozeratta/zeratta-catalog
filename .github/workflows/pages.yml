@@ -24,18 +24,23 @@ jobs:
       - name: Baixar arquivos atualizados da main
         uses: actions/checkout@v4
 
-      - name: Preparar site publico com conteudo criptografado
+      - name: Preparar site publico com dados editaveis
         run: |
           set -eu
           mkdir -p public
           cp index.html public/index.html
+          mkdir -p public/data
+          cp data/products.js data/pricing.json data/freights.json public/data/
           touch public/.nojekyll
           test -s public/index.html
+          test -s public/data/products.js
+          test -s public/data/pricing.json
+          test -s public/data/freights.json
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Enviar versao protegida
+      - name: Enviar catalogo e dados separados
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
