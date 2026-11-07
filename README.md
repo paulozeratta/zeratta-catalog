@@ -16,13 +16,13 @@ O site mantém o HTML financeiro criptografado com AES-256-GCM. A senha é infor
 
 ## Como salvar os fretes permanentemente
 
-Os campos **Frete EPROLO → EUA** permitem valores individuais por Shopify Product ID.
+Os campos **Frete EPROLO → EUA** permitem valores individuais por Shopify Product ID. Os cards sem vínculo exibem também **Link oficial do produto na EPROLO**, que permite salvar um URL verificado da EPROLO no mesmo armazenamento criptografado de fretes; após o preenchimento, o botão EPROLO passa a abrir o endereço cadastrado. Para cards já vinculados, o link pode ser editado em **Notas, SKU e link EPROLO**.
 
 - **Leitura:** ao abrir o catálogo, os fretes gravados são carregados automaticamente de `data/freights.enc.json`. O arquivo é criptografado e funciona entre navegadores/dispositivos mediante a senha atual.
 - **Gravação:** por segurança, não há token GitHub no código da página. Para poder salvar do navegador, crie um **fine-grained personal access token** em https://github.com/settings/personal-access-tokens/new.
 - Selecione o proprietário `paulozeratta`, em **Repository access** escolha **Only select repositories → zeratta-catalog** e em **Repository permissions** dê apenas **Contents: Read and write**. Não é necessária autorização para outros repositórios.
 - Abra o catálogo, digite a senha de acesso, cole o token no campo **Ativar salvamento permanente** e clique em conectar. O token fica somente na memória da aba e precisa ser reinserido ao reabrir.
-- A partir da conexão, cada frete alterado é salvo automaticamente como **arquivo criptografado** no GitHub. O botão **Salvar fretes no GitHub** permite gravar alterações pendentes. Confira a mensagem **Salvo permanentemente no GitHub**.
+- A partir da conexão, cada frete e link EPROLO alterado é salvo automaticamente como **arquivo criptografado** no GitHub. O botão **Salvar fretes no GitHub** permite gravar alterações pendentes. Confira a mensagem **Salvo permanentemente no GitHub**.
 - Se o GitHub estiver desconectado, valores digitados ficam **somente no localStorage do navegador**, com aviso claro. Conecte e salve antes de trocar de dispositivo.
 - Notas, SKUs, títulos e outros campos editados no navegador continuam locais e podem ser exportados pelo backup JSON. Apenas **fretes** são persistidos neste mecanismo de nuvem.
 
