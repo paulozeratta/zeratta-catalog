@@ -1,42 +1,52 @@
 # Zeratta Catalog
 
-Central de produtos e custos Zeratta, publicada no endereço padrão do GitHub Pages:
+Central de produtos e custos Zeratta com GitHub Pages e fretes persistidos no GitHub.
 
-**https://paulozeratta.github.io/zeratta-catalog/**
+**Site:** https://paulozeratta.github.io/zeratta-catalog/
 
-## Publicação automática
+## Publicação
 
-Configuração oficial deste repositório: **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root)**. Uma atualização enviada à branch `main` publica a página novamente. O endereço permanece o mesmo.
+Em **Settings → Pages**, use **Deploy from a branch → main → /(root)**. Todo commit na `main` publica automaticamente a nova versão. Não configure domínio personalizado nem crie arquivo `CNAME`. O redirecionamento externo de `zeratta.com.br` para a loja não faz parte deste projeto.
 
-**Não usar domínio personalizado.** O campo `Custom domain` deve estar vazio. Não criar arquivo `CNAME`. O domínio `zeratta.com.br` não participa da hospedagem deste catálogo.
+## Acesso ao catálogo
 
-## Privacidade
+O site mantém o HTML financeiro criptografado com AES-256-GCM. A senha é informada no próprio navegador e **não é salva no GitHub**. A senha atual foi escolhida pelo proprietário e deve ser mantida fora do repositório.
 
-Este repositório é público, e seu `index.html` contém apenas uma versão do catálogo **criptografada com AES-256-GCM**, desbloqueada no navegador com a chave pessoal mantida fora do GitHub. **Nunca** publique o HTML de origem, credenciais do Shopify ou EPROLO, ou a chave de acesso.
+**Aviso de segurança:** uma senha curta reduz significativamente a resistência contra ataques de adivinhação, mesmo com criptografia. O Pages é público e o desbloqueio no navegador não equivale a controle de acesso de uma aplicação privada.
 
-Essa proteção criptografa o conteúdo, mas não oferece autenticação corporativa, controle por pessoa ou revogação individual.
+## Como salvar os fretes permanentemente
 
-## Atualizar o catálogo
+Os campos **Frete EPROLO → EUA** permitem valores individuais por Shopify Product ID.
 
-1. Obtenha a versão atualizada do HTML original de uma fonte segura, como o arquivo mantido no Google Drive.
-2. Instale a dependência em seu computador: `python -m pip install cryptography`.
-3. Configure a mesma chave em `ZERATTA_CATALOG_PASSWORD` (não faça commit de senhas).
-4. Rode `python scripts/encrypt_catalog.py caminho/do/catalogo-atualizado.html` para gerar o novo `index.html` criptografado na **raiz** do repositório.
-5. Faça commit e push apenas de `index.html` para a branch `main`. O GitHub Pages publicará automaticamente a nova versão.
+- **Leitura:** ao abrir o catálogo, os fretes gravados são carregados automaticamente de `data/freights.enc.json`. O arquivo é criptografado e funciona entre navegadores/dispositivos mediante a senha atual.
+- **Gravação:** por segurança, não há token GitHub no código da página. Para poder salvar do navegador, crie um **fine-grained personal access token** em https://github.com/settings/personal-access-tokens/new.
+- Selecione o proprietário `paulozeratta`, em **Repository access** escolha **Only select repositories → zeratta-catalog** e em **Repository permissions** dê apenas **Contents: Read and write**. Não é necessária autorização para outros repositórios.
+- Abra o catálogo, digite a senha de acesso, cole o token no campo **Ativar salvamento permanente** e clique em conectar. O token fica somente na memória da aba e precisa ser reinserido ao reabrir.
+- A partir da conexão, cada frete alterado é salvo automaticamente como **arquivo criptografado** no GitHub. O botão **Salvar fretes no GitHub** permite gravar alterações pendentes. Confira a mensagem **Salvo permanentemente no GitHub**.
+- Se o GitHub estiver desconectado, valores digitados ficam **somente no localStorage do navegador**, com aviso claro. Conecte e salve antes de trocar de dispositivo.
+- Notas, SKUs, títulos e outros campos editados no navegador continuam locais e podem ser exportados pelo backup JSON. Apenas **fretes** são persistidos neste mecanismo de nuvem.
 
-## Limites
+Não crie um token clássico com permissões amplas. **Nunca** registre o token em commits, arquivos ou capturas de tela. O GitHub pode registrar versões criptografadas anteriores no histórico do repositório.
 
-- Atualizações no **GitHub** provocam novo deploy do Pages, mas alterações no catálogo da Shopify ou EPROLO **não são buscadas automaticamente** por este projeto estático.
-- Os campos editados pelo usuário no navegador usam `localStorage`: são locais ao navegador e não se sincronizam entre dispositivos nem fazem commit no Git.
-- Frete e demais valores não verificados da EPROLO devem continuar marcados como pendentes.
-- O Pages é hospedagem estática normalmente disponível continuamente, mas não garante disponibilidade absoluta 24/7.
+## Atualizar todo o catálogo
 
-## Arquivos
+1. Obtenha a versão atualizada do HTML original de uma fonte segura, fora do repositório público.
+2. Instale `cryptography` no computador: `python -m pip install cryptography`.
+3. Configure no sistema a senha atual como variável de ambiente `ZERATTA_CATALOG_PASSWORD`; não a coloque no Git.
+4. Execute `python scripts/encrypt_catalog.py /caminho/novo-catalogo.html`.
+5. O script preserva a sincronização de fretes, criptografa o novo HTML e substitui somente `index.html`.
+6. Faça commit e push de `index.html` para `main`. O Pages republica automaticamente.
 
-`index.html`: painel protegido com chave, servido pelo GitHub Pages.
+Os fretes permanecem em arquivo separado (`data/freights.enc.json`), portanto **uma atualização do catálogo não apaga os fretes salvos** desde que os Shopify Product IDs não mudem.
 
-`scripts/encrypt_catalog.py`: gera novas versões cifradas a partir do HTML original.
+## Limitações
 
-`.nojekyll`: desativa processamento Jekyll na publicação pela branch.
+O GitHub Pages é hospedagem estática: não obtém, por si só, novos dados da Shopify ou EPROLO. Para atualizar produtos/custos de fornecedores, ainda é necessário gerar e publicar uma nova versão do catálogo. Só os fretes editados e salvos pelo mecanismo acima são sincronizados diretamente do navegador. A versão não oferece usuários, permissões por pessoa nem revogação individual de acesso. O Pages não possui SLA de disponibilidade absoluta.
 
-`.gitignore`: impede o commit acidental de credenciais e HTMLs privados.
+## Estrutura
+
+- `index.html`: tela de desbloqueio e catálogo cifrado.
+- `data/freights.enc.json`: valores de frete criptografados e sincronizados.
+- `scripts/encrypt_catalog.py`: atualização protegida mantendo o módulo de fretes.
+- `.nojekyll`: publicação estática sem Jekyll.
+- `.gitignore`: evita upload acidental de credenciais e arquivos de origem privados.
