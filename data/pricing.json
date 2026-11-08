@@ -2,404 +2,604 @@
   "version": 1,
   "items": {
     "15578346193184": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578345865504": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578345439520": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578344653088": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578342981920": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 132.9,
+      "discountPct": 39.88,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578342883616": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578342326560": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578341310752": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578341277984": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578341245216": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 132.9,
+      "discountPct": 39.88,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578341081376": {
-      "price": 109.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 182.9,
+      "discountPct": 39.91,
+      "salePrice": 109.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578339279136": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578339213600": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578338820384": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578337935648": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578337181984": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578334560544": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578334003488": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578333020448": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578331775264": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578331152672": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578330890528": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578329809184": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578329153824": {
-      "price": 129.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 216.9,
+      "discountPct": 40.11,
+      "salePrice": 129.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578327712032": {
-      "price": 129.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 216.9,
+      "discountPct": 40.11,
+      "salePrice": 129.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578326925600": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578326106400": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578324435232": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578323550496": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578323190048": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578323026208": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578322338080": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578321912096": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578320863520": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578320797984": {
-      "price": 119.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 199.9,
+      "discountPct": 40.02,
+      "salePrice": 119.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578320437536": {
-      "price": 155.04,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 155.04,
+      "discountPct": 0,
+      "salePrice": 155.04,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578320404768": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578320109856": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 40.03,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578320044320": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 132.9,
+      "discountPct": 39.88,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578319159584": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578319094048": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578319028512": {
-      "price": 109.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 182.9,
+      "discountPct": 39.91,
+      "salePrice": 109.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15578318962976": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15556037181728": {
-      "price": 69.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129,
+      "discountPct": 45.81,
+      "salePrice": 69.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15552748585248": {
-      "price": 70.41,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 70.41,
+      "discountPct": 0,
+      "salePrice": 70.41,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551055233312": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 28.59,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551054184736": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 28.59,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551053463840": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 159.9,
+      "discountPct": 37.52,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551052546336": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551052054816": {
-      "price": 169.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 282.9,
+      "discountPct": 39.94,
+      "salePrice": 169.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551050940704": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 166.9,
+      "discountPct": 40.14,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551050547488": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 33.36,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551050252576": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 33.36,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551049072928": {
-      "price": 109.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 159.9,
+      "discountPct": 31.27,
+      "salePrice": 109.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551048417568": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 119.9,
+      "discountPct": 25.02,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551048089888": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 109.9,
+      "discountPct": 27.3,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551047074080": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 33.36,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551046353184": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551046254880": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551046189344": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 28.59,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551045304608": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551044550944": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 33.36,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551042978080": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551042322720": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 35.74,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551042158880": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551041274144": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 28.59,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551039308064": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 35.74,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551038587168": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 28.59,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551038390560": {
-      "price": 109.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 159.9,
+      "discountPct": 31.27,
+      "salePrice": 109.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551035769120": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 119.9,
+      "discountPct": 25.02,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551034884384": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 23.09,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551034589472": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 38.49,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551033934112": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551033868576": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551032688928": {
-      "price": 69.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 89.9,
+      "discountPct": 22.25,
+      "salePrice": 69.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551032590624": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 119.9,
+      "discountPct": 25.02,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551029510432": {
-      "price": 69.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 79.9,
+      "discountPct": 12.52,
+      "salePrice": 69.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551027937568": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 89.9,
+      "discountPct": 11.12,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551026364704": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 28.59,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551026266400": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 35.74,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551024431392": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 132.9,
+      "discountPct": 39.88,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551023251744": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 33.36,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551022498080": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 119.9,
+      "discountPct": 33.36,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551021973792": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 35.74,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551020335392": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149.9,
+      "discountPct": 33.36,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551020269856": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 89.9,
+      "discountPct": 11.12,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551019385120": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 28.59,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551019188512": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551017779488": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 35.74,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551016173856": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551015092512": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129.9,
+      "discountPct": 30.79,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551015059744": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 35.74,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15551014994208": {
-      "price": 89.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 139.9,
+      "discountPct": 35.74,
+      "salePrice": 89.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15548489433376": {
-      "price": 119.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 169.9,
+      "discountPct": 29.43,
+      "salePrice": 119.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15534366687520": {
-      "price": 69.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149,
+      "discountPct": 53.09,
+      "salePrice": 69.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15533051412768": {
-      "price": 74.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149,
+      "discountPct": 49.73,
+      "salePrice": 74.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15533044007200": {
-      "price": 89,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 149,
+      "discountPct": 40.27,
+      "salePrice": 89,
+      "pricingUpdatedAt": 1794096341629
     },
     "15533039452448": {
-      "price": 99.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 169,
+      "discountPct": 40.89,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15533033488672": {
-      "price": 54.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 129,
+      "discountPct": 57.44,
+      "salePrice": 54.9,
+      "pricingUpdatedAt": 1794096341629
     },
     "15528499446048": {
-      "price": 79.9,
-      "pricingUpdatedAt": 1794096033777
+      "regularPrice": 89.9,
+      "discountPct": 11.12,
+      "salePrice": 79.9,
+      "pricingUpdatedAt": 1794096341629
     }
   }
 }
