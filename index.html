@@ -108,6 +108,22 @@
 .uk-sim-mini span{font-size:10px;color:#6d6264;display:block}.uk-sim-mini strong{font-size:12px}
 .uk-sim-bundle{border-top:1px solid #e2deda;padding-top:9px;margin-top:9px;font-size:10px;line-height:1.7;color:#50464a}
 .uk-sim-bundle b{color:#21191b}.uk-sim-flag{font-size:10px;color:#8b5b12;line-height:1.6}
+
+/* Customer retail prices in GBP; legacy USD simulations are secondary. */
+.legacy-prices{grid-column:1/-1;border:1px solid #e8e2de;border-radius:6px;background:#fbfaf9;padding:8px 10px}
+.legacy-prices>summary,.legacy-finance>summary{cursor:pointer;font-size:10px;font-weight:670;color:#686062}
+.legacy-prices .pricing-trio{padding-top:12px}
+.legacy-prices .pricing-source{padding-top:7px}
+.legacy-finance{margin-top:10px;padding:10px;border:1px solid #e7e2df;border-radius:7px}
+.legacy-finance .finsummary{margin-top:10px}
+.fin>[data-fin-wrapper]{display:block;margin-bottom:9px}
+.fin .uk-sim-card{background:#fff;border:2px solid #392527;padding:17px 14px;margin:0 0 14px}
+.uk-sim-card .uk-sim-title{font-size:11px;line-height:1.5}
+.uk-sim-card .uk-sim-price{font-size:31px;color:#241719}
+.uk-bundle-row{display:grid;grid-template-columns:1fr auto;gap:1px 8px;padding:7px 0;border-bottom:1px solid #e9e3e0}
+.uk-bundle-row:last-of-type{border-bottom:0}
+.uk-bundle-row span,.uk-bundle-row strong{font-size:11px}
+.uk-bundle-row small{grid-column:1/-1;color:#655e60;font-size:10px}
 </style>
 <style id="zeratta-access-css">
 body:not(.zeratta-unlocked)>*:not(#zeratta-access-gate){visibility:hidden!important}
@@ -132,9 +148,9 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
 })();
 </script>
 <header class="top">
- <div class="topline"><div class="eyebrow">ZERATTA / OPERAÇÕES / CENTRAL DE PRODUTOS</div><div class="topdate">Simulação UK atualizada · 08 NOV 2026</div></div>
+ <div class="topline"><div class="eyebrow">ZERATTA / OPERAÇÕES / CENTRAL DE PRODUTOS</div><div class="topdate">Simulação UK em GBP · 08 NOV 2026</div></div>
  <h1>Catálogo e simulador de rentabilidade</h1>
- <p>122 produtos identificados por ID na Shopify, incluindo 22 suéteres novos. Preços e custos de variantes foram consultados no Admin em USD. Preços normais, descontos e preços promocionais são cenários internos e não alteram a Shopify. Há 114 vínculos EPROLO cadastrados e 8 produtos ainda sem fornecedor confirmado; 30 produtos seguem sem cotação de frete confirmada; para análise britânica, o frete simulado é US$ 12 em todos os 122 produtos, sem substituir os registros EPROLO. 78 produtos estão em rascunho. Os resultados UK são hipóteses e não representam lucro efetivo.</p>
+ <p>122 produtos identificados por ID na Shopify, incluindo 22 suéteres novos. Os custos são registrados em USD, enquanto a loja Shopify opera em GBP. O preço final para o cliente nas propostas UK aparece em libras, VAT incluso. Preços normais, descontos e preços promocionais são cenários internos e não alteram a Shopify. Há 114 vínculos EPROLO cadastrados e 8 produtos ainda sem fornecedor confirmado; 30 produtos seguem sem cotação de frete confirmada; para análise britânica, o frete simulado é US$ 12 em todos os 122 produtos, sem substituir os registros EPROLO. 78 produtos estão em rascunho. Os resultados UK são hipóteses e não representam lucro efetivo.</p>
 </header>
 <main class="wrap">
  <section class="metrics" aria-label="Indicadores do catálogo">
@@ -160,7 +176,7 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
  <section class="notice" aria-label="Pendências de reconciliação"><div class="text"><strong>Verificações que exigem atenção</strong><p>Do histórico anterior, 44 links foram enviados: 42 mapeados à Shopify e 2 sem produto correspondente confirmado. O catálogo atualizado tem 114 links EPROLO associados e 8 pendentes. Dos 24 links de suéteres recebidos, 22 foram vinculados a produtos Shopify e dois não possuem produto correspondente confirmado. Nenhuma URL foi inventada. Frete do fornecedor: 30 produtos ainda sem valor cadastrado. <a href="https://eprolo.com/app/product/new-cotton-coat-thermal-thickened-oversized-winter-jacket-for-middle-aged-and-senior-men-business-casual-warm-outerwear" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">EPROLO #09</a> e <a href="https://eprolo.com/app/product/faux-leather-men's-jacket-winter-warm-jacket-thicken-large-lapel-contrast-color-jacket" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">EPROLO #25</a> não foram criados aqui porque não constam da Shopify.</p></div></section>
  <section class="uk-sim-banner" aria-label="Hipótese de frete para simulação britânica"><strong>CENÁRIO UK · US$ 12,00 DE FRETE DO FORNECEDOR EM TODOS OS 122 PRODUTOS</strong><br>Valor <strong>exclusivamente hipotético</strong> em todas as simulações, inclusive para produtos sem cotação registrada. A cotação histórica individual continua visível e preservada em seu campo original; nenhum dado EPROLO ou preço da Shopify foi alterado. A proposta em GBP considera VAT padrão de 20% para roupas adultas, CPA de US$ 35/40 e bundles 10%/20%/30%.<small>Frete grátis para o cliente é diferente de frete pago ao fornecedor. Valor real UK, duty acima de £135 por remessa, taxas Stripe efetivas e câmbio de execução ainda precisam de confirmação.</small></section>
 <section class="pricing-controls" aria-label="Simulador financeiro global">
-<div class="section-title"><h2>Simulações financeiras, incluindo preços UK</h2><small>USD no painel histórico · GBP nas propostas UK</small></div>
+<div class="section-title"><h2>Preços finais UK em £ · custos em US$</h2><small>Preços de venda VAT incluso · simulação</small></div>
 <p><strong>IMPORTANTE:</strong> o CPA máximo exibido é calculado para atingir a meta de contribuição, não é o CPA real da campanha. Por padrão, a contribuição principal usa o <strong>CPA de estresse configurado por categoria</strong>, nunca o CPA teto calculado. O painel histórico em USD usa CPA de US$ 40 por pedido; os novos cartões UK calculam cenários de US$ 35 e US$ 40 por pedido, independentemente dos sliders históricos. O frete de fornecedor é fixado hipoteticamente em US$ 12 para os dois cálculos. Alíquotas, tarifas e fretes ainda precisam ser confirmados. Nenhum resultado representa lucro líquido real.</p>
 <div class="shipping-scenario" aria-label="Simular frete cobrado do cliente">
   <div class="shipping-scenario-head">SIMULAR FRETE AO CLIENTE</div>
@@ -210,7 +226,7 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
  <p class="sortNote">* Vínculos EPROLO verificados por URL e nome real quando disponível. Exatamente um registro por Shopify Product ID, sem repetição da mesma URL EPROLO. Oito produtos permanecem com fornecedor não vinculado. Valores de frete ausentes são intencionais: cotação real não acessível sem autenticação EPROLO.</p>
  <div id="items" class="list" aria-live="polite"></div>
  <div id="empty" class="empty" hidden>Nenhum produto encontrado. Ajuste os filtros.</div>
- <p class="foot">Fonte: Shopify Admin (produto, preço e custo cadastrado), fotografia do catálogo em 07/11/2026; EPROLO (URLs de fornecedor). Itens em DRAFT não são públicos. Custo Shopify não necessariamente inclui frete ou tributos. O simulador de contribuição não equivale a lucro contábil líquido; taxa, publicidade, frete, imposto e câmbio devem ser validados antes de decisões de precificação. Este painel funciona offline após carregar, mas fotos e links exigem rede. Todos os valores são USD.</p>
+ <p class="foot">Fonte: Shopify Admin (produto, preço e custo cadastrado), fotografia do catálogo em 07/11/2026; EPROLO (URLs de fornecedor). Itens em DRAFT não são públicos. Custo Shopify não necessariamente inclui frete ou tributos. O simulador de contribuição não equivale a lucro contábil líquido; taxa, publicidade, frete, imposto e câmbio devem ser validados antes de decisões de precificação. Este painel funciona offline após carregar, mas fotos e links exigem rede. Propostas de venda UK em GBP (VAT incluso); custos e CPA em USD; histórico USD disponível separadamente.</p>
  <div class="footeractions"><button type="button" onclick="window.print()">Imprimir catálogo</button><button type="button" id="go-top">Voltar ao topo</button></div>
 </main><div class="toast" id="toast" role="status"></div>
 <script src="data/products.js"></script>
@@ -302,6 +318,7 @@ $('cloud-save-now').addEventListener('click',()=>cloudSave().catch(e=>cloudText(
 
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const usd=n=>Number.isFinite(n)?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n):'—';
+const gbp=n=>Number.isFinite(n)?new Intl.NumberFormat('en-GB',{style:'currency',currency:'GBP'}).format(n):'—';
 const validNum=x=>(x!==''&&x!=null&&Number.isFinite(Number(x))&&Number(x)>=0)?Number(x):null;
 function toast(s){const el=$('toast');el.textContent=s;el.classList.add('show');clearTimeout(window.__toast);window.__toast=setTimeout(()=>el.classList.remove('show'),1800)}
 function load(){try{const current=JSON.parse(localStorage.getItem(KEY)||'null');state.saved=(current&&typeof current==='object'&&!Array.isArray(current))?current:{};}catch{state.saved={}}}
@@ -382,12 +399,12 @@ function render(){const list=getFilteredProducts();
  '<div class="tbox"><div class="field-head"><label for="after-'+p.id+'">02 / Título depois · Shopify</label><button type="button" class="copy-small" data-copy="after" data-id="'+p.id+'">Copiar</button></div><textarea id="after-'+p.id+'" data-edit="after" data-id="'+p.id+'" spellcheck="false">'+E(titleAfter)+'</textarea></div></div>'+
  (p.issues.length?'<p class="audit-message">'+E(p.issues.filter(x=>!(hasSupplier&&x.startsWith('Vínculo EPROLO não confirmado'))).join(' · '))+'</p>':'')+'</div>'+
  '<aside class="fin"><div class="prices">'+
- '<div class="pricing-trio">'+
+ '<details class="legacy-prices"><summary>Ver/editar simulação antiga de preços em USD</summary><div class="pricing-trio">'+
  '<div class="money-field"><label for="regular-'+p.id+'">Preço normal · USD</label><div class="currency"><input id="regular-'+p.id+'" type="number" min="0.01" step="0.01" inputmode="decimal" data-pricing="regularPrice" data-id="'+p.id+'" value="'+E(priceModel(p).regular)+'"></div></div>'+
  '<div class="money-field"><label for="discount-'+p.id+'">Desconto</label><div class="discount-percent"><input id="discount-'+p.id+'" type="number" min="0" max="100" step="0.01" inputmode="decimal" data-pricing="discountPct" data-id="'+p.id+'" value="'+E(priceModel(p).discount)+'"></div></div>'+
  '<div class="money-field sale-cell"><label for="price-'+p.id+'">Preço promocional · USD</label><div class="currency"><input id="price-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" data-pricing="price" data-id="'+p.id+'" value="'+E(priceModel(p).sale)+'"></div></div>'+
- '</div><div class="pricing-source">Original Shopify: '+usd(p.shopifyPublishedPrice)+' · Compare-at: '+(p.shopifyPublishedCompareAt!=null?usd(p.shopifyPublishedCompareAt):'não informado')+' · valores locais, não publicados</div>'+
- '<div class="money-field"><label for="cost-'+p.id+'">Custo Shopify (maior variante consultada) · USD</label><div class="currency"><input id="cost-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" data-edit="cost" data-id="'+p.id+'" value="'+E(value(p,'cost'))+'"></div></div>'+
+ '</div><div class="pricing-source">Captura Shopify (GBP): '+gbp(p.shopifyPublishedPrice)+' · Compare-at: '+(p.shopifyPublishedCompareAt!=null?gbp(p.shopifyPublishedCompareAt):'não informado')+'; os campos antigos acima são simulações USD, não preços UK.</div></details>'+
+ '<div class="money-field"><label for="cost-'+p.id+'">Custo Shopify cadastrado (maior variante) · USD</label><div class="currency"><input id="cost-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" data-edit="cost" data-id="'+p.id+'" value="'+E(value(p,'cost'))+'"></div></div>'+
  '<div class="money-field"><label for="freight-'+p.id+'">Frete EPROLO histórico (não usado no cenário UK) · USD</label><div class="currency"><input class="freight" id="freight-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Pendente" data-edit="freight" data-id="'+p.id+'" value="'+E(value(p,'freight'))+'"></div></div>'+
  '</div>'+
  '<div class="total"><span>Custo total simulado<br>produto + frete US$ 12</span><strong data-total="'+p.id+'">—</strong></div><p class="hint" data-total-hint="'+p.id+'">Aguardando frete</p>'+
@@ -507,14 +524,14 @@ function ukSimMarkup(p){
  const m=ukSimModel(p);
  if(!m)return '<div class="uk-sim-card">Custo do produto ausente para simulação UK.</div>';
  const v=m.expected,s=m.stress,b=m.bundles[2].stress;
+ const bundleRows=m.bundles.map(k=>'<div class="uk-bundle-row"><span>'+k.items+' peças (−'+Math.round(k.discount*100)+'%)</span><strong>'+GBP(k.items*m.price*(1-k.discount))+'</strong><small>VAT '+GBP(k.expected.vatGBP)+' · Margem CPA US$40 '+perc2(k.stress.margin)+'</small></div>').join('');
  return '<section class="uk-sim-card" aria-label="Simulação UK em libras">'+
-  '<div class="uk-sim-title">UK · PREÇO RECOMENDADO EM SIMULAÇÃO</div>'+
+  '<div class="uk-sim-title">PREÇO FINAL PARA O CLIENTE · GBP · VAT INCLUSO · SIMULAÇÃO</div>'+
   '<div class="uk-sim-price">'+GBP(m.price)+'</div>'+
   '<div class="uk-sim-caption">Preço com VAT. Produto '+money2(m.costUSD)+' + frete HIPOTÉTICO US$ 12,00. Câmbio simulado £0,7725 por US$1. Não é preço publicado.</div>'+
   '<div class="uk-sim-mini"><div><span>VAT no preço (20%)</span><strong>'+GBP(v.vatGBP)+'</strong></div><div><span>Stripe estimada (6,1% + fixo)</span><strong>'+GBP(v.processorGBP)+'</strong></div>'+
   '<div><span>Lucro/CPA US$ 35</span><strong>'+GBP(v.contribution)+' · '+perc2(v.margin)+'</strong></div><div><span>Lucro/CPA US$ 40</span><strong>'+GBP(s.contribution)+' · '+perc2(s.margin)+'</strong></div></div>'+
-  '<div class="uk-sim-bundle"><b>Bundle, 4 produtos com 30% off:</b> '+GBP(m.price*4*.7)+' bruto · VAT '+GBP(m.price*4*.7/6)+
-  ' · lucro estimado CPA US$ 40 '+GBP(b.contribution)+' · margem '+perc2(b.margin)+'.</div>'+
+  '<div class="uk-sim-bundle"><b>Preços finais por quantidade, em GBP (VAT incluso)</b>'+bundleRows+'<div class="uk-sim-caption">Lucro estimado, 4 peças com 30% off e CPA US$40: '+GBP(b.contribution)+'.</div></div>'+
   '<div class="uk-sim-flag">Outros descontos: 2 itens 10%; 3 itens 20%. Modelo com 19% mínimo simulado no CPA US$ 40 e alvo 22% na venda individual com CPA US$ 35. Não inclui duty/desembaraço UK, devoluções ou tributação da empresa.</div>'+
  '</section>';
 }
@@ -577,9 +594,9 @@ function expenseDetail(v){
  finTextRow('CPA break-even',money2(v.breakEvenCPA));
 }
 function financeMarkup(p){
-  if(priceModel(p).sale===null||priceModel(p).sale<=0)return '<div class="fin-status blocked">Preço promocional inválido ou zerado. Informe uma venda acima de US$ 0 para estimar a margem.</div>';
+  if(priceModel(p).sale===null||priceModel(p).sale<=0)return ukSimMarkup(p)+'<div class="fin-status blocked">Preço histórico em USD inválido; o preço UK acima continua sendo apenas simulação.</div>';
  const v=finCalc(p);
- if(!v)return '<div class="fin-status">Missing supplier cost or freight. Cannot calculate contribution.</div>';
+ if(!v)return ukSimMarkup(p)+'<div class="fin-status">Histórico USD sem dados suficientes; consulte o cenário UK acima.</div>';
   const live=Math.abs(v.sale-p.shopifyPublishedPrice)<.005;
  const goal=v.contribution>=v.requiredContribution-.005&&v.margin>=financeState.marginTarget-.005;
  const profitPositive=v.contribution>=0;
@@ -592,7 +609,7 @@ function financeMarkup(p){
  '<div class="scenario-item '+(!financeState.freeShipping?'active':'')+'"><span>Política atual · cliente paga '+money2(oldShipping.customerShipping)+'</span><strong class="'+(oldShipping.contribution>=0?'positive':'negative')+'">'+money2(oldShipping.contribution)+'</strong><span>Contribuição estimada</span></div>'+
  '<div class="scenario-item '+(financeState.freeShipping?'active':'')+'"><span>Frete grátis · cliente paga US$ 0</span><strong class="'+(newShipping.contribution>=0?'positive':'negative')+'">'+money2(newShipping.contribution)+'</strong><span>Contribuição estimada · diferença '+(shippingDelta>0?'+':'')+money2(shippingDelta)+'</span></div></div></div>';
  const modeLabel=localCPAMap.has(p.id)?'Manually selected CPA simulation':financeState.cpaMode==='target'?'Scenario: calculated CPA ceiling':'Scenario: stress CPA configured above';
- return ukSimMarkup(p)+'<div class="finsummary" data-finance="'+p.id+'">'+
+ return ukSimMarkup(p)+'<details class="legacy-finance"><summary>Análise histórica em USD (sem VAT UK)</summary><div class="finsummary" data-finance="'+p.id+'">'+
  '<div class="compare-preview"><span>Regular price · <s>'+money2(v.regular)+'</s></span><strong>'+money2(v.sale)+'</strong></div>'+
  '<div class="finance-note">'+(live?'Preço igual à captura Shopify; simulação local':'Preço promocional editado no catálogo, não publicado na Shopify')+' · desconto '+perc2(v.actualDiscount)+'</div>'+
  '<div class="finance-grid">'+
@@ -615,10 +632,10 @@ function financeMarkup(p){
  '<div class="simvals" data-localresult="'+p.id+'">Contribution at CPA '+money2(v.cpa)+': <strong class="'+(profitPositive?'positive':'negative')+'">'+money2(v.contribution)+'</strong> · margin '+perc2(v.margin)+'</div>'+
  '<button type="button" class="copy-small" data-reset-cpa="'+p.id+'">Reset product CPA to global mode</button>'+
  '<small class="finance-note">US$ 12 é cenário de frete para TODOS os produtos, não cotação do fornecedor. O VAT UK só está no cálculo em GBP acima.</small></details>'+
- '<div class="fin-status '+(goal?'':'blocked')+'">'+(goal?'Mathematically meets the model target under this CPA hypothesis. Not evidence of real profitability.':'This CPA scenario falls short of target contribution or margin. Do not scale based on assumed profit.')+'</div></div>';
+ '<div class="fin-status '+(goal?'':'blocked')+'">'+(goal?'Mathematically meets the model target under this CPA hypothesis. Not evidence of real profitability.':'This CPA scenario falls short of target contribution or margin. Do not scale based on assumed profit.')+'</div></div></details>';
 }
 function augmentFinance(){
- for(const p of PRODUCTS){const article=document.querySelector('[data-product="'+p.id+'"]');if(!article)continue;const fin=article.querySelector('.fin');if(!fin)continue;fin.querySelector('[data-fin-wrapper]')?.remove();const el=document.createElement('div');el.dataset.finWrapper=p.id;el.innerHTML=financeMarkup(p);fin.append(el);}
+ for(const p of PRODUCTS){const article=document.querySelector('[data-product="'+p.id+'"]');if(!article)continue;const fin=article.querySelector('.fin');if(!fin)continue;fin.querySelector('[data-fin-wrapper]')?.remove();const el=document.createElement('div');el.dataset.finWrapper=p.id;el.innerHTML=financeMarkup(p);fin.prepend(el);}
 }
 function buildSliders(){const root=document.getElementById('global-sliders');if(!root)return;root.innerHTML=financeSliderSpecs.map(([key,label,min,max,step,unit,desc])=>'<div class="sliderunit"><label for="setting-'+key+'">'+esc2(label)+' <output id="output-'+key+'">'+financeState[key].toFixed(key==='processingPct'?2:1)+(unit==='%'?'%':'')+'</output></label><input id="setting-'+key+'" type="range" min="'+min+'" max="'+max+'" step="'+step+'" value="'+financeState[key]+'" data-fin-setting="'+key+'"><div class="control-sub">'+esc2(desc)+'</div></div>').join('')}
 function refreshFinanceDashboard(){
