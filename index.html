@@ -102,6 +102,11 @@
 .uk-sim-card{margin:13px 0 8px;border:1px solid #dcd6d3;border-radius:8px;padding:13px 11px;background:#faf9f8;font-variant-numeric:tabular-nums}
 .uk-sim-title{font-size:11px;font-weight:750;color:#21191b;margin-bottom:5px}
 .uk-sim-price{font-size:23px;font-weight:750;letter-spacing:-.025em;margin:4px 0}
+.uk-sim-price-edit{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:6px 0 2px}
+.uk-sim-price-edit .gbp-prefix{font-size:24px;font-weight:800}
+.uk-sim-price-input{font-size:23px;font-weight:750;letter-spacing:-.025em;border:1px solid #a38e92;border-radius:5px;background:#fff;color:#1a0709;max-width:168px;width:100%;padding:7px 8px;font-variant-numeric:tabular-nums}
+.uk-sim-reset{background:#fff;color:#5a484c;border:1px solid #d8ced0;border-radius:5px;padding:9px 10px;font-size:10px;font-weight:650}
+.uk-sim-price-help{font-size:10px;color:#63585a;margin:3px 0 7px}
 .uk-sim-caption{font-size:10px;color:#766a6c;line-height:1.5;margin-top:4px}
 .uk-sim-mini{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:9px 0 8px}
 .uk-sim-mini>div{border:1px solid #e6e0dd;border-radius:6px;padding:7px;background:#fff}
@@ -174,7 +179,7 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
  <li><strong>Arquivamento:</strong> dados editados nesta página são armazenados no navegador e podem ser exportados por CSV ou backup JSON; não atualizam Shopify ou EPROLO.</li>
  </ul></div></div><button class="toggle" id="audit-toggle" type="button" aria-expanded="false">Ver detalhes da auditoria</button></section>
  <section class="notice" aria-label="Pendências de reconciliação"><div class="text"><strong>Verificações que exigem atenção</strong><p>Do histórico anterior, 44 links foram enviados: 42 mapeados à Shopify e 2 sem produto correspondente confirmado. O catálogo atualizado tem 114 links EPROLO associados e 8 pendentes. Dos 24 links de suéteres recebidos, 22 foram vinculados a produtos Shopify e dois não possuem produto correspondente confirmado. Nenhuma URL foi inventada. Frete do fornecedor: 30 produtos ainda sem valor cadastrado. <a href="https://eprolo.com/app/product/new-cotton-coat-thermal-thickened-oversized-winter-jacket-for-middle-aged-and-senior-men-business-casual-warm-outerwear" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">EPROLO #09</a> e <a href="https://eprolo.com/app/product/faux-leather-men's-jacket-winter-warm-jacket-thicken-large-lapel-contrast-color-jacket" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">EPROLO #25</a> não foram criados aqui porque não constam da Shopify.</p></div></section>
- <section class="uk-sim-banner" aria-label="Hipótese de frete para simulação britânica"><strong>CENÁRIO UK · US$ 12,00 DE FRETE DO FORNECEDOR EM TODOS OS 122 PRODUTOS</strong><br>Valor <strong>exclusivamente hipotético</strong> em todas as simulações, inclusive para produtos sem cotação registrada. A cotação histórica individual continua visível e preservada em seu campo original; nenhum dado EPROLO ou preço da Shopify foi alterado. A proposta em GBP considera VAT padrão de 20% para roupas adultas, CPA de US$ 35/40 e bundles 10%/20%/30%.<small>Frete grátis para o cliente é diferente de frete pago ao fornecedor. Valor real UK, duty acima de £135 por remessa, taxas Stripe efetivas e câmbio de execução ainda precisam de confirmação.</small></section>
+ <section class="uk-sim-banner" aria-label="Hipótese de frete para simulação britânica"><strong>CENÁRIO UK · US$ 12,00 DE FRETE DO FORNECEDOR EM TODOS OS 122 PRODUTOS</strong><br>Valor <strong>exclusivamente hipotético</strong> em todas as simulações, inclusive para produtos sem cotação registrada. A cotação histórica individual continua visível e preservada em seu campo original; nenhum dado EPROLO ou preço da Shopify foi alterado. A proposta em GBP usa reserva de VAT de 20% para roupas adultas (não substitui cálculo de VAT de importação), CPA de US$ 35/40 e bundles 10%/20%/30%. A Stripe conectada da Zeratta liquida em BRL; o valor de taxa mostrado em £ é somente equivalente financeiro estimado.<small>Frete grátis para o cliente é diferente de frete pago ao fornecedor. Valor real UK, duty acima de £135 por remessa, taxas Stripe efetivas e câmbio de execução ainda precisam de confirmação.</small></section>
 <section class="pricing-controls" aria-label="Simulador financeiro global">
 <div class="section-title"><h2>Preços finais UK em £ · custos em US$</h2><small>Preços de venda VAT incluso · simulação</small></div>
 <p><strong>IMPORTANTE:</strong> o CPA máximo exibido é calculado para atingir a meta de contribuição, não é o CPA real da campanha. Por padrão, a contribuição principal usa o <strong>CPA de estresse configurado por categoria</strong>, nunca o CPA teto calculado. O painel histórico em USD usa CPA de US$ 40 por pedido; os novos cartões UK calculam cenários de US$ 35 e US$ 40 por pedido, independentemente dos sliders históricos. O frete de fornecedor é fixado hipoteticamente em US$ 12 para os dois cálculos. Alíquotas, tarifas e fretes ainda precisam ser confirmados. Nenhum resultado representa lucro líquido real.</p>
@@ -248,15 +253,17 @@ const CLOUD_PRICING_PATH='data/pricing.json';
 const CLOUD_DIRTY_KEY='zeratta.plain.freight.dirty.v1';
 const CLOUD_LINK_DIRTY_KEY='zeratta.plain.links.dirty.v1';
 const CLOUD_PRICING_DIRTY_KEY='zeratta.plain.pricing.dirty.v1';
-const cloud={token:null,ready:false,busy:false,again:false,dirty:{},linkDirty:{},pricingDirty:{},saveTimer:null};
+const CLOUD_UK_PRICING_DIRTY_KEY='zeratta.plain.uk-pricing.dirty.v1';
+const cloud={token:null,ready:false,busy:false,again:false,dirty:{},linkDirty:{},pricingDirty:{},ukPricingDirty:{},saveTimer:null};
 function validSupplierUrl(url){try{const u=new URL(String(url||'').trim());return u.protocol==='https:'&&['eprolo.com','www.eprolo.com'].includes(u.hostname)&&(u.pathname.startsWith('/app/product/')||(u.pathname==='/app/mproductdetail.html'&&u.searchParams.has('id')))}catch{return false}}
-function cloudHasPending(){return Object.keys(cloud.dirty).length>0||Object.keys(cloud.linkDirty).length>0||Object.keys(cloud.pricingDirty).length>0}
+function cloudHasPending(){return Object.keys(cloud.dirty).length>0||Object.keys(cloud.linkDirty).length>0||Object.keys(cloud.pricingDirty).length>0||Object.keys(cloud.ukPricingDirty).length>0}
 const cloudText=(msg,good=false)=>{$('cloud-status').textContent=msg;$('cloud-badge').textContent=good?'Sincronizado':cloud.token?'Pendente':'Local';$('cloud-badge').className='cloud-badge '+(good?'ok':'wait')};
-function cloudPersistDirty(){try{localStorage.setItem(CLOUD_DIRTY_KEY,JSON.stringify(cloud.dirty));localStorage.setItem(CLOUD_LINK_DIRTY_KEY,JSON.stringify(cloud.linkDirty));localStorage.setItem(CLOUD_PRICING_DIRTY_KEY,JSON.stringify(cloud.pricingDirty))}catch{}}
-function cloudReadDirty(){for(const [k,name] of [[CLOUD_DIRTY_KEY,'dirty'],[CLOUD_LINK_DIRTY_KEY,'linkDirty'],[CLOUD_PRICING_DIRTY_KEY,'pricingDirty']]){try{const obj=JSON.parse(localStorage.getItem(k)||'{}');cloud[name]=obj&&typeof obj==='object'&&!Array.isArray(obj)?obj:{}}catch{cloud[name]={}}}}
+function cloudPersistDirty(){try{localStorage.setItem(CLOUD_DIRTY_KEY,JSON.stringify(cloud.dirty));localStorage.setItem(CLOUD_LINK_DIRTY_KEY,JSON.stringify(cloud.linkDirty));localStorage.setItem(CLOUD_PRICING_DIRTY_KEY,JSON.stringify(cloud.pricingDirty));localStorage.setItem(CLOUD_UK_PRICING_DIRTY_KEY,JSON.stringify(cloud.ukPricingDirty))}catch{}}
+function cloudReadDirty(){for(const [k,name] of [[CLOUD_DIRTY_KEY,'dirty'],[CLOUD_LINK_DIRTY_KEY,'linkDirty'],[CLOUD_PRICING_DIRTY_KEY,'pricingDirty'],[CLOUD_UK_PRICING_DIRTY_KEY,'ukPricingDirty']]){try{const obj=JSON.parse(localStorage.getItem(k)||'{}');cloud[name]=obj&&typeof obj==='object'&&!Array.isArray(obj)?obj:{}}catch{cloud[name]={}}}}
 function cloudMarkDirty(id){cloud.dirty[id]=Date.now();cloudPersistDirty();cloudText('Frete atualizado localmente.');if(cloud.token)cloudQueueSave(1100)}
 function cloudMarkLinkDirty(id){cloud.linkDirty[id]=Date.now();cloudPersistDirty();cloudText('Link atualizado localmente.');if(cloud.token)cloudQueueSave(350)}
 function cloudMarkPricingDirty(id){cloud.pricingDirty[id]=Date.now();cloudPersistDirty();cloudText('Preço atualizado localmente.');if(cloud.token)cloudQueueSave(1200)}
+function cloudMarkUKPricingDirty(id){cloud.ukPricingDirty[id]=Date.now();cloudPersistDirty();cloudText('Preço britânico atualizado localmente.');if(cloud.token)cloudQueueSave(1200)}
 function cloudEncode(text){const bytes=new TextEncoder().encode(text);let out='';for(let i=0;i<bytes.length;i+=8192)out+=String.fromCharCode(...bytes.slice(i,i+8192));return btoa(out)}
 function cloudDecode(text){const raw=atob(String(text).replace(/\s/g,''));return new TextDecoder().decode(Uint8Array.from(raw,c=>c.charCodeAt(0)))}
 async function cloudFetchOne(path,authenticated=false){
@@ -275,7 +282,24 @@ function cloudApplyRemote(freights,prices){
   if(Object.prototype.hasOwnProperty.call(entry,'value')&&!(cloud.dirty[id]&&cloud.dirty[id]>Number(entry.updatedAt||0))){const val=entry.value===null?'':validNum(entry.value);if(val!==null&&String(dst.freight??'')!==String(val)){dst.freight=val;changed=true}delete cloud.dirty[id]}
   if(Object.prototype.hasOwnProperty.call(entry,'sourceUrl')&&!(cloud.linkDirty[id]&&cloud.linkDirty[id]>Number(entry.sourceUpdatedAt||0))){const url=String(entry.sourceUrl||'').trim();if(!url||validSupplierUrl(url)){if(String(dst.sourceUrl??'')!==url){dst.sourceUrl=url;changed=true}delete cloud.linkDirty[id]}}
  }
- for(const [id,entry] of Object.entries(prices||{})){if(!byId.has(id)||!entry||typeof entry!=='object')continue;if(cloud.pricingDirty[id]&&cloud.pricingDirty[id]>Number(entry.pricingUpdatedAt||0))continue;const reg=validNum(entry.regularPrice),disc=validNum(entry.discountPct),sale=validNum(entry.salePrice);if(!(reg>0)||disc===null||disc>100||sale===null||sale>reg)continue;const dst=state.saved[id]||={};for(const [field,val] of [['regularPrice',reg],['discountPct',disc],['price',sale]])if(Number(dst[field])!==val){dst[field]=val;changed=true}delete cloud.pricingDirty[id]}
+ for(const [id,entry] of Object.entries(prices||{})){
+  if(!byId.has(id)||!entry||typeof entry!=='object')continue;
+  const dst=state.saved[id]||={};
+  if(!(cloud.pricingDirty[id]&&cloud.pricingDirty[id]>Number(entry.pricingUpdatedAt||0))){
+   const reg=validNum(entry.regularPrice),disc=validNum(entry.discountPct),sale=validNum(entry.salePrice);
+   if(reg>0&&disc!==null&&disc<=100&&sale!==null&&sale<=reg){
+    for(const [field,val] of [['regularPrice',reg],['discountPct',disc],['price',sale]])if(Number(dst[field])!==val){dst[field]=val;changed=true}
+    delete cloud.pricingDirty[id];
+   }
+  }
+  if(Object.prototype.hasOwnProperty.call(entry,'ukSalePriceGBP')&&!(cloud.ukPricingDirty[id]&&cloud.ukPricingDirty[id]>Number(entry.ukPriceUpdatedAt||0))){
+   const val=validNum(entry.ukSalePriceGBP);
+   if(entry.ukSalePriceGBP===null||!(val>0)){
+    if(Object.prototype.hasOwnProperty.call(dst,'ukSalePriceGBP')){delete dst.ukSalePriceGBP;changed=true}
+   }else if(Number(dst.ukSalePriceGBP)!==val){dst.ukSalePriceGBP=val;changed=true}
+   delete cloud.ukPricingDirty[id];
+  }
+ }
  cloudPersistDirty();if(changed){persist();render();if(typeof refreshAllFinance==='function')refreshAllFinance()}
 }
 function cloudQueueSave(delay=800){clearTimeout(cloud.saveTimer);cloud.saveTimer=setTimeout(()=>cloudSave().catch(e=>cloudText('Falha ao salvar: '+e.message)),delay)}
@@ -291,15 +315,21 @@ async function cloudSave(){
  cloud.busy=true;$('cloud-save-now').disabled=true;
  try{
   const remote=await cloudFetch(true);const freights={...remote.freights.items},prices={...remote.prices.items};
-  const staged={...cloud.dirty},stagedLinks={...cloud.linkDirty},stagedPrices={...cloud.pricingDirty};
+  const staged={...cloud.dirty},stagedLinks={...cloud.linkDirty},stagedPrices={...cloud.pricingDirty},stagedUK={...cloud.ukPricingDirty};
   for(const [id,t] of Object.entries(staged)){if(!byId.has(id))continue;const v=validNum(state.saved[id]?.freight);if(Number(t)>Number(freights[id]?.updatedAt||0))freights[id]={...(freights[id]||{}),value:v,updatedAt:Number(t)}}
   for(const [id,t] of Object.entries(stagedLinks)){if(!byId.has(id))continue;const url=String(state.saved[id]?.sourceUrl||'').trim();if(url&&!validSupplierUrl(url))continue;if(Number(t)>Number(freights[id]?.sourceUpdatedAt||0))freights[id]={...(freights[id]||{}),sourceUrl:url,sourceUpdatedAt:Number(t)}}
-  for(const [id,t] of Object.entries(stagedPrices)){if(!byId.has(id))continue;const z=priceModel(byId.get(id));if(!(z.regular>0)||z.discount===null||z.sale===null)continue;if(Number(t)>Number(prices[id]?.pricingUpdatedAt||0))prices[id]={regularPrice:z.regular,discountPct:z.discount,salePrice:z.sale,pricingUpdatedAt:Number(t)}}
+  for(const [id,t] of Object.entries(stagedPrices)){if(!byId.has(id))continue;const z=priceModel(byId.get(id));if(!(z.regular>0)||z.discount===null||z.sale===null)continue;if(Number(t)>Number(prices[id]?.pricingUpdatedAt||0))prices[id]={...(prices[id]||{}),regularPrice:z.regular,discountPct:z.discount,salePrice:z.sale,pricingUpdatedAt:Number(t)}}
+  for(const [id,t] of Object.entries(stagedUK)){
+   if(!byId.has(id))continue;
+   const val=validNum(state.saved[id]?.ukSalePriceGBP);
+   if(Number(t)>Number(prices[id]?.ukPriceUpdatedAt||0))prices[id]={...(prices[id]||{}),ukSalePriceGBP:val>0?val:null,ukPriceUpdatedAt:Number(t)};
+  }
   if(Object.keys(staged).length||Object.keys(stagedLinks).length)await cloudPut(CLOUD_FREIGHT_PATH,freights,remote.freights.sha);
-  if(Object.keys(stagedPrices).length)await cloudPut(CLOUD_PRICING_PATH,prices,remote.prices.sha);
+  if(Object.keys(stagedPrices).length||Object.keys(stagedUK).length)await cloudPut(CLOUD_PRICING_PATH,prices,remote.prices.sha);
   for(const [id,t] of Object.entries(staged))if(cloud.dirty[id]===t)delete cloud.dirty[id];
   for(const [id,t] of Object.entries(stagedLinks))if(cloud.linkDirty[id]===t)delete cloud.linkDirty[id];
   for(const [id,t] of Object.entries(stagedPrices))if(cloud.pricingDirty[id]===t)delete cloud.pricingDirty[id];
+  for(const [id,t] of Object.entries(stagedUK))if(cloud.ukPricingDirty[id]===t)delete cloud.ukPricingDirty[id];
   cloudPersistDirty();cloudText('Dados gravados no GitHub. A publicação pode levar alguns instantes.',true);
  }finally{cloud.busy=false;$('cloud-save-now').disabled=!cloud.token;if((cloud.again||cloudHasPending())&&cloud.token)cloudQueueSave(1400);cloud.again=false}
 }
@@ -442,7 +472,7 @@ $('audit-toggle').addEventListener('click',()=>{const more=$('audit-extra');cons
 $('export-csv').addEventListener('click',exportCSV);$('export-json').addEventListener('click',exportBackup);
 $('import-json').addEventListener('click',()=>$('import-file').click());
 $('import-file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());if(data.format!=='zeratta-catalog-local-v1'||typeof data.overrides!=='object'||Array.isArray(data.overrides))throw Error('Arquivo de backup inválido');const allowed=new Set(['before','after','price','regularPrice','discountPct','cost','freight','notes','supplierSKU','sourceUrl']);const obj={};for(const [id,changes] of Object.entries(data.overrides)){if(!byId.has(id)||!changes||typeof changes!=='object')continue;obj[id]={};for(const [k,v] of Object.entries(changes))if(allowed.has(k)&&['string','number'].includes(typeof v))obj[id][k]=v}if(!confirm('Importar backup? As edições locais atuais serão substituídas.'))return;state.saved=obj;for(const [id,v] of Object.entries(obj)){if(Object.prototype.hasOwnProperty.call(v,'freight'))cloud.dirty[id]=Date.now();if(['price','regularPrice','discountPct'].some(k=>Object.prototype.hasOwnProperty.call(v,k)))cloud.pricingDirty[id]=Date.now()}cloudPersistDirty();persist();render();toast('Backup restaurado. Conecte o GitHub para salvar os fretes.');cloudInit()}catch(err){alert('Não foi possível importar: '+err.message)}finally{e.target.value=''}});
-$('reset-data').addEventListener('click',()=>{if(!confirm('Limpar ajustes locais e retornar aos valores sincronizados da Shopify e aos dados registrados? Faça backup antes.'))return;state.saved={};cloud.dirty={};cloud.pricingDirty={};cloud.linkDirty={};cloudPersistDirty();persist();render();toast('Ajustes locais restaurados. Os fretes já sincronizados no GitHub permanecem.');cloudInit()});
+$('reset-data').addEventListener('click',()=>{if(!confirm('Limpar ajustes locais e retornar aos valores sincronizados da Shopify e aos dados registrados? Faça backup antes.'))return;state.saved={};cloud.dirty={};cloud.pricingDirty={};cloud.ukPricingDirty={};cloud.linkDirty={};cloudPersistDirty();persist();render();toast('Ajustes locais restaurados. Os fretes já sincronizados no GitHub permanecem.');cloudInit()});
 $('go-top').addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 let bulkUndo=null;
 $('bulk-apply').addEventListener('click',()=>{
@@ -520,8 +550,11 @@ function ukSimModel(p){
   ukPriceFloor(totalUSD,1,0,UK_SIM.targetMargin,UK_SIM.cpaExpectedUSD),
   ...tiers.map(([n,d])=>ukPriceFloor(totalUSD,n,d,UK_SIM.floorMargin,UK_SIM.cpaStressUSD))
  ];
- const price=ukPriceRoundUp(Math.max(...floors));
- return {costUSD:cost,totalUSD,price,expected:ukScenario(totalUSD,price,1,0,UK_SIM.cpaExpectedUSD),stress:ukScenario(totalUSD,price,1,0,UK_SIM.cpaStressUSD),bundles:tiers.slice(1).map(([n,d])=>({items:n,discount:d,expected:ukScenario(totalUSD,price,n,d,UK_SIM.cpaExpectedUSD),stress:ukScenario(totalUSD,price,n,d,UK_SIM.cpaStressUSD)}))};
+ const suggestedPrice=ukPriceRoundUp(Math.max(...floors));
+ const savedGBP=num2(state.saved[p.id]?.ukSalePriceGBP);
+ const manual=savedGBP!==null&&savedGBP>0;
+ const price=manual?roundCents(savedGBP):suggestedPrice;
+ return {costUSD:cost,totalUSD,price,suggestedPrice,manual,expected:ukScenario(totalUSD,price,1,0,UK_SIM.cpaExpectedUSD),stress:ukScenario(totalUSD,price,1,0,UK_SIM.cpaStressUSD),bundles:tiers.slice(1).map(([n,d])=>({items:n,discount:d,expected:ukScenario(totalUSD,price,n,d,UK_SIM.cpaExpectedUSD),stress:ukScenario(totalUSD,price,n,d,UK_SIM.cpaStressUSD)}))};
 }
 function refreshUKPricingSummary(){
  const root=document.getElementById('uk-pricing-summary');if(!root)return;
@@ -544,17 +577,48 @@ function ukSimMarkup(p){
  if(!m)return '<div class="uk-sim-card">Custo do produto ausente para simulação UK.</div>';
  const v=m.expected,s=m.stress,b=m.bundles[2].stress;
  const bundleRows=m.bundles.map(k=>'<div class="uk-bundle-row"><span>'+k.items+' peças (−'+Math.round(k.discount*100)+'%)</span><strong>'+GBP(k.items*m.price*(1-k.discount))+'</strong><small>VAT '+GBP(k.expected.vatGBP)+' · Margem CPA US$40 '+perc2(k.stress.margin)+'</small></div>').join('');
- return '<section class="uk-sim-card" aria-label="Simulação UK em libras">'+
+ return '<section class="uk-sim-card" data-uk-card="'+p.id+'" aria-label="Simulação UK em libras">'+
   '<div class="uk-sim-title">PREÇO FINAL PARA O CLIENTE · GBP (£) · VAT INCLUSO · SIMULAÇÃO</div>'+
-  '<div class="uk-sim-price">'+GBP(m.price)+'</div>'+
+  '<div class="uk-sim-price-edit"><span class="gbp-prefix">£</span><input class="uk-sim-price-input" type="number" min="0.01" step="0.01" inputmode="decimal" data-uk-price="'+p.id+'" id="uk-price-'+p.id+'" value="'+m.price.toFixed(2)+'" aria-label="Preço final UK em libras para '+E(p.shopTitle)+'"><button type="button" class="uk-sim-reset" data-uk-reset="'+p.id+'" title="Voltar ao preço sugerido">Usar sugestão</button></div>'+
+  '<div class="uk-sim-price-help">Editável em £ · Preço sugerido '+GBP(m.suggestedPrice)+' · '+(m.manual?'Preço definido manualmente':'Sugestão automática')+'</div>'+
   '<div class="uk-sim-caption">Preço com VAT. Produto '+money2(m.costUSD)+' + frete HIPOTÉTICO US$ 12,00. Câmbio simulado £0,7725 por US$1. Não é preço publicado.</div>'+
-  '<div class="uk-sim-mini"><div><span>VAT no preço (20%)</span><strong>'+GBP(v.vatGBP)+'</strong></div><div><span>Stripe estimada (6,1% + fixo)</span><strong>'+GBP(v.processorGBP)+'</strong></div>'+
+  '<div class="uk-sim-mini"><div><span>Reserva VAT sobre venda (20% padrão UK)</span><strong>'+GBP(v.vatGBP)+'</strong></div><div><span>Stripe estimada (equivalente £; liquidação BRL)</span><strong>'+GBP(v.processorGBP)+'</strong></div>'+
   '<div><span>Lucro/CPA US$ 35</span><strong>'+GBP(v.contribution)+' · '+perc2(v.margin)+'</strong></div><div><span>Lucro/CPA US$ 40</span><strong>'+GBP(s.contribution)+' · '+perc2(s.margin)+'</strong></div></div>'+
   '<div class="uk-sim-bundle"><b>Preços finais por quantidade, em GBP (VAT incluso)</b>'+bundleRows+'<div class="uk-sim-caption">Lucro estimado, 4 peças com 30% off e CPA US$40: '+GBP(b.contribution)+'.</div></div>'+
-  '<div class="uk-sim-flag">Outros descontos: 2 itens 10%; 3 itens 20%. Modelo com 19% mínimo simulado no CPA US$ 40 e alvo 22% na venda individual com CPA US$ 35. Não inclui duty/desembaraço UK, devoluções ou tributação da empresa.</div>'+
+  '<div class="uk-sim-flag">Descontos: 2 itens 10%; 3 itens 20%; 4+ itens 30%. Modelo usa reserva de 20% sobre venda; para remessas acima de £135 o VAT real pode ser de importação sobre outra base aduaneira, com duty/desembaraço adicionais. A tarifa Stripe de 6,1% mais fixo e a conversão em £ são hipóteses: a conta Stripe Zeratta liquida em BRL. Valores são contribuição simulada, não lucro líquido contábil.</div>'+
  '</section>';
 }
-
+function refreshUKPriceLive(id){
+ const p=byId.get(id),card=document.querySelector('[data-uk-card="'+id+'"]');
+ if(!p||!card)return;
+ const holder=document.createElement('div');holder.innerHTML=ukSimMarkup(p);
+ const newCard=holder.firstElementChild;if(!newCard)return;
+ for(const sel of ['.uk-sim-price-help','.uk-sim-mini','.uk-sim-bundle','.uk-sim-flag']){
+  const current=card.querySelector(sel),next=newCard.querySelector(sel);
+  if(current&&next)current.innerHTML=next.innerHTML;
+ }
+ refreshUKPricingSummary();
+}
+document.getElementById('items').addEventListener('input',e=>{
+ const id=e.target.dataset.ukPrice;if(!id)return;
+ const amount=Number(e.target.value);
+ if(!Number.isFinite(amount)||!(amount>0)){e.target.setCustomValidity('Informe um preço positivo em libras.');return}
+ e.target.setCustomValidity('');
+ (state.saved[id]||={}).ukSalePriceGBP=roundCents(amount);
+ persist();cloudMarkUKPricingDirty(id);refreshUKPriceLive(id);
+});
+document.getElementById('items').addEventListener('change',e=>{
+ const id=e.target.dataset.ukPrice;if(!id)return;
+ if(!e.target.checkValidity()){e.target.reportValidity();return}
+ e.target.value=Number(e.target.value).toFixed(2);
+});
+document.getElementById('items').addEventListener('click',e=>{
+ const id=e.target.closest('[data-uk-reset]')?.dataset.ukReset;if(!id)return;
+ const p=byId.get(id);if(!p)return;
+ delete (state.saved[id]||={}).ukSalePriceGBP;
+ persist();cloudMarkUKPricingDirty(id);
+ refreshProductFinance(id);refreshUKPricingSummary();
+});
 const localCPAMap=new Map();
 function simulatedSale(p){return priceModel(p).sale}
 function finCalc(p,customCPA=null,customPrice=null,shippingModeOverride=null){
@@ -681,7 +745,7 @@ updateTotals=function(){priorUpdateTotals();refreshAllFinance()};
 function refreshProductFinance(id){
  const p=byId.get(id),panel=document.querySelector('[data-fin-wrapper="'+id+'"]');
  if(p&&panel)panel.innerHTML=financeMarkup(p);
- refreshFinanceDashboard();
+ refreshFinanceDashboard();refreshUKPricingSummary();
 }
 function refreshAllFinance(){
  document.querySelectorAll('[data-fin-wrapper]').forEach(e=>{const p=byId.get(e.dataset.finWrapper);if(p)e.innerHTML=financeMarkup(p)});
