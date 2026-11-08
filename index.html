@@ -134,7 +134,7 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
 <header class="top">
  <div class="topline"><div class="eyebrow">ZERATTA / OPERAÇÕES / CENTRAL DE PRODUTOS</div><div class="topdate">Simulação UK atualizada · 08 NOV 2026</div></div>
  <h1>Catálogo e simulador de rentabilidade</h1>
- <p>122 produtos identificados por ID na Shopify, incluindo 22 suéteres novos. Preços e custos de variantes foram consultados no Admin em USD. Preços normais, descontos e preços promocionais são cenários internos e não alteram a Shopify. Há 114 vínculos EPROLO cadastrados e 8 produtos ainda sem fornecedor confirmado; 30 produtos continuam aguardando cotação de frete para os Estados Unidos. 78 produtos estão em rascunho. Nenhum frete ou lucro dos novos suéteres foi inventado.</p>
+ <p>122 produtos identificados por ID na Shopify, incluindo 22 suéteres novos. Preços e custos de variantes foram consultados no Admin em USD. Preços normais, descontos e preços promocionais são cenários internos e não alteram a Shopify. Há 114 vínculos EPROLO cadastrados e 8 produtos ainda sem fornecedor confirmado; 30 produtos seguem sem cotação de frete confirmada; para análise britânica, o frete simulado é US$ 12 em todos os 122 produtos, sem substituir os registros EPROLO. 78 produtos estão em rascunho. Os resultados UK são hipóteses e não representam lucro efetivo.</p>
 </header>
 <main class="wrap">
  <section class="metrics" aria-label="Indicadores do catálogo">
@@ -168,7 +168,7 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
     <label class="shipping-choice"><input type="radio" name="shipping-scenario" value="current">Cenário histórico: US$ 6,95 abaixo de US$ 99</label>
     <label class="shipping-choice"><input type="radio" name="shipping-scenario" value="free" checked>Frete grátis: US$ 0 em todos os pedidos</label>
   </div>
-  <p class="shipping-scenario-note">Cenário de frete grátis ao consumidor, conforme orientação operacional informada em 04/11. Confirmar no checkout. O frete pago à EPROLO continua como custo. Taxas percentuais são recalculadas sobre o valor recebido do cliente.</p>
+  <p class="shipping-scenario-note">Cenário de frete grátis ao consumidor. Confirmar no checkout. O custo de frete pago à EPROLO é simulado em US$ 12 fixos por unidade, não uma cotação real. Taxas percentuais são recalculadas sobre o valor recebido do cliente.</p>
   <div class="shipping-impact-summary" id="shipping-impact-summary" aria-live="polite"></div>
 </div>
 <div class="mode-row"><label for="cpa-mode">CPA usado no resultado principal</label><select id="cpa-mode"><option value="stress">CPA de estresse configurado (padrão)</option><option value="target">Teto calculado para a meta (simulação)</option></select><span>Os sliders de CPA de jackets e hoodies alteram o cenário de estresse.</span></div><div class="slidergrid" id="global-sliders"></div><div id="finance-dashboard" class="finance-dashboard" aria-live="polite"></div>
@@ -460,7 +460,7 @@ const financeSliderSpecs=[
  ['chargePct','Chargeback reserve',0,8,.25,'%','Additional expected disputes; avoid double counting'],
  ['reserve','Other variable reserve',0,20,.5,'USD','Default 0: enter empirically measured per-order operational costs when available'],
  ['duty','Additional import/customs',0,35,.5,'USD','Add only costs not already included in supplier delivered cost'],
- ['freightDelta','Supplier freight adjustment',-15,30,.5,'USD','Simulate supplier shipping changes'],
+ /* Frete fornecedor fixado em USD 12 em todo cenário; registros de frete permanecem editáveis e históricos. */
  ['fxPct','FX conversion reserve',0,10,.25,'%','Only if not already part of payment fee'],
  ['cpaTarget','Contribution goal',0,50,.5,'USD','Minimum contribution per order, after CPA'],
  ['marginTarget','Margin goal',0,40,.5,'%','Minimum contribution margin of customer receipts'],
@@ -526,7 +526,7 @@ function finCalc(p,customCPA=null,customPrice=null,shippingModeOverride=null){
  const productCost=num2(value(p,'cost'),num2(p.unitCostWorstVariant,p.cost));
  const supplierFreight=SHIPPING_SCENARIO_USD; // simulation only: original freight remains in data/freights.json and in the editable field
  if(!(sale>0)||productCost==null||supplierFreight==null)return null;
- const freight=roundCents(Math.max(0,supplierFreight+financeState.freightDelta)); // USD historical panel uses the same $12 shipping simulation
+ const freight=roundCents(supplierFreight); // fixed USD 12 scenario even when historical local sliders were adjusted
  const cost=roundCents(Math.max(0,productCost));
  const freeShipping=shippingModeOverride===null?financeState.freeShipping:shippingModeOverride;
  const customerShipping=(freeShipping||sale>=99)?0:6.95;
