@@ -79,22 +79,11 @@
 .cloud-sync .status{font-variant-numeric:tabular-nums;color:#795026;min-height:15px}
 @media(max-width:720px){.cloud-sync{padding:13px}.cloud-sync input{max-width:none;width:100%;flex-basis:100%}.cloud-sync button{flex:1}}
 .supplier-url-edit{margin:11px 0 8px;padding:10px;border:1px solid #e5e0dc;border-radius:7px;background:#faf9f7}.supplier-url-edit label{display:block;font-size:10px;font-weight:650;color:#45373a;margin-bottom:6px}.supplier-url-edit input{width:100%;min-width:0;font:inherit;font-size:11px;padding:9px;border:1px solid #d5ceca;border-radius:5px;background:white}.supplier-url-edit small{display:block;margin-top:6px;font-size:9px;line-height:1.5;color:#76686c}
-/* Per-product price model and safe bulk promotion management */
-.pricing-trio{grid-column:1/-1;display:grid;grid-template-columns:1fr .78fr 1fr;gap:9px;align-items:end}
-.pricing-trio .money-field input{font-weight:620}
-.pricing-trio .money-field input[data-edit="price"]{border-color:#1a0709;background:#fcfaf8}
-.discount-percent{position:relative}.discount-percent:after{content:'%';position:absolute;right:11px;top:9px;color:#786a6d;font-size:12px;pointer-events:none}.discount-percent input{padding:9px 24px 9px 10px!important}
+/* Preço único e edição financeira por produto */
+.pricing-single{grid-column:1/-1}
+.pricing-single .money-field input[data-pricing="price"]{font-weight:650;border-color:#1a0709;background:#fcfaf8}
 .pricing-source{grid-column:1/-1;font-size:10px;line-height:1.5;color:#71696c;margin:-2px 0 5px}
-.bulk-pricing{display:flex;align-items:flex-end;flex-wrap:wrap;gap:10px;background:#fff;border:1px solid var(--border);border-radius:9px;padding:14px 16px;margin-bottom:15px}
-.bulk-pricing .bulk-intro{flex:1 1 240px;line-height:1.5}.bulk-pricing .bulk-intro strong{display:block;font-size:12px}.bulk-pricing .bulk-intro span{font-size:10px;color:#766a6d}
-.bulk-pricing label{display:flex;flex-direction:column;gap:5px;font-size:10px;color:#655d60;font-weight:650}
-.bulk-pricing input,.bulk-pricing select{background:#fff;border:1px solid #ded5d2;border-radius:6px;padding:8px 10px;height:38px;font-size:12px;color:#211719}
-.bulk-pricing input{width:100px}.bulk-pricing select{min-width:166px}
-.bulk-pricing button{height:38px;border:1px solid #1a0709;border-radius:6px;padding:7px 12px;background:#1a0709;color:#fff;font-size:11px}
-.bulk-pricing button.secondary{border-color:#d6cacc;background:#fff;color:#37282a}.bulk-pricing button:disabled{opacity:.5;cursor:not-allowed}
-.bulk-pricing .bulk-foot{width:100%;font-size:10px;color:#7a6f71;line-height:1.55}
 .price-validation{grid-column:1/-1;font-size:10px;color:#ad3127;min-height:0}
-@media(max-width:600px){.pricing-trio{grid-template-columns:1fr 1fr}.pricing-trio .sale-cell{grid-column:1/-1}.bulk-pricing label{flex:1 1 120px}.bulk-pricing select{width:100%}}
 </style>
 <style id="zeratta-access-css">
 body:not(.zeratta-unlocked)>*:not(#zeratta-access-gate){visibility:hidden!important}
@@ -145,7 +134,7 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
  </ul></div></div><button class="toggle" id="audit-toggle" type="button" aria-expanded="false">Ver detalhes da auditoria</button></section>
  <section class="notice" aria-label="Pendências de reconciliação"><div class="text"><strong>Verificações que exigem atenção</strong><p>44 links enviados: 42 mapeados à Shopify e 2 sem produto correspondente confirmado. O catálogo final tem 92 links EPROLO confirmados e 8 não identificados. Nenhuma URL foi inventada. Frete do fornecedor: 100 cotações ainda pendentes. <a href="https://eprolo.com/app/product/new-cotton-coat-thermal-thickened-oversized-winter-jacket-for-middle-aged-and-senior-men-business-casual-warm-outerwear" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">EPROLO #09</a> e <a href="https://eprolo.com/app/product/faux-leather-men's-jacket-winter-warm-jacket-thicken-large-lapel-contrast-color-jacket" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">EPROLO #25</a> não foram criados aqui porque não constam da Shopify.</p></div></section>
  <section class="pricing-controls" aria-label="Simulador financeiro global">
-<div class="section-title"><h2>Rentabilidade · preço promocional, despesas e CPA</h2><small>USD · cálculos por produto</small></div>
+<div class="section-title"><h2>Rentabilidade · preço de venda, despesas e CPA</h2><small>USD · cálculos por produto</small></div>
 <p><strong>IMPORTANTE:</strong> o CPA máximo exibido é calculado para atingir a meta de contribuição, não é o CPA real da campanha. Por padrão, a contribuição principal usa o <strong>CPA de estresse configurado por categoria</strong>, nunca o CPA teto calculado. O cenário de estresse de CPA US$35–45 aparece separadamente. Alíquotas, tarifas e fretes ainda precisam ser confirmados. Nenhum resultado representa lucro líquido real.</p>
 <div class="shipping-scenario" aria-label="Simular frete cobrado do cliente">
   <div class="shipping-scenario-head">SIMULAR FRETE AO CLIENTE</div>
@@ -157,25 +146,17 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
   <div class="shipping-impact-summary" id="shipping-impact-summary" aria-live="polite"></div>
 </div>
 <div class="mode-row"><label for="cpa-mode">CPA usado no resultado principal</label><select id="cpa-mode"><option value="stress">CPA de estresse configurado (padrão)</option><option value="target">Teto calculado para a meta (simulação)</option></select><span>Os sliders de CPA de jackets e hoodies alteram o cenário de estresse.</span></div><div class="slidergrid" id="global-sliders"></div><div id="finance-dashboard" class="finance-dashboard" aria-live="polite"></div>
-<div class="banner-risk"><strong>Preços e frete:</strong> os preços da Shopify foram capturados em 07/11/2026. Preços normais e promocionais editados neste painel são cenários internos, não preços publicados na loja. Os cálculos usam sempre o preço promocional do card. O frete pago à EPROLO precisa ser cotado por produto/variante para os Estados Unidos. Sem ele, qualquer cálculo de margem permanece incompleto. Os controles financeiros são simulações e não alteram produtos na Shopify.</div>
+<div class="banner-risk"><strong>Preços e frete:</strong> os preços da Shopify foram capturados em 07/11/2026. Preços normais e promocionais editados neste painel são cenários internos, não preços publicados na loja. Os cálculos usam sempre o preço de venda do card. O frete pago à EPROLO precisa ser cotado por produto/variante para os Estados Unidos. Sem ele, qualquer cálculo de margem permanece incompleto. Os controles financeiros são simulações e não alteram produtos na Shopify.</div>
 </section>
 
  <section class="cloud-sync" aria-label="Salvamento permanente de fretes e preços">
   <div class="cloud-heading">Fretes, links e preços sincronizados pelo GitHub <span class="cloud-badge wait" id="cloud-badge">Carregando fretes...</span></div>
-  <p>Fretes, links EPROLO e preços promocionais publicados são carregados automaticamente neste e em outros dispositivos. Para <strong>salvar permanentemente</strong> valores digitados, conecte um token pessoal do GitHub, restrito ao repositório <strong>paulozeratta/zeratta-catalog</strong>, com permissão <strong>Contents: Read and write</strong>. O token fica somente na memória desta aba e não vai para o repositório.</p>
+  <p>Fretes, links EPROLO e preços definidos no catálogo são carregados automaticamente neste e em outros dispositivos. Para <strong>salvar permanentemente</strong> valores digitados, conecte um token pessoal do GitHub, restrito ao repositório <strong>paulozeratta/zeratta-catalog</strong>, com permissão <strong>Contents: Read and write</strong>. O token fica somente na memória desta aba e não vai para o repositório.</p>
   <div class="cloud-fields"><input id="github-token" type="password" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Cole o token fine-grained do GitHub" aria-label="Token pessoal GitHub"><button id="connect-github" type="button">Ativar salvamento permanente</button><button class="secondary" id="cloud-save-now" type="button" disabled>Salvar alterações no GitHub</button></div>
   <p class="status" id="cloud-status" role="status" aria-live="polite">Carregando dados do GitHub...</p>
   <p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">Criar token fine-grained no GitHub</a> · Configure acesso somente ao repositório <strong>zeratta-catalog</strong> e permissão <strong>Contents: Read and write</strong>. Após conectar, cada edição de frete, link ou preço é salva em arquivos editáveis no GitHub. Sem conexão, continua somente no navegador.</p>
  </section>
-  <section class="bulk-pricing" aria-label="Desconto em lote para preços promocionais">
-  <div class="bulk-intro"><strong>Aplicar desconto em lote</strong><span>Altere a porcentagem de vários produtos sem modificar a Shopify. Os custos e o lucro são recalculados a partir do preço promocional.</span></div>
-  <label>Desconto (%)<input id="bulk-discount" type="number" min="0" max="100" step="0.01" inputmode="decimal" value="0" aria-label="Desconto em lote em porcentagem"></label>
-  <label>Aplicar a<select id="bulk-scope"><option value="filtered">Produtos filtrados</option><option value="all">Todos os 100 produtos</option></select></label>
-  <button type="button" id="bulk-apply">Aplicar desconto</button>
-  <button type="button" id="bulk-undo" class="secondary" disabled>Desfazer último lote</button>
-  <div class="bulk-foot" id="bulk-pricing-status">Os valores são simulados no catálogo. Publicar preços na Shopify exige uma operação separada. Faça backup antes de aplicar alterações em lote.</div>
- </section>
- <section class="bar" aria-label="Ferramentas do catálogo">
+  <section class="bar" aria-label="Ferramentas do catálogo">
   <div class="filters">
    <input type="search" id="search" placeholder="Buscar nome, número, fornecedor, ID, categoria..." aria-label="Buscar produtos">
    <select id="origin"><option value="">Todos os períodos</option><option value="Hoje">Adicionados nesta revisão</option><option value="Anterior">Preservados do HTML anterior</option></select>
@@ -241,7 +222,17 @@ function cloudApplyRemote(freights,prices){
   if(Object.prototype.hasOwnProperty.call(entry,'value')&&!(cloud.dirty[id]&&cloud.dirty[id]>Number(entry.updatedAt||0))){const val=entry.value===null?'':validNum(entry.value);if(val!==null&&String(dst.freight??'')!==String(val)){dst.freight=val;changed=true}delete cloud.dirty[id]}
   if(Object.prototype.hasOwnProperty.call(entry,'sourceUrl')&&!(cloud.linkDirty[id]&&cloud.linkDirty[id]>Number(entry.sourceUpdatedAt||0))){const url=String(entry.sourceUrl||'').trim();if(!url||validSupplierUrl(url)){if(String(dst.sourceUrl??'')!==url){dst.sourceUrl=url;changed=true}delete cloud.linkDirty[id]}}
  }
- for(const [id,entry] of Object.entries(prices||{})){if(!byId.has(id)||!entry||typeof entry!=='object')continue;if(cloud.pricingDirty[id]&&cloud.pricingDirty[id]>Number(entry.pricingUpdatedAt||0))continue;const reg=validNum(entry.regularPrice),disc=validNum(entry.discountPct),sale=validNum(entry.salePrice);if(!(reg>0)||disc===null||disc>100||sale===null||sale>reg)continue;const dst=state.saved[id]||={};for(const [field,val] of [['regularPrice',reg],['discountPct',disc],['price',sale]])if(Number(dst[field])!==val){dst[field]=val;changed=true}delete cloud.pricingDirty[id]}
+ for(const [id,entry] of Object.entries(prices||{})){
+  if(!byId.has(id)||!entry||typeof entry!=='object')continue;
+  if(cloud.pricingDirty[id]&&cloud.pricingDirty[id]>Number(entry.pricingUpdatedAt||0))continue;
+  const price=validNum(entry.price??entry.salePrice);
+  if(!(price>0))continue;
+  const dst=state.saved[id]||={};
+  if(Number(dst.price)!==price){dst.price=price;changed=true}
+  if(Object.prototype.hasOwnProperty.call(dst,'regularPrice')){delete dst.regularPrice;changed=true}
+  if(Object.prototype.hasOwnProperty.call(dst,'discountPct')){delete dst.discountPct;changed=true}
+  delete cloud.pricingDirty[id];
+ }
  cloudPersistDirty();if(changed){persist();render();if(typeof refreshAllFinance==='function')refreshAllFinance()}
 }
 function cloudQueueSave(delay=800){clearTimeout(cloud.saveTimer);cloud.saveTimer=setTimeout(()=>cloudSave().catch(e=>cloudText('Falha ao salvar: '+e.message)),delay)}
@@ -260,7 +251,7 @@ async function cloudSave(){
   const staged={...cloud.dirty},stagedLinks={...cloud.linkDirty},stagedPrices={...cloud.pricingDirty};
   for(const [id,t] of Object.entries(staged)){if(!byId.has(id))continue;const v=validNum(state.saved[id]?.freight);if(Number(t)>Number(freights[id]?.updatedAt||0))freights[id]={...(freights[id]||{}),value:v,updatedAt:Number(t)}}
   for(const [id,t] of Object.entries(stagedLinks)){if(!byId.has(id))continue;const url=String(state.saved[id]?.sourceUrl||'').trim();if(url&&!validSupplierUrl(url))continue;if(Number(t)>Number(freights[id]?.sourceUpdatedAt||0))freights[id]={...(freights[id]||{}),sourceUrl:url,sourceUpdatedAt:Number(t)}}
-  for(const [id,t] of Object.entries(stagedPrices)){if(!byId.has(id))continue;const z=priceModel(byId.get(id));if(!(z.regular>0)||z.discount===null||z.sale===null)continue;if(Number(t)>Number(prices[id]?.pricingUpdatedAt||0))prices[id]={regularPrice:z.regular,discountPct:z.discount,salePrice:z.sale,pricingUpdatedAt:Number(t)}}
+  for(const [id,t] of Object.entries(stagedPrices)){if(!byId.has(id))continue;const price=priceModel(byId.get(id)).sale;if(!(price>0))continue;if(Number(t)>Number(prices[id]?.pricingUpdatedAt||0))prices[id]={price,pricingUpdatedAt:Number(t)}}
   if(Object.keys(staged).length||Object.keys(stagedLinks).length)await cloudPut(CLOUD_FREIGHT_PATH,freights,remote.freights.sha);
   if(Object.keys(stagedPrices).length)await cloudPut(CLOUD_PRICING_PATH,prices,remote.prices.sha);
   for(const [id,t] of Object.entries(staged))if(cloud.dirty[id]===t)delete cloud.dirty[id];
@@ -289,55 +280,32 @@ const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt
 const usd=n=>Number.isFinite(n)?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n):'—';
 const validNum=x=>(x!==''&&x!=null&&Number.isFinite(Number(x))&&Number(x)>=0)?Number(x):null;
 function toast(s){const el=$('toast');el.textContent=s;el.classList.add('show');clearTimeout(window.__toast);window.__toast=setTimeout(()=>el.classList.remove('show'),1800)}
-function load(){try{const current=JSON.parse(localStorage.getItem(KEY)||'null');state.saved=(current&&typeof current==='object'&&!Array.isArray(current))?current:{};}catch{state.saved={}}}
+function load(){try{const current=JSON.parse(localStorage.getItem(KEY)||'null');state.saved=(current&&typeof current==='object'&&!Array.isArray(current))?current:{};}catch{state.saved={}}
+ for(const entry of Object.values(state.saved)){if(entry&&typeof entry==='object'){delete entry.regularPrice;delete entry.discountPct}}
+}
 function persist(){try{localStorage.setItem(KEY,JSON.stringify(state.saved));$('save-status').textContent='Alterações locais salvas neste navegador'}catch{$('save-status').textContent='Salvamento local indisponível — exporte o backup JSON'}}
 function value(p,field){const saved=state.saved[p.id]||{};if(Object.prototype.hasOwnProperty.call(saved,field)){if(field!=='freight'||(saved[field]!==''&&saved[field]!=null)||validNum(p.freight)===null)return saved[field]}return({before:p.before,after:p.shopTitle,price:p.shopifyPublishedPrice??p.recommendedSale??p.originalShopifyPrice,cost:p.unitCostWorstVariant,freight:p.freight??'',notes:'',supplierSKU:'',sourceUrl:p.sourceUrl??''}[field])}
 function save(id,field,val){(state.saved[id]||= {})[field]=val;persist();updateTotals();if(field==='freight')cloudMarkDirty(id);if(field==='sourceUrl')cloudMarkLinkDirty(id);}
 const cents=v=>Math.round((Number(v)+Number.EPSILON)*100)/100;
-const percentValue=(v)=>Math.round((Number(v)+Number.EPSILON)*100)/100;
 function priceModel(p){
- const s=state.saved[p.id]||{};
- const shopSale=validNum(p.shopifyPublishedPrice??p.recommendedSale??p.originalShopifyPrice);
- const shopCompare=validNum(p.shopifyPublishedCompareAt);
- const originalRegular=shopCompare!==null&&shopCompare>(shopSale??0)?shopCompare:(shopSale??0);
- const manualSale=validNum(s.price);
- const manualRegular=validNum(s.regularPrice);
- const regular=cents(manualRegular??Math.max(originalRegular,manualSale??0));
- const initialSale=manualSale??shopSale;
- const initialDiscount=regular>0&&initialSale!==null?percentValue(Math.max(0,Math.min(100,(1-initialSale/regular)*100))):0;
- const discount=s.discountPct!==undefined?validNum(s.discountPct):initialDiscount;
- const cleanDiscount=discount!==null&&discount<=100?discount:null;
- const sale=manualSale!==null?cents(manualSale):regular>0&&cleanDiscount!==null?cents(regular*(1-cleanDiscount/100)):null;
- return {regular,discount:cleanDiscount,sale};
+ const saved=validNum(state.saved[p.id]?.price);
+ const published=validNum(p.shopifyPublishedPrice??p.recommendedSale??p.originalShopifyPrice);
+ const sale=saved!==null?cents(saved):published!==null?cents(published):null;
+ return {sale,price:sale};
 }
 function setProductPricing(id,field,raw){
- const p=byId.get(id);if(!p)return false;
- const val=validNum(raw);if(val===null)return false;
- const z=priceModel(p),s=(state.saved[id]||={});
- if(field==='regularPrice'){
-   if(val<=0)return false;
-   s.regularPrice=cents(val);
-   s.discountPct=z.discount??0;
-   s.price=cents(s.regularPrice*(1-s.discountPct/100));
- }else if(field==='discountPct'){
-   if(val>100||!(z.regular>0))return false;
-   s.regularPrice=z.regular;
-   s.discountPct=percentValue(val);
-   s.price=cents(z.regular*(1-s.discountPct/100));
- }else if(field==='price'){
-   if(val>z.regular||!(z.regular>0))return false;
-   s.regularPrice=z.regular;
-   s.price=cents(val);
-   s.discountPct=percentValue(Math.max(0,Math.min(100,(1-s.price/z.regular)*100)));
- }else return false;
+ if(field!=='price'||!byId.has(id))return false;
+ const num=validNum(raw);
+ if(num===null||num<=0)return false;
+ const saved=(state.saved[id]||={});
+ saved.price=cents(num);
+ delete saved.regularPrice;
+ delete saved.discountPct;
  persist();cloudMarkPricingDirty(id);return true;
 }
 function syncPriceFields(id,except){
- const p=byId.get(id),z=p&&priceModel(p);if(!z)return;
- for(const [field,val] of [['regularPrice',z.regular],['discountPct',z.discount],['price',z.sale]]){
-   const el=document.getElementById((field==='regularPrice'?'regular-':field==='discountPct'?'discount-':'price-')+id);
-   if(el&&field!==except)el.value=val===null?'':String(val);
- }
+ const el=document.getElementById('price-'+id),p=byId.get(id);
+ if(el&&p&&except!=='price'){const price=priceModel(p).sale;el.value=price===null?'':String(price)}
 }
 function updateTotals(){let pend=0;for(const p of PRODUCTS){const f=validNum(value(p,'freight'));if(f===null)pend++;const el=document.querySelector('[data-total="'+p.id+'"]');if(el){const c=validNum(value(p,'cost'));el.textContent=usd((c!==null&&f!==null)?c+f:NaN);const note=document.querySelector('[data-total-hint="'+p.id+'"]');if(note)note.textContent=f===null?'Preencha o frete para calcular o total':c===null?'Custo não informado':'Custo do produto + frete · USD';}}$('count-freight').textContent=pend;}
 function getFilteredProducts(){const needle=state.search.trim().toLowerCase();return PRODUCTS.filter(p=>{
@@ -366,11 +334,8 @@ function render(){const list=getFilteredProducts();
  '<div class="tbox"><div class="field-head"><label for="after-'+p.id+'">02 / Título depois · Shopify</label><button type="button" class="copy-small" data-copy="after" data-id="'+p.id+'">Copiar</button></div><textarea id="after-'+p.id+'" data-edit="after" data-id="'+p.id+'" spellcheck="false">'+E(titleAfter)+'</textarea></div></div>'+
  (p.issues.length?'<p class="audit-message">'+E(p.issues.filter(x=>!(hasSupplier&&x.startsWith('Vínculo EPROLO não confirmado'))).join(' · '))+'</p>':'')+'</div>'+
  '<aside class="fin"><div class="prices">'+
- '<div class="pricing-trio">'+
- '<div class="money-field"><label for="regular-'+p.id+'">Preço normal · USD</label><div class="currency"><input id="regular-'+p.id+'" type="number" min="0.01" step="0.01" inputmode="decimal" data-pricing="regularPrice" data-id="'+p.id+'" value="'+E(priceModel(p).regular)+'"></div></div>'+
- '<div class="money-field"><label for="discount-'+p.id+'">Desconto</label><div class="discount-percent"><input id="discount-'+p.id+'" type="number" min="0" max="100" step="0.01" inputmode="decimal" data-pricing="discountPct" data-id="'+p.id+'" value="'+E(priceModel(p).discount)+'"></div></div>'+
- '<div class="money-field sale-cell"><label for="price-'+p.id+'">Preço promocional · USD</label><div class="currency"><input id="price-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" data-pricing="price" data-id="'+p.id+'" value="'+E(priceModel(p).sale)+'"></div></div>'+
- '</div><div class="pricing-source">Original Shopify: '+usd(p.shopifyPublishedPrice)+' · Compare-at: '+(p.shopifyPublishedCompareAt!=null?usd(p.shopifyPublishedCompareAt):'não informado')+' · valores locais, não publicados</div>'+
+ '<div class="pricing-single"><div class="money-field"><label for="price-'+p.id+'">Preço de venda · USD</label><div class="currency"><input id="price-'+p.id+'" type="number" min="0.01" step="0.01" inputmode="decimal" data-pricing="price" data-id="'+p.id+'" value="'+E(priceModel(p).sale)+'"></div></div></div>'+
+ '<div class="pricing-source">Preço único utilizado na simulação. Alterações neste catálogo não modificam a Shopify.</div>'+
  '<div class="money-field"><label for="cost-'+p.id+'">Custo Shopify (maior variante consultada) · USD</label><div class="currency"><input id="cost-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" data-edit="cost" data-id="'+p.id+'" value="'+E(value(p,'cost'))+'"></div></div>'+
  '<div class="money-field"><label for="freight-'+p.id+'">Frete EPROLO → EUA (a cotar) · USD</label><div class="currency"><input class="freight" id="freight-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Pendente" data-edit="freight" data-id="'+p.id+'" value="'+E(value(p,'freight'))+'"></div></div>'+
  '</div>'+
@@ -381,14 +346,14 @@ function render(){const list=getFilteredProducts();
  }).join('');updateTotals();$('count-links').textContent=PRODUCTS.filter(p=>validSupplierUrl(value(p,'sourceUrl'))).length;}
 function csvEncode(s){const v=String(s??'');return /[",\r\n;]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v}
 function download(name,text,type){const blob=new Blob([text],{type});const u=URL.createObjectURL(blob);const a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1500)}
-function exportCSV(){const head=['Nº','Nº HTML original','Shopify ID','Data origem','Status','Categoria','Título antes EPROLO','Título depois Shopify (local)','Preço normal USD','Desconto %','Preço promocional USD','Custo base USD','Frete USD','Custo total USD','Variantes','Situação do vínculo','SKU fornecedor (local)','Notas locais','EPROLO URL','Loja URL','Admin URL','Foto URL'];const out=[head];for(const p of PRODUCTS){const f=validNum(value(p,'freight')),c=validNum(value(p,'cost'));out.push([p.number,p.supplierNumber||'',p.id,p.origin,p.status,p.category,value(p,'before'),value(p,'after'),priceModel(p).regular,priceModel(p).discount,priceModel(p).sale,value(p,'cost'),f===null?'':f,f===null||c===null?'':(c+f).toFixed(2),p.variants,p.confidence,value(p,'supplierSKU'),value(p,'notes'),value(p,'sourceUrl'),p.storeUrl||'',p.adminUrl,p.image])}download('zeratta_central_produtos_atualizada.csv','\ufeff'+out.map(row=>row.map(csvEncode).join(';')).join('\r\n'),'text/csv;charset=utf-8')}
+function exportCSV(){const head=['Nº','Nº HTML original','Shopify ID','Data origem','Status','Categoria','Título antes EPROLO','Título depois Shopify (local)','Preço de venda USD','Custo base USD','Frete USD','Custo total USD','Variantes','Situação do vínculo','SKU fornecedor (local)','Notas locais','EPROLO URL','Loja URL','Admin URL','Foto URL'];const out=[head];for(const p of PRODUCTS){const f=validNum(value(p,'freight')),c=validNum(value(p,'cost'));out.push([p.number,p.supplierNumber||'',p.id,p.origin,p.status,p.category,value(p,'before'),value(p,'after'),priceModel(p).sale,value(p,'cost'),f===null?'':f,f===null||c===null?'':(c+f).toFixed(2),p.variants,p.confidence,value(p,'supplierSKU'),value(p,'notes'),value(p,'sourceUrl'),p.storeUrl||'',p.adminUrl,p.image])}download('zeratta_central_produtos_atualizada.csv','\ufeff'+out.map(row=>row.map(csvEncode).join(';')).join('\r\n'),'text/csv;charset=utf-8')}
 function exportBackup(){download('zeratta_backup_edicoes_2026-11-01.json',JSON.stringify({format:'zeratta-catalog-local-v1',snapshot:'2026-11-01',overrides:state.saved,productIds:PRODUCTS.map(p=>p.id)},null,2),'application/json;charset=utf-8')}
 async function copyText(text){if(!text){toast('Campo vazio — nada para copiar');return}try{await navigator.clipboard.writeText(text)}catch{const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.left='-9999px';document.body.appendChild(ta);ta.select();const ok=document.execCommand('copy');ta.remove();if(!ok){window.prompt('Copie o título:',text);return}}toast('Título copiado')}
 $('items').addEventListener('input',e=>{
  const t=e.target;
  if(t.matches('[data-pricing]')){
    const field=t.dataset.pricing,id=t.dataset.id;
-   if(!setProductPricing(id,field,t.value)){t.setCustomValidity('Informe um valor válido: preço normal maior que zero, desconto de 0 a 100%, preço promocional entre zero e o preço normal.');t.reportValidity();return}
+   if(!setProductPricing(id,field,t.value)){t.setCustomValidity('Informe um preço de venda válido, maior que zero.');t.reportValidity();return}
    t.setCustomValidity('');syncPriceFields(id,field);refreshProductFinance(id);return;
  }
  if(!t.matches('[data-edit]'))return;save(t.dataset.id,t.dataset.edit,t.value)
@@ -405,29 +370,9 @@ for(const name of ['origin','category','audit'])$(name).addEventListener('change
 $('audit-toggle').addEventListener('click',()=>{const more=$('audit-extra');const isOpen=more.classList.toggle('open');$('audit-toggle').textContent=isOpen?'Ocultar detalhes':'Ver detalhes da auditoria';$('audit-toggle').setAttribute('aria-expanded',String(isOpen))});
 $('export-csv').addEventListener('click',exportCSV);$('export-json').addEventListener('click',exportBackup);
 $('import-json').addEventListener('click',()=>$('import-file').click());
-$('import-file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());if(data.format!=='zeratta-catalog-local-v1'||typeof data.overrides!=='object'||Array.isArray(data.overrides))throw Error('Arquivo de backup inválido');const allowed=new Set(['before','after','price','regularPrice','discountPct','cost','freight','notes','supplierSKU','sourceUrl']);const obj={};for(const [id,changes] of Object.entries(data.overrides)){if(!byId.has(id)||!changes||typeof changes!=='object')continue;obj[id]={};for(const [k,v] of Object.entries(changes))if(allowed.has(k)&&['string','number'].includes(typeof v))obj[id][k]=v}if(!confirm('Importar backup? As edições locais atuais serão substituídas.'))return;state.saved=obj;for(const [id,v] of Object.entries(obj)){if(Object.prototype.hasOwnProperty.call(v,'freight'))cloud.dirty[id]=Date.now();if(['price','regularPrice','discountPct'].some(k=>Object.prototype.hasOwnProperty.call(v,k)))cloud.pricingDirty[id]=Date.now()}cloudPersistDirty();persist();render();toast('Backup restaurado. Conecte o GitHub para salvar os fretes.');cloudInit()}catch(err){alert('Não foi possível importar: '+err.message)}finally{e.target.value=''}});
+$('import-file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());if(data.format!=='zeratta-catalog-local-v1'||typeof data.overrides!=='object'||Array.isArray(data.overrides))throw Error('Arquivo de backup inválido');const allowed=new Set(['before','after','price','cost','freight','notes','supplierSKU','sourceUrl']);const obj={};for(const [id,changes] of Object.entries(data.overrides)){if(!byId.has(id)||!changes||typeof changes!=='object')continue;obj[id]={};for(const [k,v] of Object.entries(changes))if(allowed.has(k)&&['string','number'].includes(typeof v))obj[id][k]=v}if(!confirm('Importar backup? As edições locais atuais serão substituídas.'))return;state.saved=obj;for(const [id,v] of Object.entries(obj)){if(Object.prototype.hasOwnProperty.call(v,'freight'))cloud.dirty[id]=Date.now();if(Object.prototype.hasOwnProperty.call(v,'price'))cloud.pricingDirty[id]=Date.now()}cloudPersistDirty();persist();render();toast('Backup restaurado. Conecte o GitHub para salvar os fretes.');cloudInit()}catch(err){alert('Não foi possível importar: '+err.message)}finally{e.target.value=''}});
 $('reset-data').addEventListener('click',()=>{if(!confirm('Limpar ajustes locais e retornar aos valores sincronizados da Shopify e aos dados registrados? Faça backup antes.'))return;state.saved={};cloud.dirty={};cloud.pricingDirty={};cloud.linkDirty={};cloudPersistDirty();persist();render();toast('Ajustes locais restaurados. Os fretes já sincronizados no GitHub permanecem.');cloudInit()});
 $('go-top').addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
-let bulkUndo=null;
-$('bulk-apply').addEventListener('click',()=>{
- const pct=validNum($('bulk-discount').value);
- if(pct===null||pct>100){$('bulk-pricing-status').textContent='Desconto inválido. Informe uma porcentagem entre 0% e 100%.';return}
- const selected=$('bulk-scope').value==='all'?PRODUCTS:getFilteredProducts();
- if(!selected.length){$('bulk-pricing-status').textContent='Nenhum produto corresponde ao filtro atual.';return}
- if(!confirm('Aplicar '+pct+'% de desconto a '+selected.length+' produtos? Os preços promocionais serão recalculados somente no catálogo, não na Shopify.'))return;
- bulkUndo=new Map(selected.map(p=>[p.id,structuredClone(state.saved[p.id]||{})]));
- for(const p of selected){const z=priceModel(p),s=(state.saved[p.id]||={});if(!(z.regular>0))continue;s.regularPrice=z.regular;s.discountPct=percentValue(pct);s.price=cents(z.regular*(1-s.discountPct/100));cloud.pricingDirty[p.id]=Date.now()}
- cloudPersistDirty();persist();render();if(cloud.token)cloudQueueSave(2000);
- $('bulk-undo').disabled=false;
- $('bulk-pricing-status').textContent='Desconto de '+pct+'% aplicado a '+selected.length+' produtos. '+(cloud.token?'Aguardando sincronização criptografada no GitHub.':'Salvo neste navegador; conecte o GitHub para sincronizar.');
-});
-$('bulk-undo').addEventListener('click',()=>{
- if(!bulkUndo)return;
- if(!confirm('Desfazer o último desconto aplicado em lote?'))return;
- for(const [id,before] of bulkUndo){state.saved[id]=before;cloud.pricingDirty[id]=Date.now()}
- cloudPersistDirty();persist();render();if(cloud.token)cloudQueueSave(2000);
- $('bulk-pricing-status').textContent='Último desconto em lote desfeito.';bulkUndo=null;$('bulk-undo').disabled=true;
-});
 for(const cat of [...new Set(PRODUCTS.map(p=>p.category))].sort()){const o=document.createElement('option');o.value=cat;o.textContent=cat;$('category').append(o)}
 $('count-all').textContent=PRODUCTS.length;$('count-new').textContent=PRODUCTS.filter(p=>p.origin==='Hoje').length;$('count-old').textContent=PRODUCTS.filter(p=>p.origin==='Anterior').length;$('count-links').textContent=PRODUCTS.filter(p=>p.sourceUrl).length;$('visible-total').textContent=' / '+PRODUCTS.length;
 load();render();cloudInit();
@@ -485,16 +430,11 @@ function finCalc(p,customCPA=null,customPrice=null,shippingModeOverride=null){
  const explicitCPA=customCPA??localCPAMap.get(p.id);
  const cpa=roundCents(explicitCPA??(financeState.cpaMode==='target'?targetCPA:stressCPA));
  const contribution=roundCents(beforeAds-cpa);
-  const regular=priceModel(p).regular;
- const regularDiscount=regular>0?roundCents(regular-sale):null;
- const actualDiscount=regular>0?100*(1-sale/regular):null;
- return {sale,regular,gross,regularDiscount,actualDiscount,productCost:cost,freight,customerShipping,duties,processor,tax,returns,chargebacks,fx,reserves,beforeAds,requiredContribution,maxCPA,breakEvenCPA,cpa,contribution,margin:gross>0?contribution/gross*100:null,stressCPA,stressContribution,stressMargin:gross>0?stressContribution/gross*100:null,targetCPA,targetContribution,targetMargin:gross>0?targetContribution/gross*100:null,ROAS:cpa>0?sale/cpa:null,breakEvenROAS:breakEvenCPA>0?sale/breakEvenCPA:null};
+  return {sale,gross,productCost:cost,freight,customerShipping,duties,processor,tax,returns,chargebacks,fx,reserves,beforeAds,requiredContribution,maxCPA,breakEvenCPA,cpa,contribution,margin:gross>0?contribution/gross*100:null,stressCPA,stressContribution,stressMargin:gross>0?stressContribution/gross*100:null,targetCPA,targetContribution,targetMargin:gross>0?targetContribution/gross*100:null,ROAS:cpa>0?sale/cpa:null,breakEvenROAS:breakEvenCPA>0?sale/breakEvenCPA:null};
 }
 function finTextRow(label,val,style=''){return '<div class="finline '+style+'"><span>'+esc2(label)+'</span><strong>'+esc2(val)+'</strong></div>'}
 function expenseDetail(v){
-  return finTextRow('Regular list price',money2(v.regular))+
-  finTextRow('Applied discount','− '+money2(v.regularDiscount),'debit')+
- finTextRow('Final product selling price',money2(v.sale),'credit')+
+  return finTextRow('Product selling price',money2(v.sale),'credit')+
  finTextRow('Customer shipping received','+ '+money2(v.customerShipping),'credit')+
  finTextRow('TOTAL CUSTOMER RECEIPTS',money2(v.gross),'fin-expense-total')+
  finTextRow('Supplier product cost','− '+money2(v.productCost),'debit')+
@@ -513,7 +453,7 @@ function expenseDetail(v){
  finTextRow('CPA break-even',money2(v.breakEvenCPA));
 }
 function financeMarkup(p){
-  if(priceModel(p).sale===null||priceModel(p).sale<=0)return '<div class="fin-status blocked">Preço promocional inválido ou zerado. Informe uma venda acima de US$ 0 para estimar a margem.</div>';
+  if(priceModel(p).sale===null||priceModel(p).sale<=0)return '<div class="fin-status blocked">Preço de venda inválido ou zerado. Informe um valor acima de US$ 0 para estimar a margem.</div>';
  const v=finCalc(p);
  if(!v)return '<div class="fin-status">Missing supplier cost or freight. Cannot calculate contribution.</div>';
   const live=Math.abs(v.sale-p.shopifyPublishedPrice)<.005;
@@ -529,8 +469,8 @@ function financeMarkup(p){
  '<div class="scenario-item '+(financeState.freeShipping?'active':'')+'"><span>Frete grátis · cliente paga US$ 0</span><strong class="'+(newShipping.contribution>=0?'positive':'negative')+'">'+money2(newShipping.contribution)+'</strong><span>Contribuição estimada · diferença '+(shippingDelta>0?'+':'')+money2(shippingDelta)+'</span></div></div></div>';
  const modeLabel=localCPAMap.has(p.id)?'Manually selected CPA simulation':financeState.cpaMode==='target'?'Scenario: calculated CPA ceiling':'Scenario: stress CPA configured above';
  return '<div class="finsummary" data-finance="'+p.id+'">'+
- '<div class="compare-preview"><span>Regular price · <s>'+money2(v.regular)+'</s></span><strong>'+money2(v.sale)+'</strong></div>'+
- '<div class="finance-note">'+(live?'Preço igual à captura Shopify; simulação local':'Preço promocional editado no catálogo, não publicado na Shopify')+' · desconto '+perc2(v.actualDiscount)+'</div>'+
+ '<div class="compare-preview"><strong>'+money2(v.sale)+'</strong></div>'+
+ '<div class="finance-note">'+(live?'Preço equivalente ao valor capturado na Shopify.':'Preço do catálogo, ainda não publicado na Shopify.')+'</div>'+
  '<div class="finance-grid">'+
  '<div class="fin-cell"><label>Product + supplier shipping</label><b>'+money2(v.productCost+v.freight)+'</b></div>'+
  '<div class="fin-cell"><label>Customer receipts incl. shipping</label><b>'+money2(v.gross)+'</b></div>'+
@@ -545,7 +485,7 @@ function financeMarkup(p){
  '</div>'+
  '<div class="profit-line '+(profitPositive?'':'negative-bg')+'"><div><small>ESTIMATED CONTRIBUTION · '+esc2(modeLabel)+'</small><strong data-main-profit="'+p.id+'">'+money2(v.contribution)+'</strong></div><strong data-main-margin="'+p.id+'" style="font-size:13px">'+perc2(v.margin)+'</strong></div>'+
  '<div class="finance-note">'+esc2(capText)+'. O CPA é hipotético, não medido no Google Ads. A contribuição após CPA não equivale ao lucro contábil líquido.</div>'+
- '<details class="scenario-panel"><summary>Full calculation · selling price, discount, costs, taxes & CPA</summary>'+expenseDetail(v)+
+ '<details class="scenario-panel"><summary>Full calculation · selling price, costs, taxes & CPA</summary>'+expenseDetail(v)+
  '<div class="row-sim"><label>Per-product CPA simulation <output data-localcpa="'+p.id+'">'+money2(v.cpa)+'</output></label>'+
  '<input type="range" min="0" max="120" step="0.05" value="'+v.cpa+'" data-cpa-range="'+p.id+'" aria-label="Simulate the CPA used for this product"></div>'+
  '<div class="simvals" data-localresult="'+p.id+'">Contribution at CPA '+money2(v.cpa)+': <strong class="'+(profitPositive?'positive':'negative')+'">'+money2(v.contribution)+'</strong> · margin '+perc2(v.margin)+'</div>'+
@@ -569,7 +509,7 @@ function refreshFinanceDashboard(){
   const label=financeState.freeShipping?'FRETE GRÁTIS EM TODOS OS PEDIDOS':'CENÁRIO DE FRETE HISTÓRICO';
   summary.innerHTML='<strong>Cenário ativo: '+label+'</strong>. '+eligibleBelow99+' produtos elegíveis simulados abaixo de US$ 99 (a política atual cobraria US$ 6,95 em compras unitárias). Os valores de contribuição, taxas e CPA são recalculados instantaneamente. Esta simulação não representa lucro líquido real nem previsão de pedidos.';
  }
- '<div class="finance-mini"><label>Produtos com margem calculável</label><strong>'+data.length+'</strong><div class="mini-sub">Requer preço promocional acima de zero, custo e frete informados</div></div>'+
+ '<div class="finance-mini"><label>Produtos com margem calculável</label><strong>'+data.length+'</strong><div class="mini-sub">Requer preço de venda acima de zero, custo e frete informados</div></div>'+
  '<div class="finance-mini"><label>CPA ceilings above $0</label><strong>'+viableGoal+'/'+data.length+'</strong><div class="mini-sub">Theoretical CPA thresholds, NOT achieved CPA</div></div>'+
  '<div class="finance-mini"><label>Products negative at stress CPA</label><strong class="'+(negativeStress>0?'negative':'positive')+'">'+negativeStress+'/'+data.length+'</strong><div class="mini-sub">Current stress inputs: jackets '+money2(financeState.cpaOuter)+' / hoodies '+money2(financeState.cpaHoodie)+'</div></div>'+
  '<div class="finance-mini"><label>Negative in selected scenario</label><strong class="'+(negativeCurrent>0?'negative':'positive')+'">'+negativeCurrent+'/'+data.length+'</strong><div class="mini-sub">Mode: '+(financeState.cpaMode==='target'?'calculated goal threshold':'stress CPA')+'; product overrides may apply</div></div>';
@@ -628,9 +568,9 @@ document.getElementById('items').addEventListener('click',e=>{
 });
 const priorExport=exportCSV;
 exportCSV=function(){
- const headers=['#','Shopify Product ID','Product','EPROLO URL','Shopify Admin URL','Price Status','Price Regular','Discount Amount','Promotional Sale Price','Discount %','Shipping Scenario','Customer Shipping','Customer Receipts','Supplier Product','Supplier Shipping','Delivered Cost','Customs scenario','Processing fees','Brazil tax reserve','Returns reserve','Chargebacks reserve','FX reserve','Other variable reserve','Contribution Before Ads','CPA ceiling for minimum contribution and margin','Contribution at CPA ceiling','Margin at CPA ceiling %','Stress CPA assumed','Contribution at Stress CPA','Margin at Stress CPA %','CPA selected for main panel','Contribution at selected CPA','Margin at selected CPA %','CPA break even','Cost / rate verification'];
+ const headers=['#','Shopify Product ID','Product','EPROLO URL','Shopify Admin URL','Price Status','Selling Price','Shipping Scenario','Customer Shipping','Customer Receipts','Supplier Product','Supplier Shipping','Delivered Cost','Customs scenario','Processing fees','Brazil tax reserve','Returns reserve','Chargebacks reserve','FX reserve','Other variable reserve','Contribution Before Ads','CPA ceiling for minimum contribution and margin','Contribution at CPA ceiling','Margin at CPA ceiling %','Stress CPA assumed','Contribution at Stress CPA','Margin at Stress CPA %','CPA selected for main panel','Contribution at selected CPA','Margin at selected CPA %','CPA break even','Cost / rate verification'];
  const rows=[headers];
- for(const p of PRODUCTS){const v=finCalc(p);rows.push([p.number,p.id,p.shopTitle,p.sourceUrl,p.adminUrl,p.pricingStatus,priceModel(p).regular,v?.regularDiscount??'',priceModel(p).sale,priceModel(p).discount,financeState.freeShipping?'Free shipping on all orders':'$6.95 under $99',v?.customerShipping??'',v?.gross??'',v?.productCost??'',v?.freight??'',v?roundCents(v.productCost+v.freight):'',v?.duties??'',v?.processor??'',v?.tax??'',v?.returns??'',v?.chargebacks??'',v?.fx??'',v?.reserves??'',v?.beforeAds??'',v?.maxCPA??'',v?.targetContribution??'',v?.targetMargin??'',v?.stressCPA??'',v?.stressContribution??'',v?.stressMargin??'',v?.cpa??'',v?.contribution??'',v?.margin??'',v?.breakEvenCPA??'','Estimates only. Product shipping and Brazilian taxation have not been fully verified.']);}
+ for(const p of PRODUCTS){const v=finCalc(p);rows.push([p.number,p.id,p.shopTitle,p.sourceUrl,p.adminUrl,p.pricingStatus,priceModel(p).sale,financeState.freeShipping?'Free shipping on all orders':'$6.95 under $99',v?.customerShipping??'',v?.gross??'',v?.productCost??'',v?.freight??'',v?roundCents(v.productCost+v.freight):'',v?.duties??'',v?.processor??'',v?.tax??'',v?.returns??'',v?.chargebacks??'',v?.fx??'',v?.reserves??'',v?.beforeAds??'',v?.maxCPA??'',v?.targetContribution??'',v?.targetMargin??'',v?.stressCPA??'',v?.stressContribution??'',v?.stressMargin??'',v?.cpa??'',v?.contribution??'',v?.margin??'',v?.breakEvenCPA??'','Estimates only. Product shipping and Brazilian taxation have not been fully verified.']);}
  download('ZERATTA_Financial_Pricing_Corrected_2026-11-01.csv','\ufeff'+rows.map(row=>row.map(csvEncode).join(';')).join('\r\n'),'text/csv;charset=utf-8');
 };
 $('export-csv').removeEventListener('click',priorExport);
