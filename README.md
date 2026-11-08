@@ -7,9 +7,9 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 ## Estrutura atual
 
 - `index.html`: interface do catálogo com preço normal, desconto e preço promocional, simulação financeira, senha visual de entrada e sincronização.
-- `data/products.js`: cadastro dos **100 produtos** (não criptografado). Mantém a constante `window.ZERATTA_PRODUCTS`.
+- `data/products.js`: cadastro dos **122 produtos** (não criptografado). Mantém a constante `window.ZERATTA_PRODUCTS`.
 - `data/freights.json`: fretes individuais e links EPROLO, com suas datas de atualização (não criptografado).
-- `data/pricing.json`: preços de referência, percentuais de desconto e preços finais de venda por Shopify Product ID, com 100 registros. Formato por item: `{ "regularPrice": 149.90, "discountPct": 40.03, "salePrice": 89.90, "pricingUpdatedAt": 1794095764612 }` (não criptografado). Preços normais de simulação não comprovam histórico real de vendas.
+- `data/pricing.json`: preços de referência, percentuais de desconto e preços finais de venda por Shopify Product ID, com 122 registros. Formato por item: `{ "regularPrice": 149.90, "discountPct": 40.03, "salePrice": 89.90, "pricingUpdatedAt": 1794095764612 }` (não criptografado). Preços normais de simulação não comprovam histórico real de vendas.
 - `.github/workflows/pages.yml`: publica os quatro arquivos acima no GitHub Pages após commits na `main`.
 - `data/freights.enc.json`: **arquivo histórico criptografado**, preservado apenas para recuperação; a aplicação atual não o utiliza.
 - `scripts/encrypt_catalog.py`: utilitário histórico, **não utilizar** nesta versão. Não existe mais payload criptografado no `index.html`.
@@ -24,11 +24,20 @@ Os campos de preços são **simulações financeiras**; eles não alteram automa
 
 ## Preços e descontos de simulação restaurados
 
-- 100 produtos preservados com o mesmo preço de venda e com campos para referência e desconto. Dos 100, 98 têm descontos de simulação restaurados e 2 estão sem desconto.
-- Os preços finais de todos os 100 produtos foram preservados. As referências e descontos de 90 produtos vieram da versão aprovada antes da remoção dos descontos; nos outros 10, foram utilizados os preços de referência da captura Shopify quando disponíveis.
-- 92 fretes individuais preservados; 8 continuam sem frete cadastrado e sem contribuição calculável.
-- Para os 92 produtos com custos e frete, o cenário padrão mantém CPA de US$ 40, processamento estimado de 6,1% + US$ 0,30 e contribuição média estimada de US$ 12,53. Impostos efetivos e outros custos não confirmados não estão incluídos por padrão.
+- Os 100 produtos anteriores foram preservados. Foram importados 22 novos suéteres por Shopify Product ID, totalizando 122 produtos. Os 98 descontos antigos foram mantidos; os 22 suéteres novos foram cadastrados com desconto 0%, pois não há preço de referência válido na Shopify.
+- Os preços finais dos 100 produtos anteriores foram preservados. As referências e descontos de 90 produtos vieram da versão aprovada antes da remoção dos descontos; nos outros 10, foram utilizados os preços de referência da captura Shopify quando disponíveis.
+- 92 fretes individuais preservados; 30 produtos estão sem cotação EPROLO cadastrada (8 anteriores e 22 suéteres novos). Os 22 suéteres também aguardam correspondência exata com links de produto da EPROLO.
+- Para os 92 produtos com custos e frete, o cenário padrão mantém CPA de US$ 40, processamento estimado de 6,1% + US$ 0,30 e contribuição média estimada de US$ 12,53. Não é possível apurar a contribuição dos 22 suéteres sem frete confirmado. Impostos efetivos e outros custos não confirmados não estão incluídos por padrão.
 - Nenhum preço da Shopify é alterado automaticamente pelo catálogo. A restauração dos descontos modifica somente os dados e a interface deste painel; não anunciar referências fictícias como promoções reais no Google Shopping.
+
+## Importação de suéteres em 07/11/2026
+
+- 22 suéteres foram importados diretamente da Shopify por Product ID, todos ACTIVE.
+- Cada registro contém título Shopify atual, título de origem ainda não confirmado junto à EPROLO, imagem, URL pública da Shopify, link do Admin, preço por variante e custo unitário da Shopify consultado em **todas as variantes**.
+- A categoria `Sweaters` aparece automaticamente no filtro do catálogo.
+- Sem associação EPROLO comprovada, o link do fornecedor foi deixado em branco; frete EPROLO para EUA também permanece em branco.
+- Não foram criados descontos fictícios nem alterados preços na Shopify. O catálogo continua sendo uma simulação financeira.
+- O total ficou em **122 produtos**, com **44 ACTIVE**, **78 DRAFT**, **92 vínculos EPROLO preenchidos**, **30 vínculos pendentes**, **92 fretes cadastrados** e **30 fretes pendentes**.
 
 ## Aviso de segurança
 
