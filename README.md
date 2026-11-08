@@ -33,11 +33,13 @@ Os campos de preços são **simulações financeiras**; eles não alteram automa
 ## Importação de suéteres em 07/11/2026
 
 - 22 suéteres foram importados diretamente da Shopify por Product ID, todos ACTIVE.
-- Cada registro contém título Shopify atual, título de origem ainda não confirmado junto à EPROLO, imagem, URL pública da Shopify, link do Admin, preço por variante e custo unitário da Shopify consultado em **todas as variantes**.
+- Cada registro contém título Shopify atual, título de origem inferido do slug do produto EPROLO, imagem, URL pública da Shopify, link do Admin, preço por variante e custo unitário da Shopify consultado em **todas as variantes**.
 - A categoria `Sweaters` aparece automaticamente no filtro do catálogo.
-- Sem associação EPROLO comprovada, o link do fornecedor foi deixado em branco; frete EPROLO para EUA também permanece em branco.
+- Os 22 produtos foram associados às URLs exatas informadas pelo usuário e conferidos por título, cores e características nas páginas EPROLO e na Shopify. Os vínculos estão em `data/products.js` e `data/freights.json`. O frete EPROLO para EUA permanece em branco até cotação real.
 - Não foram criados descontos fictícios nem alterados preços na Shopify. O catálogo continua sendo uma simulação financeira.
-- O total ficou em **122 produtos**, com **44 ACTIVE**, **78 DRAFT**, **92 vínculos EPROLO preenchidos**, **30 vínculos pendentes**, **92 fretes cadastrados** e **30 fretes pendentes**.
+- O total ficou em **122 produtos**, com **44 ACTIVE**, **78 DRAFT**, **114 vínculos EPROLO preenchidos**, **8 vínculos pendentes**, **92 fretes cadastrados** e **30 fretes pendentes**.
+
+- Dos 24 links EPROLO enviados, dois ainda não correspondem a nenhum produto identificado na Shopify: [suéter masculino color-block](https://eprolo.com/app/product/mens-casual-old-money-style-color-block-lapel-collar-sweater) e [suéter feminino com botões](https://eprolo.com/app/product/european-and-american-style-knit-button-sweater-women-solid-color-polo-collar-casual-fashionable-womens-clothing). Nenhum dos dois foi vinculado a outro produto por aproximação.
 
 ## Aviso de segurança
 
