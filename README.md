@@ -14,6 +14,17 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 - `data/freights.enc.json`: **arquivo histórico criptografado**, preservado apenas para recuperação; a aplicação atual não o utiliza.
 - `scripts/encrypt_catalog.py`: utilitário histórico, **não utilizar** nesta versão. Não existe mais payload criptografado no `index.html`.
 
+
+## Cenário Reino Unido com frete hipotético uniforme | 08/11/2026
+
+- A interface do catálogo (publicada pela branch `main`) mostra uma simulação de custo logístico de **US$ 12 por produto** para **todos os 122 produtos**, incluindo os 30 sem frete real cadastrado.
+- Esta é uma **hipótese somente financeira**. O campo editável de frete histórico e o arquivo `data/freights.json` mantêm os 92 valores históricos e os 30 fretes ausentes. Nenhum frete real foi alterado ou inventado.
+- Há um novo cartão **UK** por produto, com preço hipotético em **GBP**, VAT de 20% retirado do preço bruto, Stripe de 6,1% mais US$ 0,30 por pedido, câmbio de £0,75 por USD com 3% de folga e rentabilidade em cenários de CPA US$ 35/40.
+- Os preços UK são calculados para mirar 22% de margem numa compra de 1 unidade com CPA US$ 35 e preservar pelo menos 19% nos bundles de 1/2/3/4+ peças ao CPA US$ 40, sob as hipóteses do modelo (0%, 10%, 20%, 30% de desconto, respectivamente).
+- Ao exportar CSV no próprio catálogo, novas colunas UK exibem o frete hipotético, VAT, taxa de processamento, preços, lucro e margem. O preço de venda da Shopify e o arquivo `data/pricing.json` **não são alterados**.
+- **Atenção:** o painel antigo de análise em USD continua identificado como histórico e não calcula o VAT UK. Para a simulação britânica, use o novo cartão GBP. Custos de frete real UK, duties, desembaraço, devoluções, impostos sobre lucros, taxa Stripe contratual e câmbio de execução não foram confirmados.
+- Em remessas acima de £135, a legislação de VAT e alfândega pode diferir; verificar o responsável pela importação e taxas extras antes de usar a simulação como preço final.
+
 ## Atualizações rápidas
 
 Para alterar preços, referências de simulação ou descontos, edite `data/pricing.json`. Para alterar somente fretes e links EPROLO, edite `data/freights.json`. Para alterar a lista de produtos ou títulos sincronizados, edite `data/products.js`. Não precisa reconstruir o catálogo nem realizar etapas de criptografia. Um commit em `main` inicia a publicação. Os preços de referência (`compare-at`) da Shopify permanecem em `data/products.js`. A estrutura de descontos restaurada é uma simulação interna, não a comprovação de uma promoção válida na Shopify.
