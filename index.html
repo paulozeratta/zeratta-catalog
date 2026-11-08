@@ -178,6 +178,8 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
 <section class="pricing-controls" aria-label="Simulador financeiro global">
 <div class="section-title"><h2>Preços finais UK em £ · custos em US$</h2><small>Preços de venda VAT incluso · simulação</small></div>
 <p><strong>IMPORTANTE:</strong> o CPA máximo exibido é calculado para atingir a meta de contribuição, não é o CPA real da campanha. Por padrão, a contribuição principal usa o <strong>CPA de estresse configurado por categoria</strong>, nunca o CPA teto calculado. O painel histórico em USD usa CPA de US$ 40 por pedido; os novos cartões UK calculam cenários de US$ 35 e US$ 40 por pedido, independentemente dos sliders históricos. O frete de fornecedor é fixado hipoteticamente em US$ 12 para os dois cálculos. Alíquotas, tarifas e fretes ainda precisam ser confirmados. Nenhum resultado representa lucro líquido real.</p>
+<div id="uk-pricing-summary" class="finance-dashboard" aria-live="polite"></div>
+<details class="legacy-finance"><summary>Mostrar controles e análise histórica em USD (sem VAT UK)</summary>
 <div class="shipping-scenario" aria-label="Simular frete cobrado do cliente">
   <div class="shipping-scenario-head">SIMULAR FRETE AO CLIENTE</div>
   <div class="shipping-choice-row" role="radiogroup" aria-label="Cenário de frete do cliente">
@@ -189,6 +191,7 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
 </div>
 <div class="mode-row"><label for="cpa-mode">CPA usado no resultado principal</label><select id="cpa-mode"><option value="stress">CPA de estresse configurado (padrão)</option><option value="target">Teto calculado para a meta (simulação)</option></select><span>Os sliders de CPA de jackets e hoodies alteram o cenário de estresse.</span></div><div class="slidergrid" id="global-sliders"></div><div id="finance-dashboard" class="finance-dashboard" aria-live="polite"></div>
 <div class="banner-risk"><strong>Preços e frete:</strong> os preços da Shopify foram capturados em 07/11/2026. Preços normais e promocionais editados neste painel são cenários internos, não preços publicados na loja. Os cálculos usam sempre o preço promocional do card. O frete real para o Reino Unido precisa ser cotado por produto/variante. Para simular, todos os produtos usam US$ 12,00 de frete; isso não é uma cotação EPROLO. O painel histórico em USD não representa a margem UK porque não calcula VAT britânico. Os controles financeiros são simulações e não alteram produtos na Shopify.</div>
+</details>
 </section>
 
  <section class="cloud-sync" aria-label="Salvamento permanente de fretes e preços">
@@ -520,13 +523,29 @@ function ukSimModel(p){
  const price=ukPriceRoundUp(Math.max(...floors));
  return {costUSD:cost,totalUSD,price,expected:ukScenario(totalUSD,price,1,0,UK_SIM.cpaExpectedUSD),stress:ukScenario(totalUSD,price,1,0,UK_SIM.cpaStressUSD),bundles:tiers.slice(1).map(([n,d])=>({items:n,discount:d,expected:ukScenario(totalUSD,price,n,d,UK_SIM.cpaExpectedUSD),stress:ukScenario(totalUSD,price,n,d,UK_SIM.cpaStressUSD)}))};
 }
+function refreshUKPricingSummary(){
+ const root=document.getElementById('uk-pricing-summary');if(!root)return;
+ const vals=PRODUCTS.map(ukSimModel).filter(Boolean), count=vals.length;
+ if(!count){root.innerHTML='<p>Preço UK indisponível até cadastrar custos.</p>';return;}
+ const avg=k=>vals.reduce((sum,v)=>sum+k(v),0)/count;
+ const min=Math.min(...vals.map(v=>v.price)),max=Math.max(...vals.map(v=>v.price));
+ const fmtPct=v=>v.toFixed(2)+'%';
+ const cards=[
+  ['Preço final UK · menor',GBP(min),'VAT incluso; frete hipotético US$ 12'],
+  ['Preço final UK · maior',GBP(max),'VAT incluso; frete hipotético US$ 12'],
+  ['Margem média · CPA US$ 35',fmtPct(avg(v=>v.expected.margin)),'Venda individual, receita sem VAT'],
+  ['Margem média · CPA US$ 40',fmtPct(avg(v=>v.stress.margin)),'Venda individual, receita sem VAT'],
+  ['Produtos simulados',count+' / '+PRODUCTS.length,'Preço final para o cliente em GBP']
+ ];
+ root.innerHTML=cards.map(([label,value,note])=>'<div class="finance-mini"><label>'+label+'</label><strong>'+value+'</strong><div class="mini-sub">'+note+'</div></div>').join('');
+}
 function ukSimMarkup(p){
  const m=ukSimModel(p);
  if(!m)return '<div class="uk-sim-card">Custo do produto ausente para simulação UK.</div>';
  const v=m.expected,s=m.stress,b=m.bundles[2].stress;
  const bundleRows=m.bundles.map(k=>'<div class="uk-bundle-row"><span>'+k.items+' peças (−'+Math.round(k.discount*100)+'%)</span><strong>'+GBP(k.items*m.price*(1-k.discount))+'</strong><small>VAT '+GBP(k.expected.vatGBP)+' · Margem CPA US$40 '+perc2(k.stress.margin)+'</small></div>').join('');
  return '<section class="uk-sim-card" aria-label="Simulação UK em libras">'+
-  '<div class="uk-sim-title">PREÇO FINAL PARA O CLIENTE · GBP · VAT INCLUSO · SIMULAÇÃO</div>'+
+  '<div class="uk-sim-title">PREÇO FINAL PARA O CLIENTE · GBP (£) · VAT INCLUSO · SIMULAÇÃO</div>'+
   '<div class="uk-sim-price">'+GBP(m.price)+'</div>'+
   '<div class="uk-sim-caption">Preço com VAT. Produto '+money2(m.costUSD)+' + frete HIPOTÉTICO US$ 12,00. Câmbio simulado £0,7725 por US$1. Não é preço publicado.</div>'+
   '<div class="uk-sim-mini"><div><span>VAT no preço (20%)</span><strong>'+GBP(v.vatGBP)+'</strong></div><div><span>Stripe estimada (6,1% + fixo)</span><strong>'+GBP(v.processorGBP)+'</strong></div>'+
@@ -656,7 +675,7 @@ function refreshFinanceDashboard(){
  '<div class="finance-mini"><label>Negative in selected scenario</label><strong class="'+(negativeCurrent>0?'negative':'positive')+'">'+negativeCurrent+'/'+data.length+'</strong><div class="mini-sub">Mode: '+(financeState.cpaMode==='target'?'calculated goal threshold':'stress CPA')+'; product overrides may apply</div></div>';
 }
 const priorRender=render;
-render=function(){priorRender();augmentFinance();refreshFinanceDashboard()};
+render=function(){priorRender();augmentFinance();refreshFinanceDashboard();refreshUKPricingSummary()};
 const priorUpdateTotals=updateTotals;
 updateTotals=function(){priorUpdateTotals();refreshAllFinance()};
 function refreshProductFinance(id){
@@ -666,7 +685,7 @@ function refreshProductFinance(id){
 }
 function refreshAllFinance(){
  document.querySelectorAll('[data-fin-wrapper]').forEach(e=>{const p=byId.get(e.dataset.finWrapper);if(p)e.innerHTML=financeMarkup(p)});
- refreshFinanceDashboard();
+ refreshFinanceDashboard();refreshUKPricingSummary();
 }
 buildSliders();
 document.querySelectorAll('input[name="shipping-scenario"]').forEach(radio=>radio.addEventListener('change',e=>{
