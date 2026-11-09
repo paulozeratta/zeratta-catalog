@@ -593,13 +593,13 @@ function refreshUKPricingSummary(){
   ['Produtos na faixa £69–99,90',inRange+' / '+count,(count-inRange)+' fora da faixa; novos podem não ter sido reprecificados']
  ];
  root.innerHTML=cards.map(([label,value,note])=>'<div class="finance-mini"><label>'+label+'</label><strong>'+value+'</strong><div class="mini-sub">'+note+'</div></div>').join('')+
-  '<div class="finance-warning"><strong>Modelo UK:</strong> margem estimada sobre o preço final com VAT incluído. Somente 100 produtos anteriores foram reprecificados; 37 novos mantêm preço Shopify importado. CPA £25 por pedido (~US CPA £25 por pedido (~US$'+(UK_SIM.cpaBaseGBP/UK_SIM.fx).toFixed(2)+' na conta Google Ads), frete hipotético £8,10/peça, Stripe provisória 4,58%, VAT reservado 20%. Bundles: 2 itens 10%, 3 itens 15%, 4+ itens 25%. Os descontos alteram as margens e não estão limitados a 25%; VAT/importação acima de £135 e despesas adicionais exigem validação. O campo GBP por produto pode simular um valor manual sem atualizar automaticamente a Shopify.</div>';
+  '<div class="finance-warning"><strong>Modelo UK:</strong> margem estimada sobre o preço final com VAT incluído. Somente 100 produtos anteriores foram reprecificados; 37 novos mantêm preço Shopify importado. CPA £25 por pedido (~US$'+(UK_SIM.cpaBaseGBP/UK_SIM.fx).toFixed(2)+' na conta Google Ads), frete hipotético £8,10/peça, Stripe provisória 4,58%, VAT reservado 20%. Bundles: 2 itens 10%, 3 itens 15%, 4+ itens 25%. Os descontos alteram as margens e não estão limitados a 25%; VAT/importação acima de £135 e despesas adicionais exigem validação. O campo GBP por produto pode simular um valor manual sem atualizar automaticamente a Shopify.</div>';
 }
 function ukSimMarkup(p){
  const m=ukSimModel(p);
  if(!m)return '<div class="uk-sim-card">Custo do produto ausente para simulação UK.</div>';
  const v=m.expected,s=m.stress,b=m.bundles[2].expected;
- const rangeNote=m.suggestedPrice>UK_SIM.targetMaxGBP?'EXCEÇÃO: preço '+GBP(m.price)+' acima da faixa £69–99,90 para preservar a margem.':'Dentro da faixa £69–99,90.';
+ const rangeNote=p.origin==='Novo'?('PREÇO IMPORTADO DA SHOPIFY: '+GBP(m.price)+'. Preço sugerido pelo modelo de 20,69%: '+GBP(m.suggestedPrice)+'. Nenhuma alteração feita na Shopify nesta sincronização.'):(m.price>UK_SIM.targetMaxGBP?'Preço publicado '+GBP(m.price)+' acima da faixa £69–99,90 para preservar a margem.':'Dentro da faixa £69–99,90.');
  const bundleRows=m.bundles.map(k=>{
   const intrinsic=k.expected.intrinsicGBP,threshold=intrinsic<=135?'Até £135':'ACIMA DE £135 · possível importação';
   return '<div class="uk-bundle-row"><span>'+k.items+' peças (−'+Math.round(k.discount*100)+'%)</span><strong>'+GBP(k.expected.gross)+'</strong><small>VAT reservado '+GBP(k.expected.vatGBP)+' · mercadorias sem VAT '+GBP(intrinsic)+' · CPA £25/pedido · lucro '+GBP(k.expected.contribution)+' · margem sobre a venda '+perc2(k.expected.margin)+' · '+threshold+'</small></div>';
