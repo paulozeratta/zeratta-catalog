@@ -133,6 +133,13 @@
 .uk-bundle-row span,.uk-bundle-row strong{font-size:11px}
 .uk-bundle-row small{grid-column:1/-1;color:#655e60;font-size:10px}
 </style>
+<style id="zeratta-calculator-navigation">
+.zeratta-catalog-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.zeratta-calculator-link{display:inline-flex;align-items:center;justify-content:center;gap:14px;border:1px solid #e9e0e0;background:#fff;color:#1a0709;padding:13px 17px;border-radius:6px;font-size:12px;font-weight:700;line-height:1.25;transition:background .18s ease,transform .18s ease}
+.zeratta-calculator-link:hover{background:#f0eaea;transform:translateY(-1px)}
+.zeratta-calculator-link span{font-size:16px;line-height:1}
+@media print{.zeratta-catalog-nav{display:none}}
+</style>
 <style id="zeratta-access-css">
 body:not(.zeratta-unlocked)>*:not(#zeratta-access-gate){visibility:hidden!important}
 #zeratta-access-gate{position:fixed;inset:0;z-index:2147483647;background:#ececec;display:flex;align-items:center;justify-content:center;font-family:Arial,sans-serif;color:#1a0709;padding:24px}
@@ -159,6 +166,7 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
  <div class="topline"><div class="eyebrow">Zeratta / Operações / Central de Produtos</div><div class="topdate">Preços Shopify UK sincronizados · 09 NOV 2026</div></div>
  <h1>Catálogo e simulador de rentabilidade</h1>
  <p>100 produtos ativos e 1.606 variantes reprecificados na Shopify, com preços de venda em GBP. A meta é aproximadamente 20,69% de lucro operacional estimado sobre o preço pago pelo cliente, após reserva de VAT, CPA de £25 e despesas estimadas. Custos numéricos dos produtos são tratados como USD por orientação da Zeratta e convertidos a GBP. O frete de £8,10 por peça é uma hipótese uniforme e não uma cotação individual EPROLO. Preços já alterados na Shopify; o painel permite simulações manuais sem publicar alterações adicionais.</p>
+ <nav class="zeratta-catalog-nav" aria-label="Ferramentas do catálogo"><a class="zeratta-calculator-link" href="precificacao/">Calculadora de precificação <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main class="wrap">
  <section class="metrics" aria-label="Indicadores do catálogo">
