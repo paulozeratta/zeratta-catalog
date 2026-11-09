@@ -3,19 +3,95 @@
   "items": {
     "15578346193184": {
       "value": 14.2,
-      "updatedAt": 1794056778419
+      "updatedAt": 1794056778419,
+      "ukQuotes": [
+        {
+          "shippingUSD": 11.37,
+          "shippingGBP": 8.51,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 4,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15578345865504": {
       "value": 13.69,
-      "updatedAt": 1794056786954
+      "updatedAt": 1794056786954,
+      "ukQuotes": [
+        {
+          "shippingUSD": 10.1,
+          "shippingGBP": 7.56,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 49,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15578345439520": {
       "value": 22.71,
-      "updatedAt": 1794056796695
+      "updatedAt": 1794056796695,
+      "ukQuotes": [
+        {
+          "shippingUSD": 17.94,
+          "shippingGBP": 13.43,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 15,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15578342981920": {
       "value": 13.4,
-      "updatedAt": 1794056804166
+      "updatedAt": 1794056804166,
+      "ukQuotes": [
+        {
+          "shippingUSD": 10.83,
+          "shippingGBP": 8.11,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 24,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15578342883616": {
       "value": 14.94,
@@ -367,7 +443,26 @@
     },
     "15578344653088": {
       "value": 13.4,
-      "updatedAt": 1794064455675
+      "updatedAt": 1794064455675,
+      "ukQuotes": [
+        {
+          "shippingUSD": 9.76,
+          "shippingGBP": 7.31,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 4,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15589744378144": {
       "ukQuotes": [
@@ -865,6 +960,48 @@
           ],
           "quotedOn": "2026-11-09",
           "variantsChecked": 30,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15589713281312": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 16.92,
+          "shippingGBP": 12.66,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 36,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15589713314080": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 15.94,
+          "shippingGBP": 11.93,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 20,
           "fx": {
             "usdPerGbp": 1.336,
             "date": "2026-11-06",
