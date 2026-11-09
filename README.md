@@ -29,31 +29,28 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 
 ## Conferência dos links EPROLO | 09/11/2026
 
-- **122 de 137 produtos com link EPROLO associado**, sem URLs repetidas entre os registros.
-- **26 links adicionados nas duas últimas rodadas:** 20 recuperados e conferidos por correspondência de títulos Shopify/EPROLO (18 fornecidos pelo lojista, 2 encontrados na web) e outros 6 confirmados por registros históricos da Zeratta no Google Drive, incluindo a jaqueta `Women Winter PU Leather Short Stand Collar Puffer` e 5 peças anteriores (fleece hoodie, puffer cropped, jaqueta sintética cropped, puffer com capuz e bomber de couro). Cada vínculo gravado foi conferido contra descrição, opções de cor e tamanhos quando disponíveis.
-- **15 produtos sem URL exata identificada**: 12 da importação nova e 3 anteriores. A busca pública, arquivos históricos e consultas à Shopify não fornecem vínculo verificável para esses itens. Para completar 100% sem inventar links será necessário consultar os produtos importados na conta EPROLO (import list / products) ou obter um export com os links reais.
-- **URL recebida e ainda não atribuída:** `https://eprolo.com/app/product/womens-mid-length-padded-puffer-jacket-loose-fit-thickened-winter-quilted-coat-plus-size`. É uma página válida, mas o produto não apresentou correspondência segura com os títulos/variantes catalogados; não forçar vínculo.
-- **Sem alteração de preços Shopify e fretes** durante esta revisão de fornecedores.
+- **127 de 137 produtos com link EPROLO vinculado** (92,70%); 10 sem URL confirmada. Não há links EPROLO duplicados ou Shopify Product IDs duplicados.
+- **Cinco URLs verificadas nesta retomada**: Little Chanel White Hooded Waist-Cinching Puffer, Men's Plush Cotton Fabric Jacket, Women's Style Short Stand Collar Quilted Puffer, Women's Short Warm Puffer with Fur Collar e Women's Cropped Hooded Puffer (nome editorial Zeratta). As correspondências foram confirmadas por descrição, tamanhos, cores, custos e/ou medidas.
+- **10 vínculos pendentes**: 8 da importação de 09/11 e 2 produtos anteriores. Busca pública na EPROLO, variantes Shopify e arquivos históricos no Google Drive foram consultados, mas as URLs candidatas restantes não conferiram em descrição, cores ou tamanhos. Não inventar URLs a partir de nomes/handles da Shopify, que em geral redirecionam para login na EPROLO.
+- **URL válida enviada pelo lojista mas sem vínculo seguro**: `https://eprolo.com/app/product/womens-mid-length-padded-puffer-jacket-loose-fit-thickened-winter-quilted-coat-plus-size`. Seus detalhes não correspondem inequivocamente a nenhum produto ainda pendente.
+- **Próximo passo para conclusão**: exportar `My Products`/`Imported Products` da conta EPROLO com Product ID e link real, ou abrir EPROLO autenticada em ChatGPT Work. A navegação automatizada pública via TinyFish ficou bloqueada por saldo insuficiente do serviço; pesquisas públicas adicionais não trouxeram correspondência confiável para os 10.
+- Preços, fretes e produtos da Shopify não foram alterados nesta conferência de fornecedores.
 
-### Registros restantes sem link EPROLO
+### Produtos que ainda precisam de URL EPROLO
 
-| Shopify Product ID | Título Shopify | Origem |
+| Shopify Product ID | Produto | Origem |
 | --- | --- | --- |
 | [15589739594016](https://admin.shopify.com/store/testezeratta/products/15589739594016) | Autumn and winter cotton jacket, unisex cotton jacket, leather jacket, bread jacket, high-quality thickened cotton jacket | Importação 09/11 |
 | [15589739528480](https://admin.shopify.com/store/testezeratta/products/15589739528480) | Knitted cotton jacket versatile jacket | Importação 09/11 |
-| [15589738316064](https://admin.shopify.com/store/testezeratta/products/15589738316064) | Men's jacket with plush cotton fabric, casual jacket, men's jacket | Importação 09/11 |
 | [15589736579360](https://admin.shopify.com/store/testezeratta/products/15589736579360) | Winter New Thickened Casual Down Coat For Women Winter Women's Coat Women's Puffer Warm Clothes For Women Hot Clothes For Women | Importação 09/11 |
-| [15589735563552](https://admin.shopify.com/store/testezeratta/products/15589735563552) | Little Chanel White Hooded Waist-Cinching Thickened Puffer Coat for Women | Importação 09/11 |
-| [15589733073184](https://admin.shopify.com/store/testezeratta/products/15589733073184) | Women's Style Down Cotton Puffer Jacket, Short Stand Collar Quilted Loose Fit Winter Coat | Importação 09/11 |
 | [15589731500320](https://admin.shopify.com/store/testezeratta/products/15589731500320) | Wool collar jacket short cotton jacket | Importação 09/11 |
 | [15589731402016](https://admin.shopify.com/store/testezeratta/products/15589731402016) | Short jacket | Importação 09/11 |
 | [15589731107104](https://admin.shopify.com/store/testezeratta/products/15589731107104) | Korean Plaid Down Jacket For Women Jacquard Thick Duck Down Zip Up Hooded Jacket For Winter Puffer Outwear | Importação 09/11 |
 | [15589729042720](https://admin.shopify.com/store/testezeratta/products/15589729042720) | Stand Collar Thickened Cotton Coat Unisex Oversized Short Puffer Jacket | Importação 09/11 |
 | [15589728420128](https://admin.shopify.com/store/testezeratta/products/15589728420128) | Mountain Style Outdoor Puffer Jacket Trendy Loose Stand Collar Warm Thick Cotton Coat for Couples, Versatile Design | Importação 09/11 |
-| [15589725176096](https://admin.shopify.com/store/testezeratta/products/15589725176096) | Women's Short Thickened Warm Puffer Jacket with Large Fur Collar, Loose Fit Outerwear | Importação 09/11 |
 | [15578320437536](https://admin.shopify.com/store/testezeratta/products/15578320437536) | Men's Hooded Faux Leather Winter Jacket with Padded Details | Anterior |
-| [15556037181728](https://admin.shopify.com/store/testezeratta/products/15556037181728) | Women's Cropped Hooded Puffer Jacket with Relaxed Fit | Anterior |
 | [15533051412768](https://admin.shopify.com/store/testezeratta/products/15533051412768) | Men's Relaxed Fit Hooded Puffer Jacket with Side Pockets | Anterior |
+
 ## Reconciliação Shopify → catálogo | 09/11/2026, 16h33 BRT
 
 - **Shopify ao vivo:** 138 produtos `ACTIVE` encontrados; 100 já estavam no HTML e 38 foram adicionados à Shopify depois da captura anterior. Nenhum dos 100 desapareceu.
