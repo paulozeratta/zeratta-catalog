@@ -15,20 +15,18 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 - `scripts/encrypt_catalog.py`: utilitário histórico, **não utilizar** nesta versão. Não existe mais payload criptografado no `index.html`.
 
 
-## Modelo UK em GBP e sweaters orgânicos | 09/11/2026
+## Catálogo UK em GBP | 09/11/2026
 
-- **Moeda financeira:** o custo cadastrado da EPROLO/Shopify continua em USD na fonte, mas todos os cálculos UK exibem o valor convertido para GBP. Taxa de planejamento: **US$1 = £0,74775**. Exemplo: US$8,77 = £6,56.
-- **Frete de simulação:** £12 por peça em todos os produtos. O custo unitário no simulador é `(custo original USD × 0,74775) + £12`. Esta hipótese não substitui as cotações EPROLO individuais nem altera `data/freights.json`.
-- **VAT:** reserva financeira de 20% incluída no preço bruto, exigindo validação da operação fiscal. Em remessas acima de £135, as regras de import VAT e duties podem diferir; custos adicionais de importação e clearance não estão no modelo. EPROLO Standard não é DDP.
-- **Processamento:** provisão financeira de 10% do valor bruto em GBP mais £0,05 por pedido. É um cenário, não tarifa efetiva confirmada; checar Shopify Basic, Stripe, cartão internacional e conversão, sem dupla contagem de câmbio.
-- **Google Ads:** conta de anúncios em USD. Para produtos anunciados, CPA base **US$40 = £29,91** e estresse **US$47 = £35,14** à taxa de planejamento. CPA aplicado **uma vez por pedido** e não por item.
-- **Sweaters:** 22 produtos fora do Google Shopping. A simulação de venda puramente orgânica usa **CPA direto de £0**, mas um sweater adquirido após clique pago em anúncio de jaqueta participa de um pedido com CPA; atribuir o custo de aquisição **uma única vez à compra total**. O catálogo não reproduz ainda um simulador de cesto misto por combinação de SKUs.
-- **Bundles:** 2 itens 10% OFF; 3 itens 15% OFF; 4+ itens 25% OFF. Simulação do último nível usa 4 unidades. Frete hipotético £12 por unidade, mesmo em bundles, até EPROLO confirmar consolidação.
-- **Critério de precificação de itens anunciados:** preços terminando em .90, mínimo £69,90; alvo de 10% de margem em venda individual com CPA base e piso de 18% no bundle em estresse. Itens de alto custo podem ser sinalizados acima de £99,90 sem sacrificar as premissas.
-- **Critério dos sweaters orgânicos:** preços terminando em .90, piso de £39,90, com pelo menos 18% de margem simulada no bundle de quatro peças e CPA direto zero. Para proteger os 25% de desconto nesse bundle, a margem de venda individual pode exceder 25%; não é possível garantir a faixa de 18–25% em toda quantidade simultaneamente mantendo esse desconto.
-- **Resultado atualizado:** Sweaters £42,90 a £83,90 (22 produtos; preço médio £64,81); 100 produtos anunciáveis não-sweater com sugestões £69,90 a £188,90 (94 dentro de £69–99,90; 6 exceções). Esses preços são propostas do simulador, **não** preços aplicados na Shopify.
-- **Exemplo:** High neck sweater loose knit sweater for women: custo original US$8,77 → £6,56 + £12 frete = £18,56; venda sugerida £42,90; VAT reservado £7,15 e provisão de taxas aproximada £4,34; contribuição por venda individual orgânica aproximadamente £12,85.
-- **Fonte e edição:** despesas e contribuições UK exibidas em GBP, com valores originais USD preservados e editáveis. Preço final UK é editável e usa a chave de overrides `ukSalePriceGBP_v2`, agora lida corretamente; preços manuais e exportação CSV permanecem no catálogo. Este commit **não altera preços da Shopify** nem regrava `data/pricing.json`.
+- **Remoção de sweaters concluída:** os 22 produtos da categoria foram permanentemente excluídos da Shopify e removidos do catálogo. A busca Shopify por "sweater" confirmou inicialmente os mesmos 22 IDs. O arquivo `data/products.js` agora contém 100 produtos, renumerados de 1 a 100. Nenhum produto de jaqueta ou hoodie foi removido.
+- **Limpeza de dados auxiliares:** os 22 registros correspondentes também foram retirados de `data/pricing.json` e `data/freights.json`. Restam 100 registros de preço e 92 registros de frete; os 8 fretes pendentes continuam sem estimativa inventada.
+- **Moeda financeira:** o custo original da EPROLO/Shopify permanece em USD na fonte, mas a análise UK converte os custos para GBP a **US$1 = £0,74775**. Todas as despesas, taxas e margens exibidas no simulador UK são apresentadas em libras.
+- **Frete de simulação:** £12 por peça em todos os produtos restantes. Custo unitário: `(custo original USD × 0,74775) + £12`. Esta hipótese não substitui as cotações reais da EPROLO.
+- **VAT:** reserva financeira de 20% no preço bruto, sujeita à validação fiscal. Em remessas acima de £135, regras de import VAT e Customs Duty podem diferir; duty e desembaraço não estão incluídos. A EPROLO informou que o envio padrão não é DDP.
+- **Processamento:** provisão de 10% sobre o valor bruto em GBP + £0,05 por pedido. É hipótese de planejamento, não tarifa contratual confirmada. Conferir Shopify Basic, Stripe, cartão internacional e conversão, sem dupla contagem cambial.
+- **Google Ads:** a conta de anúncios é faturada em USD. CPA base **US$40 = £29,91** e CPA de estresse **US$47 = £35,14** à taxa de planejamento. CPA deve ser contabilizado uma vez por pedido, não uma vez por item.
+- **Bundles:** 2 itens 10% OFF; 3 itens 15% OFF; 4+ itens 25% OFF. O cenário de 4+ usa quatro unidades. O frete de £12 por unidade permanece hipótese conservadora até a EPROLO confirmar o custo consolidado por pacote.
+- **Critério de precificação dos produtos restantes:** preços terminando em .90, mínimo £69,90; alvo de 10% de margem em venda individual com CPA base e piso de 18% nos bundles com CPA de estresse. Produtos de alto custo podem ser sinalizados acima de £99,90.
+- **Preços são propostas do simulador**, não preços publicados na Shopify. A exportação CSV contém apenas os 100 produtos restantes. A chave de preços manuais UK é `ukSalePriceGBP_v2`.
 
 ## Atualizações rápidas
 
