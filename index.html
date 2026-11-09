@@ -162,26 +162,21 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
 </header>
 <main class="wrap">
  <section class="metrics" aria-label="Indicadores do catálogo">
-  <div class="metric"><b id="count-all">122</b><span>Produtos mapeados</span></div>
-  <div class="metric"><b id="count-new">67</b><span>Adicionados ao HTML</span></div>
+  <div class="metric"><b id="count-all">100</b><span>Produtos mapeados</span></div>
+  <div class="metric"><b id="count-new">45</b><span>Adicionados ao HTML</span></div>
   <div class="metric"><b id="count-old">55</b><span>Registros preservados</span></div>
-  <div class="metric"><b id="count-links">114</b><span>Links EPROLO confirmados</span></div>
-  <div class="metric"><b id="count-freight">30</b><span>Fretes EPROLO pendentes</span></div>
+  <div class="metric"><b id="count-links">92</b><span>Links EPROLO cadastrados</span></div>
+  <div class="metric"><b id="count-freight">8</b><span>Fretes históricos pendentes</span></div>
  </section>
- <section class="notice"><div class="text"><strong>Auditoria, critérios e limitações</strong>
- <p>Catálogo atualizado: 122 IDs Shopify únicos, com 44 ACTIVE e 78 DRAFT. Os 100 registros da versão anterior foram preservados e 22 suéteres foram importados por Shopify Product ID. Existem 114 links EPROLO associados e 8 pendentes, todos de produtos anteriores. Os 22 suéteres foram vinculados por título e descrição de cores às páginas do fornecedor. Existem 92 fretes individuais registrados e 30 pendentes. Os preços e custos Shopify dos suéteres foram consultados em todas as variantes; nenhuma cotação EPROLO foi estimada.</p>
+ <section class="notice"><div class="text"><strong>Auditoria Shopify | 09/11/2026</strong>
+ <p>100 IDs únicos encontrados na Shopify, todos ACTIVE e com URL de Online Store. Foram atualizados 100 produtos e 1.606 variantes, com validação dos preços mínimo e máximo de cada produto. Exatamente 94 produtos estão entre £69,90 e £99,90; seis exigem preços superiores. Os 22 sweaters foram removidos da Shopify e do catálogo anteriormente.</p>
  <div id="audit-extra" class="details-panel"><ul>
- <li><strong>Origem do catálogo:</strong> Shopify Zeratta, capturada em 07/11/2026; IDs, preço mínimo e máximo, variante, status, título e imagem conferidos.</li>
- <li><strong>Ausentes no Shopify e retirados deste HTML:</strong> Diamond quilted puffer jacket; Mid length hooded puffer jacket; Stand collar casual zip jacket; Diamond grid baseball collar jacket; Detachable hood waist cinched jacket; Fur collar padded parka.</li>
- <li><strong>EPROLO sem correspondência:</strong> itens #09 (New Cotton Coat Thermal Thickened Oversized Winter Jacket) e #25 (Faux Leather Men's Jacket Winter Warm, Contrast Color).</li>
- <li><strong>Faltam 8 vínculos EPROLO:</strong> somente produtos restantes (5 históricos e 3 de importação recente).</li>
-
- <li><strong>Frete de fornecedor:</strong> há 92 registros individuais preservados e 8 sem valor para os 100 produtos restantes. Nenhum frete foi inventado.</li>
- <li><strong>78 rascunhos:</strong> o link Zeratta aponta à URL futura do produto; o Admin permanece disponível. A loja não publica automaticamente produtos por este HTML.</li>
- <li><strong>Valor de venda:</strong> preço mínimo da Shopify, e a faixa máxima quando existe. As variantes podem ter valores diferentes. O custo é o maior unitCost dentre até 50 variantes retornadas; se um produto tiver mais de 50 variantes, é amostra incompleta.</li>
- <li><strong>Arquivamento:</strong> dados editados nesta página são armazenados no navegador e podem ser exportados por CSV ou backup JSON; não atualizam Shopify ou EPROLO.</li>
+ <li>Todos os preços de venda foram confirmados na Shopify em 09/11/2026. A edição manual neste painel não publica alterações na loja.</li>
+ <li>92 links EPROLO cadastrados e 8 fornecedores sem vínculo confirmado. Oito fretes históricos continuam pendentes.</li>
+ <li>Maior custo numérico do produto em inventoryItem.unitCost, validado para todas as variantes. A API Shopify identifica o custo em GBP, mas a Zeratta informou que os números representam valores originais em USD. Esta premissa deve ser verificada contra as faturas EPROLO.</li>
+ <li>Frete UK de £8,10 por peça e tarifa Stripe aproximada de 4,58% são premissas. Customs Duty, desembaraço, devoluções e alterações de CPA não estão incluídos no lucro estimado.</li>
  </ul></div></div><button class="toggle" id="audit-toggle" type="button" aria-expanded="false">Ver detalhes da auditoria</button></section>
- <section class="notice" aria-label="Pendências de reconciliação"><div class="text"><strong>Verificações que exigem atenção</strong><p>Do histórico anterior, 44 links foram enviados: 42 mapeados à Shopify e 2 sem produto correspondente confirmado. O catálogo atualizado tem 114 links EPROLO associados e 8 pendentes. Dos 24 links de suéteres recebidos, 22 foram vinculados a produtos Shopify e dois não possuem produto correspondente confirmado. Nenhuma URL foi inventada. Frete do fornecedor: 30 produtos ainda sem valor cadastrado. <a href="https://eprolo.com/app/product/new-cotton-coat-thermal-thickened-oversized-winter-jacket-for-middle-aged-and-senior-men-business-casual-warm-outerwear" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">EPROLO #09</a> e <a href="https://eprolo.com/app/product/faux-leather-men's-jacket-winter-warm-jacket-thicken-large-lapel-contrast-color-jacket" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">EPROLO #25</a> não foram criados aqui porque não constam da Shopify.</p></div></section>
+ <section class="notice" aria-label="Pendências de reconciliação"><div class="text"><strong>Próximas validações</strong><p>Confirmar o custo efetivamente faturado pela EPROLO em USD, o frete real UK por produto, as taxas Stripe/Shopify e a cobrança de import VAT em remessas acima de £135. Para pedidos com várias peças, verificar o frete consolidado da EPROLO.</p></div></section>
  <section class="uk-sim-banner" aria-label="Premissas da precificação UK"><strong>PRECIFICAÇÃO UK · CUSTO DO PRODUTO EM USD + £12 DE FRETE POR PEÇA</strong><br>Custo original EPROLO/Shopify em USD, convertido a £0,74775 por US$1. Frete hipotético £12 por peça. Todas as despesas, taxas e contribuições principais são calculadas em GBP. Google Ads: CPA de US$40 (base) e US$47 (estresse) convertido para libras. Tarifas de pagamento provisionadas em 10% + £0,05 por pedido, em GBP. Bundles: 2 itens 10%, 3 itens 15%, 4+ itens 25%.<small>O frete de £12 é hipótese, não cotação EPROLO. Custos unitários Shopify ainda precisam de validação com EPROLO. A simulação não inclui duty nem desembaraço de remessas acima de £135; o envio padrão EPROLO não é DDP, portanto o destinatário pode ser cobrado. A reserva VAT de 20% é conservadora e não substitui a validação fiscal das remessas acima de £135.</small></section>
 <section class="pricing-controls" aria-label="Simulador financeiro global">
 <div class="section-title"><h2>Preços finais UK em £ · custos em US$</h2><small>Preços de venda VAT incluso · simulação</small></div>
