@@ -865,7 +865,26 @@
     },
     "15551027937568": {
       "value": 11.03,
-      "updatedAt": 1794064094568
+      "updatedAt": 1794064094568,
+      "ukQuotes": [
+        {
+          "shippingUSD": 7.8,
+          "shippingGBP": 5.84,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 42,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15551029510432": {
       "value": 8.99,
@@ -873,7 +892,26 @@
     },
     "15551032590624": {
       "value": 20.22,
-      "updatedAt": 1794064106295
+      "updatedAt": 1794064106295,
+      "ukQuotes": [
+        {
+          "shippingUSD": 15.94,
+          "shippingGBP": 11.93,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 6,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15551032688928": {
       "value": 13.23,
@@ -881,19 +919,95 @@
     },
     "15551033868576": {
       "value": 15.21,
-      "updatedAt": 1794064116925
+      "updatedAt": 1794064116925,
+      "ukQuotes": [
+        {
+          "shippingUSD": 11.69,
+          "shippingGBP": 8.75,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 8,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15551033934112": {
       "value": 12.85,
-      "updatedAt": 1794064122802
+      "updatedAt": 1794064122802,
+      "ukQuotes": [
+        {
+          "shippingUSD": 9.02,
+          "shippingGBP": 6.75,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 12,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15551034589472": {
       "value": 14.9,
-      "updatedAt": 1794064127815
+      "updatedAt": 1794064127815,
+      "ukQuotes": [
+        {
+          "shippingUSD": 11.48,
+          "shippingGBP": 8.59,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 12,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15551034884384": {
       "value": 19.07,
-      "updatedAt": 1794064138584
+      "updatedAt": 1794064138584,
+      "ukQuotes": [
+        {
+          "shippingUSD": 15.01,
+          "shippingGBP": 11.24,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 5,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15551035769120": {
       "value": 17.06,
