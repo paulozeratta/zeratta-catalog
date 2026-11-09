@@ -4,6 +4,17 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 
 **Site:** https://paulozeratta.github.io/zeratta-catalog/
 
+## Calculadora independente de precificação (09/11/2026)
+
+- **Entrada:** informe produto e frete em **USD (US$)**, ou apenas o **custo total em USD (US$)**. Digitar o total o torna prioritário para não somar o custo duas vezes; voltar a editar produto/frete ativa o modo detalhado.
+- **Página independente:** `precificacao/index.html` publicada em https://paulozeratta.github.io/zeratta-catalog/precificacao/ , com link "Calculadora de precificação" no cabeçalho de `index.html`. O acesso segue a barreira visual existente na página do catálogo e não constitui autenticação de servidor.
+- **Câmbio:** a página consulta diariamente uma taxa referencial **1 GBP = X USD e Y BRL** em `https://open.er-api.com/v6/latest/GBP` e permite edição manual. Exibe fonte e momento da última atualização; quando não há câmbio válido, não calcula usando uma taxa inventada. A fonte exige atribuição, presente na página.
+- **Premissas ajustáveis:** CPA em **USD/pedido** (padrão US$35), Stripe variável (% do preço bruto GBP, padrão 4,58%) e taxa fixa opcional em USD (padrão US$0), Simples (**4% do faturamento convertido em BRL**) e margem-alvo (**20,69% sobre o preço bruto em GBP**). Os ajustes são guardados localmente no navegador.
+- **VAT:** 20% incluso no preço final em GBP, reservado como **preço bruto/6** (e não 20% do bruto). Reservas tributárias são estimativas, não apuração efetiva.
+- **Fórmula do preço bruto GBP:** `P = ((custoTotalUSD + CPA_USD + StripeFixaUSD) / USD_por_GBP) / (1 - 20/120 - Stripe% - Simples% - MargemAlvo%)`. Exibe a primeira terminação **.90** igual ou acima do valor calculado. O relatório detalha custos, CPA, VAT, Stripe e Simples nas respectivas moedas e lucro/margem finais em GBP.
+- **Limites:** não altera Shopify, não grava custos no catálogo, nem inclui automaticamente tarifas de importação, devoluções, spread cambial ou encargos adicionais. A alíquota efetiva do Simples e a incidência de VAT dependem da operação e precisam ser verificadas.
+- **Deploy:** `.github/workflows/pages.yml` copia também `precificacao/index.html` para `public/precificacao/index.html`.
+
 ## Estrutura atual
 
 - `index.html`: interface do catálogo com preço normal, desconto e preço promocional, simulação financeira, senha visual de entrada e sincronização.
