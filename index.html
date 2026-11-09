@@ -163,28 +163,29 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
 })();
 </script>
 <header class="top">
- <div class="topline"><div class="eyebrow">Zeratta / Operações / Central de Produtos</div><div class="topdate">Preços Shopify UK sincronizados · 09 NOV 2026</div></div>
+ <div class="topline"><div class="eyebrow">Zeratta / Operações / Central de Produtos</div><div class="topdate">Shopify sincronizada · 09 NOV 2026</div></div>
  <h1>Catálogo e simulador de rentabilidade</h1>
- <p>100 produtos ativos e 1.606 variantes reprecificados na Shopify, com preços de venda em GBP. A meta é aproximadamente 20,69% de lucro operacional estimado sobre o preço pago pelo cliente, após reserva de VAT, CPA de £25 e despesas estimadas. Custos numéricos dos produtos são tratados como USD por orientação da Zeratta e convertidos a GBP. O frete de £8,10 por peça é uma hipótese uniforme e não uma cotação individual EPROLO. Preços já alterados na Shopify; o painel permite simulações manuais sem publicar alterações adicionais.</p>
+ <p>Catálogo reconciliado com a Shopify: 138 registros ativos encontrados, incluindo uma importação duplicada confirmada por 12 SKUs idênticos. O HTML mantém 137 produtos únicos: 100 existentes e 37 novos, totalizando 2.155 variantes catalogadas. Todos os preços atuais em GBP foram capturados da Shopify. Os 100 produtos anteriores já tinham sido reprecificados; os 37 novos permanecem com o preço original de importação, sem alteração feita por esta sincronização. Frete £8,10 e conversão dos custos numéricos a GBP são premissas de análise, não cotações EPROLO.</p>
  <nav class="zeratta-catalog-nav" aria-label="Ferramentas do catálogo"><a class="zeratta-calculator-link" href="precificacao/">Calculadora de precificação <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main class="wrap">
  <section class="metrics" aria-label="Indicadores do catálogo">
-  <div class="metric"><b id="count-all">100</b><span>Produtos mapeados</span></div>
-  <div class="metric"><b id="count-new">45</b><span>Adicionados ao HTML</span></div>
-  <div class="metric"><b id="count-old">55</b><span>Registros preservados</span></div>
-  <div class="metric"><b id="count-links">92</b><span>Links EPROLO cadastrados</span></div>
-  <div class="metric"><b id="count-freight">8</b><span>Fretes históricos pendentes</span></div>
+  <div class="metric"><b id="count-all">137</b><span>Produtos únicos</span></div>
+  <div class="metric"><b id="count-new">37</b><span>Novos desta importação</span></div>
+  <div class="metric"><b id="count-old">100</b><span>Produtos já existentes</span></div>
+  <div class="metric"><b id="count-links">96</b><span>Links EPROLO verificados</span></div>
+  <div class="metric"><b id="count-freight">45</b><span>Fretes EPROLO pendentes</span></div>
  </section>
- <section class="notice"><div class="text"><strong>Auditoria Shopify | 09/11/2026</strong>
- <p>100 IDs únicos encontrados na Shopify, todos ACTIVE e com URL de Online Store. Foram atualizados 100 produtos e 1.606 variantes, com validação dos preços mínimo e máximo de cada produto. Exatamente 94 produtos estão entre £69,90 e £99,90; seis exigem preços superiores. Os 22 sweaters foram removidos da Shopify e do catálogo anteriormente.</p>
+ <section class="notice"><div class="text"><strong>Reconciliado com a Shopify | 09/11/2026</strong>
+ <p>Existem 138 produtos ACTIVE na Shopify. Apenas 137 constam neste catálogo porque dois registros novos são o mesmo puffer masculino: têm título, imagem e todos os 12 SKUs iguais. Foi mantido o produto ID 15589744378144 (importação anterior) e omitida a duplicação ID 15589744443680 do HTML. A duplicação permanece na Shopify para revisão, pois nenhuma exclusão de produto foi autorizada. Nenhum dos 100 produtos anteriores desapareceu da loja.</p>
  <div id="audit-extra" class="details-panel"><ul>
- <li>Todos os preços de venda foram confirmados na Shopify em 09/11/2026. A edição manual neste painel não publica alterações na loja.</li>
- <li>92 links EPROLO cadastrados e 8 fornecedores sem vínculo confirmado. Oito fretes históricos continuam pendentes.</li>
- <li>Maior custo numérico do produto em inventoryItem.unitCost, validado para todas as variantes. A API Shopify identifica o custo em GBP, mas a Zeratta informou que os números representam valores originais em USD. Esta premissa deve ser verificada contra as faturas EPROLO.</li>
- <li>Frete UK de £8,10 por peça e tarifa Stripe aproximada de 4,58% são premissas. Customs Duty, desembaraço, devoluções e alterações de CPA não estão incluídos no lucro estimado.</li>
+  <li>37 novos produtos e 549 variantes foram acrescentados; total de 137 produtos únicos e 2.155 variantes catalogadas.</li>
+  <li>Preços e imagens das 37 novas entradas vieram da Shopify; seus preços não foram alterados. Os 100 anteriores conservam os preços previamente aplicados.</li>
+  <li>96 links EPROLO foram associados a produtos do catálogo, 41 ainda exigem confirmação, sendo 33 novas importações e 8 produtos anteriores. Nunca gerar links do fornecedor por suposição.</li>
+  <li>92 fretes históricos foram preservados em data/freights.json, com 45 ainda sem valor. Nenhuma cotação de envio foi inventada.</li>
+  <li>Os custos numéricos inventoryItem.unitCost aparecem como GBP na API Shopify, mas a Zeratta informou que representam custos da EPROLO em USD. Verificar faturas antes de usar como base fiscal ou financeira definitiva.</li>
  </ul></div></div><button class="toggle" id="audit-toggle" type="button" aria-expanded="false">Ver detalhes da auditoria</button></section>
- <section class="notice" aria-label="Pendências de reconciliação"><div class="text"><strong>Próximas validações</strong><p>Confirmar o custo efetivamente faturado pela EPROLO em USD, o frete real UK por produto, as taxas Stripe/Shopify e a cobrança de import VAT em remessas acima de £135. Para pedidos com várias peças, verificar o frete consolidado da EPROLO.</p></div></section>
+ <section class="notice" aria-label="Pendências de reconciliação"><div class="text"><strong>Pendências da importação</strong><p>Uma duplicação ainda está ativa na Shopify (ID 15589744443680). Há 41 vínculos EPROLO e 45 fretes pendentes de confirmação. Os produtos novos usam seus preços de importação da Shopify; para aplicar a meta comercial de 20,69% de margem, será necessária outra ação de precificação.</p></div></section>
  <section class="uk-sim-banner" aria-label="Premissas da precificação UK"><strong>MODELO UK PUBLICADO NA SHOPIFY · META DE 20,69% SOBRE O PREÇO BRUTO</strong>
  Custo numérico do produto tratado como USD e convertido a GBP pela taxa 0,74775 + £8,10 de frete estimado por peça + CPA de £25 por pedido + Stripe estimada em 4,58% da venda + VAT de 20% incluído. Preços terminados em .90, com mínimo de £69,90. A conta Google Ads é em USD: CPA £25 equivale a aproximadamente US$33,43 no câmbio usado. Bundles: 2 peças com 10% OFF; 3 peças com 15% OFF; 4+ peças com 25% OFF.
  <small>Os preços foram alterados na Shopify em 09/11/2026. Os custos, £8,10 de frete e 4,58% de taxas são premissas que precisam ser conferidas na EPROLO e Stripe. A margem considera reserva de VAT, mas não é lucro líquido contábil. Acima de £135 por remessa, import VAT, duty e desembaraço podem alterar o resultado.</small></section>
