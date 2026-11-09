@@ -900,6 +900,339 @@
       "ukSalePriceGBP_v2": 69.9,
       "ukPriceUpdatedAt": 1794199482479,
       "ukPricingModel": "uk-retail-gross-margin-20.69-2026-11-09"
+    },
+    "15589744378144": {
+      "regularPrice": 343.29,
+      "discountPct": 0,
+      "salePrice": 343.29,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 343.29,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589744083232": {
+      "regularPrice": 108.3,
+      "discountPct": 0,
+      "salePrice": 108.3,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 108.3,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589739594016": {
+      "regularPrice": 130.35,
+      "discountPct": 0,
+      "salePrice": 130.35,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 130.35,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589739528480": {
+      "regularPrice": 124.5,
+      "discountPct": 0,
+      "salePrice": 124.5,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 124.5,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589738447136": {
+      "regularPrice": 108.93,
+      "discountPct": 0,
+      "salePrice": 108.93,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 108.93,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589738316064": {
+      "regularPrice": 93.45,
+      "discountPct": 0,
+      "salePrice": 93.45,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 93.45,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589737857312": {
+      "regularPrice": 100.71,
+      "discountPct": 0,
+      "salePrice": 100.71,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 100.71,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589736579360": {
+      "regularPrice": 107.31,
+      "discountPct": 0,
+      "salePrice": 107.31,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 107.31,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589735563552": {
+      "regularPrice": 97.41,
+      "discountPct": 0,
+      "salePrice": 97.41,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 97.41,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589733368096": {
+      "regularPrice": 111.18,
+      "discountPct": 0,
+      "salePrice": 111.18,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 111.18,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589733302560": {
+      "regularPrice": 161.22,
+      "discountPct": 0,
+      "salePrice": 161.22,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 161.22,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589733073184": {
+      "regularPrice": 86.58,
+      "discountPct": 0,
+      "salePrice": 86.58,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 86.58,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589732385056": {
+      "regularPrice": 109.56,
+      "discountPct": 0,
+      "salePrice": 109.56,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 109.56,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589731500320": {
+      "regularPrice": 182.79,
+      "discountPct": 0,
+      "salePrice": 182.79,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 182.79,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589731402016": {
+      "regularPrice": 126.75,
+      "discountPct": 0,
+      "salePrice": 126.75,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 126.75,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589731107104": {
+      "regularPrice": 140.49,
+      "discountPct": 0,
+      "salePrice": 140.49,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 140.49,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589729042720": {
+      "regularPrice": 145.38,
+      "discountPct": 0,
+      "salePrice": 145.38,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 145.38,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589728420128": {
+      "regularPrice": 149.1,
+      "discountPct": 0,
+      "salePrice": 149.1,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 149.1,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589728059680": {
+      "regularPrice": 93.24,
+      "discountPct": 0,
+      "salePrice": 93.24,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 93.24,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589727764768": {
+      "regularPrice": 119.07,
+      "discountPct": 0,
+      "salePrice": 119.07,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 119.07,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589727568160": {
+      "regularPrice": 99.48,
+      "discountPct": 0,
+      "salePrice": 99.48,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 99.48,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589725339936": {
+      "regularPrice": 122.4,
+      "discountPct": 0,
+      "salePrice": 122.4,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 122.4,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589725176096": {
+      "regularPrice": 103.98,
+      "discountPct": 0,
+      "salePrice": 103.98,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 103.98,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589723636000": {
+      "regularPrice": 78.42,
+      "discountPct": 0,
+      "salePrice": 78.42,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 78.42,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589722751264": {
+      "regularPrice": 149.52,
+      "discountPct": 0,
+      "salePrice": 149.52,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 149.52,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589722259744": {
+      "regularPrice": 142.65,
+      "discountPct": 0,
+      "salePrice": 142.65,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 142.65,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589720523040": {
+      "regularPrice": 105.84,
+      "discountPct": 0,
+      "salePrice": 105.84,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 105.84,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589719277856": {
+      "regularPrice": 162.12,
+      "discountPct": 0,
+      "salePrice": 162.12,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 162.12,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589718360352": {
+      "regularPrice": 149.01,
+      "discountPct": 0,
+      "salePrice": 149.01,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 149.01,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589718262048": {
+      "regularPrice": 97.08,
+      "discountPct": 0,
+      "salePrice": 97.08,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 97.08,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589716558112": {
+      "regularPrice": 88.77,
+      "discountPct": 0,
+      "salePrice": 88.77,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 88.77,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589716001056": {
+      "regularPrice": 132.87,
+      "discountPct": 0,
+      "salePrice": 132.87,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 132.87,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589715968288": {
+      "regularPrice": 99.45,
+      "discountPct": 0,
+      "salePrice": 99.45,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 99.45,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589714854176": {
+      "regularPrice": 104.43,
+      "discountPct": 0,
+      "salePrice": 104.43,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 104.43,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589713379616": {
+      "regularPrice": 79.41,
+      "discountPct": 0,
+      "salePrice": 79.41,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 79.41,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589713314080": {
+      "regularPrice": 108.48,
+      "discountPct": 0,
+      "salePrice": 108.48,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 108.48,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15589713281312": {
+      "regularPrice": 118.35,
+      "discountPct": 0,
+      "salePrice": 118.35,
+      "pricingUpdatedAt": 1794253191888,
+      "ukSalePriceGBP_v2": 118.35,
+      "ukPriceUpdatedAt": 1794253191888,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
     }
   }
 }
