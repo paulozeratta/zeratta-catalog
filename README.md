@@ -27,6 +27,15 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 - `scripts/encrypt_catalog.py`: utilitário histórico, **não utilizar** nesta versão. Não existe mais payload criptografado no `index.html`.
 
 
+## Reconciliação Shopify → catálogo | 09/11/2026, 16h33 BRT
+
+- **Shopify ao vivo:** 138 produtos `ACTIVE` encontrados; 100 já estavam no HTML e 38 foram adicionados à Shopify depois da captura anterior. Nenhum dos 100 desapareceu.
+- **Prevenção rigorosa de duplicidade:** os produtos ID `15589744378144` e `15589744443680` compartilham exatamente o mesmo título, a mesma imagem principal e os mesmos 12 SKUs, portanto são cópias do mesmo puffer masculino. **Somente o mais antigo, `15589744378144`, foi incluído no HTML**; o outro continua na Shopify, pois esta operação não recebeu autorização para excluir ou arquivar produtos da loja. Não foi encontrado outro par com SKU repetido entre os itens recém-importados e o catálogo anterior.
+- **Catálogo novo:** 100 produtos antigos + **37 novos únicos** = **137 produtos**, com **2.155 variantes**. Todos os produtos listados são `ACTIVE` no snapshot. Os novos registros estão no início do arquivo `data/products.js`, classificados por tipo de casaco, com IDs, títulos, fotos, URL da Zeratta, URL administrativa, custo, quantidade de variantes e preços mínimo/máximo observados na Shopify. O filtro 'Novos de 09/11' seleciona esses 37 itens.
+- **Preço:** os preços atuais de todas as 37 novas importações foram copiados da Shopify em GBP e adicionados ao `data/pricing.json`, totalizando **137 preços sincronizados**. **Nenhum preço da Shopify foi modificado nessa reconciliação**. A reprecificação de 20,69% foi aplicada anteriormente apenas nos 100 produtos existentes. Dos 37 novos, 27 têm preço acima de £99,90 e 10 acima de £135; a média de margem de simulação usando as premissas atuais não significa margem comprovada.
+- **EPROLO:** 4 links dos 37 novos tiveram correspondência pública identificável por nome e descrição, e foram confirmados. Assim, o catálogo tem **96 URLs de fornecedor**, enquanto **41 produtos permanecem sem link EPROLO confirmado** (33 novos, 8 antigos). Links desconhecidos são `null`, nunca adivinhados. Os registros `data/freights.json` foram preservados: **92 custos históricos cadastrados, 45 valores ausentes**. O frete UK hipotético de £8,10 é usado somente na simulação, não escrito nos registros de frete do fornecedor.
+- **Arquivos envolvidos:** `data/products.js`, `data/pricing.json`, `index.html` e este `README.md`. A página `precificacao/index.html` permanece inalterada, assim como a Shopify.
+- **Auditoria no site:** https://paulozeratta.github.io/zeratta-catalog/ . GitHub Pages pode ter cache de publicação após os commits; em caso de dúvida verificar a branch `main` e abrir a URL com parâmetro de consulta.
 ## Reprecificação da Shopify UK | 09/11/2026
 
 - **Operação realizada:** 100 produtos e **1.606 variantes** tiveram preços atualizados em GBP diretamente no Admin Shopify. A leitura de volta confirmou os mesmos preços mínimos e máximos em todos os 100 produtos, sem erros. Todos estão `ACTIVE` e com `onlineStoreUrl` disponível.
