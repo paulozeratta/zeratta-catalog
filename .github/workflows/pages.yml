@@ -29,10 +29,13 @@ jobs:
           set -eu
           mkdir -p public
           cp index.html public/index.html
+          mkdir -p public/precificacao
+          cp precificacao/index.html public/precificacao/index.html
           mkdir -p public/data
           cp data/products.js data/pricing.json data/freights.json public/data/
           touch public/.nojekyll
           test -s public/index.html
+          test -s public/precificacao/index.html
           test -s public/data/products.js
           test -s public/data/pricing.json
           test -s public/data/freights.json
