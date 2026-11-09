@@ -22,7 +22,15 @@ main{max-width:1268px;margin:auto;padding:28px 24px 55px}.layout{display:grid;gr
 .mode{margin:11px 0 0;font-size:11px;border-radius:6px;padding:9px 11px;background:var(--soft);line-height:1.55}.mode b{color:var(--wine)}.field input.active{border-color:#1a0709;box-shadow:0 0 0 1px #1a0709}
 .settings-note{border-top:1px solid var(--line);padding-top:15px;margin-top:17px;font-size:11px;color:var(--muted);line-height:1.7}
 .fxbar{border:1px solid #ded6d2;background:#faf9f8;padding:13px;border-radius:8px;margin-top:14px;font-size:11px;line-height:1.7;color:#605456}.fxbar strong{color:var(--ink)}.fxbar a{text-decoration:underline;text-underline-offset:2px}.fxbar button{background:transparent;border:0;text-decoration:underline;color:var(--wine);padding:0;font-size:11px;font-weight:650}.fxbar #fxStatus{display:block;margin-top:5px}
-.result{position:sticky;top:16px}.result-top{border-bottom:1px solid var(--line);padding-bottom:18px}.hero{background:var(--wine);color:#fff;border-radius:9px;padding:26px 23px;margin-top:18px}.hero .caption{font-size:12px;color:#e7d9dc}.hero .amount{font-size:clamp(38px,6vw,59px);font-weight:590;letter-spacing:-.055em;line-height:1.16;margin-top:9px;font-variant-numeric:tabular-nums}.hero .suffix{font-size:11px;color:#e5d9db;margin-top:9px;line-height:1.6}
+.result{position:sticky;top:16px}.result-top{border-bottom:1px solid var(--line);padding-bottom:18px}.hero{background:var(--wine);color:#fff;border-radius:9px;padding:26px 23px;margin-top:18px}.hero .caption{font-size:12px;color:#e7d9dc}.hero .price-entry{display:flex;align-items:center;gap:9px;margin-top:9px;min-width:0}
+.hero .price-entry .symbol{font-size:clamp(32px,5vw,45px);font-weight:590;letter-spacing:-.04em}
+.hero .price-entry input{width:100%;min-width:0;max-width:350px;color:#fff;background:#ffffff17;border:1px solid #a18b90;border-radius:6px;padding:8px 12px;font-size:clamp(32px,5vw,52px);font-weight:590;letter-spacing:-.04em;line-height:1.16;font-variant-numeric:tabular-nums}
+.hero .price-entry input:focus{border-color:#fff;outline:2px solid #fff4;outline-offset:2px}
+.hero .price-entry input::placeholder{color:#d5c7ca;opacity:1}
+.hero .price-entry input::-webkit-inner-spin-button,.hero .price-entry input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.hero .price-entry input{-moz-appearance:textfield}
+.suggested-line{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px;padding:11px 13px;background:#f9f7f6;border:1px solid var(--line);border-radius:7px;font-size:11px;color:var(--muted)}
+.suggested-line strong{font-size:14px;color:var(--wine);font-variant-numeric:tabular-nums}.hero .suffix{font-size:11px;color:#e5d9db;margin-top:9px;line-height:1.6}
 .pair{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:13px 0 21px}.mini{border:1px solid var(--line);border-radius:8px;padding:14px;background:#fbfaf9}.mini span{display:block;font-size:11px;color:var(--muted);margin-bottom:7px}.mini strong{font-size:21px;font-weight:650;letter-spacing:-.03em;font-variant-numeric:tabular-nums}.mini small{display:block;font-size:10px;color:var(--muted);margin-top:4px}.mini .good{color:var(--good)}
 .breakdown-title{font-size:13px;font-weight:700;margin:0 0 10px}.lines{border-top:1px solid var(--line)}.line{display:grid;grid-template-columns:1fr auto;gap:10px;padding:11px 0;border-bottom:1px solid #f0eded;align-items:center;font-size:12px}.line .name{font-weight:580}.line .detail{display:block;font-size:10px;color:var(--muted);font-weight:400;margin-top:5px}.line .value{text-align:right;font-weight:670;font-variant-numeric:tabular-nums}.line .value small{font-weight:450;color:var(--muted);display:block;margin-top:4px}.line.net{background:#f6faf7;margin:8px -10px 0;padding:13px 10px;border-radius:7px;border:1px solid #dcebe0}.line.net .value{color:var(--good)}
 .meta-msg{margin:15px 0 0;color:var(--muted);font-size:11px;line-height:1.65}.meta-msg.error{color:var(--bad)}
@@ -30,7 +38,7 @@ main{max-width:1268px;margin:auto;padding:28px 24px 55px}.layout{display:grid;gr
 .disclaimer{margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:9px;padding:17px 20px;font-size:11px;line-height:1.8;color:#6c6365}.disclaimer b{color:#282122}
 footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
 @media(max-width:910px){.layout{grid-template-columns:1fr}.result{position:static}}
-@media(max-width:560px){header{padding:26px 19px 30px}main{padding:18px 12px 36px}.panel{padding:17px}.fields{grid-template-columns:1fr}.pair{grid-template-columns:1fr 1fr}.mini{padding:12px}.mini strong{font-size:18px}.hero{padding:20px}.hero .amount{font-size:43px}.headrow{align-items:start}}
+@media(max-width:560px){header{padding:26px 19px 30px}main{padding:18px 12px 36px}.panel{padding:17px}.fields{grid-template-columns:1fr}.pair{grid-template-columns:1fr 1fr}.mini{padding:12px}.mini strong{font-size:18px}.hero{padding:20px}.hero .price-entry input{font-size:36px}.headrow{align-items:start}}
 @media print{header{background:#fff;color:#111;padding:10px 0}.headrow .back,.btnrow,.fxbar button{display:none}.headrow .crumb,header p{color:#444}.layout{display:block}.stack{display:none}.result{display:block}.hero{background:#fff;color:#111;border:1px solid #ddd}.hero .caption,.hero .suffix{color:#333}main{padding:10px}.disclaimer{break-inside:avoid}}
 </style>
 <script>if(sessionStorage.getItem('zeratta-access-ok')!=='1'){location.replace('../');}</script>
@@ -79,8 +87,9 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
    </section>
   </div>
   <section class="panel result" aria-labelledby="resultTitle">
-   <div class="result-top"><span class="sectiontag">Resultado / por pedido</span><h2 id="resultTitle">Preço recomendado para a loja</h2><p class="lead" style="margin-bottom:0">Preço em libras esterlinas (GBP), com VAT e todas as despesas informadas incluídas na projeção.</p></div>
-   <div class="hero"><div class="caption">Preço de venda Zeratta · GBP (£)</div><div class="amount" id="salePrice">£ --</div><div class="suffix">Arredondado para cima com final .90, sem ficar abaixo da margem-alvo configurada.</div></div>
+   <div class="result-top"><span class="sectiontag">Resultado / por pedido</span><h2 id="resultTitle">Preço de venda e rentabilidade</h2><p class="lead" style="margin-bottom:0">Preço em libras esterlinas (GBP), com VAT e todas as despesas informadas incluídas na projeção.</p></div>
+   <div class="hero"><label class="caption" for="salePrice">Preço de venda Zeratta · GBP (£) · editável</label><div class="price-entry"><span class="symbol" aria-hidden="true">£</span><input id="salePrice" type="number" inputmode="decimal" min="0.01" step="0.01" placeholder="0.00" aria-describedby="priceModeHint"></div><div class="suffix" id="priceModeHint">Valor sugerido automaticamente. Digite outro preço em GBP para simular.</div></div>
+   <div class="suggested-line"><span>Preço sugerido pela margem-alvo · GBP (£)</span><strong id="suggestedPrice">£ --</strong></div>
    <div class="pair">
     <div class="mini"><span>Lucro estimado · GBP (£)</span><strong class="good" id="profitGBP">£ --</strong><small>Após VAT, custos, CPA, Stripe e Simples</small></div>
     <div class="mini"><span>Margem · % sobre preço GBP</span><strong id="profitPct">--%</strong><small id="marginTargetLabel">Meta: 20,69%</small></div>
@@ -88,7 +97,7 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
    <h3 class="breakdown-title">Composição financeira por venda</h3>
    <div class="lines" id="breakdown" aria-live="polite"><div class="line"><div class="name">Informe um custo em USD e aguarde ou preencha o câmbio.</div></div></div>
    <p class="meta-msg" id="message" role="status">O resultado será atualizado automaticamente.</p>
-   <div class="btnrow"><button class="btn primary" type="button" id="copyResult" disabled>Copiar resultado</button><button class="btn" type="button" id="clearCosts">Limpar custos</button></div>
+   <div class="btnrow"><button class="btn primary" type="button" id="copyResult" disabled>Copiar resultado</button><button class="btn" type="button" id="resetSuggested" disabled>Usar preço sugerido</button><button class="btn" type="button" id="clearCosts">Limpar custos</button></div>
   </section>
  </div>
  <div class="disclaimer"><b>Escopo tributário e operacional:</b> VAT de 20% é uma reserva para vendas britânicas sujeitas à alíquota padrão, não uma afirmação de que toda remessa terá a mesma responsabilidade tributária. A incidência de import VAT, direitos aduaneiros e as regras de remessas até/acima de £135 dependem da operação. O Simples de 4% é uma premissa solicitada, não um enquadramento tributário verificado; receita, base de cálculo e câmbio fiscal podem diferir. Confirme a classificação com o contador. Cotações referenciais não incluem spread ou taxas efetivas de liquidação.</div>
@@ -100,7 +109,7 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
 var $=function(id){return document.getElementById(id);};
 var ids=['cpa','stripePct','stripeFixed','brTax','targetMargin'];
 var defaults={cpa:35,stripePct:4.58,stripeFixed:0,brTax:4,targetMargin:20.69};
-var mode='parts',lastResult=null,fxOrigin='unavailable';
+var mode='parts',priceSource='auto',lastResult=null,fxOrigin='unavailable';
 var fmt=function(n,c){return new Intl.NumberFormat('pt-BR',{style:'currency',currency:c,minimumFractionDigits:2,maximumFractionDigits:2}).format(n);};
 var digits=function(n,d){return Number(n).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});};
 var val=function(id){return Number($(id).value);};
@@ -112,7 +121,7 @@ function setMode(){var manual=mode==='total';$('totalCost').classList.toggle('ac
 function computeParts(){mode='parts';var a=filled('productCost'),b=filled('shippingCost');if(a||b){$('totalCost').value=(val('productCost')+val('shippingCost')).toFixed(2);}else{$('totalCost').value='';}setMode();render();}
 function computeTotal(){mode='total';setMode();render();}
 function putLine(name,detail,main,sub,net){return '<div class="line'+(net?' net':'')+'"><div><span class="name">'+name+'</span><span class="detail">'+detail+'</span></div><div class="value">'+main+(sub?'<small>'+sub+'</small>':'')+'</div></div>';}
-function resetResult(msg){lastResult=null;$('salePrice').textContent='£ --';$('profitGBP').textContent='£ --';$('profitPct').textContent='--%';$('breakdown').innerHTML='<div class="line"><div class="name">A composição financeira aparecerá aqui quando houver dados válidos.</div></div>';$('message').textContent=msg;$('message').classList.add('error');$('copyResult').disabled=true;}
+function resetResult(msg){lastResult=null;if(priceSource==='auto')$('salePrice').value='';$('profitGBP').textContent='£ --';$('profitPct').textContent='--%';$('suggestedPrice').textContent='£ --';$('breakdown').innerHTML='<div class="line"><div class="name">A composição financeira aparecerá aqui quando houver dados válidos.</div></div>';$('message').textContent=msg;$('message').classList.add('error');$('copyResult').disabled=true;$('resetSuggested').disabled=true;}
 function render(){
  var ud=val('gbpUsd'),bd=val('gbpBrl');
  $('crossRate').textContent=ud>0&&bd>0?'1 USD (US$) = '+digits(1/ud,5)+' GBP (£) · 1 USD (US$) = '+digits(bd/ud,4)+' BRL (R$)':'Informe as duas taxas de câmbio: GBP → USD e GBP → BRL.';
@@ -126,11 +135,15 @@ function render(){
  var cpaUSD=val('cpa'),stripeFixedUSD=val('stripeFixed'),stripeRate=val('stripePct')/100,taxRate=val('brTax')/100,target=val('targetMargin')/100;
  var vatFraction=20/120;
  var denominator=1-vatFraction-stripeRate-taxRate-target;
- if(denominator<=0){resetResult('Não existe preço possível com esta meta: VAT, Stripe, Simples e margem desejada somam 100% ou mais.');return;}
- var raw=((costUSD+cpaUSD+stripeFixedUSD)/ud)/denominator;
- if(!Number.isFinite(raw)||raw>100000000){resetResult('Valores incompatíveis ou preço excessivamente alto. Revise as entradas.');return;}
- var price=Math.max(.90,Math.ceil(raw-.90-1e-9)+.90);
- price=Math.round(price*100)/100;
+ var raw=denominator>0?((costUSD+cpaUSD+stripeFixedUSD)/ud)/denominator:NaN;
+ var suggested=Number.isFinite(raw)&&raw<=100000000?Math.round(Math.max(.90,Math.ceil(raw-.90-1e-9)+.90)*100)/100:null;
+ $('suggestedPrice').textContent=suggested===null?'Indisponível':fmt(suggested,'GBP');
+ $('resetSuggested').disabled=suggested===null||priceSource==='auto';
+ if(priceSource==='auto'&&suggested===null){resetResult('Não é possível sugerir um preço com essa margem e despesas. Reduza a meta ou informe um preço de venda manualmente.');return;}
+ if(priceSource==='manual'&&(!valid('salePrice')||val('salePrice')<=0)){resetResult('Informe um preço de venda positivo em GBP (£).');return;}
+ var price=priceSource==='manual'?val('salePrice'):suggested;
+ if(priceSource==='auto')$('salePrice').value=price.toFixed(2);
+ $('priceModeHint').textContent=priceSource==='manual'?'Preço definido manualmente em GBP (£). Lucro, VAT, Stripe e Simples recalculados.':'Preço sugerido pela meta de margem, arredondado para cima com final .90. Você pode editar.';
  var costGBP=costUSD/ud,cpaGBP=cpaUSD/ud,vatGBP=price*vatFraction;
  var stripeGBP=price*stripeRate+stripeFixedUSD/ud,stripeUSD=stripeGBP*ud;
  var taxBRL=price*bd*taxRate,taxGBP=taxBRL/bd,profit=price-costGBP-cpaGBP-vatGBP-stripeGBP-taxGBP;
@@ -149,13 +162,15 @@ function render(){
  rows.push(putLine('Stripe',''+digits(stripeRate*100,2)+'% do preço GBP + '+fmt(stripeFixedUSD,'USD')+' fixo',fmt(stripeGBP,'GBP'),fmt(stripeUSD,'USD')));
  rows.push(putLine('Simples Nacional',''+digits(taxRate*100,2)+'% do faturamento convertido em BRL',fmt(taxBRL,'BRL'),fmt(taxGBP,'GBP')));
  rows.push(putLine('Lucro projetado','Após todas as despesas listadas · GBP',fmt(profit,'GBP'),digits(margin,2)+'% de margem',true));
- $('salePrice').textContent=fmt(price,'GBP');$('profitGBP').textContent=fmt(profit,'GBP');$('profitPct').textContent=digits(margin,2)+'%';
+ $('profitGBP').textContent=fmt(profit,'GBP');$('profitPct').textContent=digits(margin,2)+'%';
  $('profitGBP').classList.toggle('good',profit>=0);
  $('breakdown').innerHTML=rows.join('');
  $('message').classList.remove('error');
- $('message').textContent='Preço mínimo teórico: '+fmt(raw,'GBP')+'. Sugerido com final .90: '+fmt(price,'GBP')+'. Margem calculada sobre o faturamento bruto em GBP; não sobre a receita sem VAT.';
+ $('message').textContent=priceSource==='manual'
+ ?'Preço manual: '+fmt(price,'GBP')+'. '+(suggested===null?'A margem-alvo configurada não permite um preço recomendado.':'Preço sugerido para alcançar a margem-alvo: '+fmt(suggested,'GBP')+'.')+' Margem real: '+digits(margin,2)+'% sobre o preço bruto.'
+ :'Preço mínimo teórico: '+fmt(raw,'GBP')+'. Sugerido com final .90: '+fmt(suggested,'GBP')+'. Margem calculada sobre o faturamento bruto em GBP; não sobre a receita sem VAT.';
  $('copyResult').disabled=false;
- lastResult={price:price,costUSD:costUSD,productUSD:productUSD,shippingUSD:shippingUSD,vatGBP:vatGBP,cpaUSD:cpaUSD,cpaGBP:cpaGBP,stripeUSD:stripeUSD,stripeGBP:stripeGBP,taxBRL:taxBRL,taxGBP:taxGBP,profit:profit,margin:margin,ud:ud,bd:bd};
+ lastResult={price:price,suggested:suggested,source:priceSource,costUSD:costUSD,productUSD:productUSD,shippingUSD:shippingUSD,vatGBP:vatGBP,cpaUSD:cpaUSD,cpaGBP:cpaGBP,stripeUSD:stripeUSD,stripeGBP:stripeGBP,taxBRL:taxBRL,taxGBP:taxGBP,profit:profit,margin:margin,ud:ud,bd:bd};
 }
 function setFX(usd,brl,source){$('gbpUsd').value=Number(usd).toFixed(6);$('gbpBrl').value=Number(brl).toFixed(6);fxOrigin=source;render();}
 function loadRates(force){
@@ -184,9 +199,11 @@ $('totalCost').addEventListener('input',computeTotal);
 ids.forEach(function(k){$(k).addEventListener('input',function(){saveSettings();render();});});
 ['gbpUsd','gbpBrl'].forEach(function(k){$(k).addEventListener('input',function(){fxOrigin='manual';$('fxStatus').textContent='Cotação informada manualmente. Certifique-se de que as taxas correspondem ao seu custo real.';render();});});
 $('refreshFx').addEventListener('click',function(){loadRates(true);});
-$('clearCosts').addEventListener('click',function(){['productCost','shippingCost','totalCost'].forEach(function(k){$(k).value='';});mode='parts';setMode();render();$('productCost').focus();});
+$('salePrice').addEventListener('input',function(){priceSource='manual';render();});
+$('resetSuggested').addEventListener('click',function(){priceSource='auto';render();});
+$('clearCosts').addEventListener('click',function(){['productCost','shippingCost','totalCost'].forEach(function(k){$(k).value='';});mode='parts';priceSource='auto';setMode();render();$('productCost').focus();});
 $('copyResult').addEventListener('click',function(){if(!lastResult)return;var r=lastResult;
- var s=['Zeratta | Simulação de precificação','Preço de venda: '+fmt(r.price,'GBP'),'Custo total: '+fmt(r.costUSD,'USD')+' = '+fmt(r.costUSD/r.ud,'GBP'),'VAT: '+fmt(r.vatGBP,'GBP'),'CPA: '+fmt(r.cpaUSD,'USD')+' = '+fmt(r.cpaGBP,'GBP'),'Stripe: '+fmt(r.stripeUSD,'USD')+' = '+fmt(r.stripeGBP,'GBP'),'Simples: '+fmt(r.taxBRL,'BRL')+' = '+fmt(r.taxGBP,'GBP'),'Lucro: '+fmt(r.profit,'GBP'),'Margem sobre preço bruto: '+digits(r.margin,2)+'%','Câmbio: 1 GBP = '+digits(r.ud,6)+' USD = '+digits(r.bd,6)+' BRL'].join('\n');
+ var s=['Zeratta | Simulação de precificação','Preço de venda ('+(r.source==='manual'?'manual':'sugerido')+'): '+fmt(r.price,'GBP'),'Preço recomendado pela meta: '+(r.suggested===null?'não disponível':fmt(r.suggested,'GBP')),'Custo total: '+fmt(r.costUSD,'USD')+' = '+fmt(r.costUSD/r.ud,'GBP'),'VAT: '+fmt(r.vatGBP,'GBP'),'CPA: '+fmt(r.cpaUSD,'USD')+' = '+fmt(r.cpaGBP,'GBP'),'Stripe: '+fmt(r.stripeUSD,'USD')+' = '+fmt(r.stripeGBP,'GBP'),'Simples: '+fmt(r.taxBRL,'BRL')+' = '+fmt(r.taxGBP,'GBP'),'Lucro: '+fmt(r.profit,'GBP'),'Margem sobre preço bruto: '+digits(r.margin,2)+'%','Câmbio: 1 GBP = '+digits(r.ud,6)+' USD = '+digits(r.bd,6)+' BRL'].join('\n');
  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(s).then(function(){$('message').textContent='Resultado copiado com moedas e câmbio.';}).catch(function(){$('message').textContent='Não foi possível copiar automaticamente.';});}else{$('message').textContent='Seu navegador não permite copiar automaticamente.';}
 });
 restoreSettings();setMode();render();loadRates(false);
