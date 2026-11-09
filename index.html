@@ -409,7 +409,7 @@ function syncPriceFields(id,except){
 }
 const SHIPPING_SCENARIO_USD=12; /* painel histórico, sem VAT britânico */
 const UK_COST_FX=0.74775; // USD -> GBP
-const UK_SHIPPING_GBP=12; // frete hipotético em libras, não em dólares
+const UK_SHIPPING_GBP=8.10; // frete estimado em GBP por peça, não cotação EPROLO
 function updateTotals(){
  let pend=0;
  for(const p of PRODUCTS){
@@ -421,7 +421,7 @@ function updateTotals(){
   const original=document.querySelector('[data-cost-gbp="'+p.id+'"]');
   if(original)original.textContent=gbp(costGBP);
   const note=document.querySelector('[data-total-hint="'+p.id+'"]');
-  if(note)note.textContent=costUSD===null?'Custo original não informado':'US$ '+costUSD.toFixed(2)+' × 0,74775 + £12 de frete (simulação)';
+  if(note)note.textContent=costUSD===null?'Custo original não informado':'US$ '+costUSD.toFixed(2)+' × 0,74775 + £8,10 de frete (simulação)';
  }
  $('count-freight').textContent=pend;
 }
@@ -459,7 +459,7 @@ function render(){const list=getFilteredProducts();
  '<div class="money-field"><label for="cost-'+p.id+'">Custo original do produto · USD (editável)</label><div class="currency"><input id="cost-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" data-edit="cost" data-id="'+p.id+'" value="'+E(value(p,'cost'))+'"></div></div>'+
  '<div class="money-field"><label for="freight-'+p.id+'">Frete EPROLO histórico (não usado no cenário UK) · USD</label><div class="currency"><input class="freight" id="freight-'+p.id+'" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Pendente" data-edit="freight" data-id="'+p.id+'" value="'+E(value(p,'freight'))+'"></div></div>'+
  '</div>'+
- '<div class="total"><span>CUSTO TOTAL · GBP<br>produto convertido + £12 de frete</span><strong data-total="'+p.id+'">—</strong></div><p class="hint" data-total-hint="'+p.id+'">Aguardando frete</p>'+
+ '<div class="total"><span>CUSTO TOTAL · GBP<br>produto convertido + £8,10 de frete</span><strong data-total="'+p.id+'">—</strong></div><p class="hint" data-total-hint="'+p.id+'">Aguardando frete</p>'+
  '<div class="actions">'+supplier+storefront+'<a class="action" href="'+E(p.adminUrl)+'" target="_blank" rel="noopener noreferrer">Admin ↗</a></div>'+(!hasSupplier?linkInput:'')+
  '<details class="notes"><summary>Notas, SKU e link EPROLO</summary>'+(hasSupplier?linkInput:'')+'<input type="text" placeholder="SKU EPROLO (opcional, para conciliação)" value="'+E(value(p,'supplierSKU'))+'" data-edit="supplierSKU" data-id="'+p.id+'" aria-label="SKU do fornecedor"><textarea placeholder="Observações internas, medidas, cores, logística..." data-edit="notes" data-id="'+p.id+'">'+E(value(p,'notes'))+'</textarea></details>'+
  '<p class="fineprint">Custo: maior custo cadastrado por variante quando disponível (a confirmar com EPROLO) · '+E(p.shopifyPriceSource)+'. Frete, preço e link EPROLO: salvos no GitHub quando conectado.</p></aside></article>'
@@ -541,38 +541,34 @@ const roundCents=x=>Math.round((x+Number.EPSILON)*100)/100;
 const num2=(v,fail=null)=>v!==null&&v!==undefined&&v!==''&&Number.isFinite(Number(v))?Number(v):fail;
 const globalCPA=p=>(p.category==='Hoodies'||p.category==='Fleece & Sherpa')?financeState.cpaHoodie:financeState.cpaOuter;
 
-/* UK pricing v4: remaining catalog products are advertised; all costs and margins are presented in GBP. */
-const UK_SIM={fx:UK_COST_FX,shippingGBP:UK_SHIPPING_GBP,vat:0.20,processingPct:0.10,processingFixedGBP:0.05,cpaBaseUSD:40,cpaStressUSD:47,targetSingleMargin:0.10,floorBundleMargin:0.18,minPriceGBP:69.90,targetMaxGBP:99.90};
+/* UK retail pricing v5: actually published on Shopify on 09/11/2026. All costs and margins in GBP. */
+const UK_SIM={fx:UK_COST_FX,shippingGBP:UK_SHIPPING_GBP,vat:0.20,processingPct:3.66/79.90,processingFixedGBP:0,cpaBaseGBP:25,cpaStressGBP:30,targetMarginGross:0.2069,minPriceGBP:69.90,targetMaxGBP:99.90};
 const GBP=n=>Number.isFinite(n)?new Intl.NumberFormat('en-GB',{style:'currency',currency:'GBP'}).format(n):'—';
-function ukPriceFloor(costUSD,items,discount,margin,cpaGBP){
+function ukPriceFloor(costUSD,cpaGBP=UK_SIM.cpaBaseGBP){
  const u=UK_SIM,unitCostGBP=costUSD*u.fx+u.shippingGBP;
- return (items*unitCostGBP+cpaGBP+u.processingFixedGBP)/(items*(1-discount)*((1-margin)/(1+u.vat)-u.processingPct));
+ return (unitCostGBP+cpaGBP)/(1-u.vat/(1+u.vat)-u.processingPct-u.targetMarginGross);
 }
 function ukPriceRoundUp(value){return roundCents(Math.ceil(value-0.9-1e-9)+0.9)}
 function ukScenario(costUSD,priceGBP,items,discount,cpaGBP){
- const u=UK_SIM,gross=items*priceGBP*(1-discount);
- const vatGBP=gross-gross/(1+u.vat),netGBP=gross/(1+u.vat);
- const processorGBP=gross*u.processingPct+u.processingFixedGBP;
+ const u=UK_SIM,gross=items*priceGBP*(1-discount),vatGBP=gross*u.vat/(1+u.vat);
+ const netGBP=gross-vatGBP,processorGBP=gross*u.processingPct+u.processingFixedGBP;
  const productGBP=items*(costUSD*u.fx+u.shippingGBP);
  const contribution=netGBP-processorGBP-productGBP-cpaGBP;
- return {gross,vatGBP,netGBP,intrinsicGBP:netGBP,processorGBP,productGBP,cpaGBP,contribution,margin:netGBP>0?100*contribution/netGBP:0,above135:netGBP>135};
+ return {gross,vatGBP,netGBP,intrinsicGBP:netGBP,processorGBP,productGBP,cpaGBP,contribution,margin:gross>0?100*contribution/gross:0,marginExVat:netGBP>0?100*contribution/netGBP:0,above135:netGBP>135};
 }
 function ukSimModel(p){
  const cost=num2(value(p,'cost'),num2(p.unitCostWorstVariant,p.cost));
  if(cost===null)return null;
  const tiers=[[1,0],[2,.10],[3,.15],[4,.25]];
- const cpaBaseGBP=UK_SIM.cpaBaseUSD*UK_SIM.fx,cpaStressGBP=UK_SIM.cpaStressUSD*UK_SIM.fx;
- const floors=[
-  ukPriceFloor(cost,1,0,UK_SIM.targetSingleMargin,cpaBaseGBP),
-  ...tiers.slice(1).map(([n,d])=>ukPriceFloor(cost,n,d,UK_SIM.floorBundleMargin,cpaStressGBP))
- ];
- const suggestedPrice=Math.max(UK_SIM.minPriceGBP,ukPriceRoundUp(Math.max(...floors)));
+ const suggestedPrice=Math.max(UK_SIM.minPriceGBP,ukPriceRoundUp(ukPriceFloor(cost)));
+ const syncedGBP=num2(p.shopifyPublishedPrice);
  const savedGBP=num2(state.saved[p.id]?.ukSalePriceGBP_v2);
- const manual=savedGBP!==null&&savedGBP>0;
- const price=manual?roundCents(savedGBP):suggestedPrice;
- return {costUSD:cost,costGBP:cost*UK_SIM.fx,shippingGBP:UK_SIM.shippingGBP,landedGBP:cost*UK_SIM.fx+UK_SIM.shippingGBP,price,suggestedPrice,manual,cpaBaseGBP,cpaStressGBP,
-  expected:ukScenario(cost,price,1,0,cpaBaseGBP),stress:ukScenario(cost,price,1,0,cpaStressGBP),
-  bundles:tiers.slice(1).map(([n,d])=>({items:n,discount:d,expected:ukScenario(cost,price,n,d,cpaBaseGBP),stress:ukScenario(cost,price,n,d,cpaStressGBP)}))};
+ const manual=savedGBP!==null&&savedGBP>0&&Math.abs(savedGBP-(syncedGBP||suggestedPrice))>0.005;
+ const price=manual?roundCents(savedGBP):syncedGBP>0?roundCents(syncedGBP):suggestedPrice;
+ return {costUSD:cost,costGBP:cost*UK_SIM.fx,shippingGBP:UK_SIM.shippingGBP,landedGBP:cost*UK_SIM.fx+UK_SIM.shippingGBP,price,suggestedPrice,syncedGBP,manual,cpaBaseGBP:UK_SIM.cpaBaseGBP,cpaStressGBP:UK_SIM.cpaStressGBP,
+  expected:ukScenario(cost,price,1,0,UK_SIM.cpaBaseGBP),
+  stress:ukScenario(cost,price,1,0,UK_SIM.cpaStressGBP),
+  bundles:tiers.slice(1).map(([n,d])=>({items:n,discount:d,expected:ukScenario(cost,price,n,d,UK_SIM.cpaBaseGBP),stress:ukScenario(cost,price,n,d,UK_SIM.cpaStressGBP)}))};
 }
 function refreshUKPricingSummary(){
  const root=document.getElementById('uk-pricing-summary');if(!root)return;
@@ -581,39 +577,36 @@ function refreshUKPricingSummary(){
  const avg=k=>vals.reduce((sum,v)=>sum+k(v),0)/count;
  const min=Math.min(...vals.map(v=>v.price)),max=Math.max(...vals.map(v=>v.price));
  const inRange=vals.filter(v=>v.price>=69&&v.price<=99.9).length;
- const mixStress=avg(v=>v.stress.margin*.20+v.bundles[0].stress.margin*.40+v.bundles[1].stress.margin*.25+v.bundles[2].stress.margin*.15);
- const mixBase=avg(v=>v.expected.margin*.20+v.bundles[0].expected.margin*.40+v.bundles[1].expected.margin*.25+v.bundles[2].expected.margin*.15);
  const fmtPct=v=>v.toFixed(1)+'%';
  const cards=[
-  ['Preço UK · menor',GBP(min),'VAT reservado; frete hipotético £12/unidade'],
-  ['Preço UK · maior',GBP(max),'Preço simulado, não publicado na Shopify'],
-  ['Margem média · 2 itens',fmtPct(avg(v=>v.bundles[0].stress.margin)),'CPA estresse US$47 convertido · desconto 10%'],
-  ['Margem média · 3 itens',fmtPct(avg(v=>v.bundles[1].stress.margin)),'CPA estresse US$47 convertido · desconto 15%'],
-  ['Margem média · 4+ itens',fmtPct(avg(v=>v.bundles[2].stress.margin)),'CPA estresse US$47 convertido · desconto 25%'],
-  ['Produtos na faixa £69–99,90',inRange+' / '+count,'Preços sugeridos, não publicados na Shopify']
+  ['Preço Shopify · menor',GBP(min),'Preço publicado em GBP'],
+  ['Preço Shopify · maior',GBP(max),'Preço publicado em GBP'],
+  ['Margem média · 1 peça',fmtPct(avg(v=>v.expected.margin)),'CPA de £25 · sobre venda bruta'],
+  ['Margem média · CPA £30',fmtPct(avg(v=>v.stress.margin)),'Estresse de aquisição · 1 peça'],
+  ['Margem média · 2 itens',fmtPct(avg(v=>v.bundles[0].expected.margin)),'10% desconto · CPA £25 por pedido'],
+  ['Produtos na faixa £69–99,90',inRange+' / '+count,'6 exceções por custo mais alto']
  ];
  root.innerHTML=cards.map(([label,value,note])=>'<div class="finance-mini"><label>'+label+'</label><strong>'+value+'</strong><div class="mini-sub">'+note+'</div></div>').join('')+
-  '<div class="finance-warning"><strong>Moedas e aquisição:</strong> custo EPROLO original em USD convertido para GBP. Google Ads cobra em USD: US$'+UK_SIM.cpaBaseUSD+' = '+GBP(UK_SIM.cpaBaseUSD*UK_SIM.fx)+'; US$'+UK_SIM.cpaStressUSD+' = '+GBP(UK_SIM.cpaStressUSD*UK_SIM.fx)+'. O CPA é contabilizado uma vez por pedido. Margem média simulada por mix hipotético: '+fmtPct(mixBase)+' base; '+fmtPct(mixStress)+' estresse. Não representa histórico real.</div>';
+  '<div class="finance-warning"><strong>Modelo UK aplicado na Shopify:</strong> margem sobre o preço final com VAT incluído; CPA £25 por pedido (~US$'+(UK_SIM.cpaBaseGBP/UK_SIM.fx).toFixed(2)+' na conta Google Ads), frete hipotético £8,10/peça, Stripe provisória 4,58%, VAT reservado 20%. Bundles: 2 itens 10%, 3 itens 15%, 4+ itens 25%. Os descontos alteram as margens e não estão limitados a 25%; VAT/importação acima de £135 e despesas adicionais exigem validação. O campo GBP por produto pode simular um valor manual sem atualizar automaticamente a Shopify.</div>';
 }
 function ukSimMarkup(p){
  const m=ukSimModel(p);
  if(!m)return '<div class="uk-sim-card">Custo do produto ausente para simulação UK.</div>';
- const v=m.expected,s=m.stress,b=m.bundles[2].stress;
- const cpaLabel='CPA US$'+UK_SIM.cpaStressUSD+' = '+GBP(m.cpaStressGBP);
- const rangeNote=m.suggestedPrice>UK_SIM.targetMaxGBP?'FORA DA FAIXA: preço sugerido '+GBP(m.suggestedPrice)+'. Avaliar fornecedor.':'Dentro da faixa £69–99,90.';
+ const v=m.expected,s=m.stress,b=m.bundles[2].expected;
+ const rangeNote=m.suggestedPrice>UK_SIM.targetMaxGBP?'EXCEÇÃO: preço '+GBP(m.price)+' acima da faixa £69–99,90 para preservar a margem.':'Dentro da faixa £69–99,90.';
  const bundleRows=m.bundles.map(k=>{
-  const intrinsic=k.stress.intrinsicGBP,threshold=intrinsic<=135?'Até £135':'ACIMA DE £135 · possível cobrança de importação';
-  return '<div class="uk-bundle-row"><span>'+k.items+' peças (−'+Math.round(k.discount*100)+'%)</span><strong>'+GBP(k.stress.gross)+'</strong><small>VAT reservado '+GBP(k.stress.vatGBP)+' · valor intrínseco '+GBP(intrinsic)+' · margem '+cpaLabel+' '+perc2(k.stress.margin)+' · '+threshold+'</small></div>';
+  const intrinsic=k.expected.intrinsicGBP,threshold=intrinsic<=135?'Até £135':'ACIMA DE £135 · possível importação';
+  return '<div class="uk-bundle-row"><span>'+k.items+' peças (−'+Math.round(k.discount*100)+'%)</span><strong>'+GBP(k.expected.gross)+'</strong><small>VAT reservado '+GBP(k.expected.vatGBP)+' · mercadorias sem VAT '+GBP(intrinsic)+' · CPA £25/pedido · lucro '+GBP(k.expected.contribution)+' · margem sobre a venda '+perc2(k.expected.margin)+' · '+threshold+'</small></div>';
  }).join('');
- return '<section class="uk-sim-card" data-uk-card="'+p.id+'" aria-label="Simulação UK em libras">'+
-  '<div class="uk-sim-title">PREÇO FINAL PARA O CLIENTE · GBP (£) · VAT RESERVADO · SIMULAÇÃO</div>'+
-  '<div class="uk-sim-price-edit"><span class="gbp-prefix">£</span><input class="uk-sim-price-input" type="number" min="0.01" step="0.01" inputmode="decimal" data-uk-price="'+p.id+'" id="uk-price-'+p.id+'" value="'+m.price.toFixed(2)+'" aria-label="Preço final UK em libras para '+E(p.shopTitle)+'"><button type="button" class="uk-sim-reset" data-uk-reset="'+p.id+'" title="Voltar ao preço sugerido">Usar sugestão</button></div>'+
-  '<div class="uk-sim-price-help">Editável em £ · Preço sugerido '+GBP(m.suggestedPrice)+' · '+(m.manual?'Preço definido manualmente':'Sugestão automática')+'</div>'+
-  '<div class="uk-sim-caption">Custo em GBP '+GBP(m.costGBP)+' (origem '+money2(m.costUSD)+') + frete hipotético '+GBP(m.shippingGBP)+' = '+GBP(m.landedGBP)+' por peça. Câmbio: US$1 = £0,74775.</div>'+
-  '<div class="uk-sim-mini"><div><span>VAT reservado · 1 peça</span><strong>'+GBP(v.vatGBP)+'</strong></div><div><span>Stripe + Shopify · provisão 10% em GBP</span><strong>'+GBP(v.processorGBP)+'</strong></div>'+
-  '<div><span>Contribuição · CPA US$'+UK_SIM.cpaBaseUSD+' ('+GBP(m.cpaBaseGBP)+')</span><strong>'+GBP(v.contribution)+' · '+perc2(v.margin)+'</strong></div><div><span>Contribuição · CPA US$'+UK_SIM.cpaStressUSD+' ('+GBP(m.cpaStressGBP)+')</span><strong>'+GBP(s.contribution)+' · '+perc2(s.margin)+'</strong></div></div>'+
-  '<div class="uk-sim-bundle"><b>Pedidos com desconto · valores em GBP</b>'+bundleRows+'<div class="uk-sim-caption">Contribuição com 4 peças e 25% OFF, '+cpaLabel+': '+GBP(b.contribution)+'. O cenário 4+ usa 4 peças.</div></div>'+
-  '<div class="uk-sim-flag">'+rangeNote+' Bundles: 2 itens 10%; 3 itens 15%; 4+ itens 25%. VAT reservado 20% e processamento provisório 10% + £0,05 em GBP. Não inclui duty/desembaraço; EPROLO Standard não é DDP, e pedidos acima de £135 podem gerar cobranças de importação.</div>'+
+ return '<section class="uk-sim-card" data-uk-card="'+p.id+'" aria-label="Preço Shopify e análise financeira UK">'+
+  '<div class="uk-sim-title">PREÇO PUBLICADO NA SHOPIFY · GBP (£) · VAT INCLUÍDO</div>'+
+  '<div class="uk-sim-price-edit"><span class="gbp-prefix">£</span><input class="uk-sim-price-input" type="number" min="0.01" step="0.01" inputmode="decimal" data-uk-price="'+p.id+'" id="uk-price-'+p.id+'" value="'+m.price.toFixed(2)+'" aria-label="Simular preço em libras para '+E(p.shopTitle)+'"><button type="button" class="uk-sim-reset" data-uk-reset="'+p.id+'" title="Voltar ao preço publicado">Usar preço Shopify</button></div>'+
+  '<div class="uk-sim-price-help">Shopify confirmada: '+GBP(m.syncedGBP)+' · Sugestão da fórmula: '+GBP(m.suggestedPrice)+' · '+(m.manual?'Valor manual para simulação; não altera a Shopify':'Preço sincronizado da Shopify')+'</div>'+
+  '<div class="uk-sim-caption">Custo convertido '+GBP(m.costGBP)+' (número cadastrado '+money2(m.costUSD)+' tratado como USD) + frete estimado '+GBP(m.shippingGBP)+' = '+GBP(m.landedGBP)+' por peça. Taxa de planejamento US$1 = £0,74775.</div>'+
+  '<div class="uk-sim-mini"><div><span>VAT incluído · 1 peça</span><strong>'+GBP(v.vatGBP)+'</strong></div><div><span>Stripe estimada · 4,58% em GBP</span><strong>'+GBP(v.processorGBP)+'</strong></div>'+
+  '<div><span>Lucro · CPA £25/pedido</span><strong>'+GBP(v.contribution)+' · '+perc2(v.margin)+' sobre venda</strong></div><div><span>Lucro · CPA £30/pedido</span><strong>'+GBP(s.contribution)+' · '+perc2(s.margin)+' sobre venda</strong></div></div>'+
+  '<div class="uk-sim-bundle"><b>Bundles · valores em GBP · CPA uma vez por pedido</b>'+bundleRows+'<div class="uk-sim-caption">Lucro com 4 peças e 25% OFF, CPA £25: '+GBP(b.contribution)+'. Taxas e frete recalculados para quatro peças.</div></div>'+
+  '<div class="uk-sim-flag">'+rangeNote+' Margem é contribuição estimada dividida pelo preço final pago pelo cliente. Frete £8,10/peça e Stripe 4,58% são hipóteses de cálculo. Não inclui duty, desembaraço, devoluções nem outras despesas. Em remessas acima de £135, o tratamento de import VAT pode diferir. Conferir custos EPROLO antes de considerar o lucro garantido.</div>'+
  '</section>';
 }
 function refreshUKPriceLive(id){
