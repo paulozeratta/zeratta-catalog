@@ -29,38 +29,31 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 
 ## Conferência dos links EPROLO | 09/11/2026
 
-- **116 de 137 produtos com links EPROLO**, sem URLs repetidas entre os registros.
-- **20 associações confirmadas nesta rodada**: 18 URLs fornecidas pelo lojista, verificadas por título da página EPROLO e correspondência com a Shopify; 2 URLs adicionais encontradas e validadas publicamente por título, cores e tamanhos.
-- **21 produtos ainda sem URL exata**: 13 da importação nova e 8 anteriores. A pesquisa pública não encontrou fornecedor identificável com segurança para todos. O acesso autenticado à lista de produtos EPROLO ou um export da EPROLO é necessário para concluir com integridade.
-- **URL recebida, mas não vinculada:** `https://eprolo.com/app/product/womens-mid-length-padded-puffer-jacket-loose-fit-thickened-winter-quilted-coat-plus-size`. A página pública existe, mas não foi identificada correspondência exata no catálogo Shopify; variantes e descrição são diferentes do produto já relacionado `Women's Winter Mid-Length Puffer Coat Thickened Hooded Down Cotton Jacket`. Não atribuir a URL por semelhança superficial.
-- **Não alterar preços/fretes nem criar duplicações** durante a reconciliação de fornecedores.
+- **122 de 137 produtos com link EPROLO associado**, sem URLs repetidas entre os registros.
+- **26 links adicionados nas duas últimas rodadas:** 20 recuperados e conferidos por correspondência de títulos Shopify/EPROLO (18 fornecidos pelo lojista, 2 encontrados na web) e outros 6 confirmados por registros históricos da Zeratta no Google Drive, incluindo a jaqueta `Women Winter PU Leather Short Stand Collar Puffer` e 5 peças anteriores (fleece hoodie, puffer cropped, jaqueta sintética cropped, puffer com capuz e bomber de couro). Cada vínculo gravado foi conferido contra descrição, opções de cor e tamanhos quando disponíveis.
+- **15 produtos sem URL exata identificada**: 12 da importação nova e 3 anteriores. A busca pública, arquivos históricos e consultas à Shopify não fornecem vínculo verificável para esses itens. Para completar 100% sem inventar links será necessário consultar os produtos importados na conta EPROLO (import list / products) ou obter um export com os links reais.
+- **URL recebida e ainda não atribuída:** `https://eprolo.com/app/product/womens-mid-length-padded-puffer-jacket-loose-fit-thickened-winter-quilted-coat-plus-size`. É uma página válida, mas o produto não apresentou correspondência segura com os títulos/variantes catalogados; não forçar vínculo.
+- **Sem alteração de preços Shopify e fretes** durante esta revisão de fornecedores.
 
-### Pendências para a EPROLO
+### Registros restantes sem link EPROLO
 
-| Shopify ID | Produto | Origem |
+| Shopify Product ID | Título Shopify | Origem |
 | --- | --- | --- |
-| [15589739594016](https://admin.shopify.com/store/testezeratta/products/15589739594016) | Autumn and winter cotton jacket, unisex cotton jacket, leather jacket, bread jacket, high-quality thickened cotton jacket | Novembro 09 |
-| [15589739528480](https://admin.shopify.com/store/testezeratta/products/15589739528480) | Knitted cotton jacket versatile jacket | Novembro 09 |
-| [15589738316064](https://admin.shopify.com/store/testezeratta/products/15589738316064) | Men's jacket with plush cotton fabric, casual jacket, men's jacket | Novembro 09 |
-| [15589737857312](https://admin.shopify.com/store/testezeratta/products/15589737857312) | Women Winter PU Leather Short Stand Collar Puffer | Novembro 09 |
-| [15589736579360](https://admin.shopify.com/store/testezeratta/products/15589736579360) | Winter New Thickened Casual Down Coat For Women Winter Women's Coat Women's Puffer Warm Clothes For Women Hot Clothes For Women | Novembro 09 |
-| [15589735563552](https://admin.shopify.com/store/testezeratta/products/15589735563552) | Little Chanel White Hooded Waist-Cinching Thickened Puffer Coat for Women | Novembro 09 |
-| [15589733073184](https://admin.shopify.com/store/testezeratta/products/15589733073184) | Women's Style Down Cotton Puffer Jacket, Short Stand Collar Quilted Loose Fit Winter Coat | Novembro 09 |
-| [15589731500320](https://admin.shopify.com/store/testezeratta/products/15589731500320) | Wool collar jacket short cotton jacket | Novembro 09 |
-| [15589731402016](https://admin.shopify.com/store/testezeratta/products/15589731402016) | Short jacket | Novembro 09 |
-| [15589731107104](https://admin.shopify.com/store/testezeratta/products/15589731107104) | Korean Plaid Down Jacket For Women Jacquard Thick Duck Down Zip Up Hooded Jacket For Winter Puffer Outwear | Novembro 09 |
-| [15589729042720](https://admin.shopify.com/store/testezeratta/products/15589729042720) | Stand Collar Thickened Cotton Coat Unisex Oversized Short Puffer Jacket | Novembro 09 |
-| [15589728420128](https://admin.shopify.com/store/testezeratta/products/15589728420128) | Mountain Style Outdoor Puffer Jacket Trendy Loose Stand Collar Warm Thick Cotton Coat for Couples, Versatile Design | Novembro 09 |
-| [15589725176096](https://admin.shopify.com/store/testezeratta/products/15589725176096) | Women's Short Thickened Warm Puffer Jacket with Large Fur Collar, Loose Fit Outerwear | Novembro 09 |
+| [15589739594016](https://admin.shopify.com/store/testezeratta/products/15589739594016) | Autumn and winter cotton jacket, unisex cotton jacket, leather jacket, bread jacket, high-quality thickened cotton jacket | Importação 09/11 |
+| [15589739528480](https://admin.shopify.com/store/testezeratta/products/15589739528480) | Knitted cotton jacket versatile jacket | Importação 09/11 |
+| [15589738316064](https://admin.shopify.com/store/testezeratta/products/15589738316064) | Men's jacket with plush cotton fabric, casual jacket, men's jacket | Importação 09/11 |
+| [15589736579360](https://admin.shopify.com/store/testezeratta/products/15589736579360) | Winter New Thickened Casual Down Coat For Women Winter Women's Coat Women's Puffer Warm Clothes For Women Hot Clothes For Women | Importação 09/11 |
+| [15589735563552](https://admin.shopify.com/store/testezeratta/products/15589735563552) | Little Chanel White Hooded Waist-Cinching Thickened Puffer Coat for Women | Importação 09/11 |
+| [15589733073184](https://admin.shopify.com/store/testezeratta/products/15589733073184) | Women's Style Down Cotton Puffer Jacket, Short Stand Collar Quilted Loose Fit Winter Coat | Importação 09/11 |
+| [15589731500320](https://admin.shopify.com/store/testezeratta/products/15589731500320) | Wool collar jacket short cotton jacket | Importação 09/11 |
+| [15589731402016](https://admin.shopify.com/store/testezeratta/products/15589731402016) | Short jacket | Importação 09/11 |
+| [15589731107104](https://admin.shopify.com/store/testezeratta/products/15589731107104) | Korean Plaid Down Jacket For Women Jacquard Thick Duck Down Zip Up Hooded Jacket For Winter Puffer Outwear | Importação 09/11 |
+| [15589729042720](https://admin.shopify.com/store/testezeratta/products/15589729042720) | Stand Collar Thickened Cotton Coat Unisex Oversized Short Puffer Jacket | Importação 09/11 |
+| [15589728420128](https://admin.shopify.com/store/testezeratta/products/15589728420128) | Mountain Style Outdoor Puffer Jacket Trendy Loose Stand Collar Warm Thick Cotton Coat for Couples, Versatile Design | Importação 09/11 |
+| [15589725176096](https://admin.shopify.com/store/testezeratta/products/15589725176096) | Women's Short Thickened Warm Puffer Jacket with Large Fur Collar, Loose Fit Outerwear | Importação 09/11 |
 | [15578320437536](https://admin.shopify.com/store/testezeratta/products/15578320437536) | Men's Hooded Faux Leather Winter Jacket with Padded Details | Anterior |
 | [15556037181728](https://admin.shopify.com/store/testezeratta/products/15556037181728) | Women's Cropped Hooded Puffer Jacket with Relaxed Fit | Anterior |
-| [15552748585248](https://admin.shopify.com/store/testezeratta/products/15552748585248) | Cropped Faux Fur-Effect Zip Jacket with High Collar for Women | Anterior |
-| [15534366687520](https://admin.shopify.com/store/testezeratta/products/15534366687520) | Women's Cropped Puffer Jacket with Stand Collar and Zip Front | Anterior |
 | [15533051412768](https://admin.shopify.com/store/testezeratta/products/15533051412768) | Men's Relaxed Fit Hooded Puffer Jacket with Side Pockets | Anterior |
-| [15533044007200](https://admin.shopify.com/store/testezeratta/products/15533044007200) | Women's Quilted Hooded Puffer Jacket with Zip Front | Anterior |
-| [15533039452448](https://admin.shopify.com/store/testezeratta/products/15533039452448) | Ashford Men's Leather Bomber Jacket with Turn-Down Collar | Anterior |
-| [15533033488672](https://admin.shopify.com/store/testezeratta/products/15533033488672) | Women's Fleece Zip-Up Hoodie with Relaxed Fit | Anterior |
-
 ## Reconciliação Shopify → catálogo | 09/11/2026, 16h33 BRT
 
 - **Shopify ao vivo:** 138 produtos `ACTIVE` encontrados; 100 já estavam no HTML e 38 foram adicionados à Shopify depois da captura anterior. Nenhum dos 100 desapareceu.
