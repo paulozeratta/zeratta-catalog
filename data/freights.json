@@ -2631,6 +2631,28 @@
           }
         }
       ]
+    },
+    "15591471448352": {
+      "sourceUrl": "https://eprolo.com/app/product/winter-wool-jacket-men's-coat-warm-solid-jacket-double-breasted-business-casual-overcoat-long-cotton-collar-trench-coat",
+      "ukQuotes": [
+        {
+          "shippingUSD": 18.37,
+          "shippingGBP": 13.75,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 15,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     }
   }
 }
