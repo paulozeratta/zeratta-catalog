@@ -2908,6 +2908,52 @@
           }
         }
       ]
+    },
+    "15591466434848": {
+      "sourceUrl": "https://eprolo.com/app/product/vintage-brown-suede-coat-for-men-long-autumnwinter-jacket-european-size",
+      "sourceUpdatedAt": 1794277920443,
+      "ukQuotes": [
+        {
+          "shippingUSD": 19.69,
+          "shippingGBP": 14.74,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 6,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591475904800": {
+      "sourceUrl": "https://eprolo.com/app/product/traf--2023-autumn-winter-overcoat-women--solid-color-belted-faux-leather-long-trench-coat-female-outerwear",
+      "sourceUpdatedAt": 1794277920443,
+      "ukQuotes": [
+        {
+          "shippingUSD": 14.71,
+          "shippingGBP": 11.01,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 4,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     }
   }
 }
