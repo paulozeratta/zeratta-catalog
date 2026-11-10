@@ -1,0 +1,455 @@
+{
+  "batch": "A",
+  "products": [
+    {
+      "id": "15548489433376",
+      "old": "leather-jacket",
+      "new": "mens-deconstructed-faux-leather-zip-jacket",
+      "returned": "mens-deconstructed-faux-leather-zip-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551014994208",
+      "old": "collar-long-sleeved-jacket",
+      "new": "womens-oversized-faux-leather-lapel-jacket",
+      "returned": "womens-oversized-faux-leather-lapel-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551015059744",
+      "old": "long-sleeved-womens-leather-jacket-pu-leather-jacket-womens-short-leather-jacket-womens-jacket-motorcycle-suit",
+      "new": "womens-cropped-faux-leather-zip-up-jacket-long-sleeves",
+      "returned": "womens-cropped-faux-leather-zip-up-jacket-long-sleeves",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551015092512",
+      "old": "womens-leather-jacket-womens-short-jacket-slim-fit-thin-leather-jacket-womens-motorcycle-jacket",
+      "new": "womens-slim-fit-cropped-faux-leather-jacket",
+      "returned": "womens-slim-fit-cropped-faux-leather-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551016173856",
+      "old": "three-color-soft-zipper-jacket-jacket",
+      "new": "womens-zip-up-jacket-turn-down-collar",
+      "returned": "womens-zip-up-jacket-turn-down-collar",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551019188512",
+      "old": "slim-zipper-jacket-jacket",
+      "new": "womens-belted-faux-leather-zip-jacket",
+      "returned": "womens-belted-faux-leather-zip-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551019385120",
+      "old": "collar-pu-leather-jacket-jacket-for-women",
+      "new": "womens-faux-leather-jacket-turn-down-collar-zip-front",
+      "returned": "womens-faux-leather-jacket-turn-down-collar-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551020269856",
+      "old": "spring-autumn-new-mens-hoodie-casual-cotton-fleece-long-sleeve-men-sweatshirt-round-neck-multicolor-fashion-loose-tops-5xl",
+      "new": "mens-classic-fleece-pullover-hoodie-long-sleeves",
+      "returned": "mens-classic-fleece-pullover-hoodie-long-sleeves",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551022498080",
+      "old": "quilted-jacket",
+      "new": "womens-round-neck-quilted-button-jacket",
+      "returned": "womens-round-neck-quilted-button-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551023251744",
+      "old": "suede-texture-imitation-leather-jacket-jacket",
+      "new": "womens-velvet-effect-jacket-stand-collar-zip-front",
+      "returned": "womens-velvet-effect-jacket-stand-collar-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 0
+    },
+    {
+      "id": "15551024431392",
+      "old": "casual-pink-black-gray-blue-hoodie-hip-hop-street-wear-sweatshirts-skateboard-men-woman-pullover-hoodies-male-hoodie",
+      "new": "unisex-streetwear-pullover-hoodie-relaxed-fit",
+      "returned": "unisex-streetwear-pullover-hoodie-relaxed-fit",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551026364704",
+      "old": "vintage-leather-jacket-for-men-stylish-bomber-coat-trendy-brand-outerwear",
+      "new": "mens-vintage-faux-leather-bomber-jacket-stand-collar",
+      "returned": "mens-vintage-faux-leather-bomber-jacket-stand-collar",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551027937568",
+      "old": "sweatshirt-men-new-hoodies-brand-male-long-sleeve-solid-hoodie-big-size",
+      "new": "mens-long-sleeve-pullover-hoodie-relaxed-fit",
+      "returned": "mens-long-sleeve-pullover-hoodie-relaxed-fit",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551029510432",
+      "old": "new-casual-hoodie-zippered-hoodie-jacket-mens-solid-color-cardigan",
+      "new": "mens-classic-full-zip-hoodie-solid-color-finish",
+      "returned": "mens-classic-full-zip-hoodie-solid-color-finish",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551032590624",
+      "old": "oversized-thickened-pullover-hoodie-with-kangaroo-pockets-blanket-like-cozy-sportswear-for-warmth",
+      "new": "oversized-blanket-hoodie-kangaroo-pockets",
+      "returned": "oversized-blanket-hoodie-kangaroo-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551032688928",
+      "old": "new-style-sweatshirt-with-plush-hoodie-sports-and-leisure-jacket-autumn-and-winter-mens-top-can-be-printed-with-logo",
+      "new": "mens-plush-fleece-hoodie-relaxed-fit",
+      "returned": "mens-plush-fleece-hoodie-relaxed-fit",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551033868576",
+      "old": "zipper-long-sleeved-jacket",
+      "new": "womens-lapel-collar-zip-up-jacket",
+      "returned": "womens-lapel-collar-zip-up-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551033934112",
+      "old": "unizera-autumn-winter-new-product-womens-new-fashion-and-casual-versatile-stand-up-collar-hooded-jacket-cotton-coat",
+      "new": "womens-hooded-padded-jacket-side-pockets",
+      "returned": "womens-hooded-padded-jacket-side-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551034589472",
+      "old": "collar-zipper-jacket",
+      "new": "womens-relaxed-padded-zip-up-jacket",
+      "returned": "womens-relaxed-padded-zip-up-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551038587168",
+      "old": "fleece-stand-up-collar-jacket-jacket",
+      "new": "womens-faux-shearling-jacket-stand-collar",
+      "returned": "womens-faux-shearling-jacket-stand-collar",
+      "errors": [],
+      "ok": true,
+      "status": 1
+    },
+    {
+      "id": "15551039308064",
+      "old": "hooded-cotton-coat-mens-outerwear-winter-fashionable-thickened-puffer-jacket-stylish-heavy-cotton-parka",
+      "new": "mens-heavyweight-hooded-puffer-jacket-relaxed-fit",
+      "returned": "mens-heavyweight-hooded-puffer-jacket-relaxed-fit",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551041274144",
+      "old": "new-womens-fashionable-hooded-pocket-decorative-puffer-coat",
+      "new": "womens-padded-hooded-jacket-zip-front",
+      "returned": "womens-padded-hooded-jacket-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551042158880",
+      "old": "mens-winter-clothing-winter-new-styles-trendy-cool-windproof-cold-resistant-warm-loose-oversized-hooded-cotton-jacket-mens-clothing",
+      "new": "mens-oversized-hooded-winter-jacket-side-pockets",
+      "returned": "mens-oversized-hooded-winter-jacket-side-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551042978080",
+      "old": "womens-loose-cropped-puffer-jacket-with-oversized-fur-collar",
+      "new": "womens-cropped-puffer-jacket-detachable-faux-fur",
+      "returned": "womens-cropped-puffer-jacket-detachable-faux-fur",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551045304608",
+      "old": "lapel-leather-jacket-for-women",
+      "new": "womens-faux-leather-zip-lapel-jacket",
+      "returned": "womens-faux-leather-zip-lapel-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551046189344",
+      "old": "polo-collar-leather-jacket",
+      "new": "womens-polo-collar-faux-leather-jacket",
+      "returned": "womens-polo-collar-faux-leather-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551046254880",
+      "old": "chanel-style-quilted-color-block-faux-leather-lapel-collar-loose-cropped-puffer-jacket",
+      "new": "cropped-quilted-color-block-jacket-button-front",
+      "returned": "cropped-quilted-color-block-jacket-button-front",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551047074080",
+      "old": "leather-jacket-mens-slim-fit-zipper-pu-jacket-autumn-mens-leather-jacket-jacket-black",
+      "new": "mens-hooded-faux-leather-zip-up-jacket-ribbed-hem",
+      "returned": "mens-hooded-faux-leather-zip-up-jacket-ribbed-hem",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551048089888",
+      "old": "mens-korean-loose-autumn-and-winter-jacket-mens-standing-collar-fleece-jacket-double-sided-fleece-top",
+      "new": "mens-double-sided-fleece-jacket-stand-collar",
+      "returned": "mens-double-sided-fleece-jacket-stand-collar",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551048417568",
+      "old": "stand-up-yoga-suit-warm-jacket-womens-running-windproof-top-with-fleece-sports-and-fitness-jacket",
+      "new": "womens-fleece-running-jacket-stand-collar",
+      "returned": "womens-fleece-running-jacket-stand-collar",
+      "errors": [],
+      "ok": true,
+      "status": 2
+    },
+    {
+      "id": "15551050252576",
+      "old": "adjustable-waist-imitation-leather-jacket-jacket",
+      "new": "womens-relaxed-faux-leather-jacket-adjustable-waist",
+      "returned": "womens-relaxed-faux-leather-jacket-adjustable-waist",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15551050547488",
+      "old": "casual-maillard-long-sleeve-suede-zipper-lapel-oversized-motorcycle-jacket-for-women",
+      "new": "womens-oversized-suede-effect-lapel-jacket-zip-front",
+      "returned": "womens-oversized-suede-effect-lapel-jacket-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15551050940704",
+      "old": "mens-biker-casual-leather-jacket",
+      "new": "mens-slim-fit-faux-leather-zip-jacket",
+      "returned": "mens-slim-fit-faux-leather-zip-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15551052054816",
+      "old": "layered-design-double-zippered-white-duck-down-hooded-flight-utility-puffer-jacket",
+      "new": "hooded-utility-puffer-jacket-white-duck-down-filling",
+      "returned": "hooded-utility-puffer-jacket-white-duck-down-filling",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15551052546336",
+      "old": "autumn-and-winter-fleece-loose-hoodie-womens-lamb-fleece-thickened-warm-jacket-fleece-half-zipper-top",
+      "new": "womens-plush-fleece-half-zip-top-stand-collar",
+      "returned": "womens-plush-fleece-half-zip-top-stand-collar",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15551053463840",
+      "old": "pu-leather-washed-leather-jacket",
+      "new": "womens-washed-faux-leather-zip-jacket",
+      "returned": "womens-washed-faux-leather-zip-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15551055233312",
+      "old": "european-and-american-style-womens-fashion-temperament-artificial-fur-effect-coat-jacket",
+      "new": "womens-relaxed-faux-fur-jacket-collared-neckline",
+      "returned": "womens-relaxed-faux-fur-jacket-collared-neckline",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15552748585248",
+      "old": "womens-loose-pu-leather-cropped-puffer-jacket",
+      "new": "womens-cropped-faux-fur-effect-zip-jacket-high-collar",
+      "returned": "womens-cropped-faux-fur-effect-zip-jacket-high-collar",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15578318962976",
+      "old": "faux-rabbit-fur-pu-leather-collar-thickened-warm-workwear-cotton-jacket-for-men-casual-loose-fit-winter-fashion-coat-couples-outerwear",
+      "new": "mens-fleece-lined-faux-leather-workwear-jacket-pockets",
+      "returned": "mens-fleece-lined-faux-leather-workwear-jacket-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15578319028512",
+      "old": "women-fashion-thick-warm-faux-leather-shearling-jacket-coat-vintage-long-sleeve-flap-pocket-female-outerwear-chic-tops",
+      "new": "womens-shearling-winter-jacket-lapel-collar",
+      "returned": "womens-shearling-winter-jacket-lapel-collar",
+      "errors": [],
+      "ok": true,
+      "status": 3
+    },
+    {
+      "id": "15578319094048",
+      "old": "women-faux-lamb-leather-fur-short-jacket-2023-winter-with-belt-moto-biker-thick-warm-sheepskin-coat-outwear",
+      "new": "womens-short-faux-suede-effect-zip-jacket",
+      "returned": "womens-short-faux-suede-effect-zip-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578319159584",
+      "old": "autumn-winter-women-thick-warm-faux-leather-shearling-short-jacket-ladies-vintage-coat-female-outerwear-chic-tops",
+      "new": "womens-short-faux-leather-shearling-jacket",
+      "returned": "womens-short-faux-leather-shearling-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578320044320",
+      "old": "stylish-white-short-shoulder-pad-jacket-for-men-high-end-streetwear-look-oversized-biker-pu-leather-jacket-trendy-male-model-outfit",
+      "new": "mens-oversized-faux-leather-jacket-stand-collar",
+      "returned": "mens-oversized-faux-leather-jacket-stand-collar",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578320404768",
+      "old": "vintage-leather-jacket-mens-winter-faux-fur-collar-windproof-warm-coat-mens-luxury-clothing-brand-plush-lining-biker-outerwear",
+      "new": "mens-faux-leather-winter-jacket-contrast-collar",
+      "returned": "mens-faux-leather-winter-jacket-contrast-collar",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578320437536",
+      "old": "style-black-hooded-mountain-eagle-leather-jacket-mens-winter-fleece-lined-thickened-trendy-fur-collar-cotton-coat-jacket",
+      "new": "mens-hooded-faux-leather-winter-jacket-padded-details",
+      "returned": "mens-hooded-faux-leather-winter-jacket-padded-details",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578320797984",
+      "old": "fur-coat-for-women-winter-pu-leather-jacket-with-fur-collar-loose-warm-cotton-coat",
+      "new": "womens-button-front-winter-jacket-plush-collar",
+      "returned": "womens-button-front-winter-jacket-plush-collar",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578320863520",
+      "old": "pu-leather-shearling-jacket-winter-thick-warm-notch-lapel-coat-style-warm-workwear-outerwear",
+      "new": "fleece-lined-faux-leather-jacket-lapel-collar",
+      "returned": "fleece-lined-faux-leather-jacket-lapel-collar",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578321912096",
+      "old": "retro-pu-leather-detachable-fur-collar-couple-jacket-autumn-winter-unisex-casual-coat",
+      "new": "unisex-relaxed-faux-leather-jacket-turn-down-collar",
+      "returned": "unisex-relaxed-faux-leather-jacket-turn-down-collar",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578322338080",
+      "old": "mature-wind-top-versatile-trendy-casual-cool-motorcycle-pu-leather-jacket",
+      "new": "mens-faux-leather-utility-jacket-multiple-pockets",
+      "returned": "mens-faux-leather-utility-jacket-multiple-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    },
+    {
+      "id": "15578323026208",
+      "old": "leather-rabbit-fur-plush-fleece-lined-jacket-unisex-winter-thickened-warm-outerwear",
+      "new": "unisex-fleece-lined-winter-jacket-side-pockets",
+      "returned": "unisex-fleece-lined-winter-jacket-side-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 4
+    }
+  ]
+}
