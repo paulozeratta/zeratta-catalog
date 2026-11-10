@@ -1,0 +1,249 @@
+{
+  "date": "2026-11-10",
+  "redirects": [
+    {
+      "id": "gid://shopify/UrlRedirect/608843858208",
+      "path": "/products/stand-collar-thickened-cotton-coat-unisex-oversized-short-puffer-jacket",
+      "target": "/products/unisex-stand-collar-thickened-cotton-coat-oversized-short",
+      "newTarget": "/products/unisex-stand-collar-polyester-puffer-jacket"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611548856608",
+      "path": "/products/women-fashion-thick-warm-faux-leather-shearling-jacket-coat-vintage-long-sleeve-flap-pocket-female-outerwear-chic-tops",
+      "target": "/products/womens-shearling-winter-jacket-lapel-collar",
+      "newTarget": "/products/womens-shearling-style-winter-jacket-lapel-collar"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611548922144",
+      "path": "/products/autumn-winter-women-thick-warm-faux-leather-shearling-short-jacket-ladies-vintage-coat-female-outerwear-chic-tops",
+      "target": "/products/womens-short-faux-leather-shearling-jacket",
+      "newTarget": "/products/womens-short-faux-leather-shearling-style-jacket"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611549839648",
+      "path": "/products/mens-cotton-lined-workwear-casual-jacket-autumn-and-winter-fashion-outerwear",
+      "target": "/products/mens-fleece-lined-cotton-workwear-jacket",
+      "newTarget": "/products/mens-fleece-lined-workwear-jacket"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611550101792",
+      "path": "/products/thin-down-cotton-jacket-with-fashionable-and-thick-fur-and-fur-integrated-jacket",
+      "target": "/products/thin-down-cotton-jacket-fashionable-thick-fur-fur-integrated",
+      "newTarget": "/products/hooded-polyester-padded-winter-jacket"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611550232864",
+      "path": "/products/womens-fashionable-classic-long-cotton-coat-with-hand-inserted-cotton",
+      "target": "/products/womens-fashionable-classic-long-cotton-coat-hand-inserted",
+      "newTarget": "/products/womens-long-hooded-padded-winter-coat"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611550396704",
+      "path": "/products/fashionable-hooded-printed-long-cotton-coat-for-women-classic-and-versatile",
+      "target": "/products/womens-fashionable-hooded-printed-long-cotton-coat-classic",
+      "newTarget": "/products/womens-printed-hooded-longline-padded-coat"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611550429472",
+      "path": "/products/womens-winter-mid-length-puffer-coat-thickened-hooded-down-cotton-jacket",
+      "target": "/products/womens-winter-mid-length-puffer-coat-thickened-hooded-down",
+      "newTarget": "/products/womens-mid-length-hooded-puffer-coat"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611550560544",
+      "path": "/products/mens-casual-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer-jacket",
+      "target": "/products/mens-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer",
+      "newTarget": "/products/mens-hooded-polyester-zip-up-winter-jacket"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611550626080",
+      "path": "/products/style-puffer-coat-with-wave-design-unisex-hooded-thickened-warm-cotton-jacket",
+      "target": "/products/unisex-puffer-coat-wave-design-hooded-thickened-warm-cotton",
+      "newTarget": "/products/unisex-hooded-wave-design-puffer-jacket"
+    },
+    {
+      "id": "gid://shopify/UrlRedirect/611551117600",
+      "path": "/products/winter-new-low-heel-side-zipper-34-43-suede-high-leg-womens-boots-boots",
+      "target": "/products/womens-winter-low-heel-side-zipper-34-43-suede-high-leg",
+      "newTarget": "/products/womens-tall-faux-leather-low-heel-zip-boots"
+    }
+  ],
+  "original": [
+    {
+      "id": "15578319028512",
+      "original": "/products/women-fashion-thick-warm-faux-leather-shearling-jacket-coat-vintage-long-sleeve-flap-pocket-female-outerwear-chic-tops",
+      "intermediate": "/products/womens-shearling-winter-jacket-lapel-collar",
+      "final": "/products/womens-shearling-style-winter-jacket-lapel-collar",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611548856608",
+        "path": "/products/women-fashion-thick-warm-faux-leather-shearling-jacket-coat-vintage-long-sleeve-flap-pocket-female-outerwear-chic-tops",
+        "target": "/products/womens-shearling-winter-jacket-lapel-collar"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611551936800",
+        "path": "/products/womens-shearling-winter-jacket-lapel-collar",
+        "target": "/products/womens-shearling-style-winter-jacket-lapel-collar"
+      }
+    },
+    {
+      "id": "15578319159584",
+      "original": "/products/autumn-winter-women-thick-warm-faux-leather-shearling-short-jacket-ladies-vintage-coat-female-outerwear-chic-tops",
+      "intermediate": "/products/womens-short-faux-leather-shearling-jacket",
+      "final": "/products/womens-short-faux-leather-shearling-style-jacket",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611548922144",
+        "path": "/products/autumn-winter-women-thick-warm-faux-leather-shearling-short-jacket-ladies-vintage-coat-female-outerwear-chic-tops",
+        "target": "/products/womens-short-faux-leather-shearling-jacket"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611551969568",
+        "path": "/products/womens-short-faux-leather-shearling-jacket",
+        "target": "/products/womens-short-faux-leather-shearling-style-jacket"
+      }
+    },
+    {
+      "id": "15578341310752",
+      "original": "/products/mens-cotton-lined-workwear-casual-jacket-autumn-and-winter-fashion-outerwear",
+      "intermediate": "/products/mens-fleece-lined-cotton-workwear-jacket",
+      "final": "/products/mens-fleece-lined-workwear-jacket",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611549839648",
+        "path": "/products/mens-cotton-lined-workwear-casual-jacket-autumn-and-winter-fashion-outerwear",
+        "target": "/products/mens-fleece-lined-cotton-workwear-jacket"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552002336",
+        "path": "/products/mens-fleece-lined-cotton-workwear-jacket",
+        "target": "/products/mens-fleece-lined-workwear-jacket"
+      }
+    },
+    {
+      "id": "15589713314080",
+      "original": "/products/thin-down-cotton-jacket-with-fashionable-and-thick-fur-and-fur-integrated-jacket",
+      "intermediate": "/products/thin-down-cotton-jacket-fashionable-thick-fur-fur-integrated",
+      "final": "/products/hooded-polyester-padded-winter-jacket",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611550101792",
+        "path": "/products/thin-down-cotton-jacket-with-fashionable-and-thick-fur-and-fur-integrated-jacket",
+        "target": "/products/thin-down-cotton-jacket-fashionable-thick-fur-fur-integrated"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552035104",
+        "path": "/products/thin-down-cotton-jacket-fashionable-thick-fur-fur-integrated",
+        "target": "/products/hooded-polyester-padded-winter-jacket"
+      }
+    },
+    {
+      "id": "15589718360352",
+      "original": "/products/womens-fashionable-classic-long-cotton-coat-with-hand-inserted-cotton",
+      "intermediate": "/products/womens-fashionable-classic-long-cotton-coat-hand-inserted",
+      "final": "/products/womens-long-hooded-padded-winter-coat",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611550232864",
+        "path": "/products/womens-fashionable-classic-long-cotton-coat-with-hand-inserted-cotton",
+        "target": "/products/womens-fashionable-classic-long-cotton-coat-hand-inserted"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552067872",
+        "path": "/products/womens-fashionable-classic-long-cotton-coat-hand-inserted",
+        "target": "/products/womens-long-hooded-padded-winter-coat"
+      }
+    },
+    {
+      "id": "15589725339936",
+      "original": "/products/fashionable-hooded-printed-long-cotton-coat-for-women-classic-and-versatile",
+      "intermediate": "/products/womens-fashionable-hooded-printed-long-cotton-coat-classic",
+      "final": "/products/womens-printed-hooded-longline-padded-coat",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611550396704",
+        "path": "/products/fashionable-hooded-printed-long-cotton-coat-for-women-classic-and-versatile",
+        "target": "/products/womens-fashionable-hooded-printed-long-cotton-coat-classic"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552100640",
+        "path": "/products/womens-fashionable-hooded-printed-long-cotton-coat-classic",
+        "target": "/products/womens-printed-hooded-longline-padded-coat"
+      }
+    },
+    {
+      "id": "15589727568160",
+      "original": "/products/womens-winter-mid-length-puffer-coat-thickened-hooded-down-cotton-jacket",
+      "intermediate": "/products/womens-winter-mid-length-puffer-coat-thickened-hooded-down",
+      "final": "/products/womens-mid-length-hooded-puffer-coat",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611550429472",
+        "path": "/products/womens-winter-mid-length-puffer-coat-thickened-hooded-down-cotton-jacket",
+        "target": "/products/womens-winter-mid-length-puffer-coat-thickened-hooded-down"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552133408",
+        "path": "/products/womens-winter-mid-length-puffer-coat-thickened-hooded-down",
+        "target": "/products/womens-mid-length-hooded-puffer-coat"
+      }
+    },
+    {
+      "id": "15589729042720",
+      "original": "/products/stand-collar-thickened-cotton-coat-unisex-oversized-short-puffer-jacket",
+      "intermediate": "/products/unisex-stand-collar-thickened-cotton-coat-oversized-short",
+      "final": "/products/unisex-stand-collar-polyester-puffer-jacket",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/608843858208",
+        "path": "/products/stand-collar-thickened-cotton-coat-unisex-oversized-short-puffer-jacket",
+        "target": "/products/unisex-stand-collar-thickened-cotton-coat-oversized-short"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552166176",
+        "path": "/products/unisex-stand-collar-thickened-cotton-coat-oversized-short",
+        "target": "/products/unisex-stand-collar-polyester-puffer-jacket"
+      }
+    },
+    {
+      "id": "15589732385056",
+      "original": "/products/mens-casual-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer-jacket",
+      "intermediate": "/products/mens-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer",
+      "final": "/products/mens-hooded-polyester-zip-up-winter-jacket",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611550560544",
+        "path": "/products/mens-casual-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer-jacket",
+        "target": "/products/mens-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552198944",
+        "path": "/products/mens-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer",
+        "target": "/products/mens-hooded-polyester-zip-up-winter-jacket"
+      }
+    },
+    {
+      "id": "15589733302560",
+      "original": "/products/style-puffer-coat-with-wave-design-unisex-hooded-thickened-warm-cotton-jacket",
+      "intermediate": "/products/unisex-puffer-coat-wave-design-hooded-thickened-warm-cotton",
+      "final": "/products/unisex-hooded-wave-design-puffer-jacket",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611550626080",
+        "path": "/products/style-puffer-coat-with-wave-design-unisex-hooded-thickened-warm-cotton-jacket",
+        "target": "/products/unisex-puffer-coat-wave-design-hooded-thickened-warm-cotton"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552231712",
+        "path": "/products/unisex-puffer-coat-wave-design-hooded-thickened-warm-cotton",
+        "target": "/products/unisex-hooded-wave-design-puffer-jacket"
+      }
+    },
+    {
+      "id": "15591450575136",
+      "original": "/products/winter-new-low-heel-side-zipper-34-43-suede-high-leg-womens-boots-boots",
+      "intermediate": "/products/womens-winter-low-heel-side-zipper-34-43-suede-high-leg",
+      "final": "/products/womens-tall-faux-leather-low-heel-zip-boots",
+      "redirect": {
+        "id": "gid://shopify/UrlRedirect/611551117600",
+        "path": "/products/winter-new-low-heel-side-zipper-34-43-suede-high-leg-womens-boots-boots",
+        "target": "/products/womens-winter-low-heel-side-zipper-34-43-suede-high-leg"
+      },
+      "midRedirect": {
+        "id": "gid://shopify/UrlRedirect/611552264480",
+        "path": "/products/womens-winter-low-heel-side-zipper-34-43-suede-high-leg",
+        "target": "/products/womens-tall-faux-leather-low-heel-zip-boots"
+      }
+    }
+  ]
+}
