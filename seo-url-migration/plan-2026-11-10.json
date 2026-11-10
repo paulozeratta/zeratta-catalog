@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "status": "APPLIED_PENDING_FINAL_VALIDATION",
+  "status": "APPLIED_AND_VERIFIED",
   "strategy": "Shopify productUpdate redirectNewHandle true, sync catalog and sheet only after verification",
   "spreadsheetId": "1WirbrEAhDgORPaR3bD1cMz2zu0vRwWuOF30uPy_QPG4",
   "spreadsheetSheetId": 175842485,
@@ -3033,5 +3033,23 @@
     "changed": 136,
     "unchanged": 41,
     "materialAccuracyRefinements": 11
+  },
+  "verification": {
+    "date": "2026-11-10",
+    "productsAudited": 177,
+    "handlesChanged": 136,
+    "handlesRetained": 41,
+    "shopifyHandlesVerified": 177,
+    "catalogLinksVerified": 177,
+    "spreadsheetLinksVerified": 168,
+    "spreadsheetLinksChanged": 129,
+    "originalRedirectsVerified": 136,
+    "intermediateRedirectsVerified": 11,
+    "remainingRedirectChains": 0,
+    "maxSlugCharacters": 60,
+    "duplicateHandles": 0,
+    "extraCatalogFieldChanges": 0,
+    "merchantCenterFeedVerification": "NOT_VERIFIED",
+    "searchConsoleReindexing": "NOT_VERIFIED"
   }
 }
