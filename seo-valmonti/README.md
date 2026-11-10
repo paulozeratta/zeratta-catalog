@@ -25,3 +25,14 @@ Verify Merchant Center data source and support for structured_title and structur
 
 ## SEO standard
 Titles: front-load precise product type, style, real material and construction with gender used where useful, no gratuitous keyword repeats. Descriptions: unique editorial opening, truthful bullet benefits/features, styling close, technical attributes and supplier size chart where reliable. UK English, no fabricated fibres, delivery time, warming ratings, or review metrics.
+
+## Novos produtos importados em 09/11 (lote de 10/11 01:42–01:50 UTC)
+
+- 42 produtos ACTIVE novos identificados pela Shopify após a auditoria anterior.
+- Títulos e descrições propostos para os 42 na pasta `seo-valmonti/new-arrivals-editorial-v4-2026-11-09.json`.
+- Relatório visual de todos os títulos em `seo-valmonti/new-arrivals-review-2026-11-09.md`.
+- Backup imutável do estado consultado: `seo-valmonti/new-arrivals-backup-v3-2026-11-09.json`.
+- 22 rascunhos com ao menos três pontos de especificação, ainda pendentes de QA editorial; 15 com descrição de fornecedor insuficiente; 2 casos com alegação de segurança sem certificação; 1 conflito entre público infantil/feminino; 2 duplicações exatas de SKUs excluídas de publicação.
+- Fontes: dados EPROLO importados pela Shopify, com alguns links públicos EPROLO conferidos independentemente. Ausência de links individuais EPROLO para todos os 42 impede declarar todos os vínculos verificados.
+- Não houve atualização de título, descrição, preço, status, imagem, variante, handle ou URL na Shopify. A branch main do catálogo não foi modificada.
+- Antes de publicar: confirmar `structured_title` / `structured_description` com `trained_algorithmic_media` no Merchant Center e preservar size charts originais.
