@@ -421,7 +421,26 @@
     },
     "15578331152672": {
       "value": 14.06,
-      "updatedAt": 1794056935823
+      "updatedAt": 1794056935823,
+      "ukQuotes": [
+        {
+          "shippingUSD": 11.26,
+          "shippingGBP": 8.43,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 3,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     },
     "15578330890528": {
       "value": 15.17,
@@ -2646,6 +2665,48 @@
           ],
           "quotedOn": "2026-11-09",
           "variantsChecked": 15,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15589739528480": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 16.63,
+          "shippingGBP": 12.45,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 4,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15589736579360": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 9.04,
+          "shippingGBP": 6.77,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-09",
+          "variantsChecked": 6,
           "fx": {
             "usdPerGbp": 1.336,
             "date": "2026-11-06",
