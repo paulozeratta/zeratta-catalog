@@ -3374,6 +3374,174 @@
           }
         }
       ]
+    },
+    "15591445430560": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 23.13,
+          "shippingGBP": 17.31,
+          "country": "GB",
+          "carrier": "4PX Express",
+          "estimatedDeliveryDays": [
+            4,
+            7
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 6,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591474135328": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 18.34,
+          "shippingGBP": 13.73,
+          "country": "GB",
+          "carrier": "4PX Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 18,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591456637216": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 7.63,
+          "shippingGBP": 5.71,
+          "country": "GB",
+          "carrier": "4PX Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 16,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591449723168": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 9.64,
+          "shippingGBP": 7.22,
+          "country": "GB",
+          "carrier": "4PX Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 12,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591445332256": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 9.24,
+          "shippingGBP": 6.92,
+          "country": "GB",
+          "carrier": "4PX Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 14,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591453720864": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 25.56,
+          "shippingGBP": 19.13,
+          "country": "GB",
+          "carrier": "4PX Express",
+          "estimatedDeliveryDays": [
+            4,
+            7
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 50,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591453327648": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 27.65,
+          "shippingGBP": 20.7,
+          "country": "GB",
+          "carrier": "4PX Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 31,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591450575136": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 10,
+          "shippingGBP": 7.49,
+          "country": "GB",
+          "carrier": "4PX Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 30,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     }
   }
 }
