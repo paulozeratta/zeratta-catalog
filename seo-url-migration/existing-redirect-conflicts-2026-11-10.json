@@ -1,0 +1,46 @@
+{
+  "redirectConflicts": [
+    {
+      "productId": "15589716001056",
+      "redirectId": "gid://shopify/UrlRedirect/608844480800",
+      "path": "/products/collar-long-sleeved-single-breasted-solid-color-trench-coat-for-women",
+      "oldTarget": "/products/womens-black-single-breasted-woven-trench-coat",
+      "newTarget": "/products/womens-black-single-breasted-trench-coat"
+    },
+    {
+      "productId": "15589722259744",
+      "redirectId": "gid://shopify/UrlRedirect/608845365536",
+      "path": "/products/men-leather-jacket-autumn-zipper-long-sleeve-high-quality-motorcycle-jacket-coat-winter-turn-down-collar-plus-size-male-coat",
+      "oldTarget": "/collections/mens-jackets",
+      "newTarget": "/products/mens-zip-up-jacket-fold-down-collar-long-sleeves"
+    },
+    {
+      "productId": "15589729042720",
+      "redirectId": "gid://shopify/UrlRedirect/608843858208",
+      "path": "/products/stand-collar-thickened-cotton-coat-unisex-oversized-short-puffer-jacket",
+      "oldTarget": "/products/unisex-oversized-stand-collar-polyester-puffer-jacket",
+      "newTarget": "/products/unisex-stand-collar-thickened-cotton-coat-oversized-short"
+    },
+    {
+      "productId": "15591467122976",
+      "redirectId": "gid://shopify/UrlRedirect/608844546336",
+      "path": "/products/collar-long-sleeved-single-breasted-solid-color-trench-coat-for-women-1",
+      "oldTarget": "/products/womens-brown-single-button-woven-trench-coat",
+      "newTarget": "/products/womens-brown-single-breasted-trench-coat"
+    },
+    {
+      "productId": "15591470956832",
+      "redirectId": "gid://shopify/UrlRedirect/608844677408",
+      "path": "/products/collar-long-sleeved-single-breasted-solid-color-trench-coat-for-women-2",
+      "oldTarget": "/collections/womens-trench-coats",
+      "newTarget": "/products/womens-green-single-breasted-trench-coat"
+    },
+    {
+      "productId": "15591476855072",
+      "redirectId": "gid://shopify/UrlRedirect/608844972320",
+      "path": "/products/collar-long-sleeved-single-breasted-solid-color-trench-coat-for-women-3",
+      "oldTarget": "/collections/womens-trench-coats",
+      "newTarget": "/products/womens-khaki-single-breasted-trench-coat"
+    }
+  ]
+}
