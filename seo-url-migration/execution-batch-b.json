@@ -1,0 +1,455 @@
+{
+  "batch": "B",
+  "products": [
+    {
+      "id": "15578323190048",
+      "old": "womens-winter-fleece-lapel-padded-jacket-protein-leather-feel-splicing-thickened-warm-coat",
+      "new": "womens-padded-faux-leather-jacket-lapel-collar",
+      "returned": "womens-padded-faux-leather-jacket-lapel-collar",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578323550496",
+      "old": "casual-workwear-long-sleeve-leather-jacket-men-stand-collar-black-plus-size-outerwear",
+      "new": "mens-workwear-jacket-stand-collar-button-front",
+      "returned": "mens-workwear-jacket-stand-collar-button-front",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578324435232",
+      "old": "vintage-high-street-pu-leather-letter-embroidery-baseball-collar-zipper-jacket",
+      "new": "vintage-color-block-varsity-jacket-zip-front",
+      "returned": "vintage-color-block-varsity-jacket-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578326106400",
+      "old": "lamb-velvet-pu-leather-cotton-coat-for-men-winter-barn-style-cool-and-stylish-thick-warm-pu-leather-work-jacket-outerwear",
+      "new": "mens-fleece-lined-faux-leather-barn-jacket",
+      "returned": "mens-fleece-lined-faux-leather-barn-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578326925600",
+      "old": "washed-distressed-patchwork-leather-collar-denim-jacket-men-heavyweight-loose-outerwear-shoulder-pad-jacket-youth-style",
+      "new": "mens-distressed-denim-jacket-contrast-collar",
+      "returned": "mens-distressed-denim-jacket-contrast-collar",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578327712032",
+      "old": "mens-winter-pu-leather-faux-mink-fur-double-breasted-hooded-thickened-jacket",
+      "new": "mens-hooded-faux-leather-winter-jacket-zip-front",
+      "returned": "mens-hooded-faux-leather-winter-jacket-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578329153824",
+      "old": "punk-pu-leather-padded-jacket-for-men-stand-collar-belt-detail-winter-warm-coat",
+      "new": "mens-padded-faux-leather-winter-jacket-lapel-collar",
+      "returned": "mens-padded-faux-leather-winter-jacket-lapel-collar",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578329809184",
+      "old": "casual-collar-long-sleeved-pocket-three-color-leather-jacket-for-women",
+      "new": "womens-button-front-jacket-turn-down-collar",
+      "returned": "womens-button-front-jacket-turn-down-collar",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578330890528",
+      "old": "faux-fur-lined-leather-jacket-womens-winter-warm-outerwear-coat",
+      "new": "womens-fitted-suede-effect-jacket-faux-fur-lining",
+      "returned": "womens-fitted-suede-effect-jacket-faux-fur-lining",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578331152672",
+      "old": "versatile-loose-short-pilot-retro-motorcycle-style-leather-jacket-for-women",
+      "new": "womens-faux-fur-aviator-jacket-zip-front",
+      "returned": "womens-faux-fur-aviator-jacket-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 5
+    },
+    {
+      "id": "15578331775264",
+      "old": "autumn-new-mens-leather-jacket-mens-leather-jacket-lapel-collar-middle-aged-and-elderly-mens-clothing-plus-plush",
+      "new": "mens-washed-faux-leather-jacket-fold-down-collar",
+      "returned": "mens-washed-faux-leather-jacket-fold-down-collar",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578333020448",
+      "old": "3d-printed-digital-printed-hooded-sweatshirt-with-brown-lining-cotton-jacket",
+      "new": "longline-hooded-winter-zip-jacket-printed-detail",
+      "returned": "longline-hooded-winter-zip-jacket-printed-detail",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578334560544",
+      "old": "vintage-biker-windproof-waterproof-oversized-pu-leather-jacket",
+      "new": "oversized-faux-leather-zip-jacket-lapel-collar",
+      "returned": "oversized-faux-leather-zip-jacket-lapel-collar",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578337181984",
+      "old": "high-end-pu-leather-jacket-mens-handsome-motorcycle-suit-loose-leather-jacket-trendy",
+      "new": "mens-faux-leather-motorcycle-jacket-zip-front",
+      "returned": "mens-faux-leather-motorcycle-jacket-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578337935648",
+      "old": "down-and-cotton-jacket-fashionable-and-thick-fur-and-leather-integrated-jacket",
+      "new": "womens-hooded-winter-zip-up-jacket-side-pockets",
+      "returned": "womens-hooded-winter-zip-up-jacket-side-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578339213600",
+      "old": "autumn-pu-leather-jacket-mens-loose-leather-jacket",
+      "new": "mens-relaxed-fit-faux-leather-jacket-lapel-collar",
+      "returned": "mens-relaxed-fit-faux-leather-jacket-lapel-collar",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578341081376",
+      "old": "three-color-fur-collar-loose-leather-jacket-jacket-skirt",
+      "new": "womens-short-faux-leather-jacket-plush-collar",
+      "returned": "womens-short-faux-leather-jacket-plush-collar",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578341245216",
+      "old": "womens-new-comfortable-and-casual-short-cotton-jacket-for-autumn-and-winter",
+      "new": "womens-short-padded-winter-jacket-button-front",
+      "returned": "womens-short-padded-winter-jacket-button-front",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578341277984",
+      "old": "autumn-and-winter-new-womens-cashmere-collar-composite-leather-jacket-y2k-high-quality-comfortablewarm-casual-highcollar-jacket",
+      "new": "womens-leather-effect-zip-up-jacket-fold-down-collar",
+      "returned": "womens-leather-effect-zip-up-jacket-fold-down-collar",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578341310752",
+      "old": "mens-cotton-lined-workwear-casual-jacket-autumn-and-winter-fashion-outerwear",
+      "new": "mens-fleece-lined-cotton-workwear-jacket",
+      "returned": "mens-fleece-lined-cotton-workwear-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 6
+    },
+    {
+      "id": "15578342326560",
+      "old": "new-style-mens-down-jacket-warm-youth-cotton-jacket-handsome-stand-collar-winter-thickened-cotton-jacket",
+      "new": "mens-padded-stand-collar-winter-jacket-relaxed-fit",
+      "returned": "mens-padded-stand-collar-winter-jacket-relaxed-fit",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15578342883616",
+      "old": "xiaoxiangfeng-temperament-diamond-grid-cotton-jacket-loose-casual-thin-cotton-jacket-womens-winter-cotton-jacket-cardigan",
+      "new": "womens-quilted-padded-jacket-round-neck-relaxed-fit",
+      "returned": "womens-quilted-padded-jacket-round-neck-relaxed-fit",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15578342981920",
+      "old": "mens-outerwear-autumn-and-winter-new-mens-cotton-jacket-korean-version-trendy-short-style-stand-up-collar-lightweight-cotton-jacket",
+      "new": "mens-lightweight-padded-winter-jacket-stand-collar",
+      "returned": "mens-lightweight-padded-winter-jacket-stand-collar",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15578345439520",
+      "old": "mens-denim-jacket-autumn-winter-jacket-plush-casual-mens-fashion-trend",
+      "new": "mens-plush-lined-denim-jacket-button-front",
+      "returned": "mens-plush-lined-denim-jacket-button-front",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15578345865504",
+      "old": "thickened-cashmere-cotton-jacket-for-mens-new-winter-korean-casual-corduroy-lapel-jacket-for-men-1",
+      "new": "mens-corduroy-winter-jacket-lapel-collar",
+      "returned": "mens-corduroy-winter-jacket-lapel-collar",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15578346193184",
+      "old": "shearling-motorcycle-jacket-with-turn-down-collar-unisex-winter-cozy-outerwearloose-thickened-workwear-jacket",
+      "new": "unisex-fleece-lined-winter-jacket-turn-down-collar",
+      "returned": "unisex-fleece-lined-winter-jacket-turn-down-collar",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15589713281312",
+      "old": "long-sleeve-fleece-jacket-for-men-winter-denim-cotton-coat-lamb-wool-korean-style-thickened-jacket-long-sleeve-cotton-coat-loose-fit",
+      "new": "mens-loose-fit-button-front-denim-winter-jacket",
+      "returned": "mens-loose-fit-button-front-denim-winter-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15589713314080",
+      "old": "thin-down-cotton-jacket-with-fashionable-and-thick-fur-and-fur-integrated-jacket",
+      "new": "thin-down-cotton-jacket-fashionable-thick-fur-fur-integrated",
+      "returned": "thin-down-cotton-jacket-fashionable-thick-fur-fur-integrated",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15589713379616",
+      "old": "winter-fashion-long-coat-net-color-long-sleeve-tweed-womens-jacket",
+      "new": "womens-winter-long-coat-net-color-long-sleeve-tweed-jacket",
+      "returned": "womens-winter-long-coat-net-color-long-sleeve-tweed-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15589716001056",
+      "old": "collar-long-sleeved-single-breasted-solid-color-trench-coat-for-women",
+      "new": "womens-black-single-breasted-trench-coat",
+      "returned": "womens-black-single-breasted-trench-coat",
+      "errors": [],
+      "ok": true,
+      "status": 7
+    },
+    {
+      "id": "15589718262048",
+      "old": "long-sleeved-lapel-zipper-side-pocket-casual-trench-coat-for-women",
+      "new": "womens-long-sleeved-lapel-zipper-side-pocket-trench-coat",
+      "returned": "womens-long-sleeved-lapel-zipper-side-pocket-trench-coat",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589718360352",
+      "old": "womens-fashionable-classic-long-cotton-coat-with-hand-inserted-cotton",
+      "new": "womens-fashionable-classic-long-cotton-coat-hand-inserted",
+      "returned": "womens-fashionable-classic-long-cotton-coat-hand-inserted",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589719277856",
+      "old": "winter-simple-cotton-jacket-plus-size-mens-korean-version-casual-fashion-versatile-warm-cotton-jacket-medium-long-mens",
+      "new": "mens-hooded-winter-zip-up-jacket-side-pockets",
+      "returned": "mens-hooded-winter-zip-up-jacket-side-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589720523040",
+      "old": "cotton-coat-women-winter-new-long-over-the-knee-cotton-jacket-women-large-fur-collar-slim-fit-thickened-cotton-coat-women",
+      "new": "womens-longline-hooded-winter-coat-detachable-fur-collar",
+      "returned": "womens-longline-hooded-winter-coat-detachable-fur-collar",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589722259744",
+      "old": "men-leather-jacket-autumn-zipper-long-sleeve-high-quality-motorcycle-jacket-coat-winter-turn-down-collar-plus-size-male-coat",
+      "new": "mens-zip-up-jacket-fold-down-collar-long-sleeves",
+      "returned": "mens-zip-up-jacket-fold-down-collar-long-sleeves",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589723636000",
+      "old": "winter-fashion-short-length-warm-casual-cotton-coat-for-women-loose-thick-puffer-jacket",
+      "new": "womens-short-hooded-padded-winter-jacket-side-pockets",
+      "returned": "womens-short-hooded-padded-winter-jacket-side-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589725176096",
+      "old": "womens-short-thickened-warm-puffer-jacket-with-large-fur-collar-loose-fit-outerwear",
+      "new": "womens-short-puffer-jacket-fur-collar-zip-front",
+      "returned": "womens-short-puffer-jacket-fur-collar-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589725339936",
+      "old": "fashionable-hooded-printed-long-cotton-coat-for-women-classic-and-versatile",
+      "new": "womens-fashionable-hooded-printed-long-cotton-coat-classic",
+      "returned": "womens-fashionable-hooded-printed-long-cotton-coat-classic",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589727568160",
+      "old": "womens-winter-mid-length-puffer-coat-thickened-hooded-down-cotton-jacket",
+      "new": "womens-winter-mid-length-puffer-coat-thickened-hooded-down",
+      "returned": "womens-winter-mid-length-puffer-coat-thickened-hooded-down",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589728059680",
+      "old": "down-jacket-women-medium-length-dongdaemun-winter-puffer-coat-plus-size-outerwear-fashion",
+      "new": "womens-mid-length-hooded-puffer-coat-detachable-fur-collar",
+      "returned": "womens-mid-length-hooded-puffer-coat-detachable-fur-collar",
+      "errors": [],
+      "ok": true,
+      "status": 8
+    },
+    {
+      "id": "15589728420128",
+      "old": "mountain-style-outdoor-puffer-jacket-trendy-loose-stand-collar-warm-thick-cotton-coat-for-couples-versatile-design",
+      "new": "mens-reversible-stand-collar-puffer-jacket-side-pockets",
+      "returned": "mens-reversible-stand-collar-puffer-jacket-side-pockets",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589729042720",
+      "old": "stand-collar-thickened-cotton-coat-unisex-oversized-short-puffer-jacket",
+      "new": "unisex-stand-collar-thickened-cotton-coat-oversized-short",
+      "returned": "unisex-stand-collar-thickened-cotton-coat-oversized-short",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589731107104",
+      "old": "korean-plaid-down-jacket-for-women-jacquard-thick-duck-down-zip-up-hooded-jacket-for-winter-puffer-outwear",
+      "new": "womens-hooded-white-duck-down-puffer-jacket-jacquard-pattern",
+      "returned": "womens-hooded-white-duck-down-puffer-jacket-jacquard-pattern",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589732385056",
+      "old": "mens-casual-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer-jacket",
+      "new": "mens-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer",
+      "returned": "mens-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589733073184",
+      "old": "womens-style-down-cotton-puffer-jacket-short-stand-collar-quilted-loose-fit-winter-coat",
+      "new": "womens-loose-fit-hooded-winter-puffer-jacket-zip-front",
+      "returned": "womens-loose-fit-hooded-winter-puffer-jacket-zip-front",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589733302560",
+      "old": "style-puffer-coat-with-wave-design-unisex-hooded-thickened-warm-cotton-jacket",
+      "new": "unisex-puffer-coat-wave-design-hooded-thickened-warm-cotton",
+      "returned": "unisex-puffer-coat-wave-design-hooded-thickened-warm-cotton",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589735563552",
+      "old": "little-chanel-white-hooded-waist-cinching-thickened-puffer-coat-for-women",
+      "new": "womens-little-chanel-white-hooded-waist-cinching-thickened",
+      "returned": "womens-little-chanel-white-hooded-waist-cinching-thickened",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589736579360",
+      "old": "winter-new-thickened-casual-down-coat-for-women-winter-womens-coat-womens-puffer-warm-clothes-for-women-hot-clothes-for-women",
+      "new": "womens-winter-puffer-coat-long-sleeves",
+      "returned": "womens-winter-puffer-coat-long-sleeves",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589737857312",
+      "old": "women-winter-pu-leather-short-stand-collar-puffer",
+      "new": "womens-faux-leather-stand-collar-puffer",
+      "returned": "womens-faux-leather-stand-collar-puffer",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    },
+    {
+      "id": "15589738316064",
+      "old": "mens-jacket-with-plush-cotton-fabric-casual-jacket-mens-jacket",
+      "new": "mens-plush-casual-jacket",
+      "returned": "mens-plush-casual-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 9
+    }
+  ]
+}
