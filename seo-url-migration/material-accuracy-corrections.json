@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-10",
+  "state": "BEFORE_CORRECTIONS",
+  "products": [
+    {
+      "id": "15578319028512",
+      "originalOld": "women-fashion-thick-warm-faux-leather-shearling-jacket-coat-vintage-long-sleeve-flap-pocket-female-outerwear-chic-tops",
+      "intermediate": "womens-shearling-winter-jacket-lapel-collar",
+      "newHandle": "womens-shearling-style-winter-jacket-lapel-collar",
+      "newURL": "https://zeratta.com/products/womens-shearling-style-winter-jacket-lapel-collar",
+      "sheetRow": 90,
+      "valid": true
+    },
+    {
+      "id": "15578319159584",
+      "originalOld": "autumn-winter-women-thick-warm-faux-leather-shearling-short-jacket-ladies-vintage-coat-female-outerwear-chic-tops",
+      "intermediate": "womens-short-faux-leather-shearling-jacket",
+      "newHandle": "womens-short-faux-leather-shearling-style-jacket",
+      "newURL": "https://zeratta.com/products/womens-short-faux-leather-shearling-style-jacket",
+      "sheetRow": 84,
+      "valid": true
+    },
+    {
+      "id": "15578341310752",
+      "originalOld": "mens-cotton-lined-workwear-casual-jacket-autumn-and-winter-fashion-outerwear",
+      "intermediate": "mens-fleece-lined-cotton-workwear-jacket",
+      "newHandle": "mens-fleece-lined-workwear-jacket",
+      "newURL": "https://zeratta.com/products/mens-fleece-lined-workwear-jacket",
+      "sheetRow": 130,
+      "valid": true
+    },
+    {
+      "id": "15589713314080",
+      "originalOld": "thin-down-cotton-jacket-with-fashionable-and-thick-fur-and-fur-integrated-jacket",
+      "intermediate": "thin-down-cotton-jacket-fashionable-thick-fur-fur-integrated",
+      "newHandle": "hooded-polyester-padded-winter-jacket",
+      "newURL": "https://zeratta.com/products/hooded-polyester-padded-winter-jacket",
+      "sheetRow": 125,
+      "valid": true
+    },
+    {
+      "id": "15589718360352",
+      "originalOld": "womens-fashionable-classic-long-cotton-coat-with-hand-inserted-cotton",
+      "intermediate": "womens-fashionable-classic-long-cotton-coat-hand-inserted",
+      "newHandle": "womens-long-hooded-padded-winter-coat",
+      "newURL": "https://zeratta.com/products/womens-long-hooded-padded-winter-coat",
+      "sheetRow": 103,
+      "valid": true
+    },
+    {
+      "id": "15589725339936",
+      "originalOld": "fashionable-hooded-printed-long-cotton-coat-for-women-classic-and-versatile",
+      "intermediate": "womens-fashionable-hooded-printed-long-cotton-coat-classic",
+      "newHandle": "womens-printed-hooded-longline-padded-coat",
+      "newURL": "https://zeratta.com/products/womens-printed-hooded-longline-padded-coat",
+      "sheetRow": 67,
+      "valid": true
+    },
+    {
+      "id": "15589727568160",
+      "originalOld": "womens-winter-mid-length-puffer-coat-thickened-hooded-down-cotton-jacket",
+      "intermediate": "womens-winter-mid-length-puffer-coat-thickened-hooded-down",
+      "newHandle": "womens-mid-length-hooded-puffer-coat",
+      "newURL": "https://zeratta.com/products/womens-mid-length-hooded-puffer-coat",
+      "sheetRow": 17,
+      "valid": true
+    },
+    {
+      "id": "15589729042720",
+      "originalOld": "stand-collar-thickened-cotton-coat-unisex-oversized-short-puffer-jacket",
+      "intermediate": "unisex-stand-collar-thickened-cotton-coat-oversized-short",
+      "newHandle": "unisex-stand-collar-polyester-puffer-jacket",
+      "newURL": "https://zeratta.com/products/unisex-stand-collar-polyester-puffer-jacket",
+      "sheetRow": 8,
+      "valid": true
+    },
+    {
+      "id": "15589732385056",
+      "originalOld": "mens-casual-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer-jacket",
+      "intermediate": "mens-thickened-hooded-quilted-long-sleeve-loose-cotton-puffer",
+      "newHandle": "mens-hooded-polyester-zip-up-winter-jacket",
+      "newURL": "https://zeratta.com/products/mens-hooded-polyester-zip-up-winter-jacket",
+      "sheetRow": 7,
+      "valid": true
+    },
+    {
+      "id": "15589733302560",
+      "originalOld": "style-puffer-coat-with-wave-design-unisex-hooded-thickened-warm-cotton-jacket",
+      "intermediate": "unisex-puffer-coat-wave-design-hooded-thickened-warm-cotton",
+      "newHandle": "unisex-hooded-wave-design-puffer-jacket",
+      "newURL": "https://zeratta.com/products/unisex-hooded-wave-design-puffer-jacket",
+      "sheetRow": 29,
+      "valid": true
+    },
+    {
+      "id": "15591450575136",
+      "originalOld": "winter-new-low-heel-side-zipper-34-43-suede-high-leg-womens-boots-boots",
+      "intermediate": "womens-winter-low-heel-side-zipper-34-43-suede-high-leg",
+      "newHandle": "womens-tall-faux-leather-low-heel-zip-boots",
+      "newURL": "https://zeratta.com/products/womens-tall-faux-leather-low-heel-zip-boots",
+      "sheetRow": 62,
+      "valid": true
+    }
+  ]
+}
