@@ -1,0 +1,320 @@
+{
+  "batch": "C",
+  "products": [
+    {
+      "id": "15589739594016",
+      "old": "autumn-and-winter-cotton-jacket-unisex-cotton-jacket-leather-jacket-bread-jacket-high-quality-thickened-cotton-jacket",
+      "new": "unisex-polyester-filled-winter-zip-up-jacket-relaxed-fit",
+      "returned": "unisex-polyester-filled-winter-zip-up-jacket-relaxed-fit",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591445332256",
+      "old": "womens-thick-soled-boots-fashion-ladies-ankle-boots-womens-leather-round-head-lap-combat-boots-black-thick-solid-shoes",
+      "new": "womens-round-toe-lace-up-ankle-boots-chunky-rubber-sole",
+      "returned": "womens-round-toe-lace-up-ankle-boots-chunky-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591445365024",
+      "old": "work-safety-boots-mens-boots-chelsea-boots-steel-toe-safey-shoes",
+      "new": "mens-work-safety-boots-boots-chelsea-boots-steel-toe-safey",
+      "returned": "mens-work-safety-boots-boots-chelsea-boots-steel-toe-safey",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591445397792",
+      "old": "men-shoes-autumn-winter-boots-retro-style-ankle-boots-lace-up-casual-boots-high-top-shoes-for-men-wear-resistant-zapatos-boots",
+      "new": "mens-retro-high-top-lace-up-ankle-boots",
+      "returned": "mens-retro-high-top-lace-up-ankle-boots",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591445430560",
+      "old": "new-chunky-heel-thick-sole-riding-boots-cow-suede-comfort-lace-up-ankle-boots-autumn-women-handsome-punk-style-short-boot-unisex",
+      "new": "womens-lace-up-ankle-boots-microfibre-upper-rubber-sole",
+      "returned": "womens-lace-up-ankle-boots-microfibre-upper-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591446642976",
+      "old": "new-mens-and-womens-boots-motorcycle-boots-knight-short-boots-retro-lace-up-roman-boots-large-size-martin-boots",
+      "new": "unisex-faux-leather-lace-up-ankle-boots-rubber-sole",
+      "returned": "unisex-faux-leather-lace-up-ankle-boots-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591447986464",
+      "old": "workwear-martin-boots-mens-spring-and-autumn-new-high-top-british-style-big-yellow-boots-outdoor-high-top-casual-leather-boots-men",
+      "new": "mens-faux-leather-lace-up-ankle-boots-low-heel",
+      "returned": "mens-faux-leather-lace-up-ankle-boots-low-heel",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591448019232",
+      "old": "winter-men-safety-work-boots-warm-plush-fur-mens-labor-insurance-puncture-proof-snow-boot-man-steel-toe-cap-shoes-male",
+      "new": "mens-plush-lined-suede-work-ankle-boots-rubber-sole",
+      "returned": "mens-plush-lined-suede-work-ankle-boots-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591449723168",
+      "old": "high-top-martin-boots-for-outdoor-men-anti-slip-wear-resistant-thick-soled-versatile-workwear-trendy-shoes",
+      "new": "mens-high-top-mixed-material-boots-rubber-sole",
+      "returned": "mens-high-top-mixed-material-boots-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591449821472",
+      "old": "men-retro-work-ankle-boots-autumn-winter-thick-bottom-high-top-casual-boots-leather-boots-chelsea-desert-waterproof-boots-male",
+      "new": "mens-faux-leather-lace-up-ankle-boots-side-zip",
+      "returned": "mens-faux-leather-lace-up-ankle-boots-side-zip",
+      "errors": [],
+      "ok": true,
+      "status": 10
+    },
+    {
+      "id": "15591450575136",
+      "old": "winter-new-low-heel-side-zipper-34-43-suede-high-leg-womens-boots-boots",
+      "new": "womens-winter-low-heel-side-zipper-34-43-suede-high-leg",
+      "returned": "womens-winter-low-heel-side-zipper-34-43-suede-high-leg",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591451558176",
+      "old": "mens-thick-soled-workwear-big-yellow-martin-boots-autumn-new-high-top-leather-patchwork-outdoor-sports-boots",
+      "new": "mens-mixed-material-lace-up-boots-pvc-sole",
+      "returned": "mens-mixed-material-lace-up-boots-pvc-sole",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591453327648",
+      "old": "fashionable-high-top-martin-boots-for-men-casual-baotou-workwear-shoes-autumn-and-winter-mens-boots",
+      "new": "mens-high-top-faux-leather-lace-up-boots-rubber-sole",
+      "returned": "mens-high-top-faux-leather-lace-up-boots-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591454179616",
+      "old": "high-heel-over-the-knee-boots-for-women-faux-suede-punk-style-chunky-heel-autumn-winter-fashion",
+      "new": "womens-over-knee-high-heel-boots-side-zip",
+      "returned": "womens-over-knee-high-heel-boots-side-zip",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591458177312",
+      "old": "long-boots-childrens-thick-heel-high-heel-elastic-knight-boots-round-head-over-knee-long-sleeve-womens-boots-winter",
+      "new": "womens-over-knee-suede-boots-chunky-heel",
+      "returned": "womens-over-knee-suede-boots-chunky-heel",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591458242848",
+      "old": "height-increasing-short-boots-with-plush-chimney-single-boots",
+      "new": "womens-plush-mid-calf-heeled-boots",
+      "returned": "womens-plush-mid-calf-heeled-boots",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591461323040",
+      "old": "martin-boots-womens-spring-and-autumn-single-boots-new-british-style-thick-sole-round-toe-medium-boots-chimney-chelsea-boots",
+      "new": "womens-chunky-sole-faux-leather-mid-calf-winter-boots",
+      "returned": "womens-chunky-sole-faux-leather-mid-calf-winter-boots",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591461945632",
+      "old": "new-style-outdoor-long-boots-winter-27431-32654-22806-36152-flat-heel-wide-size-womens-leather-boots",
+      "new": "womens-tall-flat-heel-boots-back-zip-rubber-sole",
+      "returned": "womens-tall-flat-heel-boots-back-zip-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591462207776",
+      "old": "autumn-and-winter-new-boots-round-head-flat-bottom-womens-large-smoke-pipe-boots-motorcycle-boots",
+      "new": "womens-low-heel-faux-leather-ankle-boots-round-toe",
+      "returned": "womens-low-heel-faux-leather-ankle-boots-round-toe",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591463813408",
+      "old": "lace-up-round-toe-buckle-with-thick-sole-short-tube-womens-fashionable-martin-boots",
+      "new": "womens-high-heel-faux-leather-ankle-boots-side-zip",
+      "returned": "womens-high-heel-faux-leather-ankle-boots-side-zip",
+      "errors": [],
+      "ok": true,
+      "status": 11
+    },
+    {
+      "id": "15591466402080",
+      "old": "slim-fitting-waist-cinching-street-style-long-leather-trench-coat-for-women",
+      "new": "womens-longline-waist-cinched-trench-coat",
+      "returned": "womens-longline-waist-cinched-trench-coat",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591466893600",
+      "old": "aiyuqi-womens-chelsea-boots-genuine-leather-new-autumn-winter-fashion-womens-ankle-boots-retro-martin-boots-ladies",
+      "new": "womens-chelsea-ankle-boots-round-toe",
+      "returned": "womens-chelsea-ankle-boots-round-toe",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591467122976",
+      "old": "collar-long-sleeved-single-breasted-solid-color-trench-coat-for-women-1",
+      "new": "womens-brown-single-breasted-trench-coat",
+      "returned": "womens-brown-single-breasted-trench-coat",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591470825760",
+      "old": "nomadic-style-faux-fur-lapel-double-breasted-trench-coat-jacket",
+      "new": "nomadic-faux-fur-lapel-double-breasted-trench-coat-jacket",
+      "returned": "nomadic-faux-fur-lapel-double-breasted-trench-coat-jacket",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591470956832",
+      "old": "collar-long-sleeved-single-breasted-solid-color-trench-coat-for-women-2",
+      "new": "womens-green-single-breasted-trench-coat",
+      "returned": "womens-green-single-breasted-trench-coat",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591471448352",
+      "old": "winter-wool-jacket-mens-coat-warm-solid-jacket-double-breasted-business-casual-overcoat-long-cotton-collar-trench-coat",
+      "new": "mens-double-breasted-longline-overcoat-slim-fit",
+      "returned": "mens-double-breasted-longline-overcoat-slim-fit",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591471546656",
+      "old": "woolen-coat-for-women-thick-korean-version-slim-elegant-mid-length-tweed-overcoat",
+      "new": "womens-single-breasted-mid-length-polyester-coat-turn-down",
+      "returned": "womens-single-breasted-mid-length-polyester-coat-turn-down",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591474135328",
+      "old": "autumn-and-winter-british-style-new-knight-martin-boots-womens-over-knee-thick-bottom-zipper-mid-length-boots-single-boots-womens",
+      "new": "womens-faux-leather-winter-boots-rubber-sole",
+      "returned": "womens-faux-leather-winter-boots-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591475544352",
+      "old": "thick-soled-strap-thick-soled-short-boots-womens-round-head-new-womens-shoes-british-style-martin-boots",
+      "new": "womens-lace-up-faux-leather-short-boots-thick-rubber-sole",
+      "returned": "womens-lace-up-faux-leather-short-boots-thick-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591475904800",
+      "old": "autumn-winter-overcoat-women-solid-color-belted-faux-leather-long-trench-coat-female-outerwear",
+      "new": "womens-belted-longline-trench-coat-solid-colour-finish",
+      "returned": "womens-belted-longline-trench-coat-solid-colour-finish",
+      "errors": [],
+      "ok": true,
+      "status": 12
+    },
+    {
+      "id": "15591476855072",
+      "old": "collar-long-sleeved-single-breasted-solid-color-trench-coat-for-women-3",
+      "new": "womens-khaki-single-breasted-trench-coat",
+      "returned": "womens-khaki-single-breasted-trench-coat",
+      "errors": [],
+      "ok": true,
+      "status": 13
+    },
+    {
+      "id": "15591479705888",
+      "old": "autumn-and-winter-new-style-export-overcoat-large-size-woolen-overcoat-england-coat",
+      "new": "classic-solid-colour-winter-overcoat",
+      "returned": "classic-solid-colour-winter-overcoat",
+      "errors": [],
+      "ok": true,
+      "status": 13
+    },
+    {
+      "id": "15591479738656",
+      "old": "womens-trench-coat-bright-lines-decoration-long-sleeve-belt-waist-navy-windbreak-autumn-winter-new-fashion",
+      "new": "womens-belted-trench-coat-polyester-fabric",
+      "returned": "womens-belted-trench-coat-polyester-fabric",
+      "errors": [],
+      "ok": true,
+      "status": 13
+    },
+    {
+      "id": "15591479968032",
+      "old": "fashion-solid-women-casual-thicker-winter-slim-coat-overcoat-abrigos-mujer-invierno",
+      "new": "womens-hooded-cotton-blend-winter-coat-long-sleeves",
+      "returned": "womens-hooded-cotton-blend-winter-coat-long-sleeves",
+      "errors": [],
+      "ok": true,
+      "status": 13
+    },
+    {
+      "id": "15591480328480",
+      "old": "long-sleeved-single-breasted-solid-color-trench-coat-for-women",
+      "new": "womens-dark-grey-single-breasted-trench-coat",
+      "returned": "womens-dark-grey-single-breasted-trench-coat",
+      "errors": [],
+      "ok": true,
+      "status": 13
+    }
+  ]
+}
