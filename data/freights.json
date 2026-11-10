@@ -3290,6 +3290,90 @@
           }
         }
       ]
+    },
+    "15591479968032": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 18.97,
+          "shippingGBP": 14.2,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 40,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591479705888": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 18.37,
+          "shippingGBP": 13.75,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 24,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591448019232": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 14.92,
+          "shippingGBP": 11.17,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 30,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
+    },
+    "15591445365024": {
+      "ukQuotes": [
+        {
+          "shippingUSD": 17,
+          "shippingGBP": 12.72,
+          "country": "GB",
+          "carrier": "YUN Standard",
+          "estimatedDeliveryDays": [
+            6,
+            10
+          ],
+          "quotedOn": "2026-11-10",
+          "variantsChecked": 33,
+          "fx": {
+            "usdPerGbp": 1.336,
+            "date": "2026-11-06",
+            "source": "https://www.bankofengland.co.uk/boeapps/database/Rates.asp?into=GBP"
+          }
+        }
+      ]
     }
   }
 }
