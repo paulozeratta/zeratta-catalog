@@ -856,15 +856,6 @@
       "ukPriceUpdatedAt": 1794199482479,
       "ukPricingModel": "uk-retail-gross-margin-20.69-2026-11-09"
     },
-    "15533051412768": {
-      "regularPrice": 149,
-      "discountPct": 49.73,
-      "salePrice": 74.9,
-      "pricingUpdatedAt": 1794096341629,
-      "ukSalePriceGBP_v2": 81.9,
-      "ukPriceUpdatedAt": 1794199482479,
-      "ukPricingModel": "uk-retail-gross-margin-20.69-2026-11-09"
-    },
     "15533044007200": {
       "regularPrice": 149,
       "discountPct": 40.27,
