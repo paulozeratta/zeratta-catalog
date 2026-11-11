@@ -49,7 +49,6 @@ Catálogo financeiro da Zeratta, publicado por GitHub Pages a partir da branch *
 | [15589729042720](https://admin.shopify.com/store/testezeratta/products/15589729042720) | Stand Collar Thickened Cotton Coat Unisex Oversized Short Puffer Jacket | Importação 09/11 |
 | [15589728420128](https://admin.shopify.com/store/testezeratta/products/15589728420128) | Mountain Style Outdoor Puffer Jacket Trendy Loose Stand Collar Warm Thick Cotton Coat for Couples, Versatile Design | Importação 09/11 |
 | [15578320437536](https://admin.shopify.com/store/testezeratta/products/15578320437536) | Men's Hooded Faux Leather Winter Jacket with Padded Details | Anterior |
-| [15533051412768](https://admin.shopify.com/store/testezeratta/products/15533051412768) | Men's Relaxed Fit Hooded Puffer Jacket with Side Pockets | Anterior |
 
 ## Reconciliação Shopify → catálogo | 09/11/2026, 16h33 BRT
 
