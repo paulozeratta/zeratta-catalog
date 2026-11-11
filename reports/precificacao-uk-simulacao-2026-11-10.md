@@ -147,7 +147,6 @@ Produtos no snapshot: 177; cotados UK: 159; sem cotação UK: 18.
 | 15591445397792 | Men Shoes Autumn Winter Boots Retro Style Ankle Boots Lace Up  Casual  Boots High-top Shoes For Men Wear-resistant Zapatos Boots | ACTIVE | 20 | 13.51 | 13.07 | 89.55 | 73.82 | YUN Standard |
 | 15591445430560 | New Chunky Heel Thick Sole Riding Boots Cow Suede Comfort Lace Up Ankle Boots Autumn Women Handsome Punk Style Short Boot Unisex | ACTIVE | 6 | 23.10 | 23.13 | 155.67 | 92.83 | 4PX Express |
 | 15591446642976 | New Men's And Women's Boots Motorcycle Boots Knight Short Boots Retro Lace Up Roman Boots Large Size Martin Boots | ACTIVE | 20 | 13.58 | 8.56 | 70.86 | 69.52 | YUN Standard |
-| 15591447986464 | Workwear Martin boots men's spring and autumn new high top British style big yellow boots outdoor high top casual leather boots men | ACTIVE | 12 | 7.36 | 13.51 | 73.11 | 68.29 | YUN Standard |
 | 15591448019232 | Winter Men Safety Work Boots Warm Plush Fur Mens Labor Insurance Puncture Proof Snow Boot Man Steel Toe Cap Shoes Male | ACTIVE | 30 | 10.77 | 14.92 | 89.04 | 72.96 | YUN Standard |
 | 15591449723168 | High top Martin boots for outdoor men anti slip wear-resistant thick soled versatile workwear trendy shoes | ACTIVE | 12 | 4.85 | 9.64 | 69.81 | 62.12 | 4PX Standard |
 | 15591449821472 | Men Retro Work Ankle Boots Autumn Winter Thick Bottom High Top Casual Boots Leather Boots Chelsea Desert Waterproof  Boots Male | ACTIVE | 12 | 7.53 | 12.62 | 69.90 | 67.59 | YUN Standard |
@@ -187,7 +186,6 @@ Produtos no snapshot: 177; cotados UK: 159; sem cotação UK: 18.
 | 15551024431392 | Unisex Streetwear Pullover Hoodie with Relaxed Fit | DRAFT | 48 |
 | 15551020269856 | Men's Classic Fleece Pullover Hoodie with Long Sleeves | DRAFT | 112 |
 | 15551015092512 | Women's Slim-Fit Cropped Faux Leather Jacket | ACTIVE | 84 |
-| 15533051412768 | Men's Relaxed Fit Hooded Puffer Jacket with Side Pockets | ACTIVE | 21 |
 | 15528499446048 | Men's Relaxed Pullover Hoodie with Ribbed Hem and Side Pockets | DRAFT | 41 |
 | 15591451558176 | Men's thick soled workwear, big yellow Martin boots, autumn new high top leather patchwork outdoor sports boots | ACTIVE | 18 |
 | 15591463485728 | Comfortable low heeled oversized low cut women's boots | ACTIVE | 120 |
