@@ -1,4 +1,125 @@
 {
   "date": "2026-11-12",
-  "results": []
+  "results": [
+    {
+      "id": "15599371321632",
+      "newTitle": "Men's Cloth High-Top Lace-Up Boots with Rubber Sole",
+      "newHandle": "mens-cloth-high-top-lace-up-boots-rubber-sole",
+      "actualTitle": "Men's Cloth High-Top Lace-Up Boots with Rubber Sole",
+      "actualHandle": "mens-cloth-high-top-lace-up-boots-rubber-sole",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": false
+    },
+    {
+      "id": "15599371354400",
+      "newTitle": "Men's Retro Mid-Top Lace-Up Boots with PVC Sole",
+      "newHandle": "mens-retro-mid-top-lace-up-boots-pvc-sole",
+      "actualTitle": "Men's Retro Mid-Top Lace-Up Boots with PVC Sole",
+      "actualHandle": "mens-retro-mid-top-lace-up-boots-pvc-sole",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": false
+    },
+    {
+      "id": "15599371387168",
+      "newTitle": "Men's Mixed-Material Mid-Top Lace-Up Boots",
+      "newHandle": "mens-mixed-material-mid-top-lace-up-boots",
+      "actualTitle": "Men's Mixed-Material Mid-Top Lace-Up Boots",
+      "actualHandle": "mens-mixed-material-mid-top-lace-up-boots",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": true
+    },
+    {
+      "id": "15599371419936",
+      "newTitle": "Men's Faux Suede Lace-Up Snow Boots with EVA Sole",
+      "newHandle": "mens-faux-suede-lace-up-snow-boots-eva-sole",
+      "actualTitle": "Men's Faux Suede Lace-Up Snow Boots with EVA Sole",
+      "actualHandle": "mens-faux-suede-lace-up-snow-boots-eva-sole",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": false
+    },
+    {
+      "id": "15599371452704",
+      "newTitle": "Men's Faux Leather High-Top Round-Toe Boots",
+      "newHandle": "mens-faux-leather-high-top-round-toe-boots",
+      "actualTitle": "Men's Faux Leather High-Top Round-Toe Boots",
+      "actualHandle": "mens-faux-leather-high-top-round-toe-boots",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": false
+    },
+    {
+      "id": "15599371485472",
+      "newTitle": "Men's Winter Work-Style Ankle Boots",
+      "newHandle": "mens-winter-work-style-ankle-boots",
+      "actualTitle": "Men's Winter Work-Style Ankle Boots",
+      "actualHandle": "mens-winter-work-style-ankle-boots",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": true
+    },
+    {
+      "id": "15599371551008",
+      "newTitle": "Men's Work-Inspired Winter Boots",
+      "newHandle": "mens-work-inspired-winter-boots",
+      "actualTitle": "Men's Work-Inspired Winter Boots",
+      "actualHandle": "mens-work-inspired-winter-boots",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": false
+    },
+    {
+      "id": "15599371616544",
+      "newTitle": "Men's Denim High-Top Lace-Up Boots with PVC Sole",
+      "newHandle": "mens-denim-high-top-lace-up-boots-pvc-sole",
+      "actualTitle": "Men's Denim High-Top Lace-Up Boots with PVC Sole",
+      "actualHandle": "mens-denim-high-top-lace-up-boots-pvc-sole",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": false
+    },
+    {
+      "id": "15599371649312",
+      "newTitle": "Men's Faux Leather High-Top Lace-Up Boots",
+      "newHandle": "mens-faux-leather-high-top-lace-up-boots",
+      "actualTitle": "Men's Faux Leather High-Top Lace-Up Boots",
+      "actualHandle": "mens-faux-leather-high-top-lace-up-boots",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": true
+    },
+    {
+      "id": "15599371682080",
+      "newTitle": "Men's Winter Work-Style Boots with Fur-Lined Options",
+      "newHandle": "mens-winter-work-style-boots-fur-lined-options",
+      "actualTitle": "Men's Winter Work-Style Boots with Fur-Lined Options",
+      "actualHandle": "mens-winter-work-style-boots-fur-lined-options",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": false
+    },
+    {
+      "id": "15599371780384",
+      "newTitle": "Women's Platform Ankle Boots with Fur-Lined Options",
+      "newHandle": "womens-platform-ankle-boots-fur-lined-options",
+      "actualTitle": "Women's Platform Ankle Boots with Fur-Lined Options",
+      "actualHandle": "womens-platform-ankle-boots-fur-lined-options",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": false
+    },
+    {
+      "id": "15599371845920",
+      "newTitle": "Men's Combat-Style Casual Ankle Boots",
+      "newHandle": "mens-combat-style-casual-ankle-boots",
+      "actualTitle": "Men's Combat-Style Casual Ankle Boots",
+      "actualHandle": "mens-combat-style-casual-ankle-boots",
+      "errors": [],
+      "ok": true,
+      "chartAdjusted": true
+    }
+  ]
 }
