@@ -1,0 +1,1168 @@
+{
+  "date": "2026-11-12",
+  "shopifyRows": [
+    {
+      "id": "gid://shopify/Product/15599371321632",
+      "title": "Men's autumn winter retro fashion high-top shoes Martin boots work boots motorcycle boots labor protection shoes",
+      "handle": "mens-autumn-winter-retro-fashion-high-top-shoes-martin-boots-work-boots-motorcycle-boots-labor-protection-shoes",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p>- Color:grey,sand,black</p><p>- Style:Martin boots</p><p>- Closure Type lace-up</p><p>- Material:cloth</p><p>- Sole Material:rubber</p><p>- Heel Height:1-5cm</p><p>- Toe Style round toe</p><p>- Occasion casual, outdoor,Mountaineering</p><p>- Gender: Men</p><p>- Size: </p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/7D4377BC2F9130B4C1FD85BF93FDB79E.png\" title=\"7D4377BC2F9130B4C1FD85BF93FDB79E.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/54927A38FA2FFC6E4AE0B35976C9B68B.png\" title=\"54927A38FA2FFC6E4AE0B35976C9B68B.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/C44F7AF0525CE77C0F795551CA0500D4.png\" title=\"C44F7AF0525CE77C0F795551CA0500D4.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/E30A2393CFF8E025F0036E44006B484C.png\" title=\"E30A2393CFF8E025F0036E44006B484C.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/62E61DE38CA2630CC3508228015D501C.png\" title=\"62E61DE38CA2630CC3508228015D501C.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/B18BBEAA5E111B63C7F8631A0340D1AF.png\" title=\"B18BBEAA5E111B63C7F8631A0340D1AF.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/6338A189147426977A9D43FF9561CC26.png\" title=\"6338A189147426977A9D43FF9561CC26.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/DA1B95A367ABA6B81D8C32EDFF8A494B.png\" title=\"DA1B95A367ABA6B81D8C32EDFF8A494B.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/F2F3478C352E0A7D0E41CD5E11F29A72.png\" title=\"F2F3478C352E0A7D0E41CD5E11F29A72.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/941258E4B48DA8D042765A402D8F6986.png\" title=\"941258E4B48DA8D042765A402D8F6986.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/BEA744AAC0D3D3FC73703B64790224CD.png\" title=\"BEA744AAC0D3D3FC73703B64790224CD.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/B6DE6E740CB8A00167CDC002A825634D.png\" title=\"B6DE6E740CB8A00167CDC002A825634D.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/E8150A95151F688F47C0BF44E88BFE03.png\" title=\"E8150A95151F688F47C0BF44E88BFE03.png\" alt=\"image.png\"></p><p><br></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/311A1538F8D741EBA3222D228D924997.png\" title=\"311A1538F8D741EBA3222D228D924997.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/AF826BC376D9E777FC9A23C3C67EC6B8.png\" title=\"AF826BC376D9E777FC9A23C3C67EC6B8.png\" alt=\"image.png\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/DE68F143759D43ED3DAD2777FB1C8041.png\" title=\"DE68F143759D43ED3DAD2777FB1C8041.png\" alt=\"image.png\"></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:18Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black",
+            "Gray",
+            "Sand"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "chart": null,
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-martin-high-top-black-09.jpg?v=1794438353"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-martin-high-top-black-02.jpg?v=1794438304"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "84.03"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371354400",
+      "title": "Martin boots men's British style motorcycle workwear boots thick soled versatile high top yellow boots trendy men's shoes",
+      "handle": "martin-boots-mens-british-style-motorcycle-workwear-boots-thick-soled-versatile-high-top-yellow-boots-trendy-mens-shoes",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p><span class=\"offer-attr-item-name\" style=\"box-sizing: border-box; text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px 20px 0px 0px; outline: none; width: 150px; color: rgb(153, 153, 153);\"><span class=\"offer-attr-item-name\" style=\"box-sizing: border-box; text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px 20px 0px 0px; outline: none; width: 150px; color: rgb(153, 153, 153);\"></span></span></p><p>Color: yellow, bluestone green</p><p>Style: Retro</p><p>Pattern: Solid color</p><p>Sole material: PVC</p><p>Shoe upper material: leather</p><p>Shoe toe shape: round toe</p><p>Tube height: Medium tube</p><p>Wearing style: Front tie strap</p><p>Inner material: mesh</p><p>Applicable gender: Male</p><p>Size: 39,40,41,42,42,43,44</p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/A360C1445F7E6614A36BC87BF6EE19E3.jpg\" title=\"A360C1445F7E6614A36BC87BF6EE19E3.jpg\" alt=\"男生鞋码尺寸表.jpg\"></p><p><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/FE672704144CAE00AB37D1C974104ABF.jpg\"><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/0B1436C2FD5678D8A574C712A7D98920.jpg\"><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/DE71EC6B8C3A9C0CF27EA17FA9D46BF4.jpg\"><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/0A4AF7D157D2DA8B5E163335A3881A89.jpg\"><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/E0BE6242E32A62A39BE330B19170DAFB.jpg\"><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/63D5F8AA8F89C02586F76D4C70B5F71D.jpg\"><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/7629729FD3127D1595B12F6E68D302C8.jpg\"><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/44877A093BEB754BDC605DF1EE604C15.jpg\"><span class=\"offer-attr-item-value\" style=\"box-sizing: border-box; text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px 20px 0px 0px; outline: none; flex: 1 1 0%; overflow: hidden; text-overflow: ellipsis;\"></span><br></p><p><br></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:18Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Bluestone Green",
+            "Yellow"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "chart": null,
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/Studio_product_photo_of_boots_c3a3fb12.jpg?v=1794462764"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/Photographing_high-end_editorial__c6fda06b.jpg?v=1794462764"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "96.72"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371387168",
+      "title": "Martin boots men's autumn new style British style workwear boots fashionable men's casual mid top boots",
+      "handle": "martin-boots-mens-autumn-new-style-british-style-workwear-boots-fashionable-mens-casual-mid-top-boots",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p>Color: Beige, black</p><p>Style: Martin boots</p><p>Closure type: Lace</p><p>Shoe upper material: synthetic leather+fabric</p><p>Sole Material: Plastic</p><p>Heel height: Low heel (1-3CM)</p><p>Toe Style: Round Head</p><p>Occasion: Leisure, Sports</p><p>Gender: Male</p><p><strong><br></strong><br></p><p><strong>About size</strong><br>Please choose size according to the foot length (from heel to toe )!<br>Different country different material have different size standard .<br>So our US size ,Europe size may have some different with yours.<br>Pls measure foot length at first and then choose size correspondingly.<br>The size number marked in shoe outsole is China size number, not European size.<br>Size 35 = foot length 22.1 cm-22.5 cm     Size 42 = foot length 25.6 cm-26.0 cm<br>Size 36 = foot length 22.6 cm-23.0 cm     Size 43 = foot length 26.1 cm-26.5 cm<br>Size 37 = foot length 23.1 cm-23.5 cm     Size 44 = foot length 26.6 cm-27.0 cm<br>Size 38 = foot length 23.6 cm-24.0 cm     Size 45 = foot length 27.1 cm-27.5 cm<br>Size 39 = foot length 24.1 cm-24.5 cm     Size 46 = foot length 27.6 cm-28.0 cm<br>Size 40 = foot length 24.6 cm-25.0 cm     Size 47 = foot length 28.1 cm-28.5 cm<br>Size 41 = foot length 25.1 cm-25.5 cm     Size 48 = foot length 28.6 cm-29.0 cm<br><br><strong>About shipment</strong><br>1.Tracking information will usually be updated in 24- 72 hours.<br>2.Normally it will take 10- -45 days to arrive, the speed of customs clearance &amp; shipping in buyers country that decides it arrive faster or delay, please understand.<br>3.Usually,order comes without shoes box,only a pair of shoes.But if you need a box,please contact us to increase the price.<br>About chromatic aberration<br>Due to the different contrast of personal monitors, there may be slight color difference between the picture and the actual product.<br><br><strong>About smell</strong><br>New shoes that have just left the factory may smell of glue, but it is not a quality problem.<br>I hope it can be understood.<br>The smell will dissipate after being placed in a ventilated place for a period of time<br><br><strong>The feedback</strong><br>1.If you are satisfied with your order, please leave us all 5 stars including Item as Described. Communication and Shipping Speed.<br>2.if you think we can do better,please contact with our Customer Service first.We will give you a satisfied answer.<br>3.If you have wholesale needs, please send the shoe pictures and styles to our customer service</p><p style=\"text-align:left;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px\"><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/13BACCF47083A7F04D277657BD1BCCB9.jpg\"><br></p><p><img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/BEC6ABFC844509DB37D5ABB50112DFA5.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/52843569451344EFA1A26098E59D607C.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/D0C160B1252B6EB1216796BF2740348F.jpg\"> \n      <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/3177263578A50124123EE8A363B11F11.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/C6AA452D9F55056E3182CA2103167783.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/1E5874A6ECD00CC738F2F1DFF118419E.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/97A3C83EEE4DCE802F7DC551510087DF.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/19EC3B15DF8B0135ACE2684765F4D7C1.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/92E2FECE5439DFD645699AEE20172910.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/3105D35B0E3C3EFB33B9958E0839715E.jpg\"> \n   <img width=\"100%\" height=\"auto\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/040922E85F21DC62F7DA52D91B9A1090.jpg\"></p><p><br></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:19Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Beige",
+            "Black"
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "chart": null,
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/B6AFF6558019412279A46CEBA6750AE7.jpg?v=1794369754"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-1KX6tl3oD2seGxwRlFKa4UNb9Bsr-j4Zx.jpg?v=1794431103"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "69.12"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371419936",
+      "title": "Men's snow boots with winter fleece insulation, outdoor boots, cotton shoes, lightweight boots",
+      "handle": "mens-snow-boots-with-winter-fleece-insulation-outdoor-boots-cotton-shoes-lightweight-boots",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p>Color: Black, Blue</p><p><br></p><p>Style: Snow boots</p><p><br></p><p>Closure type: Lace</p><p><br></p><p>Shoe upper material: faux suede</p><p><br></p><p>Sole material: EVA</p><p><br></p><p>Heel height: low heel</p><p><br></p><p>Toe Style: Round Head</p><p><br></p><p>Occasion: Leisure, Sports</p><p><br></p><p>Gender: Male</p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/02B089A494F1D3A897CEA7F6186149C7.jpg\"><br><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/EFDB5DDBD808414356BFB5652FA0C1FC.jpg\"><br><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/51A6A15A77D8803DB28245361FDA2DB3.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/C2DB61A5C0166259B0A51D701EADF9F3.jpg\"><br><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/EB1CBA7E02AF30F46C26AE2DCB7524DD.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/5C8C8EBC17F7E96AB1104E3FCD401D9F.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/3B48F0632408A18ED625D6543CCB9506.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/B803E57A2F5C7838C4A7ECEEAC4FA083.jpg\"><br><br><br><br><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/4D0F57AB32F6AEB57F7CF3C0665DDABA.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/60EA850602E72F7717579C8DA0DC7327.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/7FCDD7A097DF711A1EE8A2626C4AAE03.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/0BB4F4811B0612EB3F7E8DC943DF844A.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/0175B31A53C9915CD3F70C835DF0C17F.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/FF7B830799F84F274BB3E5F74EBBC56F.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/AD537156D01AAE065A15E4AAEC759E07.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/AB99BA5FD9EE3B1D98C4B106C831D667.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/19D6B040FAC1F06971E7D833AD9CAF7A.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/22D9AF475533E20860E8E327BFD01C75.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/DCEBD488985854CA55CDA9A97141CA4A.jpg\"><br><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/C20C136451C62CFF0F5CF41136455639.jpg\"><br></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:19Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black",
+            "Blue"
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46"
+          ]
+        }
+      ],
+      "chart": null,
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zeratta-snow-boots-black-hero-mEGYQ.jpg?v=1794430469"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zeratta-snow-boots-black-editorial-3-ZxjpZ.jpg?v=1794430511"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "69.75"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371452704",
+      "title": "Rhubarb boots anti slip trendy waterproof British Martin boots",
+      "handle": "rhubarb-boots-anti-slip-trendy-waterproof-british-martin-boots",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p>Color: Black Grey, Black Green Yellow, Blue White, Black White Orange</p><p>Style: Sports</p><p>Closure Type: Front Strap</p><p>Shoe upper material: artificial PU</p><p>Inner material: faux leather</p><p>Sole Material: Plastic</p><p>Upper height: high top</p><p>Toe Style: Round Head</p><p>Occasion ：casual, formal, athletic</p><p>Gender: Male</p><p>Size:39,40,41,42,43,44,45,46,47,48<span style=\"color: rgb(51, 51, 51); font-family: Roboto, \"></span></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/A3B82ACE33A88859C2193B81CEB4F802.jpg\" title=\"A3B82ACE33A88859C2193B81CEB4F802.jpg\" alt=\"17.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/07C8CE3B82DFB9BC92FE76B40F2C495A.jpg\" title=\"07C8CE3B82DFB9BC92FE76B40F2C495A.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/64B1BA98332EEDC62283BBE4444DE78F.jpg\" title=\"64B1BA98332EEDC62283BBE4444DE78F.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/C81C72FE51B3C97EBB0B03FCDE1AC16E.jpg\" title=\"C81C72FE51B3C97EBB0B03FCDE1AC16E.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/102E40F212A6E773335C35286B42AA3B.jpg\" title=\"102E40F212A6E773335C35286B42AA3B.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/188B27A991DC53633375CE90EBAD2BAF.jpg\" title=\"188B27A991DC53633375CE90EBAD2BAF.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/59C98213AD17A2E12A5F3755F6F6B829.jpg\" title=\"59C98213AD17A2E12A5F3755F6F6B829.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/8A1DD651DABB808BB596221768BCEBD8.jpg\" title=\"8A1DD651DABB808BB596221768BCEBD8.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/C0353F06BA67F9667A6E3A3EE428B9C2.jpg\" title=\"C0353F06BA67F9667A6E3A3EE428B9C2.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/296A41D9A45958372C6A8CDBCF07046A.jpg\" title=\"296A41D9A45958372C6A8CDBCF07046A.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202409/2227968B987E7864734E40C73E52D8AE.jpg\" title=\"2227968B987E7864734E40C73E52D8AE.jpg\"></p><p><br></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:20Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black",
+            "Gray",
+            "Khaki",
+            "Green"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48"
+          ]
+        }
+      ],
+      "chart": null,
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-1YX8BlZ2UtsdF6LpuTVecTAVwJ6R6dGpU.jpg?v=1794434239"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-1vqlAtNU79M_d33PIBODfgVVuOxW1R0we.jpg?v=1794434266"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "74.40"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371485472",
+      "title": "Winter Boots Steel Toe Safety Boots",
+      "handle": "winter-boots-steel-toe-safety-boots",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p style=\"text-align:center;\">1</p><table class=\"ke-zeroborder\" width=\"625\">\n<colgroup style=\"box-sizing: border-box; padding: 0px; margin: 0px;\">\n<col width=\"103\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; width: 77.6pt;\">\n<col span=\"13\" width=\"61\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; width: 45.75pt;\">\n</colgroup>\n<tbody style=\"box-sizing: border-box; padding: 0px; margin: 0px;\">\n<tr class=\"firstRow\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; height: 36pt;\"><td class=\"et2\" width=\"672\" colspan=\"13\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px;\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: x-large;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-family: SimSun-ExtB;\">Men's Size<span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word;\"> </span></span></span></span></p></td></tr>\n<tr style=\"box-sizing: border-box; padding: 0px; margin: 0px; height: 36pt;\">\n<td class=\"et3\" width=\"77\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: small;\">Foot Length ( Cm )</span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>24.7</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>25.2</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">25.7</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-size:16px\"><strong>26.3</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">26.7</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">27.2</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">27.7</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">28.2</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-size:16px\"><strong>28.7</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>29.2</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>29.7</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\">30.2</p></td>\n</tr>\n<tr style=\"box-sizing: border-box; padding: 0px; margin: 0px; height: 36pt;\">\n<td class=\"et5\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: small;\">EU/CN Size</span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">37</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">38</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">39</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>40</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">41</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">42</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">43</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">44</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">45</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">46</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">47</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">48</span></span></p></td>\n</tr>\n<tr style=\"box-sizing: border-box; padding: 0px; margin: 0px; height: 36pt;\">\n<td class=\"et5\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: small;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word;\">US Size<span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word;\"> </span></span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>5.5</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>6</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>6.5</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>7</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>7.5</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>8.5</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\">9.5</p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>10.5</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>11</strong></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">12</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium;\">13</span></span></p></td>\n<td class=\"et4\" style=\"padding: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); box-sizing: border-box; margin: 0px; background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\">14</p></td>\n</tr>\n</tbody>\n</table><p style=\"margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; padding: 0px; font-size: 14px; line-height: inherit;\"><br></p><p style=\"margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; padding: 0px; font-size: 14px; line-height: inherit;\"><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; border-width: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline;\"><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; font-weight: 700;\">Note 1:Size tag of the shoes show Chinese size,which are not the European size.</span></span><br><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; border-width: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline;\"><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; font-weight: 700;\">               but they are exactly the same length as the European size which you ordered.</span></span><br><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; border-width: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline;\"><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; font-weight: 700;\">Note 2:Colors on your computer monitor may differ slightly from actual product colors,It depend on your monitor settings.</span></span></p><p><span style=\"border-left-width:0px;box-sizing:content-box;font-size:16px;max-width:100%;font-family:Arial, Helvetica, sans-serif;border-right-width:0px;vertical-align:baseline;border-bottom-width:0px;word-spacing:0px;text-transform:none;font-weight:normal;color:#000000;padding-bottom:0px;font-style:normal;padding-top:0px;padding-left:0px;orphans:2;widows:2;margin:0px;letter-spacing:normal;padding-right:0px;border-top-width:0px;background-color:#ffffff;text-indent:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;\"><strong style=\"box-sizing:content-box;font-weight:700;\"><br></strong></span><br></p><p style=\"text-align:center;\"><span style=\"border-left-width:0px;box-sizing:content-box;font-size:16px;max-width:100%;font-family:Arial, Helvetica, sans-serif;border-right-width:0px;vertical-align:baseline;border-bottom-width:0px;word-spacing:0px;text-transform:none;font-weight:normal;color:#000000;padding-bottom:0px;font-style:normal;padding-top:0px;padding-left:0px;orphans:2;widows:2;margin:0px;letter-spacing:normal;padding-right:0px;border-top-width:0px;background-color:#ffffff;text-indent:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;\"></span></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H379c4707637f4b83a858bed1a278fc1fV.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H4207f080db5b4042baaf6f6e09218a41D.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H6e83bbd3a01b4d7b8c3a61657cdbb7fce.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H6bda7e6b09f148e9af100577ea24681cj.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H53a603319c594fa09ab85460ce5263c1K.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H0f9e70a12ba94ca2bf6094914425389cq.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H8fb6566f802a45ff81b839ddfc6dea83E.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H6927ea6f7e2c424f8fae1b341b5ac7564.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H6e4acc085f514087bcaa4b85a60293b1R.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H837235e8f0fc4adea2f6d81713dcf80cN.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H7206f134d4b84fb391bba27ed458fd7f4.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H1f860387187d469186ca924d70a530c9m.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H8bb15e0c7dd9454483cce18b6d753013a.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hea53ef1fe1084c21b4639e7ead5ff828Z.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H23a56583e3114bf8bb2c702c1cfb1f23Y.jpg\"></p><p style=\"text-align:center;\"> </p><p><span style=\"border-left-width:0px;box-sizing:content-box;font-size:16px;max-width:100%;font-family:Arial, Helvetica, sans-serif;border-right-width:0px;vertical-align:baseline;border-bottom-width:0px;word-spacing:0px;text-transform:none;font-weight:normal;color:#000000;padding-bottom:0px;font-style:normal;padding-top:0px;padding-left:0px;orphans:2;widows:2;margin:0px;letter-spacing:normal;padding-right:0px;border-top-width:0px;background-color:#ffffff;text-indent:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;\"> </span></p><p style=\"text-align:center;\"></p><p style=\"text-align:center;\"></p><p><br></p><p><br></p><p style=\"text-align: center;\"> </p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:20Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Khaki"
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "json",
+        "value": "{\"unit\":\"cm\",\"headers\":[\"Size\",\"Foot Length\",\"US Size\"],\"rows\":[[\"37\",\"**24.7**\",\"**5.5**\"],[\"38\",\"**25.2**\",\"**6**\"],[\"39\",\"25.7\",\"**6.5**\"],[\"41\",\"26.7\",\"**7.5**\"],[\"42\",\"27.2\",\"**8.5**\"],[\"43\",\"27.7\",\"9.5\"],[\"44\",\"28.2\",\"**10.5**\"],[\"45\",\"**28.7**\",\"**11**\"],[\"46\",\"**29.2**\",\"12\"],[\"47\",\"**29.7**\",\"13\"],[\"48\",\"30.2\",\"14\"]],\"rows_flat\":\"37|**24.7**|**5.5**;38|**25.2**|**6**;39|25.7|**6.5**;41|26.7|**7.5**;42|27.2|**8.5**;43|27.7|9.5;44|28.2|**10.5**;45|**28.7**|**11**;46|**29.2**|12;47|**29.7**|13;48|30.2|14\"}"
+      },
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/E9FFD63DF8F0C87AAB907F3B6E08AF6A.jpg?v=1794369757"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/4296998C422460C6E896D1D0554F2083.jpg?v=1794369747"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "110.49"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371551008",
+      "title": "Winter Boots Men Safety Shoes Indestructible Work Shoes Puncture-Proof Work Sneakers Male Steel Toe Shoes Work Safety Boots",
+      "handle": "winter-boots-men-safety-shoes-indestructible-work-shoes-puncture-proof-work-sneakers-male-steel-toe-shoes-work-safety-boots",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p class=\"detailmodule_html\" style=\"text-align:center;\"><span style=\"text-decoration: none;\"></span> </p><p class=\"detailmodule_html\" style=\"text-align:center;\"><br></p><table class=\"ke-zeroborder\" style=\"width:672.02pt;border-collapse:collapse;\" width=\"833\" border=\"0\">\n<colgroup>\n<col style=\"width:77.6pt;\" width=\"103\">\n<col style=\"width:45.75pt;\" span=\"13\" width=\"61\">\n</colgroup>\n<tbody>\n<tr style=\"height:36pt;\" class=\"firstRow\"><td class=\"et2\" style=\"border-top:#000000 0.5pt solid;height:36pt;border-right:#000000 0.5pt solid;width:672.35pt;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:transparent;\" width=\"896\" colspan=\"13\">\n<p style=\"text-align:center;\"><strong><span style=\"font-size:x-large;\"><span style=\"font-family:SimSun-ExtB;\">Men's shoe Size</span></span></strong></p>\n<p style=\"text-align:center;\"><strong><span style=\"font-size:x-large;\"><span style=\"font-family:SimSun-ExtB;\"><span style=\"mso-spacerun:yes;\"></span></span></span></strong> </p>\n</td></tr>\n<tr style=\"height:36pt;\">\n<td class=\"et3\" style=\"border-top:#000000 0.5pt solid;height:36pt;border-right:#000000 0.5pt solid;width:77.6pt;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\" width=\"103\"><p style=\"text-align:center;\"><span style=\"font-size:small;font-family:'Microsoft YaHei UI';\">Foot Length ( cm )</span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>24.7</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>25.2</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">25.7</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">26.3</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">26.7</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">27.2</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">27.7</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">28.2</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>28.7</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">29.2</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">29.7</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong style=\"text-align: center; white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"font-size: medium; font-family: \">30.2</span></strong></p></td>\n</tr>\n<tr style=\"height:36pt;\">\n<td class=\"et5\" style=\"border-top:#000000 0.5pt solid;height:36pt;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-size:small;font-family:'Microsoft YaHei UI';\">EU/CN Size</span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">37</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">38</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">39</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>40</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">41</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">42</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">43</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>44</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">45</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">46</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">47</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">48</span></strong></p></td>\n</tr>\n<tr style=\"height:36pt;\">\n<td class=\"et5\" style=\"border-top:#000000 0.5pt solid;height:36pt;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-size:small;\"><span style=\"font-family:'Microsoft YaHei UI';\">US Size<span style=\"mso-spacerun:yes;\"> </span></span></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>5.5</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>6</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">6.5</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>7</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">7.5</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">8.5</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>9.5</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>10.5</strong></span></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">11</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">12</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">13</span></strong></p></td>\n<td class=\"et4\" style=\"border-top:#000000 0.5pt solid;border-right:#000000 0.5pt solid;border-bottom:#000000 0.5pt solid;border-left:#000000 0.5pt solid;background-color:#ffffff;\"><p style=\"text-align:center;\"><strong><span style=\"font-size:medium;font-family:'Microsoft YaHei UI Light';\">14</span></strong></p></td>\n</tr>\n</tbody>\n</table><p><br></p><p class=\"detailmodule_html\" style=\"text-align:center;\"><span style=\"border-left-width:0px;box-sizing:content-box;font-size:16px;max-width:100%;font-family:Arial, Helvetica, sans-serif;border-right-width:0px;vertical-align:baseline;border-bottom-width:0px;word-spacing:0px;text-transform:none;font-weight:normal;color:#000000;padding-bottom:0px;font-style:normal;padding-top:0px;padding-left:0px;margin:0px;orphans:2;widows:2;letter-spacing:normal;padding-right:0px;border-top-width:0px;background-color:#ffffff;text-indent:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;\"><strong style=\"box-sizing:content-box;font-weight:700;\">Note 1:Size tag of the shoes show Chinese size,which are not the European size.</strong></span><br><span style=\"border-left-width:0px;box-sizing:content-box;font-size:16px;max-width:100%;font-family:Arial, Helvetica, sans-serif;border-right-width:0px;vertical-align:baseline;border-bottom-width:0px;word-spacing:0px;text-transform:none;font-weight:normal;color:#000000;padding-bottom:0px;font-style:normal;padding-top:0px;padding-left:0px;margin:0px;orphans:2;widows:2;letter-spacing:normal;padding-right:0px;border-top-width:0px;background-color:#ffffff;text-indent:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;\"><strong style=\"box-sizing:content-box;font-weight:700;\">Note 2:Colors on your computer monitor may differ slightly from actual product colors,It depend on your monitor settings.</strong></span><span style=\"border-left-width:0px;box-sizing:content-box;font-size:16px;max-width:100%;font-family:Arial, Helvetica, sans-serif;border-right-width:0px;vertical-align:baseline;border-bottom-width:0px;word-spacing:0px;text-transform:none;font-weight:normal;color:#000000;padding-bottom:0px;font-style:normal;padding-top:0px;padding-left:0px;margin:0px;orphans:2;widows:2;letter-spacing:normal;padding-right:0px;border-top-width:0px;background-color:#ffffff;text-indent:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;\"> </span></p><p><br></p><p><br></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H65983b0c735749a0a721711edad522d4L.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H68811265dcb646d39ff4d9f3045fe0b6s.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H01008d9906164f07a5199312c05903f1p.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H253fdc5f817e4b0b94541819ef746fc9K.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hb65cb262a0664bb9833d1683bafa4f3aM.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H02fe0b35c8df4915babbcaa22bfb8c1a9.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H892a4b3e869c4bc2aae081e97454b298q.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H899753faa32942b28b2b44a4bf28ad6cj.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hcaff98f7cf984856b4e40d1704c03f94X.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H08904b917e7a43359cca86f58bb38353D.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H08465d8ac457481a9ba5b7d9c3267d69P.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H8eb4f6eab4e34ca2a9fdf2ecb24c431eV.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H202b87e0e6fe4e8293be6f694c417a3ab.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H0c1f47add27f4a9db737073fbbee58557.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H0f657e2f3626412fb6b606e28e1bbf269.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/He805e6519b1942e0ab1fe55f0c4933e1l.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hce7cafc220464254b5ca91e936ad17805.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H340a4ef429c3474ab5086dd5039d4d44o.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H7e8f2806d50e4ccfaaa263a2fd62ec38w.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H77f53bba582d435591c12b28517becffj.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H8c803df1bfbd46e7b1c6ffa6fe3e1cc1N.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hb5cfae900b54497fa2ceb486b3a2df8eJ.jpg\"></p><p style=\"text-align: center;\"><img src=\"http://ae01.alicdn.com/kf/H849e82b8ef2a47a780838b68836cfef12.jpg\"></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:21Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black",
+            "Yellow"
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "json",
+        "value": "{\"unit\":\"cm\",\"headers\":[\"Size\",\"Foot Length\",\"US Size\"],\"rows\":[[\"37\",\"24.7\",\"5.5\"],[\"38\",\"25.2\",\"6\"],[\"39\",\"25.7\",\"6.5\"],[\"40\",\"26.3\",\"7\"],[\"41\",\"26.7\",\"7.5\"],[\"42\",\"27.2\",\"8.5\"],[\"43\",\"27.7\",\"9.5\"],[\"44\",\"28.2\",\"10.5\"],[\"45\",\"28.7\",\"11\"],[\"46\",\"29.2\",\"12\"],[\"47\",\"29.7\",\"13\"],[\"48\",\"30.2\",\"14\"]],\"rows_flat\":\"37|24.7|5.5;38|25.2|6;39|25.7|6.5;40|26.3|7;41|26.7|7.5;42|27.2|8.5;43|27.7|9.5;44|28.2|10.5;45|28.7|11;46|29.2|12;47|29.7|13;48|30.2|14\"}"
+      },
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/84E3E6106835F3112E329FEC459F3C3D.jpg?v=1794369769"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-1oZwxvmA1sRE9Wx_uORl9CyJdxsa7KmSQ.jpg?v=1794448979"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "116.16"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371616544",
+      "title": "Cowboy boots new autumn thick soled Martin boots fashionable retro washed high top big toe shoes for men",
+      "handle": "cowboy-boots-new-autumn-thick-soled-martin-boots-fashionable-retro-washed-high-top-big-toe-shoes-for-men",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p style=\"margin:4px 0;font-weight: 700\"><span style=\"margin-top: -2px;font-size: 14px;vertical-align: middle;line-height: 20px;margin-right: 10px;color: #fff;display: inline-block;width: 20px;height: 20px;text-align: center;background-color: #333;\"></span></p><p>Color: Black, Blue</p><p><br></p><p>Style: Martin boots</p><p><br></p><p>Closure type: Lace</p><p><br></p><p>Shoe upper material: denim</p><p><br></p><p>Sole material: PVC</p><p><br></p><p>Heel height: Middle heel (3-5CM)</p><p><br></p><p>Toe Style: Round Head</p><p><br></p><p>Occasion: Leisure, Sports</p><p><br></p><p>Gender: Male</p><p style=\"margin:4px 0;font-weight: 700\"><span style=\"margin-top: -2px;font-size: 14px;vertical-align: middle;line-height: 20px;margin-right: 10px;color: #fff;display: inline-block;width: 20px;height: 20px;text-align: center;background-color: #333;\">1</span>Measurement In CM<br></p><table style=\"width:100%;border:1px solid #e0e0e0;border-collapse:collapse;text-align:center;border:1px solid #e0e0e0;\"><tbody>\n<tr class=\"firstRow\">\n<th style=\"text-align:center;padding:6px 0;border:1px solid #e0e0e0;height:40px;font-size:12px;color:#333;background-color:#e0e0e0;\">US size</th>\n<th style=\"text-align:center;padding:6px 0;border:1px solid #e0e0e0;height:40px;font-size:12px;color:#333;background-color:#e0e0e0;\">Europe Size</th>\n<th style=\"text-align:center;padding:6px 0;border:1px solid #e0e0e0;height:40px;font-size:12px;color:#333;background-color:#e0e0e0;\">Heel To Toe(in cm)</th>\n<th style=\"text-align:center;padding:6px 0;border:1px solid #e0e0e0;height:40px;font-size:12px;color:#333;background-color:#e0e0e0;\">CN Size</th>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">6</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">38</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">24</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">38</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">6.5</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">39</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">24.5</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">39</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">7</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">40</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">25</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">40</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">8</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">41</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">25.5</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">41</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">8.5</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">42</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">26</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">42</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">9.5</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">43</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">26.5</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">43</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">10</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">44</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">27</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">44</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">11</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">45</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">27.5</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">45</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">12</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">46</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">28</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">46</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">13</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">47</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">28.5</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">47</td>\n</tr>\n<tr>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">14</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">48</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">29</td>\n<td style=\"padding:6px 0;border:1px solid #e0e0e0;font-size:12px;color:#333;\">48</td>\n</tr>\n</tbody></table><p style=\"text-align:left;color:#434649;font-size:16px;font-weight:bold;\">Size Recommendation Standard Size</p><p><img height=\"478\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/90B990997D9206A976C9711568045293.jpg\" width=\"950\"> \n  </p><p style=\"text-align:left;color:#434649;font-size:13px;\">1.The US size or EUR size maybe different with your country,<br> so please choose the size according to your foot length!<br> 2.If your foot is thick or wide,can choose one size bigger.<br> 3.If you are not sure about the size,please contact with us.<br> EUR Size 38 = US Size 6 = Foot Length 23.6- 24.0cm<br> EUR Size 39 = US Size 6.5 = Foot Length 24.1- 24.5cm<br> EUR Size 40 = US Size 7 = Foot Length 24.6- 25.0cm<br> EUR Size 41 = US Size8 = Foot Length 25.1- 25.5cm<br> EUR Size 42 = US Size8.5 = Foot Length 25.6- 26.0cm<br> EUR Size 43 = US Size9.5 = Foot Length 26.1- 26.5cm<br> EUR Size 44 = US Size10 = Foot Length 26.6- 27.0cm<br> EUR Size 45 = US Size11 = Foot Length 27.1- 27.5cm<br> EUR Size 46 = US Size12 = Foot Length 27.6- 28.0cm<br> EUR Size 47 = US Size13 = Foot Length 28.1- 28.5cm<br> EUR Size 48 = US Size14 = Foot Length 28.6- 29.0cm</p><p style=\"text-align:left;color:#434649;font-size:16px;font-weight:bold;\">Men's fashion shoes</p><p style=\"text-align:left;color:#434649;font-size:13px;\">Kind reminder: Due to slight color and brightness differences in shooting lighting, computers, mobile phones, and other devices, please refer to the actual product.</p><p><img height=\"835\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/B1E81403BFEEBE37E4564C5AEFE6B042.jpg\" width=\"750\">\n  <img height=\"835\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/B1E81403BFEEBE37E4564C5AEFE6B042.jpg\" width=\"750\">\n  <img height=\"1109\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/0F677DD1497A19F2D320EA4E469AFB15.jpg\" width=\"750\">\n  <img height=\"1109\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/0F677DD1497A19F2D320EA4E469AFB15.jpg\" width=\"750\">\n  <img height=\"1023\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/EE0F712A271189A89A69B2500299D70C.jpg\" width=\"750\">\n  <img height=\"1507\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/BBD190EC6D9ECEF45775F9556190C570.jpg\" width=\"750\">\n  <img height=\"995\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/3EDA5F55E29393FDB8827C104A2E5FA0.jpg\" width=\"750\">\n  <img height=\"1826\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/5021DEE469B44FF46759B77F5777C8EB.jpg\" width=\"750\">\n  <img height=\"1788\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/ED13D1143E1DAFF4DFA9F73AF26AFD87.jpg\" width=\"750\">\n  <img height=\"1123\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/D7E61179812D6673A7E9ABF5C60A25DE.jpg\" width=\"750\">\n  <img height=\"1173\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/92C5CA429F4C57A7ED2597B239E1E16D.jpg\" width=\"750\">\n  <img height=\"854\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/8588E51CA31C59EA7C584162FD64B5E4.jpg\" width=\"750\">\n  <img height=\"1052\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/B53FFC3E639E2E85060CF6286228F94C.jpg\" width=\"750\">\n  <img height=\"1117\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/E198A545CDEF5E638E4C92366064706A.jpg\" width=\"750\">\n  <img height=\"1102\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/BE096225BD42BDB0419C693FE2A660EA.jpg\" width=\"750\">\n  <img height=\"1887\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/7D579AAE65A16CB7019327443234127F.jpg\" width=\"750\">\n  <img height=\"1110\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/8D1E0A4C5FA8B61BE0D35120BC1A6F81.jpg\" width=\"750\">\n  <img height=\"1061\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/7B8E4BE7479E628848B20D64A0561476.jpg\" width=\"750\">\n  <img height=\"1061\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/7B8E4BE7479E628848B20D64A0561476.jpg\" width=\"750\">\n  <img height=\"1080\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202409/FF4F89E6D27E3D41AE812857A463D310.jpg\" width=\"750\">  <span style=\"color: rgb(240, 247, 255); font-size: 13px;\">shoes,Men's snow shoes,Men's leather boot,Men's winter shoes,Leather shoes man,Men's biker boot,Casual leather shoes for men,Men shoes,Shoe wholesale</span></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:22Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black",
+            "Blue"
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "json",
+        "value": "{\"unit\":\"cm\",\"headers\":[\"Size\",\"Foot Length\",\"US Size\",\"CN Size\"],\"rows\":[[\"38\",\"24\",\"6\",\"38\"],[\"39\",\"24.5\",\"6.5\",\"39\"],[\"40\",\"25\",\"7\",\"40\"],[\"41\",\"25.5\",\"8\",\"41\"],[\"42\",\"26\",\"8.5\",\"42\"],[\"43\",\"26.5\",\"9.5\",\"43\"],[\"44\",\"27\",\"10\",\"44\"],[\"45\",\"27.5\",\"11\",\"45\"],[\"46\",\"28\",\"12\",\"46\"],[\"47\",\"28.5\",\"13\",\"47\"],[\"48\",\"29\",\"14\",\"48\"]],\"rows_flat\":\"38|24|6|38;39|24.5|6.5|39;40|25|7|40;41|25.5|8|41;42|26|8.5|42;43|26.5|9.5|43;44|27|10|44;45|27.5|11|45;46|28|12|46;47|28.5|13|47;48|29|14|48\"}"
+      },
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zeratta-cowboy-boots-black-studio-product-shot.jpg?v=1794430035"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zeratta-cowboy-boots-black-model-01.jpg?v=1794430501"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "93.15"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371649312",
+      "title": "Men's high top Martin boots autumn and winter outdoor casual workwear shoes retro frosted surface thick soled yellow boots",
+      "handle": "mens-high-top-martin-boots-autumn-and-winter-outdoor-casual-workwear-shoes-retro-frosted-surface-thick-soled-yellow-boots",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p>Color: Apricot, Army Green, Yellow</p><p>Style: Casual style</p><p>Closure Type: Lace - up</p><p>Material: Artificial PU</p><p>Sole Material: Rubber</p><p>Heel Height: Low heel</p><p>Toe Style: Round toe</p><p>Occasion: Casual</p><p>Size: 39, 40, 41, 42, 43, 44</p><table>\n<colgroup>\n<col width=\"183\" style=\"width:137.25pt;\">\n<col width=\"38\" style=\"width:28.50pt;\" span=\"6\">\n</colgroup>\n<tbody>\n<tr style=\"height:47.00pt;\" class=\"firstRow\">\n<td class=\"et2\" style=\"border-color: rgb(221, 221, 221);\">shoe sizes</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">39</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">40</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">41</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">42</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">43</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">44</td>\n</tr>\n<tr style=\"height:47.00pt;\">\n<td class=\"et2\" style=\"border-color: rgb(221, 221, 221);\">Foot length (mm)</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">245</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">250</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">255</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">260</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">265</td>\n<td class=\"et3\" style=\"border-color: rgb(221, 221, 221);\">270</td>\n</tr>\n</tbody>\n</table><p><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202501/1E0EEFD2EA068733332E6DD09B9FF8B8.jpg\" alt=\"undefined\"><br><br><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202501/65A67EF3669A3B2A68FF3EF8903DFB9F.jpg\" alt=\"undefined\"><br><br><img class=\"desc-img-loaded\" src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/pingtai/202501/5295BD9D0C7EFE68BB2BFC33BA5208BB.jpg\" alt=\"undefined\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202501/1148AC574DF2A3CC77B46C86478D8EF4.jpg\" title=\"1148AC574DF2A3CC77B46C86478D8EF4.jpg\" alt=\"主图-03.jpg\"></p><p><img src=\"https://shopifyfile.oss-accelerate.aliyuncs.com/attached/image/202501/6362DDFF324A93684F9BD00ACEAEC98C.jpg\" title=\"6362DDFF324A93684F9BD00ACEAEC98C.jpg\" alt=\"主图-02.jpg\"></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:22Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Apricot",
+            "Army Green",
+            "Yellow"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "json",
+        "value": "{\"unit\":\"cm\",\"headers\":[\"Size\",\"Foot Length\"],\"rows\":[[\"39\",\"245\"],[\"40\",\"250\"],[\"41\",\"255\"],[\"42\",\"260\"],[\"43\",\"265\"],[\"44\",\"270\"]],\"rows_flat\":\"39|245;40|250;41|255;42|260;43|265;44|270\"}"
+      },
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/CAAD49C1063A593538214BBE4559FBF1.jpg?v=1794369761"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-19n7Irk1-Y--dXxm98KdSQyqJAbDwtdMM.jpg?v=1794431442"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "104.25"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371682080",
+      "title": "Safety Boots Men Winter Shoes Steel Toe Safety Shoes",
+      "handle": "safety-boots-men-winter-shoes-steel-toe-safety-shoes",
+      "status": "ACTIVE",
+      "descriptionHtml": "<table class=\"ke-zeroborder\" width=\"672\">\n<colgroup>\n<col width=\"103\" style=\"width: 77.6pt;\">\n<col span=\"13\" width=\"61\" style=\"width: 45.75pt;\">\n</colgroup>\n<tbody>\n<tr class=\"firstRow\" style=\"height: 36pt;\"><td class=\"et2\" width=\"672\" colspan=\"13\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0);\">\n<p style=\"text-align: center;\"><strong><span style=\"font-size: x-large;\"><span style=\"font-family: SimSun-ExtB;\">Men's shoe Size</span></span></strong></p>\n<p style=\"text-align: center;\"><strong><span style=\"font-size: x-large;\"><span style=\"font-family: SimSun-ExtB;\"></span></span></strong> </p>\n</td></tr>\n<tr style=\"height: 36pt;\">\n<td class=\"et3\" width=\"77\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-size: small; font-family: \"Microsoft YaHei UI\";'>Foot Length ( cm )</span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>24.7</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>25.2</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>25.7</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>26.3</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>26.7</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>27.2</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>27.7</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>28.2</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>28.7</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>29.2</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>29.7</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong style=\"white-space: normal;\"><span style=\"font-size: medium;\">30.2</span></strong></p></td>\n</tr>\n<tr style=\"height: 36pt;\">\n<td class=\"et5\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-size: small; font-family: \"Microsoft YaHei UI\";'>EU/CN Size</span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>37</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>38</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>39</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>40</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>41</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>42</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>43</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>44</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>45</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>46</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>47</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>48</span></strong></p></td>\n</tr>\n<tr style=\"height: 36pt;\">\n<td class=\"et5\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style=\"font-size: small;\"><span style='font-family: \"Microsoft YaHei UI\";'>US Size </span></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>5.5</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>6</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>6.5</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>7</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>7.5</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>8.5</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>9.5</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><span style='font-family: \"Microsoft YaHei UI Light\";'><strong>10.5</strong></span></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>11</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>12</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>13</span></strong></p></td>\n<td class=\"et4\" style=\"border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><p style=\"text-align: center;\"><strong><span style='font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>14</span></strong></p></td>\n</tr>\n</tbody>\n</table><p><br></p><p class=\"detailmodule_html\" style=\"text-align: center;\"><span style=\"border-width: 0px; box-sizing: content-box; max-width: 100%; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline; padding: 0px; margin: 0px; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: content-box; font-weight: 700;\">Note 1:Size tag of the shoes show Chinese size,which are not the European size.</span></span><br><span style=\"border-width: 0px; box-sizing: content-box; max-width: 100%; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline; padding: 0px; margin: 0px; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: content-box; font-weight: 700;\">Note 2:Colors on your computer monitor may differ slightly from actual product colors,It depend on your monitor settings.</span></span><span style=\"border-width: 0px; box-sizing: content-box; max-width: 100%; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline; padding: 0px; margin: 0px; background-color: rgb(255, 255, 255);\"></span></p><p><br></p><p><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; border-width: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline;\"><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; font-weight: 700;\"></span></span><br></p><p style=\"text-align:center;\"><br></p><p><br></p><p><br></p><p style=\"text-align:center;\"><span style=\"border-left-width:0px;box-sizing:content-box;font-size:16px;max-width:100%;font-family:Arial, Helvetica, sans-serif;border-right-width:0px;vertical-align:baseline;border-bottom-width:0px;word-spacing:0px;text-transform:none;font-weight:normal;color:#000000;padding-bottom:0px;font-style:normal;padding-top:0px;padding-left:0px;orphans:2;widows:2;margin:0px;letter-spacing:normal;padding-right:0px;border-top-width:0px;background-color:#ffffff;text-indent:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;\"></span> <img src=\"http://ae01.alicdn.com/kf/H15a2f70eca0745e587b30d0440428bc2c.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H0a1f86fad0c3481aaa19b0d8a0029fa7d.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H435c1e8437f140bfbfa99fc625db02fcW.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H8a78e65bda6944a4b11f7045a2da4391l.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H38291cb532df408e9cf4af00f99e4715o.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H89d11e99fa8a4e8c94c48075674daa1ax.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Habd219ddd008458ab578deea80aaee91h.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H9adbbdbc48384fcb86a968a8ad34936dM.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hb40839b297dd4d73af457db28c7ba1989.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Ha43cccafbd634706a58676e3a635daf5W.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H0a91fadf9d354cf0aa6f9ffc70d7d2658.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hca72a7cc3f6c4eca9d980087e5b506d2M.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/He9b979d2d40641af8ca166e6dbe6bc081.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H1eddce9b328b4f35838b874dad3c95ect.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H2032ab1757ad4cb9ac9e16da7f205b5fA.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hf447f9d5586046de8b42d88b520b3ba8s.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H6761d7028d5449148b9cb75b62d07ec6D.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H7c027261958b4192895224075e2dfdffb.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/H66a056198f4f4e9aa839a68e2c2e1ff6z.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hb5518a982e63473d8d13cbff3b2822e8m.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hc91bb522dcd94022a63a2f33d5bb42f2o.jpg\"></p><p style=\"text-align:center;\"><img src=\"http://ae01.alicdn.com/kf/Hc577e4641f7247a4a4e413551814a479u.jpg\"></p><p><span style=\"border-left-width:0px;box-sizing:content-box;font-size:16px;max-width:100%;font-family:Arial, Helvetica, sans-serif;border-right-width:0px;vertical-align:baseline;border-bottom-width:0px;word-spacing:0px;text-transform:none;font-weight:normal;color:#000000;padding-bottom:0px;font-style:normal;padding-top:0px;padding-left:0px;orphans:2;widows:2;margin:0px;letter-spacing:normal;padding-right:0px;border-top-width:0px;background-color:#ffffff;text-indent:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;\"> </span></p><p style=\"text-align:center;\"><br></p><p style=\"text-align:center;\"><br></p><p><br></p><p><br></p><p style=\"text-align: center;\"> </p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:23Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Red",
+            "Green",
+            "Green (Fur-Lined)",
+            "Red (Fur-Lined)"
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "json",
+        "value": "{\"unit\":\"cm\",\"headers\":[\"Size\",\"Foot Length\",\"US Size\"],\"rows\":[[\"37\",\"24.7\",\"5.5\"],[\"38\",\"25.2\",\"6\"],[\"39\",\"25.7\",\"6.5\"],[\"40\",\"26.3\",\"7\"],[\"41\",\"26.7\",\"7.5\"],[\"42\",\"27.2\",\"8.5\"],[\"43\",\"27.7\",\"9.5\"],[\"44\",\"28.2\",\"10.5\"],[\"45\",\"28.7\",\"11\"],[\"46\",\"29.2\",\"12\"],[\"47\",\"29.7\",\"13\"],[\"48\",\"30.2\",\"14\"]],\"rows_flat\":\"37|24.7|5.5;38|25.2|6;39|25.7|6.5;40|26.3|7;41|26.7|7.5;42|27.2|8.5;43|27.7|9.5;44|28.2|10.5;45|28.7|11;46|29.2|12;47|29.7|13;48|30.2|14\"}"
+      },
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-1KKme3NR-zmvUNQeS4bmGCPyAA69oEUSC.jpg?v=1794449324"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/zr-1PRRtO3k8Qg-Elz-GPTZHY6wjK15rcXXv.jpg?v=1794449331"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "104.49"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371780384",
+      "title": "Smile Circle Ankle Boots Suede Leather women Flat platform Short Boots Ladies shoes fashion Autumn winter boots",
+      "handle": "smile-circle-ankle-boots-suede-leather-women-flat-platform-short-boots-ladies-shoes-fashion-autumn-winter-boots",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p><img src=\"//ae01.alicdn.com/kf/H752e39532ba54c8d96e088f2c753be67R.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/Hfd5e88df7ea6497c8c14c02914225c1f9.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H5a2ebea0085249fab84363238b71413fx.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H9a85d012b8fa4cf09e0cd8e838a909a4D.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H4b87228b32744f23be6593c3c692750ci.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H4d6b5bb9a5404166908041e2fbbaabcba.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H62f83773a84443b0aca4164ba55ff1a3j.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/Hec735737ee5e4abe8ce4e869ea99405be.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/Hd2f60bb2c3cb46108041b06c4ebd7e15X.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/Hd2ae1a8dab8044419037714d1fcf082dQ.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H96d38a50289d4f80b8f3638ff002507dD.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H89ca48864dbe4b74855c58bc50a74896E.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/Hf93d9e831f3148f696dd1b8705d48f12U.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/Hef1e426153134f7a8ccd2bb17d9d93c4P.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H37179dbf40974f97b80149bda08749cbQ.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H8a34fccf55004449a665900b0179510eR.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H6baaf50ccace4482b1e4eebad9f093ad8.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/H7767b4efdfd2462fa4c14bc638a37409b.jpg\" class=\"detail-desc-decorate-image\"><img src=\"//ae01.alicdn.com/kf/Ha1e352f86f45445e9550c7525ecebdabU.jpg\" class=\"detail-desc-decorate-image\"></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:23Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Beige",
+            "Black",
+            "Beige (Fur-Lined)",
+            "Black (Fur-Lined)"
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "json",
+        "value": "{\"unit\":\"cm\",\"headers\":[\"Size\",\"Foot length\"],\"rows\":[[\"35\",\"22.5\"],[\"36\",\"23\"],[\"37\",\"23.5\"],[\"38\",\"24\"],[\"39\",\"24.5\"],[\"40\",\"25\"]],\"rows_flat\":\"35|22.5;36|23;37|23.5;38|24;39|24.5;40|25\",\"source\":\"Smile Circle footwear sizing, model match (Leather Mart Europe), 2026-11-12\"}"
+      },
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/FCBC5EA65AB8780A675AD4878253DC3D.jpg?v=1794369750"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/055BBA89C0BF62D76AF9BA9998C28198.jpg?v=1794369752"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "106.23"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15599371845920",
+      "title": "Men's casual boots winter work safety boots anti-puncture shoes men's safety shoes classic combat ankle boots men's sports shoes",
+      "handle": "mens-casual-boots-winter-work-safety-boots-anti-puncture-shoes-mens-safety-shoes-classic-combat-ankle-boots-mens-sports-shoes",
+      "status": "ACTIVE",
+      "descriptionHtml": "<p><br></p><p style='box-sizing: border-box; padding: 0px; margin-top: 0px; margin-bottom: 0px; font-size: 14px; line-height: inherit; font-family: \"Open Sans\", sans-serif; white-space: normal; background-color: rgb(255, 255, 255);'><br></p><table class=\"ke-zeroborder\" width=\"625\">\n<colgroup style=\"box-sizing: border-box; padding: 0px; margin: 0px;\">\n<col width=\"103\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; width: 77.6pt;\">\n<col span=\"13\" width=\"61\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; width: 45.75pt;\">\n</colgroup>\n<tbody style=\"box-sizing: border-box; padding: 0px; margin: 0px;\">\n<tr style=\"box-sizing: border-box; padding: 0px; margin: 0px; height: 36pt;\" class=\"firstRow\"><td class=\"et2\" width=\"672\" colspan=\"13\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: transparent;\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: x-large;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-family: SimSun-ExtB;\">Men's Size<span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word;\"> </span></span></span></span></p></td></tr>\n<tr style=\"box-sizing: border-box; padding: 0px; margin: 0px; height: 36pt;\">\n<td class=\"et3\" width=\"77\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: small; font-family: \"Microsoft YaHei UI\";'>Foot Length ( Cm )</span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>24.7</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>25.2</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>25.7</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>26.3</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>26.7</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>27.2</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>27.7</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>28.2</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>28.7</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>29.2</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>29.7</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\">30.2</p></td>\n</tr>\n<tr style=\"box-sizing: border-box; padding: 0px; margin: 0px; height: 36pt;\">\n<td class=\"et5\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: small; font-family: \"Microsoft YaHei UI\";'>EU/CN Size</span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>37</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>38</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>39</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>40</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>41</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>42</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>43</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>44</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>45</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>46</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>47</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>48</span></span></p></td>\n</tr>\n<tr style=\"box-sizing: border-box; padding: 0px; margin: 0px; height: 36pt;\">\n<td class=\"et5\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: small;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-family: \"Microsoft YaHei UI\";'>US Size<span style=\"box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word;\"> </span></span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>5.5</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>6</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>6.5</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>7</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>7.5</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>8.5</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\">9.5</p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>10.5</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"font-family:Microsoft YaHei UI Light;font-size:16px\"><strong>11</strong></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>12</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\"><span style=\"box-sizing: border-box; padding: 0px; margin: 0px; font-weight: 700 !important;\"><span style='box-sizing: border-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; font-size: medium; font-family: \"Microsoft YaHei UI Light\";'>13</span></span></p></td>\n<td class=\"et4\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; border-width: 0.5pt; border-color: rgb(0, 0, 0); background-color: rgb(221, 235, 247);\"><p style=\"box-sizing: border-box; line-height: inherit;\">14</p></td>\n</tr>\n</tbody>\n</table><p style='box-sizing: border-box; padding: 0px; margin-top: 0px; margin-bottom: 0px; font-size: 14px; line-height: inherit; font-family: \"Open Sans\", sans-serif; white-space: normal; background-color: rgb(255, 255, 255);'><br></p><p style='box-sizing: border-box; padding: 0px; margin-top: 0px; margin-bottom: 0px; font-size: 14px; line-height: inherit; font-family: \"Open Sans\", sans-serif; white-space: normal; background-color: rgb(255, 255, 255);'><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; border-width: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline;\"><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; font-weight: 700;\">Note 1:Size tag of the shoes show Chinese size,which are not the European size.</span></span><br><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; border-width: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline;\"><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; font-weight: 700;\">               but they are exactly the same length as the European size which you ordered.</span></span><br><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; max-width: 100%; word-break: break-word; border-width: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline;\"><span style=\"box-sizing: content-box; padding: 0px; margin: 0px; font-weight: 700;\">Note 2:Colors on your computer monitor may differ slightly from actual product colors,It depend on your monitor settings.</span></span></p><p><img alt=\"纯英文_01.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/539/971/12578179935_909139424.jpg\"><br><img alt=\"纯英文_02.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/545/791/12578197545_909139424.jpg\"><br><img alt=\"纯英文_03.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/533/785/12615587335_909139424.jpg\"><br><img alt=\"纯英文_04.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/386/275/12615572683_909139424.jpg\"><br><img alt=\"纯英文_05.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/489/671/12578176984_909139424.jpg\"><br><img alt=\"纯英文_06.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/619/259/12539952916_909139424.jpg\"><br><img alt=\"纯英文_07.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/786/881/12578188687_909139424.jpg\"><br><img alt=\"纯英文_08.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/768/365/12615563867_909139424.jpg\"><br><img alt=\"纯英文_09.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/257/581/12578185752_909139424.jpg\"><br><img alt=\"纯英文_10.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/248/559/12539955842_909139424.jpg\"><br><img alt=\"纯英文_11.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/729/065/12615560927_909139424.jpg\"><br><img alt=\"纯英文_12.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/918/169/12539961819_909139424.jpg\"><br><img alt=\"纯英文_13.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/986/875/12615578689_909139424.jpg\"><br><img alt=\"纯英文_14.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/832/395/12615593238_909139424.jpg\"><br><img alt=\"纯英文_15.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2019/366/769/12539967663_909139424.jpg\"></p>",
+      "vendor": "eprolo",
+      "productType": "",
+      "createdAt": "2026-11-11T04:02:24Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black",
+            "Yellow",
+            "Brown"
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "json",
+        "value": "{\"unit\":\"cm\",\"headers\":[\"Size\",\"Foot Length\",\"US Size\"],\"rows\":[[\"37\",\"**24.7**\",\"**5.5**\"],[\"38\",\"**25.2**\",\"**6**\"],[\"39\",\"25.7\",\"**6.5**\"],[\"41\",\"26.7\",\"**7.5**\"],[\"42\",\"27.2\",\"**8.5**\"],[\"43\",\"27.7\",\"9.5\"],[\"44\",\"28.2\",\"**10.5**\"],[\"45\",\"28.7\",\"**11**\"],[\"46\",\"**29.2**\",\"12\"],[\"47\",\"**29.7**\",\"13\"],[\"48\",\"30.2\",\"14\"]],\"rows_flat\":\"37|**24.7**|**5.5**;38|**25.2**|**6**;39|25.7|**6.5**;41|26.7|**7.5**;42|27.2|**8.5**;43|27.7|9.5;44|28.2|**10.5**;45|28.7|**11**;46|**29.2**|12;47|**29.7**|13;48|30.2|14\"}"
+      },
+      "media": {
+        "edges": [
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/F7DA926765F2B7AD8D4C787B26052487.jpg?v=1794369750"
+              }
+            }
+          },
+          {
+            "node": {
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/D2EB7DAC0FA7D3FADFDBCF2A8F79C300.jpg?v=1794369752"
+              }
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "136.86"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "repoNewRows": [
+    {
+      "id": "15599371321632",
+      "shopTitle": "Men's autumn winter retro fashion high-top shoes Martin boots work boots motorcycle boots labor protection shoes",
+      "before": "Men's autumn winter retro fashion high-top shoes Martin boots work boots motorcycle boots labor protection shoes",
+      "shopHandle": "mens-autumn-winter-retro-fashion-high-top-shoes-martin-boots-work-boots-motorcycle-boots-labor-protection-shoes",
+      "storeUrl": "https://zeratta.com/products/mens-autumn-winter-retro-fashion-high-top-shoes-martin-boots-work-boots-motorcycle-boots-labor-protection-shoes",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371321632",
+      "sourceUrl": "https://eprolo.com/app/product/men's-autumn-winter-retro-fashion-high-top-shoes-martin-boots-work-boots-motorcycle-boots-labor-protection-shoes",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/9EDCC4C55961118AA656ADD3AF6888FE.jpg?v=1794369746",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 84.03,
+      "priceMax": 84.03,
+      "cost": 6.83,
+      "unitCostWorstVariant": 6.83,
+      "variants": 18,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$11.00 conforme planilha Boots 11.11, linha 14; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 11,
+      "sourceFreightNote": "Frete UK US$11.00 conforme planilha Boots 11.11, linha 14; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 84.03,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 176
+    },
+    {
+      "id": "15599371354400",
+      "shopTitle": "Martin boots men's British style motorcycle workwear boots thick soled versatile high top yellow boots trendy men's shoes",
+      "before": "Martin boots men's British style motorcycle workwear boots thick soled versatile high top yellow boots trendy men's shoes",
+      "shopHandle": "martin-boots-mens-british-style-motorcycle-workwear-boots-thick-soled-versatile-high-top-yellow-boots-trendy-mens-shoes",
+      "storeUrl": "https://zeratta.com/products/martin-boots-mens-british-style-motorcycle-workwear-boots-thick-soled-versatile-high-top-yellow-boots-trendy-mens-shoes",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371354400",
+      "sourceUrl": "https://eprolo.com/app/product/martin-boots-men's-british-style-motorcycle-workwear-boots-thick-soled-versatile-high-top-yellow-boots-trendy-men's-shoes",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/CD6A2E655A345E2AC605A682E144EF9A.jpg?v=1794369746",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 96.72,
+      "priceMax": 96.72,
+      "cost": 8.7,
+      "unitCostWorstVariant": 8.7,
+      "variants": 12,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$12.00 conforme planilha Boots 11.11, linha 13; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 12,
+      "sourceFreightNote": "Frete UK US$12.00 conforme planilha Boots 11.11, linha 13; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 96.72,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 177
+    },
+    {
+      "id": "15599371387168",
+      "shopTitle": "Martin boots men's autumn new style British style workwear boots fashionable men's casual mid top boots",
+      "before": "Martin boots men's autumn new style British style workwear boots fashionable men's casual mid top boots",
+      "shopHandle": "martin-boots-mens-autumn-new-style-british-style-workwear-boots-fashionable-mens-casual-mid-top-boots",
+      "storeUrl": "https://zeratta.com/products/martin-boots-mens-autumn-new-style-british-style-workwear-boots-fashionable-mens-casual-mid-top-boots",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371387168",
+      "sourceUrl": null,
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/B98ED6AD70F3F7B26989C24D9C1F5C7C.jpg?v=1794369746",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 69.12,
+      "priceMax": 69.12,
+      "cost": 6.19,
+      "unitCostWorstVariant": 6.19,
+      "variants": 12,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "revisar",
+      "issues": [
+        "Vínculo do fornecedor e frete UK ainda não confirmados; não atribuir URL por similaridade."
+      ],
+      "freight": null,
+      "sourceFreightNote": "Vínculo do fornecedor e frete UK ainda não confirmados; não atribuir URL por similaridade.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 69.12,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 178
+    },
+    {
+      "id": "15599371419936",
+      "shopTitle": "Men's snow boots with winter fleece insulation, outdoor boots, cotton shoes, lightweight boots",
+      "before": "Men's snow boots with winter fleece insulation, outdoor boots, cotton shoes, lightweight boots",
+      "shopHandle": "mens-snow-boots-with-winter-fleece-insulation-outdoor-boots-cotton-shoes-lightweight-boots",
+      "storeUrl": "https://zeratta.com/products/mens-snow-boots-with-winter-fleece-insulation-outdoor-boots-cotton-shoes-lightweight-boots",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371419936",
+      "sourceUrl": "https://eprolo.com/app/product/men-snow-boots-winter-outdoor-walking-shoes-light-sneakers-for-men-winter-shoes-botines-tenis-mens-hiking-ankle-boots-footwear",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/654C17C16E0EC6565BCB60DC043B6952.jpg?v=1794369746",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 69.75,
+      "priceMax": 69.75,
+      "cost": 11.21,
+      "unitCostWorstVariant": 11.21,
+      "variants": 16,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$10.00 conforme planilha Boots 11.11, linha 11; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 10,
+      "sourceFreightNote": "Frete UK US$10.00 conforme planilha Boots 11.11, linha 11; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 69.75,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 179
+    },
+    {
+      "id": "15599371452704",
+      "shopTitle": "Rhubarb boots anti slip trendy waterproof British Martin boots",
+      "before": "Rhubarb boots anti slip trendy waterproof British Martin boots",
+      "shopHandle": "rhubarb-boots-anti-slip-trendy-waterproof-british-martin-boots",
+      "storeUrl": "https://zeratta.com/products/rhubarb-boots-anti-slip-trendy-waterproof-british-martin-boots",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371452704",
+      "sourceUrl": "https://eprolo.com/app/product/rhubarb-boots-anti-slip-trendy-waterproof-british-martin-boots",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/6D66CA5BD78656FF73CD48F9C5E4E297.jpg?v=1794369746",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 74.4,
+      "priceMax": 77.49,
+      "cost": 6.49,
+      "unitCostWorstVariant": 6.49,
+      "variants": 40,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$10.50 conforme planilha Boots 11.11, linha 10; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 10.5,
+      "sourceFreightNote": "Frete UK US$10.50 conforme planilha Boots 11.11, linha 10; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 74.4,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 180
+    },
+    {
+      "id": "15599371485472",
+      "shopTitle": "Winter Boots Steel Toe Safety Boots",
+      "before": "Winter Boots Steel Toe Safety Boots",
+      "shopHandle": "winter-boots-steel-toe-safety-boots",
+      "storeUrl": "https://zeratta.com/products/winter-boots-steel-toe-safety-boots",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371485472",
+      "sourceUrl": "https://eprolo.com/app/product/genuine-leather-winter-boots-steel-toe-safety-boots-ankle-boots-men-hiking-boots-anti-piercing-working-shoes-high-quality-shoes",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/4296998C422460C6E896D1D0554F2083.jpg?v=1794369747",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 110.49,
+      "priceMax": 110.49,
+      "cost": 14.6,
+      "unitCostWorstVariant": 14.6,
+      "variants": 9,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$18.00 conforme planilha Boots 11.11, linha 9; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 18,
+      "sourceFreightNote": "Frete UK US$18.00 conforme planilha Boots 11.11, linha 9; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 110.49,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 181
+    },
+    {
+      "id": "15599371551008",
+      "shopTitle": "Winter Boots Men Safety Shoes Indestructible Work Shoes Puncture-Proof Work Sneakers Male Steel Toe Shoes Work Safety Boots",
+      "before": "Winter Boots Men Safety Shoes Indestructible Work Shoes Puncture-Proof Work Sneakers Male Steel Toe Shoes Work Safety Boots",
+      "shopHandle": "winter-boots-men-safety-shoes-indestructible-work-shoes-puncture-proof-work-sneakers-male-steel-toe-shoes-work-safety-boots",
+      "storeUrl": "https://zeratta.com/products/winter-boots-men-safety-shoes-indestructible-work-shoes-puncture-proof-work-sneakers-male-steel-toe-shoes-work-safety-boots",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371551008",
+      "sourceUrl": "https://eprolo.com/app/product/winter-boots-men-safety-shoes-indestructible-work-shoes-puncture-proof-work-sneakers-male-steel-toe-shoes-work-safety-boots-2020",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/EA0A4CF142CD72EE5D14CE013A98492B.jpg?v=1794369749",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 116.16,
+      "priceMax": 116.16,
+      "cost": 14.42,
+      "unitCostWorstVariant": 14.42,
+      "variants": 24,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$18.00 conforme planilha Boots 11.11, linha 8; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 18,
+      "sourceFreightNote": "Frete UK US$18.00 conforme planilha Boots 11.11, linha 8; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 116.16,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 182
+    },
+    {
+      "id": "15599371616544",
+      "shopTitle": "Cowboy boots new autumn thick soled Martin boots fashionable retro washed high top big toe shoes for men",
+      "before": "Cowboy boots new autumn thick soled Martin boots fashionable retro washed high top big toe shoes for men",
+      "shopHandle": "cowboy-boots-new-autumn-thick-soled-martin-boots-fashionable-retro-washed-high-top-big-toe-shoes-for-men",
+      "storeUrl": "https://zeratta.com/products/cowboy-boots-new-autumn-thick-soled-martin-boots-fashionable-retro-washed-high-top-big-toe-shoes-for-men",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371616544",
+      "sourceUrl": null,
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/1E1F39ABE5ECE1E702CEC5352335C972.jpg?v=1794369748",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 93.15,
+      "priceMax": 93.15,
+      "cost": 11.55,
+      "unitCostWorstVariant": 11.55,
+      "variants": 12,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "revisar",
+      "issues": [
+        "Vínculo do fornecedor e frete UK ainda não confirmados; não atribuir URL por similaridade."
+      ],
+      "freight": null,
+      "sourceFreightNote": "Vínculo do fornecedor e frete UK ainda não confirmados; não atribuir URL por similaridade.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 93.15,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 183
+    },
+    {
+      "id": "15599371649312",
+      "shopTitle": "Men's high top Martin boots autumn and winter outdoor casual workwear shoes retro frosted surface thick soled yellow boots",
+      "before": "Men's high top Martin boots autumn and winter outdoor casual workwear shoes retro frosted surface thick soled yellow boots",
+      "shopHandle": "mens-high-top-martin-boots-autumn-and-winter-outdoor-casual-workwear-shoes-retro-frosted-surface-thick-soled-yellow-boots",
+      "storeUrl": "https://zeratta.com/products/mens-high-top-martin-boots-autumn-and-winter-outdoor-casual-workwear-shoes-retro-frosted-surface-thick-soled-yellow-boots",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371649312",
+      "sourceUrl": "https://eprolo.com/app/product/men's-high-top-martin-boots-autumn-and-winter-outdoor-casual-workwear-shoes-retro-frosted-surface-thick-soled-yellow-boots",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/024F5760D72B9FCD74DCBD634D2EEFF5.jpg?v=1794369749",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 104.25,
+      "priceMax": 104.25,
+      "cost": 9.37,
+      "unitCostWorstVariant": 9.37,
+      "variants": 18,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$13.00 conforme planilha Boots 11.11, linha 6; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 13,
+      "sourceFreightNote": "Frete UK US$13.00 conforme planilha Boots 11.11, linha 6; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 104.25,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 184
+    },
+    {
+      "id": "15599371682080",
+      "shopTitle": "Safety Boots Men Winter Shoes Steel Toe Safety Shoes",
+      "before": "Safety Boots Men Winter Shoes Steel Toe Safety Shoes",
+      "shopHandle": "safety-boots-men-winter-shoes-steel-toe-safety-shoes",
+      "storeUrl": "https://zeratta.com/products/safety-boots-men-winter-shoes-steel-toe-safety-shoes",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371682080",
+      "sourceUrl": "https://eprolo.com/app/product/2020-new-safety-boots-men-winter-shoes-steel-toe-safety-shoes-work-boots-men's-boots-winter-puncture-proof-work-shoes-sneakers",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/1781D46E668BB904CDD39405BCE81B1A.jpg?v=1794369751",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 104.49,
+      "priceMax": 108.36,
+      "cost": 12.6,
+      "unitCostWorstVariant": 12.6,
+      "variants": 48,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$18.00 conforme planilha Boots 11.11, linha 5; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 18,
+      "sourceFreightNote": "Frete UK US$18.00 conforme planilha Boots 11.11, linha 5; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 104.49,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 185
+    },
+    {
+      "id": "15599371780384",
+      "shopTitle": "Smile Circle Ankle Boots Suede Leather women Flat platform Short Boots Ladies shoes fashion Autumn winter boots",
+      "before": "Smile Circle Ankle Boots Suede Leather women Flat platform Short Boots Ladies shoes fashion Autumn winter boots",
+      "shopHandle": "smile-circle-ankle-boots-suede-leather-women-flat-platform-short-boots-ladies-shoes-fashion-autumn-winter-boots",
+      "storeUrl": "https://zeratta.com/products/smile-circle-ankle-boots-suede-leather-women-flat-platform-short-boots-ladies-shoes-fashion-autumn-winter-boots",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371780384",
+      "sourceUrl": "https://eprolo.com/app/product/smile-circle-ankle-boots-suede-leather-women-flat-platform-short-boots-ladies-shoes-fashion-autumn-winter-boots",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/FCBC5EA65AB8780A675AD4878253DC3D.jpg?v=1794369750",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 106.23,
+      "priceMax": 106.23,
+      "cost": 17.71,
+      "unitCostWorstVariant": 17.71,
+      "variants": 24,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$15.00 conforme planilha Boots 11.11, linha 3; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 15,
+      "sourceFreightNote": "Frete UK US$15.00 conforme planilha Boots 11.11, linha 3; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 106.23,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 186
+    },
+    {
+      "id": "15599371845920",
+      "shopTitle": "Men's casual boots winter work safety boots anti-puncture shoes men's safety shoes classic combat ankle boots men's sports shoes",
+      "before": "Men's casual boots winter work safety boots anti-puncture shoes men's safety shoes classic combat ankle boots men's sports shoes",
+      "shopHandle": "mens-casual-boots-winter-work-safety-boots-anti-puncture-shoes-mens-safety-shoes-classic-combat-ankle-boots-mens-sports-shoes",
+      "storeUrl": "https://zeratta.com/products/mens-casual-boots-winter-work-safety-boots-anti-puncture-shoes-mens-safety-shoes-classic-combat-ankle-boots-mens-sports-shoes",
+      "adminUrl": "https://admin.shopify.com/store/testezeratta/products/15599371845920",
+      "sourceUrl": "https://eprolo.com/app/product/men's-casual-boots-winter-work-safety-boots-anti-puncture-shoes-men's-safety-shoes-classic-combat-ankle-boots-men's-sports-shoes",
+      "image": "https://cdn.shopify.com/s/files/1/0914/8157/1616/files/F7DA926765F2B7AD8D4C787B26052487.jpg?v=1794369750",
+      "status": "ACTIVE",
+      "category": "Boots",
+      "date": "2026-11-11",
+      "origin": "Novo",
+      "price": 136.86,
+      "priceMax": 136.86,
+      "cost": 20.81,
+      "unitCostWorstVariant": 20.81,
+      "variants": 36,
+      "sourceOriginalNumbers": [],
+      "supplierNumber": null,
+      "confidence": "titulo_forte",
+      "issues": [
+        "Frete UK US$19.17 conforme planilha Boots 11.11, linha 2; confirmar cotação, transportadora e variantes."
+      ],
+      "freight": 19.17,
+      "sourceFreightNote": "Frete UK US$19.17 conforme planilha Boots 11.11, linha 2; confirmar cotação, transportadora e variantes.",
+      "shopifyPriceSource": "Shopify Admin · valores consultados em 11/11/2026",
+      "costSource": "Shopify inventoryItem.unitCost · maior custo numérico entre as variantes; conferir moeda original EPROLO",
+      "shopifyPublishedPrice": 136.86,
+      "shopifyPublishedCompareAt": null,
+      "shopifyPriceReadback": "Preço atual capturado na Shopify; não alterado nesta atualização do catálogo.",
+      "number": 187
+    }
+  ],
+  "repoSha": "0197a06a22cace8cabaa8daa8825619ae187238e"
+}
