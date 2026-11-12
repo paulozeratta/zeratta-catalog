@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-12",
+  "results": [
+    {
+      "id": "15533039452448",
+      "returnedId": "gid://shopify/Product/15533039452448",
+      "descriptionMatch": true,
+      "status": "ACTIVE",
+      "errs": [],
+      "htmlLength": 1556,
+      "ok": true
+    },
+    {
+      "id": "15548489433376",
+      "returnedId": "gid://shopify/Product/15548489433376",
+      "descriptionMatch": true,
+      "status": "ACTIVE",
+      "errs": [],
+      "htmlLength": 1502,
+      "ok": true
+    },
+    {
+      "id": "15551020335392",
+      "returnedId": "gid://shopify/Product/15551020335392",
+      "descriptionMatch": true,
+      "status": "ACTIVE",
+      "errs": [],
+      "htmlLength": 1514,
+      "ok": true
+    }
+  ]
+}
