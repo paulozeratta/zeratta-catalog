@@ -1,0 +1,3382 @@
+{
+  "date": "2026-11-12",
+  "shopifyRowsCount": 187,
+  "sourceRepoSha": "0197a06a22cace8cabaa8daa8825619ae187238e",
+  "matchedSheetRows": 186,
+  "unmatched": [
+    {
+      "id": "15599371845920",
+      "type": "row_match",
+      "num": 0,
+      "status": "ACTIVE",
+      "title": "Men's Combat-Style Casual Ankle Boots"
+    }
+  ],
+  "changes": {
+    "urls": 20,
+    "titles": 11,
+    "prices": 0,
+    "status": 110
+  },
+  "rows": [
+    {
+      "id": "15528499446048",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 47,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=1c87bb6c4f7a850f4553cd72bded8138",
+      "newUrl": "https://zeratta.com/products/mens-relaxed-pullover-hoodie",
+      "oldTitle": "Men's Relaxed Pullover Hoodie with Ribbed Hem and Side Pockets",
+      "newTitle": "Men's Relaxed Pullover Hoodie with Ribbed Hem and Side Pockets",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=1c87bb6c4f7a850f4553cd72bded8138\",\"Men's Relaxed Pullover Hoodie with Ribbed Hem and Side Pockets\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "RASCUNHO",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15533033488672",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 96,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=f5468485e384e7f37a9be490ae1743f2",
+      "newUrl": "https://zeratta.com/products/womens-fleece-zip-up-hoodie",
+      "oldTitle": "Women's Fleece Zip-Up Hoodie with Relaxed Fit",
+      "newTitle": "Women's Fleece Zip-Up Hoodie with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=f5468485e384e7f37a9be490ae1743f2\",\"Women's Fleece Zip-Up Hoodie with Relaxed Fit\")",
+      "priceCurrent": 61.9,
+      "priceSheet": 61.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Draft",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15533039452448",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 3,
+      "oldUrl": "https://zeratta.com/products/ashford-mens-faux-leather-jacket",
+      "newUrl": "https://zeratta.com/products/ashford-mens-faux-leather-jacket",
+      "oldTitle": "Ashford Men's Leather Bomber Jacket with Turn-Down Collar",
+      "newTitle": "Ashford Men's Leather Bomber Jacket with Turn-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/ashford-mens-faux-leather-jacket\",\"Ashford Men's Leather Bomber Jacket with Turn-Down Collar\")",
+      "priceCurrent": 80.9,
+      "priceSheet": 80.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15533044007200",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 21,
+      "oldUrl": "https://zeratta.com/products/womens-quilted-puffer-jacket",
+      "newUrl": "https://zeratta.com/products/womens-quilted-puffer-jacket",
+      "oldTitle": "Women's Quilted Hooded Puffer Jacket with Zip Front",
+      "newTitle": "Women's Quilted Hooded Puffer Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-quilted-puffer-jacket\",\"Women's Quilted Hooded Puffer Jacket with Zip Front\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15534366687520",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 19,
+      "oldUrl": "https://zeratta.com/products/cropped-zip-up-puffer-jacket",
+      "newUrl": "https://zeratta.com/products/cropped-zip-up-puffer-jacket",
+      "oldTitle": "Women's Cropped Puffer Jacket with Stand Collar and Zip Front",
+      "newTitle": "Women's Cropped Puffer Jacket with Stand Collar and Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/cropped-zip-up-puffer-jacket\",\"Women's Cropped Puffer Jacket with Stand Collar and Zip Front\")",
+      "priceCurrent": 67.9,
+      "priceSheet": 67.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15548489433376",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 39,
+      "oldUrl": "https://zeratta.com/products/mens-deconstructed-faux-leather-zip-jacket",
+      "newUrl": "https://zeratta.com/products/mens-deconstructed-faux-leather-zip-jacket",
+      "oldTitle": "Deconstructed Faux Leather Zip Jacket with Relaxed Fit for Men",
+      "newTitle": "Deconstructed Faux Leather Zip Jacket with Relaxed Fit for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-deconstructed-faux-leather-zip-jacket\",\"Deconstructed Faux Leather Zip Jacket with Relaxed Fit for Men\")",
+      "priceCurrent": 97.9,
+      "priceSheet": 97.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551014994208",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 26,
+      "oldUrl": "https://zeratta.com/products/womens-oversized-faux-leather-lapel-jacket",
+      "newUrl": "https://zeratta.com/products/womens-oversized-faux-leather-lapel-jacket",
+      "oldTitle": "Oversized Faux Leather Lapel Jacket with Zip Front for Women",
+      "newTitle": "Oversized Faux Leather Lapel Jacket with Zip Front for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-oversized-faux-leather-lapel-jacket\",\"Oversized Faux Leather Lapel Jacket with Zip Front for Women\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551015059744",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 27,
+      "oldUrl": "https://zeratta.com/products/womens-cropped-faux-leather-zip-up-jacket-long-sleeves",
+      "newUrl": "https://zeratta.com/products/womens-cropped-faux-leather-zip-up-jacket-long-sleeves",
+      "oldTitle": "Women's Cropped Faux Leather Zip-Up Jacket with Long Sleeves",
+      "newTitle": "Women's Cropped Faux Leather Zip-Up Jacket with Long Sleeves",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-cropped-faux-leather-zip-up-jacket-long-sleeves\",\"Women's Cropped Faux Leather Zip-Up Jacket with Long Sleeves\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551015092512",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 43,
+      "oldUrl": "https://zeratta.com/products/womens-slim-fit-cropped-faux-leather-jacket",
+      "newUrl": "https://zeratta.com/products/womens-slim-fit-cropped-faux-leather-jacket",
+      "oldTitle": "Women's Slim-Fit Cropped Faux Leather Jacket",
+      "newTitle": "Women's Slim-Fit Cropped Faux Leather Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-slim-fit-cropped-faux-leather-jacket\",\"Women's Slim-Fit Cropped Faux Leather Jacket\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551016173856",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 68,
+      "oldUrl": "https://zeratta.com/products/womens-zip-up-jacket-turn-down-collar",
+      "newUrl": "https://zeratta.com/products/womens-zip-up-jacket-turn-down-collar",
+      "oldTitle": "Women's Everyday Zip-Up Jacket with Turn-Down Collar",
+      "newTitle": "Women's Everyday Zip-Up Jacket with Turn-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-zip-up-jacket-turn-down-collar\",\"Women's Everyday Zip-Up Jacket with Turn-Down Collar\")",
+      "priceCurrent": 71.9,
+      "priceSheet": 71.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551017779488",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 85,
+      "oldUrl": "https://zeratta.com/products/button-coated-leather-jacket-and-leather-jacket",
+      "newUrl": "https://zeratta.com/products/button-coated-leather-jacket-and-leather-jacket",
+      "oldTitle": "Women's Button-Front Jacket with Fold-Down Collar",
+      "newTitle": "Women's Button-Front Jacket with Fold-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/button-coated-leather-jacket-and-leather-jacket\",\"Women's Button-Front Jacket with Fold-Down Collar\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551019188512",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 6,
+      "oldUrl": "https://zeratta.com/products/womens-belted-faux-leather-zip-jacket",
+      "newUrl": "https://zeratta.com/products/womens-belted-faux-leather-zip-jacket",
+      "oldTitle": "Belted Faux Leather Zip Jacket with Stand Collar for Women",
+      "newTitle": "Belted Faux Leather Zip Jacket with Stand Collar for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-belted-faux-leather-zip-jacket\",\"Belted Faux Leather Zip Jacket with Stand Collar for Women\")",
+      "priceCurrent": 72.9,
+      "priceSheet": 72.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551019385120",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 30,
+      "oldUrl": "https://zeratta.com/products/womens-faux-leather-jacket-turn-down-collar-zip-front",
+      "newUrl": "https://zeratta.com/products/womens-faux-leather-jacket-turn-down-collar-zip-front",
+      "oldTitle": "Women's Faux Leather Jacket with Turn-Down Collar and Zip Front",
+      "newTitle": "Women's Faux Leather Jacket with Turn-Down Collar and Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-faux-leather-jacket-turn-down-collar-zip-front\",\"Women's Faux Leather Jacket with Turn-Down Collar and Zip Front\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551020269856",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 49,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=1df0843c4c479eb4bcab7ab57d7a19e3",
+      "newUrl": "https://zeratta.com/products/mens-classic-fleece-pullover-hoodie-long-sleeves",
+      "oldTitle": "Men's Classic Fleece Pullover Hoodie with Long Sleeves",
+      "newTitle": "Men's Classic Fleece Pullover Hoodie with Long Sleeves",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=1df0843c4c479eb4bcab7ab57d7a19e3\",\"Men's Classic Fleece Pullover Hoodie with Long Sleeves\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "RASCUNHO",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551020335392",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 34,
+      "oldUrl": "https://zeratta.com/products/loose-stand-up-collar-jacket-with-zipper-jacket",
+      "newUrl": "https://zeratta.com/products/loose-stand-up-collar-jacket-with-zipper-jacket",
+      "oldTitle": "Men's Relaxed Workwear Jacket with Pleated Stand Collar",
+      "newTitle": "Men's Relaxed Workwear Jacket with Pleated Stand Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/loose-stand-up-collar-jacket-with-zipper-jacket\",\"Men's Relaxed Workwear Jacket with Pleated Stand Collar\")",
+      "priceCurrent": 84.9,
+      "priceSheet": 84.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551021973792",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 79,
+      "oldUrl": "https://zeratta.com/products/womens-new-bread-jacket-down-cotton-jacket",
+      "newUrl": "https://zeratta.com/products/womens-new-bread-jacket-down-cotton-jacket",
+      "oldTitle": "Women's Cropped Padded Jacket with Relaxed Fit",
+      "newTitle": "Women's Cropped Padded Jacket with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-new-bread-jacket-down-cotton-jacket\",\"Women's Cropped Padded Jacket with Relaxed Fit\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551022498080",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 64,
+      "oldUrl": "https://zeratta.com/products/womens-round-neck-quilted-button-jacket",
+      "newUrl": "https://zeratta.com/products/womens-round-neck-quilted-button-jacket",
+      "oldTitle": "Women's Round Neck Quilted Jacket with Button Front",
+      "newTitle": "Women's Round Neck Quilted Jacket with Button Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-round-neck-quilted-button-jacket\",\"Women's Round Neck Quilted Jacket with Button Front\")",
+      "priceCurrent": 68.9,
+      "priceSheet": 68.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551023251744",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 75,
+      "oldUrl": "https://zeratta.com/products/womens-velvet-effect-jacket-stand-collar-zip-front",
+      "newUrl": "https://zeratta.com/products/womens-velvet-effect-jacket-stand-collar-zip-front",
+      "oldTitle": "Women's Velvet-Effect Jacket with Stand Collar and Zip Front",
+      "newTitle": "Women's Velvet-Effect Jacket with Stand Collar and Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-velvet-effect-jacket-stand-collar-zip-front\",\"Women's Velvet-Effect Jacket with Stand Collar and Zip Front\")",
+      "priceCurrent": 83.9,
+      "priceSheet": 83.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551024431392",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 32,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=18bbfe4e1bf53cd36bea9e04116c6728",
+      "newUrl": "https://zeratta.com/products/unisex-streetwear-pullover-hoodie-relaxed-fit",
+      "oldTitle": "Unisex Streetwear Pullover Hoodie with Relaxed Fit",
+      "newTitle": "Unisex Streetwear Pullover Hoodie with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=18bbfe4e1bf53cd36bea9e04116c6728\",\"Unisex Streetwear Pullover Hoodie with Relaxed Fit\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Draft",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551026266400",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 84,
+      "oldUrl": "https://zeratta.com/products/woolen-collar-jacket-and-cotton-jacket",
+      "newUrl": "https://zeratta.com/products/woolen-collar-jacket-and-cotton-jacket",
+      "oldTitle": "Women's Padded Winter Jacket with Detachable Faux Fur Collar",
+      "newTitle": "Women's Padded Winter Jacket with Detachable Faux Fur Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/woolen-collar-jacket-and-cotton-jacket\",\"Women's Padded Winter Jacket with Detachable Faux Fur Collar\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551026364704",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 12,
+      "oldUrl": "https://zeratta.com/products/mens-vintage-faux-leather-bomber-jacket-stand-collar",
+      "newUrl": "https://zeratta.com/products/mens-vintage-faux-leather-bomber-jacket-stand-collar",
+      "oldTitle": "Vintage Faux Leather Bomber Jacket with Stand Collar for Men",
+      "newTitle": "Vintage Faux Leather Bomber Jacket with Stand Collar for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-vintage-faux-leather-bomber-jacket-stand-collar\",\"Vintage Faux Leather Bomber Jacket with Stand Collar for Men\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551027937568",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 48,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=ddbd5e7ec9cb083936a45797f325037f",
+      "newUrl": "https://zeratta.com/products/mens-long-sleeve-pullover-hoodie-relaxed-fit",
+      "oldTitle": "Men's Long Sleeve Pullover Hoodie with Relaxed Fit",
+      "newTitle": "Men's Long Sleeve Pullover Hoodie with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=ddbd5e7ec9cb083936a45797f325037f\",\"Men's Long Sleeve Pullover Hoodie with Relaxed Fit\")",
+      "priceCurrent": 61.9,
+      "priceSheet": 61.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "RASCUNHO",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551029510432",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 46,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=ee81514952351bf6d708f8fadbcd86ef",
+      "newUrl": "https://zeratta.com/products/mens-classic-full-zip-hoodie-solid-color-finish",
+      "oldTitle": "Men's Classic Full-Zip Hoodie with Solid Color Finish",
+      "newTitle": "Men's Classic Full-Zip Hoodie with Solid Color Finish",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=ee81514952351bf6d708f8fadbcd86ef\",\"Men's Classic Full-Zip Hoodie with Solid Color Finish\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "RASCUNHO",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551032590624",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 31,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=dfa1d9ecc7d151dd606a660941b9bc0e",
+      "newUrl": "https://zeratta.com/products/oversized-blanket-hoodie-kangaroo-pockets",
+      "oldTitle": "Oversized Blanket Hoodie with Kangaroo Pockets",
+      "newTitle": "Oversized Blanket Hoodie with Kangaroo Pockets",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=dfa1d9ecc7d151dd606a660941b9bc0e\",\"Oversized Blanket Hoodie with Kangaroo Pockets\")",
+      "priceCurrent": 71.9,
+      "priceSheet": 71.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Draft",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551032688928",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 50,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=33faf32571aa168dc27380a7112898f8",
+      "newUrl": "https://zeratta.com/products/mens-plush-fleece-hoodie-relaxed-fit",
+      "oldTitle": "Men's Plush Fleece Hoodie with Relaxed Fit",
+      "newTitle": "Men's Plush Fleece Hoodie with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=33faf32571aa168dc27380a7112898f8\",\"Men's Plush Fleece Hoodie with Relaxed Fit\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "RASCUNHO",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551033868576",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 69,
+      "oldUrl": "https://zeratta.com/products/womens-lapel-collar-zip-up-jacket",
+      "newUrl": "https://zeratta.com/products/womens-lapel-collar-zip-up-jacket",
+      "oldTitle": "Women's Classic Lapel Collar Zip-Up Jacket",
+      "newTitle": "Women's Classic Lapel Collar Zip-Up Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-lapel-collar-zip-up-jacket\",\"Women's Classic Lapel Collar Zip-Up Jacket\")",
+      "priceCurrent": 73.9,
+      "priceSheet": 73.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551033934112",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 70,
+      "oldUrl": "https://zeratta.com/products/womens-hooded-padded-jacket-side-pockets",
+      "newUrl": "https://zeratta.com/products/womens-hooded-padded-jacket-side-pockets",
+      "oldTitle": "Women's Hooded Padded Jacket with Side Pockets",
+      "newTitle": "Women's Hooded Padded Jacket with Side Pockets",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-hooded-padded-jacket-side-pockets\",\"Women's Hooded Padded Jacket with Side Pockets\")",
+      "priceCurrent": 73.9,
+      "priceSheet": 73.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551034589472",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 67,
+      "oldUrl": "https://zeratta.com/products/womens-relaxed-padded-zip-up-jacket",
+      "newUrl": "https://zeratta.com/products/womens-relaxed-padded-zip-up-jacket",
+      "oldTitle": "Women's Relaxed Padded Jacket with Zip Front and Collar",
+      "newTitle": "Women's Relaxed Padded Jacket with Zip Front and Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-relaxed-padded-zip-up-jacket\",\"Women's Relaxed Padded Jacket with Zip Front and Collar\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551034884384",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 74,
+      "oldUrl": "https://zeratta.com/products/hooded-double-zipper-jacket",
+      "newUrl": "https://zeratta.com/products/hooded-double-zipper-jacket",
+      "oldTitle": "Women's Hooded Knit Jacket with Double-Zip Front",
+      "newTitle": "Women's Hooded Knit Jacket with Double-Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/hooded-double-zipper-jacket\",\"Women's Hooded Knit Jacket with Double-Zip Front\")",
+      "priceCurrent": 82.9,
+      "priceSheet": 82.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551035769120",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 17,
+      "oldUrl": "https://zeratta.com/products/stand-collar-fleece-casual-jacket-cardigan-jacket",
+      "newUrl": "https://zeratta.com/products/stand-collar-fleece-casual-jacket-cardigan-jacket",
+      "oldTitle": "Relaxed Stand Collar Fleece Jacket for Everyday Layering",
+      "newTitle": "Relaxed Stand Collar Fleece Jacket for Everyday Layering",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/stand-collar-fleece-casual-jacket-cardigan-jacket\",\"Relaxed Stand Collar Fleece Jacket for Everyday Layering\")",
+      "priceCurrent": 72.9,
+      "priceSheet": 72.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551038390560",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 41,
+      "oldUrl": "https://zeratta.com/products/standing-collar-jacket-cotton-jacket",
+      "newUrl": "https://zeratta.com/products/standing-collar-jacket-cotton-jacket",
+      "oldTitle": "Men's Quilted Stand Collar Jacket with Relaxed Fit",
+      "newTitle": "Men's Quilted Stand Collar Jacket with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/standing-collar-jacket-cotton-jacket\",\"Men's Quilted Stand Collar Jacket with Relaxed Fit\")",
+      "priceCurrent": 88.9,
+      "priceSheet": 88.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551038587168",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 33,
+      "oldUrl": "https://zeratta.com/products/womens-faux-shearling-jacket-stand-collar",
+      "newUrl": "https://zeratta.com/products/womens-faux-shearling-jacket-stand-collar",
+      "oldTitle": "Women's Faux Shearling Jacket with Stand Collar",
+      "newTitle": "Women's Faux Shearling Jacket with Stand Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-faux-shearling-jacket-stand-collar\",\"Women's Faux Shearling Jacket with Stand Collar\")",
+      "priceCurrent": 84.9,
+      "priceSheet": 84.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551039308064",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 8,
+      "oldUrl": "https://zeratta.com/products/mens-heavyweight-hooded-puffer-jacket-relaxed-fit",
+      "newUrl": "https://zeratta.com/products/mens-heavyweight-hooded-puffer-jacket-relaxed-fit",
+      "oldTitle": "Men's Heavyweight Hooded Puffer Jacket with Relaxed Fit",
+      "newTitle": "Men's Heavyweight Hooded Puffer Jacket with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-heavyweight-hooded-puffer-jacket-relaxed-fit\",\"Men's Heavyweight Hooded Puffer Jacket with Relaxed Fit\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551041274144",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 86,
+      "oldUrl": "https://zeratta.com/products/womens-padded-hooded-jacket-zip-front",
+      "newUrl": "https://zeratta.com/products/womens-padded-hooded-jacket-zip-front",
+      "oldTitle": "Women's Padded Hooded Jacket with Zip Front",
+      "newTitle": "Women's Padded Hooded Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-padded-hooded-jacket-zip-front\",\"Women's Padded Hooded Jacket with Zip Front\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551042158880",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 31,
+      "oldUrl": "https://zeratta.com/products/mens-oversized-hooded-winter-jacket-side-pockets",
+      "newUrl": "https://zeratta.com/products/mens-oversized-hooded-winter-jacket-side-pockets",
+      "oldTitle": "Men's Oversized Hooded Winter Jacket with Side Pockets",
+      "newTitle": "Men's Oversized Hooded Winter Jacket with Side Pockets",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-oversized-hooded-winter-jacket-side-pockets\",\"Men's Oversized Hooded Winter Jacket with Side Pockets\")",
+      "priceCurrent": 71.9,
+      "priceSheet": 71.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551042322720",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 8,
+      "oldUrl": "https://zeratta.com/products/womens-mid-length-parka-jacket",
+      "newUrl": "https://zeratta.com/products/womens-mid-length-parka-jacket",
+      "oldTitle": "Women's Mid-Length Hooded Puffer Parka with Relaxed Fit",
+      "newTitle": "Women's Mid-Length Hooded Puffer Parka with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-mid-length-parka-jacket\",\"Women's Mid-Length Hooded Puffer Parka with Relaxed Fit\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551042978080",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 20,
+      "oldUrl": "https://zeratta.com/products/womens-cropped-puffer-jacket-detachable-faux-fur",
+      "newUrl": "https://zeratta.com/products/womens-cropped-puffer-jacket-detachable-faux-fur",
+      "oldTitle": "Women's Cropped Puffer Jacket with Detachable Faux Fur Collar",
+      "newTitle": "Women's Cropped Puffer Jacket with Detachable Faux Fur Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-cropped-puffer-jacket-detachable-faux-fur\",\"Women's Cropped Puffer Jacket with Detachable Faux Fur Collar\")",
+      "priceCurrent": 73.9,
+      "priceSheet": 73.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551044550944",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 50,
+      "oldUrl": "https://zeratta.com/products/street-leisure-bomber-leather-jacket",
+      "newUrl": "https://zeratta.com/products/street-leisure-bomber-leather-jacket",
+      "oldTitle": "Women's Relaxed Bomber Jacket with Turn-Down Collar",
+      "newTitle": "Women's Relaxed Bomber Jacket with Turn-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/street-leisure-bomber-leather-jacket\",\"Women's Relaxed Bomber Jacket with Turn-Down Collar\")",
+      "priceCurrent": 81.9,
+      "priceSheet": 81.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551045304608",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 25,
+      "oldUrl": "https://zeratta.com/products/womens-faux-leather-zip-lapel-jacket",
+      "newUrl": "https://zeratta.com/products/womens-faux-leather-zip-lapel-jacket",
+      "oldTitle": "Faux Leather Zip Jacket with Lapel Collar for Women",
+      "newTitle": "Faux Leather Zip Jacket with Lapel Collar for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-faux-leather-zip-lapel-jacket\",\"Faux Leather Zip Jacket with Lapel Collar for Women\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551046189344",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 31,
+      "oldUrl": "https://zeratta.com/products/womens-polo-collar-faux-leather-jacket",
+      "newUrl": "https://zeratta.com/products/womens-polo-collar-faux-leather-jacket",
+      "oldTitle": "Women's Polo Collar Faux Leather Jacket with Zip Front",
+      "newTitle": "Women's Polo Collar Faux Leather Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-polo-collar-faux-leather-jacket\",\"Women's Polo Collar Faux Leather Jacket with Zip Front\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551046254880",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 16,
+      "oldUrl": "https://zeratta.com/products/cropped-quilted-color-block-jacket-button-front",
+      "newUrl": "https://zeratta.com/products/cropped-quilted-color-block-jacket-button-front",
+      "oldTitle": "Cropped Quilted Color-Block Jacket with Button Front",
+      "newTitle": "Cropped Quilted Color-Block Jacket with Button Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/cropped-quilted-color-block-jacket-button-front\",\"Cropped Quilted Color-Block Jacket with Button Front\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551046353184",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 46,
+      "oldUrl": "https://zeratta.com/products/leather-inspired-jacket-with-shoulder-pads",
+      "newUrl": "https://zeratta.com/products/leather-inspired-jacket-with-shoulder-pads",
+      "oldTitle": "Women's Faux Leather Jacket with Structured Padded Shoulders",
+      "newTitle": "Women's Faux Leather Jacket with Structured Padded Shoulders",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/leather-inspired-jacket-with-shoulder-pads\",\"Women's Faux Leather Jacket with Structured Padded Shoulders\")",
+      "priceCurrent": 71.9,
+      "priceSheet": 71.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551047074080",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 16,
+      "oldUrl": "https://zeratta.com/products/mens-hooded-faux-leather-zip-up-jacket-ribbed-hem",
+      "newUrl": "https://zeratta.com/products/mens-hooded-faux-leather-zip-up-jacket-ribbed-hem",
+      "oldTitle": "Men's Hooded Faux Leather Zip-Up Jacket with Ribbed Hem",
+      "newTitle": "Men's Hooded Faux Leather Zip-Up Jacket with Ribbed Hem",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-hooded-faux-leather-zip-up-jacket-ribbed-hem\",\"Men's Hooded Faux Leather Zip-Up Jacket with Ribbed Hem\")",
+      "priceCurrent": 79.9,
+      "priceSheet": 79.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551048089888",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 28,
+      "oldUrl": "https://zeratta.com/products/mens-double-sided-fleece-jacket-stand-collar",
+      "newUrl": "https://zeratta.com/products/mens-double-sided-fleece-jacket-stand-collar",
+      "oldTitle": "Men's Double-Sided Fleece Jacket with Stand Collar",
+      "newTitle": "Men's Double-Sided Fleece Jacket with Stand Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-double-sided-fleece-jacket-stand-collar\",\"Men's Double-Sided Fleece Jacket with Stand Collar\")",
+      "priceCurrent": 67.9,
+      "priceSheet": 67.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551048417568",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 92,
+      "oldUrl": "https://zeratta.com/products/womens-fleece-running-jacket-stand-collar",
+      "newUrl": "https://zeratta.com/products/womens-fleece-running-jacket-stand-collar",
+      "oldTitle": "Women's Fleece Running Jacket with Stand Collar",
+      "newTitle": "Women's Fleece Running Jacket with Stand Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-fleece-running-jacket-stand-collar\",\"Women's Fleece Running Jacket with Stand Collar\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551049072928",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 76,
+      "oldUrl": "https://zeratta.com/products/street-imitation-leather-cotton-jacket",
+      "newUrl": "https://zeratta.com/products/street-imitation-leather-cotton-jacket",
+      "oldTitle": "Women's Hooded Padded Zip-Up Jacket with Minimal Finish",
+      "newTitle": "Women's Hooded Padded Zip-Up Jacket with Minimal Finish",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/street-imitation-leather-cotton-jacket\",\"Women's Hooded Padded Zip-Up Jacket with Minimal Finish\")",
+      "priceCurrent": 87.9,
+      "priceSheet": 87.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551050252576",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 51,
+      "oldUrl": "https://zeratta.com/products/womens-relaxed-faux-leather-jacket-adjustable-waist",
+      "newUrl": "https://zeratta.com/products/womens-relaxed-faux-leather-jacket-adjustable-waist",
+      "oldTitle": "Women's Relaxed Faux Leather Jacket with Adjustable Waist",
+      "newTitle": "Women's Relaxed Faux Leather Jacket with Adjustable Waist",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-relaxed-faux-leather-jacket-adjustable-waist\",\"Women's Relaxed Faux Leather Jacket with Adjustable Waist\")",
+      "priceCurrent": 84.9,
+      "priceSheet": 84.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551050547488",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 32,
+      "oldUrl": "https://zeratta.com/products/womens-oversized-suede-effect-lapel-jacket-zip-front",
+      "newUrl": "https://zeratta.com/products/womens-oversized-suede-effect-lapel-jacket-zip-front",
+      "oldTitle": "Oversized Suede-Effect Lapel Jacket with Zip Front for Women",
+      "newTitle": "Oversized Suede-Effect Lapel Jacket with Zip Front for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-oversized-suede-effect-lapel-jacket-zip-front\",\"Oversized Suede-Effect Lapel Jacket with Zip Front for Women\")",
+      "priceCurrent": 84.9,
+      "priceSheet": 84.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551050940704",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 18,
+      "oldUrl": "https://zeratta.com/products/mens-slim-fit-faux-leather-zip-jacket",
+      "newUrl": "https://zeratta.com/products/mens-slim-fit-faux-leather-zip-jacket",
+      "oldTitle": "Men's Slim-Fit Faux Leather Zip Jacket with Side Pockets",
+      "newTitle": "Men's Slim-Fit Faux Leather Zip Jacket with Side Pockets",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-slim-fit-faux-leather-zip-jacket\",\"Men's Slim-Fit Faux Leather Zip Jacket with Side Pockets\")",
+      "priceCurrent": 85.9,
+      "priceSheet": 85.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551052054816",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 28,
+      "oldUrl": "https://zeratta.com/products/hooded-utility-puffer-jacket-white-duck-down-filling",
+      "newUrl": "https://zeratta.com/products/hooded-utility-puffer-jacket-white-duck-down-filling",
+      "oldTitle": "Hooded Utility Puffer Jacket with White Duck Down Filling",
+      "newTitle": "Hooded Utility Puffer Jacket with White Duck Down Filling",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/hooded-utility-puffer-jacket-white-duck-down-filling\",\"Hooded Utility Puffer Jacket with White Duck Down Filling\")",
+      "priceCurrent": 163.9,
+      "priceSheet": 163.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551052546336",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 95,
+      "oldUrl": "https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=a304e47e00b22060b12a81a2dd871e1d",
+      "newUrl": "https://zeratta.com/products/womens-plush-fleece-half-zip-top-stand-collar",
+      "oldTitle": "Women's Plush Fleece Half-Zip Top with Stand Collar",
+      "newTitle": "Women's Plush Fleece Half-Zip Top with Stand Collar",
+      "oldFormula": "=HYPERLINK(\"https://vytpkco2zfvgvw5r-91481571616.shopifypreview.com/products_preview?preview_key=a304e47e00b22060b12a81a2dd871e1d\",\"Women's Plush Fleece Half-Zip Top with Stand Collar\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Draft",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551053463840",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 34,
+      "oldUrl": "https://zeratta.com/products/womens-washed-faux-leather-zip-jacket",
+      "newUrl": "https://zeratta.com/products/womens-washed-faux-leather-zip-jacket",
+      "oldTitle": "Women's Washed Faux Leather Zip Jacket with Turn-Down Collar",
+      "newTitle": "Women's Washed Faux Leather Zip Jacket with Turn-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-washed-faux-leather-zip-jacket\",\"Women's Washed Faux Leather Zip Jacket with Turn-Down Collar\")",
+      "priceCurrent": 86.9,
+      "priceSheet": 86.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551054184736",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 48,
+      "oldUrl": "https://zeratta.com/products/pocket-decoration-imitation-leather-jacket",
+      "newUrl": "https://zeratta.com/products/pocket-decoration-imitation-leather-jacket",
+      "oldTitle": "Women's Utility Pocket Faux Leather Jacket with Zip Front",
+      "newTitle": "Women's Utility Pocket Faux Leather Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/pocket-decoration-imitation-leather-jacket\",\"Women's Utility Pocket Faux Leather Jacket with Zip Front\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15551055233312",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 87,
+      "oldUrl": "https://zeratta.com/products/womens-relaxed-faux-fur-jacket-collared-neckline",
+      "newUrl": "https://zeratta.com/products/womens-relaxed-faux-fur-jacket-collared-neckline",
+      "oldTitle": "Women's Relaxed Faux Fur Jacket with Collared Neckline",
+      "newTitle": "Women's Relaxed Faux Fur Jacket with Collared Neckline",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-relaxed-faux-fur-jacket-collared-neckline\",\"Women's Relaxed Faux Fur Jacket with Collared Neckline\")",
+      "priceCurrent": 79.9,
+      "priceSheet": 79.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15552748585248",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 63,
+      "oldUrl": "https://zeratta.com/products/womens-cropped-faux-fur-effect-zip-jacket-high-collar",
+      "newUrl": "https://zeratta.com/products/womens-cropped-faux-fur-effect-zip-jacket-high-collar",
+      "oldTitle": "Cropped Faux Fur-Effect Zip Jacket with High Collar for Women",
+      "newTitle": "Cropped Faux Fur-Effect Zip Jacket with High Collar for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-cropped-faux-fur-effect-zip-jacket-high-collar\",\"Cropped Faux Fur-Effect Zip Jacket with High Collar for Women\")",
+      "priceCurrent": 65.9,
+      "priceSheet": 65.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15556037181728",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 18,
+      "oldUrl": "https://zeratta.com/products/cropped-hooded-puffer-jacket",
+      "newUrl": "https://zeratta.com/products/cropped-hooded-puffer-jacket",
+      "oldTitle": "Women's Cropped Hooded Puffer Jacket with Relaxed Fit",
+      "newTitle": "Women's Cropped Hooded Puffer Jacket with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/cropped-hooded-puffer-jacket\",\"Women's Cropped Hooded Puffer Jacket with Relaxed Fit\")",
+      "priceCurrent": 65.9,
+      "priceSheet": 65.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578318962976",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 15,
+      "oldUrl": "https://zeratta.com/products/mens-fleece-lined-faux-leather-workwear-jacket-pockets",
+      "newUrl": "https://zeratta.com/products/mens-fleece-lined-faux-leather-workwear-jacket-pockets",
+      "oldTitle": "Fleece-Lined Faux Leather Workwear Jacket with Pockets for Men",
+      "newTitle": "Fleece-Lined Faux Leather Workwear Jacket with Pockets for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-fleece-lined-faux-leather-workwear-jacket-pockets\",\"Fleece-Lined Faux Leather Workwear Jacket with Pockets for Men\")",
+      "priceCurrent": 79.9,
+      "priceSheet": 79.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578319028512",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 54,
+      "oldUrl": "https://zeratta.com/products/womens-shearling-style-winter-jacket-lapel-collar",
+      "newUrl": "https://zeratta.com/products/womens-shearling-style-winter-jacket-lapel-collar",
+      "oldTitle": "Women's Shearling-Style Winter Jacket with Lapel Collar",
+      "newTitle": "Women's Shearling-Style Winter Jacket with Lapel Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-shearling-style-winter-jacket-lapel-collar\",\"Women's Shearling-Style Winter Jacket with Lapel Collar\")",
+      "priceCurrent": 86.9,
+      "priceSheet": 86.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578319094048",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 53,
+      "oldUrl": "https://zeratta.com/products/womens-short-faux-suede-effect-zip-jacket",
+      "newUrl": "https://zeratta.com/products/womens-short-faux-suede-effect-zip-jacket",
+      "oldTitle": "Women's Short Faux Suede-Effect Zip Jacket",
+      "newTitle": "Women's Short Faux Suede-Effect Zip Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-short-faux-suede-effect-zip-jacket\",\"Women's Short Faux Suede-Effect Zip Jacket\")",
+      "priceCurrent": 85.9,
+      "priceSheet": 85.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578319159584",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 49,
+      "oldUrl": "https://zeratta.com/products/womens-short-faux-leather-shearling-style-jacket",
+      "newUrl": "https://zeratta.com/products/womens-short-faux-leather-shearling-style-jacket",
+      "oldTitle": "Women's Short Faux Leather Shearling-Style Jacket",
+      "newTitle": "Women's Short Faux Leather Shearling-Style Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-short-faux-leather-shearling-style-jacket\",\"Women's Short Faux Leather Shearling-Style Jacket\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578320044320",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 10,
+      "oldUrl": "https://zeratta.com/products/mens-oversized-faux-leather-jacket-stand-collar",
+      "newUrl": "https://zeratta.com/products/mens-oversized-faux-leather-jacket-stand-collar",
+      "oldTitle": "Oversized Faux Leather Jacket with Stand Collar for Men",
+      "newTitle": "Oversized Faux Leather Jacket with Stand Collar for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-oversized-faux-leather-jacket-stand-collar\",\"Oversized Faux Leather Jacket with Stand Collar for Men\")",
+      "priceCurrent": 68.9,
+      "priceSheet": 68.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578320109856",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 5,
+      "oldUrl": "https://zeratta.com/products/unisex-faux-leather-varsity-jacket-stand-collar",
+      "newUrl": "https://zeratta.com/products/unisex-faux-leather-varsity-jacket-stand-collar",
+      "oldTitle": "Unisex Faux Leather Varsity Jacket with Stand Collar",
+      "newTitle": "Unisex Faux Leather Varsity Jacket with Stand Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/unisex-faux-leather-varsity-jacket-stand-collar\",\"Unisex Faux Leather Varsity Jacket with Stand Collar\")",
+      "priceCurrent": 73.9,
+      "priceSheet": 73.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578320404768",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 11,
+      "oldUrl": "https://zeratta.com/products/mens-faux-leather-winter-jacket-contrast-collar",
+      "newUrl": "https://zeratta.com/products/mens-faux-leather-winter-jacket-contrast-collar",
+      "oldTitle": "Men's Faux Leather Winter Jacket with Contrast Collar",
+      "newTitle": "Men's Faux Leather Winter Jacket with Contrast Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-faux-leather-winter-jacket-contrast-collar\",\"Men's Faux Leather Winter Jacket with Contrast Collar\")",
+      "priceCurrent": 72.9,
+      "priceSheet": 72.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578320437536",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 38,
+      "oldUrl": "https://zeratta.com/products/mens-hooded-faux-leather-winter-jacket-padded-details",
+      "newUrl": "https://zeratta.com/products/mens-hooded-faux-leather-winter-jacket-padded-details",
+      "oldTitle": "Men's Hooded Faux Leather Winter Jacket with Padded Details",
+      "newTitle": "Men's Hooded Faux Leather Winter Jacket with Padded Details",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-hooded-faux-leather-winter-jacket-padded-details\",\"Men's Hooded Faux Leather Winter Jacket with Padded Details\")",
+      "priceCurrent": 93.9,
+      "priceSheet": 93.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578320797984",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 88,
+      "oldUrl": "https://zeratta.com/products/womens-button-front-winter-jacket-plush-collar",
+      "newUrl": "https://zeratta.com/products/womens-button-front-winter-jacket-plush-collar",
+      "oldTitle": "Women's Button-Front Winter Jacket with Plush Collar",
+      "newTitle": "Women's Button-Front Winter Jacket with Plush Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-button-front-winter-jacket-plush-collar\",\"Women's Button-Front Winter Jacket with Plush Collar\")",
+      "priceCurrent": 96.9,
+      "priceSheet": 96.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578320863520",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 7,
+      "oldUrl": "https://zeratta.com/products/fleece-lined-faux-leather-jacket-lapel-collar",
+      "newUrl": "https://zeratta.com/products/fleece-lined-faux-leather-jacket-lapel-collar",
+      "oldTitle": "Fleece-Lined Faux Leather Jacket with Lapel Collar",
+      "newTitle": "Fleece-Lined Faux Leather Jacket with Lapel Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/fleece-lined-faux-leather-jacket-lapel-collar\",\"Fleece-Lined Faux Leather Jacket with Lapel Collar\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578321912096",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 6,
+      "oldUrl": "https://zeratta.com/products/unisex-relaxed-faux-leather-jacket-turn-down-collar",
+      "newUrl": "https://zeratta.com/products/unisex-relaxed-faux-leather-jacket-turn-down-collar",
+      "oldTitle": "Unisex Relaxed Faux Leather Jacket with Turn-Down Collar",
+      "newTitle": "Unisex Relaxed Faux Leather Jacket with Turn-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/unisex-relaxed-faux-leather-jacket-turn-down-collar\",\"Unisex Relaxed Faux Leather Jacket with Turn-Down Collar\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578322338080",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 13,
+      "oldUrl": "https://zeratta.com/products/mens-faux-leather-utility-jacket-multiple-pockets",
+      "newUrl": "https://zeratta.com/products/mens-faux-leather-utility-jacket-multiple-pockets",
+      "oldTitle": "Faux Leather Utility Jacket with Multiple Pockets for Men",
+      "newTitle": "Faux Leather Utility Jacket with Multiple Pockets for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-faux-leather-utility-jacket-multiple-pockets\",\"Faux Leather Utility Jacket with Multiple Pockets for Men\")",
+      "priceCurrent": 79.9,
+      "priceSheet": 79.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578323026208",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 24,
+      "oldUrl": "https://zeratta.com/products/unisex-fleece-lined-winter-jacket-side-pockets",
+      "newUrl": "https://zeratta.com/products/unisex-fleece-lined-winter-jacket-side-pockets",
+      "oldTitle": "Unisex Fleece-Lined Winter Jacket with Side Pockets",
+      "newTitle": "Unisex Fleece-Lined Winter Jacket with Side Pockets",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/unisex-fleece-lined-winter-jacket-side-pockets\",\"Unisex Fleece-Lined Winter Jacket with Side Pockets\")",
+      "priceCurrent": 79.9,
+      "priceSheet": 79.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578323190048",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 28,
+      "oldUrl": "https://zeratta.com/products/womens-padded-faux-leather-jacket-lapel-collar",
+      "newUrl": "https://zeratta.com/products/womens-padded-faux-leather-jacket-lapel-collar",
+      "oldTitle": "Women's Padded Faux Leather Jacket with Lapel Collar",
+      "newTitle": "Women's Padded Faux Leather Jacket with Lapel Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-padded-faux-leather-jacket-lapel-collar\",\"Women's Padded Faux Leather Jacket with Lapel Collar\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578323550496",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 30,
+      "oldUrl": "https://zeratta.com/products/mens-workwear-jacket-stand-collar-button-front",
+      "newUrl": "https://zeratta.com/products/mens-workwear-jacket-stand-collar-button-front",
+      "oldTitle": "Men's Workwear Jacket with Stand Collar and Button Front",
+      "newTitle": "Men's Workwear Jacket with Stand Collar and Button Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-workwear-jacket-stand-collar-button-front\",\"Men's Workwear Jacket with Stand Collar and Button Front\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578324435232",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 18,
+      "oldUrl": "https://zeratta.com/products/vintage-color-block-varsity-jacket-zip-front",
+      "newUrl": "https://zeratta.com/products/vintage-color-block-varsity-jacket-zip-front",
+      "oldTitle": "Vintage Color-Block Varsity Jacket with Zip Front",
+      "newTitle": "Vintage Color-Block Varsity Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/vintage-color-block-varsity-jacket-zip-front\",\"Vintage Color-Block Varsity Jacket with Zip Front\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578326106400",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 14,
+      "oldUrl": "https://zeratta.com/products/mens-fleece-lined-faux-leather-barn-jacket",
+      "newUrl": "https://zeratta.com/products/mens-fleece-lined-faux-leather-barn-jacket",
+      "oldTitle": "Fleece-Lined Faux Leather Barn Jacket for Men",
+      "newTitle": "Fleece-Lined Faux Leather Barn Jacket for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-fleece-lined-faux-leather-barn-jacket\",\"Fleece-Lined Faux Leather Barn Jacket for Men\")",
+      "priceCurrent": 79.9,
+      "priceSheet": 79.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578326925600",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 40,
+      "oldUrl": "https://zeratta.com/products/mens-distressed-denim-jacket-contrast-collar",
+      "newUrl": "https://zeratta.com/products/mens-distressed-denim-jacket-contrast-collar",
+      "oldTitle": "Men's Distressed Denim Jacket with Contrast Collar",
+      "newTitle": "Men's Distressed Denim Jacket with Contrast Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-distressed-denim-jacket-contrast-collar\",\"Men's Distressed Denim Jacket with Contrast Collar\")",
+      "priceCurrent": 73.9,
+      "priceSheet": 73.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578327712032",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 26,
+      "oldUrl": "https://zeratta.com/products/mens-hooded-faux-leather-winter-jacket-zip-front",
+      "newUrl": "https://zeratta.com/products/mens-hooded-faux-leather-winter-jacket-zip-front",
+      "oldTitle": "Men's Hooded Faux Leather Winter Jacket with Zip Front",
+      "newTitle": "Men's Hooded Faux Leather Winter Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-hooded-faux-leather-winter-jacket-zip-front\",\"Men's Hooded Faux Leather Winter Jacket with Zip Front\")",
+      "priceCurrent": 105.9,
+      "priceSheet": 105.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578329153824",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 27,
+      "oldUrl": "https://zeratta.com/products/mens-padded-faux-leather-winter-jacket-lapel-collar",
+      "newUrl": "https://zeratta.com/products/mens-padded-faux-leather-winter-jacket-lapel-collar",
+      "oldTitle": "Padded Faux Leather Winter Jacket with Lapel Collar for Men",
+      "newTitle": "Padded Faux Leather Winter Jacket with Lapel Collar for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-padded-faux-leather-winter-jacket-lapel-collar\",\"Padded Faux Leather Winter Jacket with Lapel Collar for Men\")",
+      "priceCurrent": 108.9,
+      "priceSheet": 108.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578329809184",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 73,
+      "oldUrl": "https://zeratta.com/products/womens-button-front-jacket-turn-down-collar",
+      "newUrl": "https://zeratta.com/products/womens-button-front-jacket-turn-down-collar",
+      "oldTitle": "Women's Button-Front Jacket with Turn-Down Collar",
+      "newTitle": "Women's Button-Front Jacket with Turn-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-button-front-jacket-turn-down-collar\",\"Women's Button-Front Jacket with Turn-Down Collar\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578330890528",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 29,
+      "oldUrl": "https://zeratta.com/products/womens-fitted-suede-effect-jacket-faux-fur-lining",
+      "newUrl": "https://zeratta.com/products/womens-fitted-suede-effect-jacket-faux-fur-lining",
+      "oldTitle": "Fitted Suede-Effect Jacket with Faux Fur Lining for Women",
+      "newTitle": "Fitted Suede-Effect Jacket with Faux Fur Lining for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-fitted-suede-effect-jacket-faux-fur-lining\",\"Fitted Suede-Effect Jacket with Faux Fur Lining for Women\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578331152672",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 83,
+      "oldUrl": "https://zeratta.com/products/womens-faux-fur-aviator-jacket-zip-front",
+      "newUrl": "https://zeratta.com/products/womens-faux-fur-aviator-jacket-zip-front",
+      "oldTitle": "Women's Faux Fur Aviator Jacket with Zip Front",
+      "newTitle": "Women's Faux Fur Aviator Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-faux-fur-aviator-jacket-zip-front\",\"Women's Faux Fur Aviator Jacket with Zip Front\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578331775264",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 17,
+      "oldUrl": "https://zeratta.com/products/mens-washed-faux-leather-jacket-fold-down-collar",
+      "newUrl": "https://zeratta.com/products/mens-washed-faux-leather-jacket-fold-down-collar",
+      "oldTitle": "Men's Washed Faux Leather Jacket with Fold-Down Collar",
+      "newTitle": "Men's Washed Faux Leather Jacket with Fold-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-washed-faux-leather-jacket-fold-down-collar\",\"Men's Washed Faux Leather Jacket with Fold-Down Collar\")",
+      "priceCurrent": 79.9,
+      "priceSheet": 79.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578333020448",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 19,
+      "oldUrl": "https://zeratta.com/products/longline-hooded-winter-zip-jacket-printed-detail",
+      "newUrl": "https://zeratta.com/products/longline-hooded-winter-zip-jacket-printed-detail",
+      "oldTitle": "Longline Hooded Winter Zip Jacket with Printed Detail",
+      "newTitle": "Longline Hooded Winter Zip Jacket with Printed Detail",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/longline-hooded-winter-zip-jacket-printed-detail\",\"Longline Hooded Winter Zip Jacket with Printed Detail\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578334003488",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 24,
+      "oldUrl": "https://zeratta.com/products/faux-leather-pilot-jacket",
+      "newUrl": "https://zeratta.com/products/faux-leather-pilot-jacket",
+      "oldTitle": "Faux Leather Aviator Jacket with Zip Front for Women",
+      "newTitle": "Faux Leather Aviator Jacket with Zip Front for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/faux-leather-pilot-jacket\",\"Faux Leather Aviator Jacket with Zip Front for Women\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578334560544",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 8,
+      "oldUrl": "https://zeratta.com/products/oversized-faux-leather-zip-jacket-lapel-collar",
+      "newUrl": "https://zeratta.com/products/oversized-faux-leather-zip-jacket-lapel-collar",
+      "oldTitle": "Oversized Faux Leather Zip Jacket with Lapel Collar",
+      "newTitle": "Oversized Faux Leather Zip Jacket with Lapel Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/oversized-faux-leather-zip-jacket-lapel-collar\",\"Oversized Faux Leather Zip Jacket with Lapel Collar\")",
+      "priceCurrent": 86.9,
+      "priceSheet": 86.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578337181984",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 23,
+      "oldUrl": "https://zeratta.com/products/mens-faux-leather-motorcycle-jacket-zip-front",
+      "newUrl": "https://zeratta.com/products/mens-faux-leather-motorcycle-jacket-zip-front",
+      "oldTitle": "Men's Faux Leather Motorcycle Jacket with Zip Front",
+      "newTitle": "Men's Faux Leather Motorcycle Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-faux-leather-motorcycle-jacket-zip-front\",\"Men's Faux Leather Motorcycle Jacket with Zip Front\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578337935648",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 72,
+      "oldUrl": "https://zeratta.com/products/womens-hooded-winter-zip-up-jacket-side-pockets",
+      "newUrl": "https://zeratta.com/products/womens-hooded-winter-zip-up-jacket-side-pockets",
+      "oldTitle": "Hooded Winter Zip-Up Jacket with Side Pockets for Women",
+      "newTitle": "Hooded Winter Zip-Up Jacket with Side Pockets for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-hooded-winter-zip-up-jacket-side-pockets\",\"Hooded Winter Zip-Up Jacket with Side Pockets for Women\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578338820384",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 71,
+      "oldUrl": "https://zeratta.com/products/collar-long-sleeved-leather-jacket",
+      "newUrl": "https://zeratta.com/products/collar-long-sleeved-leather-jacket",
+      "oldTitle": "Women's Woven Zip-Up Jacket with Polo Collar",
+      "newTitle": "Women's Woven Zip-Up Jacket with Polo Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/collar-long-sleeved-leather-jacket\",\"Women's Woven Zip-Up Jacket with Polo Collar\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578339213600",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 22,
+      "oldUrl": "https://zeratta.com/products/mens-relaxed-fit-faux-leather-jacket-lapel-collar",
+      "newUrl": "https://zeratta.com/products/mens-relaxed-fit-faux-leather-jacket-lapel-collar",
+      "oldTitle": "Men's Relaxed Fit Faux Leather Jacket with Lapel Collar",
+      "newTitle": "Men's Relaxed Fit Faux Leather Jacket with Lapel Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-relaxed-fit-faux-leather-jacket-lapel-collar\",\"Men's Relaxed Fit Faux Leather Jacket with Lapel Collar\")",
+      "priceCurrent": 70.9,
+      "priceSheet": 70.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578339279136",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 47,
+      "oldUrl": "https://zeratta.com/products/suede-leather-fur-effect-suit-jacket",
+      "newUrl": "https://zeratta.com/products/suede-leather-fur-effect-suit-jacket",
+      "oldTitle": "Suede-Effect Jacket with Faux Fur Collar for Women",
+      "newTitle": "Suede-Effect Jacket with Faux Fur Collar for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/suede-leather-fur-effect-suit-jacket\",\"Suede-Effect Jacket with Faux Fur Collar for Women\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578341081376",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 35,
+      "oldUrl": "https://zeratta.com/products/womens-short-faux-leather-jacket-plush-collar",
+      "newUrl": "https://zeratta.com/products/womens-short-faux-leather-jacket-plush-collar",
+      "oldTitle": "Short Faux Leather Jacket with Plush Collar for Women",
+      "newTitle": "Short Faux Leather Jacket with Plush Collar for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-short-faux-leather-jacket-plush-collar\",\"Short Faux Leather Jacket with Plush Collar for Women\")",
+      "priceCurrent": 87.9,
+      "priceSheet": 87.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578341245216",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 65,
+      "oldUrl": "https://zeratta.com/products/womens-short-padded-winter-jacket-button-front",
+      "newUrl": "https://zeratta.com/products/womens-short-padded-winter-jacket-button-front",
+      "oldTitle": "Women's Short Padded Winter Jacket with Button Front",
+      "newTitle": "Women's Short Padded Winter Jacket with Button Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-short-padded-winter-jacket-button-front\",\"Women's Short Padded Winter Jacket with Button Front\")",
+      "priceCurrent": 68.9,
+      "priceSheet": 68.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578341277984",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 52,
+      "oldUrl": "https://zeratta.com/products/womens-leather-effect-zip-up-jacket-fold-down-collar",
+      "newUrl": "https://zeratta.com/products/womens-leather-effect-zip-up-jacket-fold-down-collar",
+      "oldTitle": "Women's Leather-Effect Zip-Up Jacket with Fold-Down Collar",
+      "newTitle": "Women's Leather-Effect Zip-Up Jacket with Fold-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-leather-effect-zip-up-jacket-fold-down-collar\",\"Women's Leather-Effect Zip-Up Jacket with Fold-Down Collar\")",
+      "priceCurrent": 85.9,
+      "priceSheet": 85.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578341310752",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 33,
+      "oldUrl": "https://zeratta.com/products/mens-fleece-lined-workwear-jacket",
+      "newUrl": "https://zeratta.com/products/mens-fleece-lined-workwear-jacket",
+      "oldTitle": "Fleece-Lined Cotton Workwear Jacket for Men",
+      "newTitle": "Fleece-Lined Cotton Workwear Jacket for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-fleece-lined-workwear-jacket\",\"Fleece-Lined Cotton Workwear Jacket for Men\")",
+      "priceCurrent": 82.9,
+      "priceSheet": 82.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578342326560",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 5,
+      "oldUrl": "https://zeratta.com/products/mens-padded-stand-collar-winter-jacket-relaxed-fit",
+      "newUrl": "https://zeratta.com/products/mens-padded-stand-collar-winter-jacket-relaxed-fit",
+      "oldTitle": "Padded Stand Collar Winter Jacket with Relaxed Fit for Men",
+      "newTitle": "Padded Stand Collar Winter Jacket with Relaxed Fit for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-padded-stand-collar-winter-jacket-relaxed-fit\",\"Padded Stand Collar Winter Jacket with Relaxed Fit for Men\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578342883616",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 66,
+      "oldUrl": "https://zeratta.com/products/womens-quilted-padded-jacket-round-neck-relaxed-fit",
+      "newUrl": "https://zeratta.com/products/womens-quilted-padded-jacket-round-neck-relaxed-fit",
+      "oldTitle": "Women's Quilted Padded Jacket with Round Neck and Relaxed Fit",
+      "newTitle": "Women's Quilted Padded Jacket with Round Neck and Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-quilted-padded-jacket-round-neck-relaxed-fit\",\"Women's Quilted Padded Jacket with Round Neck and Relaxed Fit\")",
+      "priceCurrent": 69.9,
+      "priceSheet": 69.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578342981920",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 29,
+      "oldUrl": "https://zeratta.com/products/mens-lightweight-padded-winter-jacket-stand-collar",
+      "newUrl": "https://zeratta.com/products/mens-lightweight-padded-winter-jacket-stand-collar",
+      "oldTitle": "Men's Lightweight Padded Winter Jacket with Stand Collar",
+      "newTitle": "Men's Lightweight Padded Winter Jacket with Stand Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-lightweight-padded-winter-jacket-stand-collar\",\"Men's Lightweight Padded Winter Jacket with Stand Collar\")",
+      "priceCurrent": 67.9,
+      "priceSheet": 67.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578344653088",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 82,
+      "oldUrl": "https://zeratta.com/products/loose-casual-jacket-for-women-autumn-winter-newouterwear",
+      "newUrl": "https://zeratta.com/products/loose-casual-jacket-for-women-autumn-winter-newouterwear",
+      "oldTitle": "Relaxed Fit Zip-Up Jacket with Turn-Down Collar for Women",
+      "newTitle": "Relaxed Fit Zip-Up Jacket with Turn-Down Collar for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/loose-casual-jacket-for-women-autumn-winter-newouterwear\",\"Relaxed Fit Zip-Up Jacket with Turn-Down Collar for Women\")",
+      "priceCurrent": 70.9,
+      "priceSheet": 70.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578345439520",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 35,
+      "oldUrl": "https://zeratta.com/products/mens-plush-lined-denim-jacket-button-front",
+      "newUrl": "https://zeratta.com/products/mens-plush-lined-denim-jacket-button-front",
+      "oldTitle": "Plush-Lined Denim Jacket with Button Front for Men",
+      "newTitle": "Plush-Lined Denim Jacket with Button Front for Men",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-plush-lined-denim-jacket-button-front\",\"Plush-Lined Denim Jacket with Button Front for Men\")",
+      "priceCurrent": 84.9,
+      "priceSheet": 84.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578345865504",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 37,
+      "oldUrl": "https://zeratta.com/products/mens-corduroy-winter-jacket-lapel-collar",
+      "newUrl": "https://zeratta.com/products/mens-corduroy-winter-jacket-lapel-collar",
+      "oldTitle": "Men's Corduroy-Style Winter Jacket with Lapel Collar",
+      "newTitle": "Men's Corduroy-Style Winter Jacket with Lapel Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-corduroy-winter-jacket-lapel-collar\",\"Men's Corduroy-Style Winter Jacket with Lapel Collar\")",
+      "priceCurrent": 73.9,
+      "priceSheet": 73.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15578346193184",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 26,
+      "oldUrl": "https://zeratta.com/products/unisex-fleece-lined-winter-jacket-turn-down-collar",
+      "newUrl": "https://zeratta.com/products/unisex-fleece-lined-winter-jacket-turn-down-collar",
+      "oldTitle": "Unisex Fleece-Lined Winter Jacket with Turn-Down Collar",
+      "newTitle": "Unisex Fleece-Lined Winter Jacket with Turn-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/unisex-fleece-lined-winter-jacket-turn-down-collar\",\"Unisex Fleece-Lined Winter Jacket with Turn-Down Collar\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589713281312",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 24,
+      "oldUrl": "https://zeratta.com/products/mens-loose-fit-button-front-denim-winter-jacket",
+      "newUrl": "https://zeratta.com/products/mens-loose-fit-button-front-denim-winter-jacket",
+      "oldTitle": "Men's Loose Fit Button-Front Denim Winter Jacket",
+      "newTitle": "Men's Loose Fit Button-Front Denim Winter Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-loose-fit-button-front-denim-winter-jacket\",\"Men's Loose Fit Button-Front Denim Winter Jacket\")",
+      "priceCurrent": 80.9,
+      "priceSheet": 80.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589713314080",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 21,
+      "oldUrl": "https://zeratta.com/products/hooded-polyester-padded-winter-jacket",
+      "newUrl": "https://zeratta.com/products/hooded-polyester-padded-winter-jacket",
+      "oldTitle": "Thin down cotton jacket with fashionable and thick fur and fur integrated jacket",
+      "newTitle": "Thin down cotton jacket with fashionable and thick fur and fur integrated jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/hooded-polyester-padded-winter-jacket\",\"Thin down cotton jacket with fashionable and thick fur and fur integrated jacket\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589713379616",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 44,
+      "oldUrl": "https://zeratta.com/products/womens-winter-long-coat-net-color-long-sleeve-tweed-jacket",
+      "newUrl": "https://zeratta.com/products/womens-winter-long-coat-net-color-long-sleeve-tweed-jacket",
+      "oldTitle": "Winter Fashion Long Coat Net Color Long Sleeve Tweed Women's Jacket",
+      "newTitle": "Winter Fashion Long Coat Net Color Long Sleeve Tweed Women's Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-winter-long-coat-net-color-long-sleeve-tweed-jacket\",\"Winter Fashion Long Coat Net Color Long Sleeve Tweed Women's Jacket\")",
+      "priceCurrent": 79.41,
+      "priceSheet": 79.41,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589714854176",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 57,
+      "oldUrl": "https://zeratta.com/products/womens-cotton-coat-with-turn-down-collar-and-long-sleeves",
+      "newUrl": "https://zeratta.com/products/womens-cotton-coat-with-turn-down-collar-and-long-sleeves",
+      "oldTitle": "Women's Cotton Coat with Turn-Down Collar and Long Sleeves",
+      "newTitle": "Women's Cotton Coat with Turn-Down Collar and Long Sleeves",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-cotton-coat-with-turn-down-collar-and-long-sleeves\",\"Women's Cotton Coat with Turn-Down Collar and Long Sleeves\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589715968288",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 14,
+      "oldUrl": "https://zeratta.com/products/stand-up-collar-pocket-long-sleeved-coat",
+      "newUrl": "https://zeratta.com/products/stand-up-collar-pocket-long-sleeved-coat",
+      "oldTitle": "Stand up collar pocket long sleeved Coat",
+      "newTitle": "Stand up collar pocket long sleeved Coat",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/stand-up-collar-pocket-long-sleeved-coat\",\"Stand up collar pocket long sleeved Coat\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589716001056",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 58,
+      "oldUrl": "https://zeratta.com/products/womens-black-single-breasted-trench-coat",
+      "newUrl": "https://zeratta.com/products/womens-black-single-breasted-trench-coat",
+      "oldTitle": "Collar long sleeved single breasted solid color trench coat for women",
+      "newTitle": "Collar long sleeved single breasted solid color trench coat for women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-black-single-breasted-trench-coat\",\"Collar long sleeved single breasted solid color trench coat for women\")",
+      "priceCurrent": 85.9,
+      "priceSheet": 85.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589716558112",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 9,
+      "oldUrl": "https://zeratta.com/products/texture-zip-up-long-sleeve-hooded-coat",
+      "newUrl": "https://zeratta.com/products/texture-zip-up-long-sleeve-hooded-coat",
+      "oldTitle": "Texture Zip Up Long Sleeve Hooded Coat",
+      "newTitle": "Texture Zip Up Long Sleeve Hooded Coat",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/texture-zip-up-long-sleeve-hooded-coat\",\"Texture Zip Up Long Sleeve Hooded Coat\")",
+      "priceCurrent": 72.9,
+      "priceSheet": 72.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589718262048",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 38,
+      "oldUrl": "https://zeratta.com/products/womens-long-sleeved-lapel-zipper-side-pocket-trench-coat",
+      "newUrl": "https://zeratta.com/products/womens-long-sleeved-lapel-zipper-side-pocket-trench-coat",
+      "oldTitle": "Long sleeved lapel zipper side pocket casual trench coat for women",
+      "newTitle": "Long sleeved lapel zipper side pocket casual trench coat for women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-long-sleeved-lapel-zipper-side-pocket-trench-coat\",\"Long sleeved lapel zipper side pocket casual trench coat for women\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589718360352",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 62,
+      "oldUrl": "https://zeratta.com/products/womens-long-hooded-padded-winter-coat",
+      "newUrl": "https://zeratta.com/products/womens-long-hooded-padded-winter-coat",
+      "oldTitle": "Women's Fashionable Classic Long Cotton Coat with Hand-Inserted Cotton",
+      "newTitle": "Women's Fashionable Classic Long Cotton Coat with Hand-Inserted Cotton",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-long-hooded-padded-winter-coat\",\"Women's Fashionable Classic Long Cotton Coat with Hand-Inserted Cotton\")",
+      "priceCurrent": 90.9,
+      "priceSheet": 90.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589719277856",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 42,
+      "oldUrl": "https://zeratta.com/products/mens-hooded-winter-zip-up-jacket-side-pockets",
+      "newUrl": "https://zeratta.com/products/mens-hooded-winter-zip-up-jacket-side-pockets",
+      "oldTitle": "Men's Hooded Winter Zip-Up Jacket with Side Pockets",
+      "newTitle": "Men's Hooded Winter Zip-Up Jacket with Side Pockets",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-hooded-winter-zip-up-jacket-side-pockets\",\"Men's Hooded Winter Zip-Up Jacket with Side Pockets\")",
+      "priceCurrent": 90.9,
+      "priceSheet": 90.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589720523040",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 56,
+      "oldUrl": "https://zeratta.com/products/womens-longline-hooded-winter-coat-detachable-fur-collar",
+      "newUrl": "https://zeratta.com/products/womens-longline-hooded-winter-coat-detachable-fur-collar",
+      "oldTitle": "Women's Longline Hooded Winter Coat with Detachable Fur Collar",
+      "newTitle": "Women's Longline Hooded Winter Coat with Detachable Fur Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-longline-hooded-winter-coat-detachable-fur-collar\",\"Women's Longline Hooded Winter Coat with Detachable Fur Collar\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589722259744",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 9,
+      "oldUrl": "https://zeratta.com/products/mens-zip-up-jacket-fold-down-collar-long-sleeves",
+      "newUrl": "https://zeratta.com/products/mens-zip-up-jacket-fold-down-collar-long-sleeves",
+      "oldTitle": "Men's Zip-Up Jacket with Fold-Down Collar and Long Sleeves",
+      "newTitle": "Men's Zip-Up Jacket with Fold-Down Collar and Long Sleeves",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-zip-up-jacket-fold-down-collar-long-sleeves\",\"Men's Zip-Up Jacket with Fold-Down Collar and Long Sleeves\")",
+      "priceCurrent": 87.9,
+      "priceSheet": 87.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589722751264",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 12,
+      "oldUrl": "https://zeratta.com/products/leather-belted-long-coat-with-fur-lining",
+      "newUrl": "https://zeratta.com/products/leather-belted-long-coat-with-fur-lining",
+      "oldTitle": "Leather Belted Long Coat with Fur Lining",
+      "newTitle": "Leather Belted Long Coat with Fur Lining",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/leather-belted-long-coat-with-fur-lining\",\"Leather Belted Long Coat with Fur Lining\")",
+      "priceCurrent": 90.9,
+      "priceSheet": 90.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589723636000",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 11,
+      "oldUrl": "https://zeratta.com/products/womens-short-hooded-padded-winter-jacket-side-pockets",
+      "newUrl": "https://zeratta.com/products/womens-short-hooded-padded-winter-jacket-side-pockets",
+      "oldTitle": "Women's Short Hooded Padded Winter Jacket with Side Pockets",
+      "newTitle": "Women's Short Hooded Padded Winter Jacket with Side Pockets",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-short-hooded-padded-winter-jacket-side-pockets\",\"Women's Short Hooded Padded Winter Jacket with Side Pockets\")",
+      "priceCurrent": 68.9,
+      "priceSheet": 68.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589725176096",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 22,
+      "oldUrl": "https://zeratta.com/products/womens-short-puffer-jacket-fur-collar-zip-front",
+      "newUrl": "https://zeratta.com/products/womens-short-puffer-jacket-fur-collar-zip-front",
+      "oldTitle": "Women's Short Puffer Jacket with Fur Collar and Zip Front",
+      "newTitle": "Women's Short Puffer Jacket with Fur Collar and Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-short-puffer-jacket-fur-collar-zip-front\",\"Women's Short Puffer Jacket with Fur Collar and Zip Front\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589725339936",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 39,
+      "oldUrl": "https://zeratta.com/products/womens-printed-hooded-longline-padded-coat",
+      "newUrl": "https://zeratta.com/products/womens-printed-hooded-longline-padded-coat",
+      "oldTitle": "Fashionable Hooded Printed Long Cotton Coat for Women Classic and Versatile",
+      "newTitle": "Fashionable Hooded Printed Long Cotton Coat for Women Classic and Versatile",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-printed-hooded-longline-padded-coat\",\"Fashionable Hooded Printed Long Cotton Coat for Women Classic and Versatile\")",
+      "priceCurrent": 82.9,
+      "priceSheet": 82.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589727568160",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 10,
+      "oldUrl": "https://zeratta.com/products/womens-mid-length-hooded-puffer-coat",
+      "newUrl": "https://zeratta.com/products/womens-mid-length-hooded-puffer-coat",
+      "oldTitle": "Women's Winter Mid-Length Puffer Coat Thickened Hooded Down Cotton Jacket",
+      "newTitle": "Women's Winter Mid-Length Puffer Coat Thickened Hooded Down Cotton Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-mid-length-hooded-puffer-coat\",\"Women's Winter Mid-Length Puffer Coat Thickened Hooded Down Cotton Jacket\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589727764768",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 10,
+      "oldUrl": "https://zeratta.com/products/long-hooded-cotton-coat-and-outerwear",
+      "newUrl": "https://zeratta.com/products/long-hooded-cotton-coat-and-outerwear",
+      "oldTitle": "Long hooded cotton coat and outerwear",
+      "newTitle": "Long hooded cotton coat and outerwear",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/long-hooded-cotton-coat-and-outerwear\",\"Long hooded cotton coat and outerwear\")",
+      "priceCurrent": 80.9,
+      "priceSheet": 80.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589728059680",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 13,
+      "oldUrl": "https://zeratta.com/products/womens-mid-length-hooded-puffer-coat-detachable-fur-collar",
+      "newUrl": "https://zeratta.com/products/womens-mid-length-hooded-puffer-coat-detachable-fur-collar",
+      "oldTitle": "Women's Mid-Length Hooded Puffer Coat with Detachable Fur Collar",
+      "newTitle": "Women's Mid-Length Hooded Puffer Coat with Detachable Fur Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-mid-length-hooded-puffer-coat-detachable-fur-collar\",\"Women's Mid-Length Hooded Puffer Coat with Detachable Fur Collar\")",
+      "priceCurrent": 72.9,
+      "priceSheet": 72.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589728420128",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 19,
+      "oldUrl": "https://zeratta.com/products/mens-reversible-stand-collar-puffer-jacket-side-pockets",
+      "newUrl": "https://zeratta.com/products/mens-reversible-stand-collar-puffer-jacket-side-pockets",
+      "oldTitle": "Men's Reversible Stand Collar Puffer Jacket with Side Pockets",
+      "newTitle": "Men's Reversible Stand Collar Puffer Jacket with Side Pockets",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-reversible-stand-collar-puffer-jacket-side-pockets\",\"Men's Reversible Stand Collar Puffer Jacket with Side Pockets\")",
+      "priceCurrent": 91.9,
+      "priceSheet": 91.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589729042720",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 2,
+      "oldUrl": "https://zeratta.com/products/unisex-stand-collar-polyester-puffer-jacket",
+      "newUrl": "https://zeratta.com/products/unisex-stand-collar-polyester-puffer-jacket",
+      "oldTitle": "Stand Collar Thickened Cotton Coat Unisex Oversized Short Puffer Jacket",
+      "newTitle": "Stand Collar Thickened Cotton Coat Unisex Oversized Short Puffer Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/unisex-stand-collar-polyester-puffer-jacket\",\"Stand Collar Thickened Cotton Coat Unisex Oversized Short Puffer Jacket\")",
+      "priceCurrent": 90.9,
+      "priceSheet": 90.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589731107104",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 23,
+      "oldUrl": "https://zeratta.com/products/womens-hooded-white-duck-down-puffer-jacket-jacquard-pattern",
+      "newUrl": "https://zeratta.com/products/womens-hooded-white-duck-down-puffer-jacket-jacquard-pattern",
+      "oldTitle": "Women's Hooded White Duck Down Puffer Jacket with Jacquard Pattern",
+      "newTitle": "Women's Hooded White Duck Down Puffer Jacket with Jacquard Pattern",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-hooded-white-duck-down-puffer-jacket-jacquard-pattern\",\"Women's Hooded White Duck Down Puffer Jacket with Jacquard Pattern\")",
+      "priceCurrent": 87.9,
+      "priceSheet": 87.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589731402016",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 25,
+      "oldUrl": "https://zeratta.com/products/short-jacket",
+      "newUrl": "https://zeratta.com/products/short-jacket",
+      "oldTitle": "Short jacket",
+      "newTitle": "Short jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/short-jacket\",\"Short jacket\")",
+      "priceCurrent": 83.9,
+      "priceSheet": 83.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589731500320",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 15,
+      "oldUrl": "https://zeratta.com/products/wool-collar-jacket-short-cotton-jacket",
+      "newUrl": "https://zeratta.com/products/wool-collar-jacket-short-cotton-jacket",
+      "oldTitle": "Wool collar jacket short cotton jacket",
+      "newTitle": "Wool collar jacket short cotton jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/wool-collar-jacket-short-cotton-jacket\",\"Wool collar jacket short cotton jacket\")",
+      "priceCurrent": 101.9,
+      "priceSheet": 101.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589732385056",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 4,
+      "oldUrl": "https://zeratta.com/products/mens-hooded-polyester-zip-up-winter-jacket",
+      "newUrl": "https://zeratta.com/products/mens-hooded-polyester-zip-up-winter-jacket",
+      "oldTitle": "Men's Casual Thickened Hooded Quilted Long Sleeve Loose Cotton Puffer Jacket",
+      "newTitle": "Men's Casual Thickened Hooded Quilted Long Sleeve Loose Cotton Puffer Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-hooded-polyester-zip-up-winter-jacket\",\"Men's Casual Thickened Hooded Quilted Long Sleeve Loose Cotton Puffer Jacket\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589733073184",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 12,
+      "oldUrl": "https://zeratta.com/products/womens-loose-fit-hooded-winter-puffer-jacket-zip-front",
+      "newUrl": "https://zeratta.com/products/womens-loose-fit-hooded-winter-puffer-jacket-zip-front",
+      "oldTitle": "Women's Loose Fit Hooded Winter Puffer Jacket with Zip Front",
+      "newTitle": "Women's Loose Fit Hooded Winter Puffer Jacket with Zip Front",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-loose-fit-hooded-winter-puffer-jacket-zip-front\",\"Women's Loose Fit Hooded Winter Puffer Jacket with Zip Front\")",
+      "priceCurrent": 70.9,
+      "priceSheet": 70.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589733302560",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 4,
+      "oldUrl": "https://zeratta.com/products/unisex-hooded-wave-design-puffer-jacket",
+      "newUrl": "https://zeratta.com/products/unisex-hooded-wave-design-puffer-jacket",
+      "oldTitle": "Style Puffer Coat with Wave Design, Unisex Hooded Thickened Warm Cotton Jacket",
+      "newTitle": "Style Puffer Coat with Wave Design, Unisex Hooded Thickened Warm Cotton Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/unisex-hooded-wave-design-puffer-jacket\",\"Style Puffer Coat with Wave Design, Unisex Hooded Thickened Warm Cotton Jacket\")",
+      "priceCurrent": 94.9,
+      "priceSheet": 94.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589733368096",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 23,
+      "oldUrl": "https://zeratta.com/products/loose-long-sleeved-jacket",
+      "newUrl": "https://zeratta.com/products/loose-long-sleeved-jacket",
+      "oldTitle": "Loose long sleeved jacket",
+      "newTitle": "Loose long sleeved jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/loose-long-sleeved-jacket\",\"Loose long sleeved jacket\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589735563552",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 5,
+      "oldUrl": "https://zeratta.com/products/womens-little-chanel-white-hooded-waist-cinching-thickened",
+      "newUrl": "https://zeratta.com/products/womens-little-chanel-white-hooded-waist-cinching-thickened",
+      "oldTitle": "Little Chanel White Hooded Waist-Cinching Thickened Puffer Coat for Women",
+      "newTitle": "Little Chanel White Hooded Waist-Cinching Thickened Puffer Coat for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-little-chanel-white-hooded-waist-cinching-thickened\",\"Little Chanel White Hooded Waist-Cinching Thickened Puffer Coat for Women\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589736579360",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 17,
+      "oldUrl": "https://zeratta.com/products/womens-winter-puffer-coat-long-sleeves",
+      "newUrl": "https://zeratta.com/products/womens-winter-puffer-coat-long-sleeves",
+      "oldTitle": "Women's Winter Puffer Coat with Long Sleeves",
+      "newTitle": "Women's Winter Puffer Coat with Long Sleeves",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-winter-puffer-coat-long-sleeves\",\"Women's Winter Puffer Coat with Long Sleeves\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589737857312",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 4,
+      "oldUrl": "https://zeratta.com/products/womens-faux-leather-stand-collar-puffer",
+      "newUrl": "https://zeratta.com/products/womens-faux-leather-stand-collar-puffer",
+      "oldTitle": "Women Winter PU Leather Short Stand Collar Puffer",
+      "newTitle": "Women Winter PU Leather Short Stand Collar Puffer",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-faux-leather-stand-collar-puffer\",\"Women Winter PU Leather Short Stand Collar Puffer\")",
+      "priceCurrent": 75.9,
+      "priceSheet": 75.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589738316064",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 32,
+      "oldUrl": "https://zeratta.com/products/mens-plush-casual-jacket",
+      "newUrl": "https://zeratta.com/products/mens-plush-casual-jacket",
+      "oldTitle": "Men's jacket with plush cotton fabric, casual jacket, men's jacket",
+      "newTitle": "Men's jacket with plush cotton fabric, casual jacket, men's jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-plush-casual-jacket\",\"Men's jacket with plush cotton fabric, casual jacket, men's jacket\")",
+      "priceCurrent": 72.9,
+      "priceSheet": 72.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589738447136",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 22,
+      "oldUrl": "https://zeratta.com/products/detachable-hat-waist-jacket",
+      "newUrl": "https://zeratta.com/products/detachable-hat-waist-jacket",
+      "oldTitle": "Detachable hat waist jacket",
+      "newTitle": "Detachable hat waist jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/detachable-hat-waist-jacket\",\"Detachable hat waist jacket\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589739528480",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 27,
+      "oldUrl": "https://zeratta.com/products/knitted-cotton-jacket-versatile-jacket",
+      "newUrl": "https://zeratta.com/products/knitted-cotton-jacket-versatile-jacket",
+      "oldTitle": "Knitted cotton jacket versatile jacket",
+      "newTitle": "Knitted cotton jacket versatile jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/knitted-cotton-jacket-versatile-jacket\",\"Knitted cotton jacket versatile jacket\")",
+      "priceCurrent": 82.9,
+      "priceSheet": 82.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589739594016",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 13,
+      "oldUrl": "https://zeratta.com/products/unisex-polyester-filled-winter-zip-up-jacket-relaxed-fit",
+      "newUrl": "https://zeratta.com/products/unisex-polyester-filled-winter-zip-up-jacket-relaxed-fit",
+      "oldTitle": "Unisex Polyester-Filled Winter Zip-Up Jacket with Relaxed Fit",
+      "newTitle": "Unisex Polyester-Filled Winter Zip-Up Jacket with Relaxed Fit",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/unisex-polyester-filled-winter-zip-up-jacket-relaxed-fit\",\"Unisex Polyester-Filled Winter Zip-Up Jacket with Relaxed Fit\")",
+      "priceCurrent": 82.9,
+      "priceSheet": 82.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589744083232",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 20,
+      "oldUrl": "https://zeratta.com/products/hooded-long-sleeved-jacket",
+      "newUrl": "https://zeratta.com/products/hooded-long-sleeved-jacket",
+      "oldTitle": "Hooded long sleeved jacket",
+      "newTitle": "Hooded long sleeved jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/hooded-long-sleeved-jacket\",\"Hooded long sleeved jacket\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15589744378144",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 25,
+      "oldUrl": "https://zeratta.com/products/mens-casual-down-jacket-two-way-zipper-hooded-puffer-coat",
+      "newUrl": "https://zeratta.com/products/mens-casual-down-jacket-two-way-zipper-hooded-puffer-coat",
+      "oldTitle": "Men's Casual Down Jacket Two-Way Zipper Hooded Puffer Coat",
+      "newTitle": "Men's Casual Down Jacket Two-Way Zipper Hooded Puffer Coat",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-casual-down-jacket-two-way-zipper-hooded-puffer-coat\",\"Men's Casual Down Jacket Two-Way Zipper Hooded Puffer Coat\")",
+      "priceCurrent": 343.29,
+      "priceSheet": 343.29,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591445332256",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 16,
+      "oldUrl": "https://zeratta.com/products/womens-round-toe-lace-up-ankle-boots-chunky-rubber-sole",
+      "newUrl": "https://zeratta.com/products/womens-round-toe-lace-up-ankle-boots-chunky-rubber-sole",
+      "oldTitle": "Women's Round-Toe Lace-Up Ankle Boots with Chunky Rubber Sole",
+      "newTitle": "Women's Round-Toe Lace-Up Ankle Boots with Chunky Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-round-toe-lace-up-ankle-boots-chunky-rubber-sole\",\"Women's Round-Toe Lace-Up Ankle Boots with Chunky Rubber Sole\")",
+      "priceCurrent": 73.59,
+      "priceSheet": 73.59,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591445365024",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 43,
+      "oldUrl": "https://zeratta.com/products/mens-work-safety-boots-boots-chelsea-boots-steel-toe-safey",
+      "newUrl": "https://zeratta.com/products/mens-work-safety-boots-boots-chelsea-boots-steel-toe-safey",
+      "oldTitle": "Work Safety Boots Men's Boots Chelsea Boots Steel Toe Safey Shoes",
+      "newTitle": "Work Safety Boots Men's Boots Chelsea Boots Steel Toe Safey Shoes",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-work-safety-boots-boots-chelsea-boots-steel-toe-safey\",\"Work Safety Boots Men's Boots Chelsea Boots Steel Toe Safey Shoes\")",
+      "priceCurrent": 77.9,
+      "priceSheet": 77.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591445397792",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 2,
+      "oldUrl": "https://zeratta.com/products/mens-retro-high-top-lace-up-ankle-boots",
+      "newUrl": "https://zeratta.com/products/mens-retro-high-top-lace-up-ankle-boots",
+      "oldTitle": "Men's Retro High-Top Lace-Up Ankle Boots",
+      "newTitle": "Men's Retro High-Top Lace-Up Ankle Boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-retro-high-top-lace-up-ankle-boots\",\"Men's Retro High-Top Lace-Up Ankle Boots\")",
+      "priceCurrent": 72.9,
+      "priceSheet": 72.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591445430560",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 94,
+      "oldUrl": "https://zeratta.com/products/womens-lace-up-ankle-boots-microfibre-upper-rubber-sole",
+      "newUrl": "https://zeratta.com/products/womens-lace-up-ankle-boots-microfibre-upper-rubber-sole",
+      "oldTitle": "Women's Lace-Up Ankle Boots with Microfibre Upper and Rubber Sole",
+      "newTitle": "Women's Lace-Up Ankle Boots with Microfibre Upper and Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-lace-up-ankle-boots-microfibre-upper-rubber-sole\",\"Women's Lace-Up Ankle Boots with Microfibre Upper and Rubber Sole\")",
+      "priceCurrent": 155.67,
+      "priceSheet": 155.67,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591446642976",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 30,
+      "oldUrl": "https://zeratta.com/products/unisex-faux-leather-lace-up-ankle-boots-rubber-sole",
+      "newUrl": "https://zeratta.com/products/unisex-faux-leather-lace-up-ankle-boots-rubber-sole",
+      "oldTitle": "Unisex Faux Leather Lace-Up Ankle Boots with Rubber Sole",
+      "newTitle": "Unisex Faux Leather Lace-Up Ankle Boots with Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/unisex-faux-leather-lace-up-ankle-boots-rubber-sole\",\"Unisex Faux Leather Lace-Up Ankle Boots with Rubber Sole\")",
+      "priceCurrent": 66.9,
+      "priceSheet": 66.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591448019232",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 44,
+      "oldUrl": "https://zeratta.com/products/mens-plush-lined-suede-work-ankle-boots-rubber-sole",
+      "newUrl": "https://zeratta.com/products/mens-plush-lined-suede-work-ankle-boots-rubber-sole",
+      "oldTitle": "Men's Plush-Lined Suede Work-Style Ankle Boots with Rubber Sole",
+      "newTitle": "Men's Plush-Lined Suede Work-Style Ankle Boots with Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-plush-lined-suede-work-ankle-boots-rubber-sole\",\"Men's Plush-Lined Suede Work-Style Ankle Boots with Rubber Sole\")",
+      "priceCurrent": 71.9,
+      "priceSheet": 71.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591449723168",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 20,
+      "oldUrl": "https://zeratta.com/products/mens-high-top-mixed-material-boots-rubber-sole",
+      "newUrl": "https://zeratta.com/products/mens-high-top-mixed-material-boots-rubber-sole",
+      "oldTitle": "Men's High-Top Mixed-Material Boots with Rubber Sole",
+      "newTitle": "Men's High-Top Mixed-Material Boots with Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-high-top-mixed-material-boots-rubber-sole\",\"Men's High-Top Mixed-Material Boots with Rubber Sole\")",
+      "priceCurrent": 69.81,
+      "priceSheet": 69.81,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591449821472",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 7,
+      "oldUrl": "https://zeratta.com/products/mens-faux-leather-lace-up-ankle-boots-side-zip",
+      "newUrl": "https://zeratta.com/products/mens-faux-leather-lace-up-ankle-boots-side-zip",
+      "oldTitle": "Men's Faux Leather Lace-Up Ankle Boots with Side Zip",
+      "newTitle": "Men's Faux Leather Lace-Up Ankle Boots with Side Zip",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-faux-leather-lace-up-ankle-boots-side-zip\",\"Men's Faux Leather Lace-Up Ankle Boots with Side Zip\")",
+      "priceCurrent": 66.9,
+      "priceSheet": 66.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591450575136",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 36,
+      "oldUrl": "https://zeratta.com/products/womens-tall-faux-leather-low-heel-zip-boots",
+      "newUrl": "https://zeratta.com/products/womens-tall-faux-leather-low-heel-zip-boots",
+      "oldTitle": "Winter new low heel side zipper 34-43 suede high leg women's boots boots",
+      "newTitle": "Winter new low heel side zipper 34-43 suede high leg women's boots boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-tall-faux-leather-low-heel-zip-boots\",\"Winter new low heel side zipper 34-43 suede high leg women's boots boots\")",
+      "priceCurrent": 92.13,
+      "priceSheet": 92.13,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591451558176",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 45,
+      "oldUrl": "https://zeratta.com/products/mens-mixed-material-lace-up-boots-pvc-sole",
+      "newUrl": "https://zeratta.com/products/mens-mixed-material-lace-up-boots-pvc-sole",
+      "oldTitle": "Men's Mixed-Material Lace-Up Boots with PVC Sole",
+      "newTitle": "Men's Mixed-Material Lace-Up Boots with PVC Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-mixed-material-lace-up-boots-pvc-sole\",\"Men's Mixed-Material Lace-Up Boots with PVC Sole\")",
+      "priceCurrent": 80.34,
+      "priceSheet": 80.34,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591453327648",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 36,
+      "oldUrl": "https://zeratta.com/products/mens-high-top-faux-leather-lace-up-boots-rubber-sole",
+      "newUrl": "https://zeratta.com/products/mens-high-top-faux-leather-lace-up-boots-rubber-sole",
+      "oldTitle": "Men's High-Top Faux Leather Lace-Up Boots with Rubber Sole",
+      "newTitle": "Men's High-Top Faux Leather Lace-Up Boots with Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-high-top-faux-leather-lace-up-boots-rubber-sole\",\"Men's High-Top Faux Leather Lace-Up Boots with Rubber Sole\")",
+      "priceCurrent": 108.78,
+      "priceSheet": 108.78,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591453720864",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 78,
+      "oldUrl": "https://zeratta.com/products/full-cow-suede-over-the-knee-high-boots-lady",
+      "newUrl": "https://zeratta.com/products/full-cow-suede-over-the-knee-high-boots-lady",
+      "oldTitle": "full cow suede over the knee-high boots lady",
+      "newTitle": "full cow suede over the knee-high boots lady",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/full-cow-suede-over-the-knee-high-boots-lady\",\"full cow suede over the knee-high boots lady\")",
+      "priceCurrent": 258.42,
+      "priceSheet": 258.42,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591454179616",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 7,
+      "oldUrl": "https://zeratta.com/products/womens-over-knee-high-heel-boots-side-zip",
+      "newUrl": "https://zeratta.com/products/womens-over-knee-high-heel-boots-side-zip",
+      "oldTitle": "Women's Over-the-Knee High-Heel Boots with Side Zip",
+      "newTitle": "Women's Over-the-Knee High-Heel Boots with Side Zip",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-over-knee-high-heel-boots-side-zip\",\"Women's Over-the-Knee High-Heel Boots with Side Zip\")",
+      "priceCurrent": 85.9,
+      "priceSheet": 85.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591456637216",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 3,
+      "oldUrl": "https://zeratta.com/products/round-toe-suede-low-heel-boots",
+      "newUrl": "https://zeratta.com/products/round-toe-suede-low-heel-boots",
+      "oldTitle": "Round Toe Suede Low Heel Boots",
+      "newTitle": "Round Toe Suede Low Heel Boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/round-toe-suede-low-heel-boots\",\"Round Toe Suede Low Heel Boots\")",
+      "priceCurrent": 64.23,
+      "priceSheet": 64.23,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591458046240",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 9,
+      "oldUrl": "https://zeratta.com/products/zipper-low-heeled-long-leg-boots-high-leg-womens-boots",
+      "newUrl": "https://zeratta.com/products/zipper-low-heeled-long-leg-boots-high-leg-womens-boots",
+      "oldTitle": "Zipper low heeled long leg boots high leg women's boots",
+      "newTitle": "Zipper low heeled long leg boots high leg women's boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/zipper-low-heeled-long-leg-boots-high-leg-womens-boots\",\"Zipper low heeled long leg boots high leg women's boots\")",
+      "priceCurrent": 83.9,
+      "priceSheet": 83.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591458177312",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 93,
+      "oldUrl": "https://zeratta.com/products/womens-over-knee-suede-boots-chunky-heel",
+      "newUrl": "https://zeratta.com/products/womens-over-knee-suede-boots-chunky-heel",
+      "oldTitle": "Women's Over-the-Knee Suede Boots with Chunky Heel",
+      "newTitle": "Women's Over-the-Knee Suede Boots with Chunky Heel",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-over-knee-suede-boots-chunky-heel\",\"Women's Over-the-Knee Suede Boots with Chunky Heel\")",
+      "priceCurrent": 78.9,
+      "priceSheet": 78.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591458242848",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 42,
+      "oldUrl": "https://zeratta.com/products/womens-plush-mid-calf-heeled-boots",
+      "newUrl": "https://zeratta.com/products/womens-plush-mid-calf-heeled-boots",
+      "oldTitle": "Height increasing short boots with plush chimney single boots",
+      "newTitle": "Height increasing short boots with plush chimney single boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-plush-mid-calf-heeled-boots\",\"Height increasing short boots with plush chimney single boots\")",
+      "priceCurrent": 82.9,
+      "priceSheet": 82.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591461323040",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 2,
+      "oldUrl": "https://zeratta.com/products/womens-chunky-sole-faux-leather-mid-calf-winter-boots",
+      "newUrl": "https://zeratta.com/products/womens-chunky-sole-faux-leather-mid-calf-winter-boots",
+      "oldTitle": "Women's Chunky-Sole Faux Leather Mid-Calf Winter Boots",
+      "newTitle": "Women's Chunky-Sole Faux Leather Mid-Calf Winter Boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-chunky-sole-faux-leather-mid-calf-winter-boots\",\"Women's Chunky-Sole Faux Leather Mid-Calf Winter Boots\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591461945632",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 14,
+      "oldUrl": "https://zeratta.com/products/womens-tall-flat-heel-boots-back-zip-rubber-sole",
+      "newUrl": "https://zeratta.com/products/womens-tall-flat-heel-boots-back-zip-rubber-sole",
+      "oldTitle": "Women's Tall Flat-Heel Boots with Back Zip and Rubber Sole",
+      "newTitle": "Women's Tall Flat-Heel Boots with Back Zip and Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-tall-flat-heel-boots-back-zip-rubber-sole\",\"Women's Tall Flat-Heel Boots with Back Zip and Rubber Sole\")",
+      "priceCurrent": 68.9,
+      "priceSheet": 68.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591462207776",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 91,
+      "oldUrl": "https://zeratta.com/products/womens-low-heel-faux-leather-ankle-boots-round-toe",
+      "newUrl": "https://zeratta.com/products/womens-low-heel-faux-leather-ankle-boots-round-toe",
+      "oldTitle": "Women's Low-Heel Faux Leather Ankle Boots with Round Toe",
+      "newTitle": "Women's Low-Heel Faux Leather Ankle Boots with Round Toe",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-low-heel-faux-leather-ankle-boots-round-toe\",\"Women's Low-Heel Faux Leather Ankle Boots with Round Toe\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591463485728",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 45,
+      "oldUrl": "https://zeratta.com/products/comfortable-low-heeled-oversized-low-cut-womens-boots",
+      "newUrl": "https://zeratta.com/products/comfortable-low-heeled-oversized-low-cut-womens-boots",
+      "oldTitle": "Comfortable low heeled oversized low cut women's boots",
+      "newTitle": "Comfortable low heeled oversized low cut women's boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/comfortable-low-heeled-oversized-low-cut-womens-boots\",\"Comfortable low heeled oversized low cut women's boots\")",
+      "priceCurrent": 64.08,
+      "priceSheet": 64.08,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591463813408",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 60,
+      "oldUrl": "https://zeratta.com/products/womens-high-heel-faux-leather-ankle-boots-side-zip",
+      "newUrl": "https://zeratta.com/products/womens-high-heel-faux-leather-ankle-boots-side-zip",
+      "oldTitle": "Women's High-Heel Faux Leather Ankle Boots with Side Zip",
+      "newTitle": "Women's High-Heel Faux Leather Ankle Boots with Side Zip",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-high-heel-faux-leather-ankle-boots-side-zip\",\"Women's High-Heel Faux Leather Ankle Boots with Side Zip\")",
+      "priceCurrent": 62.9,
+      "priceSheet": 62.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591466402080",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 77,
+      "oldUrl": "https://zeratta.com/products/womens-longline-waist-cinched-trench-coat",
+      "newUrl": "https://zeratta.com/products/womens-longline-waist-cinched-trench-coat",
+      "oldTitle": "Slim-Fitting Waist-Cinching Street-Style Long Leather Trench Coat for Women",
+      "newTitle": "Slim-Fitting Waist-Cinching Street-Style Long Leather Trench Coat for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-longline-waist-cinched-trench-coat\",\"Slim-Fitting Waist-Cinching Street-Style Long Leather Trench Coat for Women\")",
+      "priceCurrent": 147.39,
+      "priceSheet": 147.39,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591466434848",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 21,
+      "oldUrl": "https://zeratta.com/products/vintage-brown-suede-coat-for-men-long-autumn-winter-jacket",
+      "newUrl": "https://zeratta.com/products/vintage-brown-suede-coat-for-men-long-autumn-winter-jacket",
+      "oldTitle": "Vintage Brown Suede Coat for Men, Long Autumn/Winter Jacket",
+      "newTitle": "Vintage Brown Suede Coat for Men, Long Autumn/Winter Jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/vintage-brown-suede-coat-for-men-long-autumn-winter-jacket\",\"Vintage Brown Suede Coat for Men, Long Autumn/Winter Jacket\")",
+      "priceCurrent": 94.9,
+      "priceSheet": 94.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591466893600",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 55,
+      "oldUrl": "https://zeratta.com/products/womens-chelsea-ankle-boots-round-toe",
+      "newUrl": "https://zeratta.com/products/womens-chelsea-ankle-boots-round-toe",
+      "oldTitle": "Women's Chelsea-Style Ankle Boots with Round Toe",
+      "newTitle": "Women's Chelsea-Style Ankle Boots with Round Toe",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-chelsea-ankle-boots-round-toe\",\"Women's Chelsea-Style Ankle Boots with Round Toe\")",
+      "priceCurrent": 94.9,
+      "priceSheet": 94.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591467122976",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 89,
+      "oldUrl": "https://zeratta.com/products/womens-brown-single-breasted-trench-coat",
+      "newUrl": "https://zeratta.com/products/womens-brown-single-breasted-trench-coat",
+      "oldTitle": "Collar long sleeved single breasted solid color trench coat for women",
+      "newTitle": "Collar long sleeved single breasted solid color trench coat for women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-brown-single-breasted-trench-coat\",\"Collar long sleeved single breasted solid color trench coat for women\")",
+      "priceCurrent": 128.85,
+      "priceSheet": 128.85,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591470825760",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 29,
+      "oldUrl": "https://zeratta.com/products/nomadic-faux-fur-lapel-double-breasted-trench-coat-jacket",
+      "newUrl": "https://zeratta.com/products/nomadic-faux-fur-lapel-double-breasted-trench-coat-jacket",
+      "oldTitle": "Nomadic style faux fur lapel double breasted trench coat jacket",
+      "newTitle": "Nomadic style faux fur lapel double breasted trench coat jacket",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/nomadic-faux-fur-lapel-double-breasted-trench-coat-jacket\",\"Nomadic style faux fur lapel double breasted trench coat jacket\")",
+      "priceCurrent": 127.5,
+      "priceSheet": 127.5,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591470956832",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 59,
+      "oldUrl": "https://zeratta.com/products/womens-green-single-breasted-trench-coat",
+      "newUrl": "https://zeratta.com/products/womens-green-single-breasted-trench-coat",
+      "oldTitle": "Collar long sleeved single breasted solid color trench coat for women",
+      "newTitle": "Collar long sleeved single breasted solid color trench coat for women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-green-single-breasted-trench-coat\",\"Collar long sleeved single breasted solid color trench coat for women\")",
+      "priceCurrent": 89.9,
+      "priceSheet": 89.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591471448352",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 6,
+      "oldUrl": "https://zeratta.com/products/mens-double-breasted-longline-overcoat-slim-fit",
+      "newUrl": "https://zeratta.com/products/mens-double-breasted-longline-overcoat-slim-fit",
+      "oldTitle": "Men's Double-Breasted Longline Overcoat with Slim Fit",
+      "newTitle": "Men's Double-Breasted Longline Overcoat with Slim Fit",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-double-breasted-longline-overcoat-slim-fit\",\"Men's Double-Breasted Longline Overcoat with Slim Fit\")",
+      "priceCurrent": 74.9,
+      "priceSheet": 74.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591471546656",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 37,
+      "oldUrl": "https://zeratta.com/products/womens-single-breasted-mid-length-polyester-coat-turn-down",
+      "newUrl": "https://zeratta.com/products/womens-single-breasted-mid-length-polyester-coat-turn-down",
+      "oldTitle": "Women's Single-Breasted Mid-Length Polyester Coat with Turn-Down Collar",
+      "newTitle": "Women's Single-Breasted Mid-Length Polyester Coat with Turn-Down Collar",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-single-breasted-mid-length-polyester-coat-turn-down\",\"Women's Single-Breasted Mid-Length Polyester Coat with Turn-Down Collar\")",
+      "priceCurrent": 63.96,
+      "priceSheet": 63.96,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591474135328",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 61,
+      "oldUrl": "https://zeratta.com/products/womens-faux-leather-winter-boots-rubber-sole",
+      "newUrl": "https://zeratta.com/products/womens-faux-leather-winter-boots-rubber-sole",
+      "oldTitle": "Women's Faux Leather Winter Boots with Rubber Sole",
+      "newTitle": "Women's Faux Leather Winter Boots with Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-faux-leather-winter-boots-rubber-sole\",\"Women's Faux Leather Winter Boots with Rubber Sole\")",
+      "priceCurrent": 77.01,
+      "priceSheet": 77.01,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591475544352",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 41,
+      "oldUrl": "https://zeratta.com/products/womens-lace-up-faux-leather-short-boots-thick-rubber-sole",
+      "newUrl": "https://zeratta.com/products/womens-lace-up-faux-leather-short-boots-thick-rubber-sole",
+      "oldTitle": "Women's Lace-Up Faux Leather Short Boots with Thick Rubber Sole",
+      "newTitle": "Women's Lace-Up Faux Leather Short Boots with Thick Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-lace-up-faux-leather-short-boots-thick-rubber-sole\",\"Women's Lace-Up Faux Leather Short Boots with Thick Rubber Sole\")",
+      "priceCurrent": 76.9,
+      "priceSheet": 76.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591475904800",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 3,
+      "oldUrl": "https://zeratta.com/products/womens-belted-longline-trench-coat-solid-colour-finish",
+      "newUrl": "https://zeratta.com/products/womens-belted-longline-trench-coat-solid-colour-finish",
+      "oldTitle": "Women's Belted Longline Trench Coat with Solid-Colour Finish",
+      "newTitle": "Women's Belted Longline Trench Coat with Solid-Colour Finish",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-belted-longline-trench-coat-solid-colour-finish\",\"Women's Belted Longline Trench Coat with Solid-Colour Finish\")",
+      "priceCurrent": 83.9,
+      "priceSheet": 83.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591476855072",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 90,
+      "oldUrl": "https://zeratta.com/products/womens-khaki-single-breasted-trench-coat",
+      "newUrl": "https://zeratta.com/products/womens-khaki-single-breasted-trench-coat",
+      "oldTitle": "Collar long sleeved single breasted solid color trench coat for women",
+      "newTitle": "Collar long sleeved single breasted solid color trench coat for women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-khaki-single-breasted-trench-coat\",\"Collar long sleeved single breasted solid color trench coat for women\")",
+      "priceCurrent": 133.11,
+      "priceSheet": 133.11,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591479247136",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 15,
+      "oldUrl": "https://zeratta.com/products/simple-suede-like-effect-mid-length-trench-coat-for-women",
+      "newUrl": "https://zeratta.com/products/simple-suede-like-effect-mid-length-trench-coat-for-women",
+      "oldTitle": "Simple Suede-Like Effect Mid-Length Trench Coat for Women",
+      "newTitle": "Simple Suede-Like Effect Mid-Length Trench Coat for Women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/simple-suede-like-effect-mid-length-trench-coat-for-women\",\"Simple Suede-Like Effect Mid-Length Trench Coat for Women\")",
+      "priceCurrent": 79.9,
+      "priceSheet": 79.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591479705888",
+      "tab": "Unisex & Review",
+      "sheetId": 424904171,
+      "row": 11,
+      "oldUrl": "https://zeratta.com/products/classic-solid-colour-winter-overcoat",
+      "newUrl": "https://zeratta.com/products/classic-solid-colour-winter-overcoat",
+      "oldTitle": "Classic Solid-Colour Winter Overcoat",
+      "newTitle": "Classic Solid-Colour Winter Overcoat",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/classic-solid-colour-winter-overcoat\",\"Classic Solid-Colour Winter Overcoat\")",
+      "priceCurrent": 89.9,
+      "priceSheet": 89.9,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591479738656",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 81,
+      "oldUrl": "https://zeratta.com/products/womens-belted-trench-coat-polyester-fabric",
+      "newUrl": "https://zeratta.com/products/womens-belted-trench-coat-polyester-fabric",
+      "oldTitle": "Women's Belted Trench Coat with Polyester Fabric",
+      "newTitle": "Women's Belted Trench Coat with Polyester Fabric",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-belted-trench-coat-polyester-fabric\",\"Women's Belted Trench Coat with Polyester Fabric\")",
+      "priceCurrent": 96.21,
+      "priceSheet": 96.21,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591479968032",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 40,
+      "oldUrl": "https://zeratta.com/products/womens-hooded-cotton-blend-winter-coat-long-sleeves",
+      "newUrl": "https://zeratta.com/products/womens-hooded-cotton-blend-winter-coat-long-sleeves",
+      "oldTitle": "Women's Hooded Cotton-Blend Winter Coat with Long Sleeves",
+      "newTitle": "Women's Hooded Cotton-Blend Winter Coat with Long Sleeves",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-hooded-cotton-blend-winter-coat-long-sleeves\",\"Women's Hooded Cotton-Blend Winter Coat with Long Sleeves\")",
+      "priceCurrent": 89.9,
+      "priceSheet": 89.9,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15591480328480",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 80,
+      "oldUrl": "https://zeratta.com/products/womens-dark-grey-single-breasted-trench-coat",
+      "newUrl": "https://zeratta.com/products/womens-dark-grey-single-breasted-trench-coat",
+      "oldTitle": "Long sleeved single breasted solid color trench coat for women",
+      "newTitle": "Long sleeved single breasted solid color trench coat for women",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/womens-dark-grey-single-breasted-trench-coat\",\"Long sleeved single breasted solid color trench coat for women\")",
+      "priceCurrent": 93.87,
+      "priceSheet": 93.87,
+      "statusCurrent": "Draft",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371321632",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 51,
+      "oldUrl": "https://zeratta.com/products/mens-autumn-winter-retro-fashion-high-top-shoes-martin-boots-work-boots-motorcycle-boots-labor-protection-shoes",
+      "newUrl": "https://zeratta.com/products/mens-cloth-high-top-lace-up-boots-rubber-sole",
+      "oldTitle": "Men's autumn winter retro fashion high-top shoes Martin boots work boots motorcycle boots labor protection shoes",
+      "newTitle": "Men's Cloth High-Top Lace-Up Boots with Rubber Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-autumn-winter-retro-fashion-high-top-shoes-martin-boots-work-boots-motorcycle-boots-labor-protection-shoes\",\"Men's autumn winter retro fashion high-top shoes Martin boots work boots motorcycle boots labor protection shoes\")",
+      "priceCurrent": 84.03,
+      "priceSheet": 84.03,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371354400",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 52,
+      "oldUrl": "https://zeratta.com/products/martin-boots-mens-british-style-motorcycle-workwear-boots-thick-soled-versatile-high-top-yellow-boots-trendy-mens-shoes",
+      "newUrl": "https://zeratta.com/products/mens-retro-mid-top-lace-up-boots-pvc-sole",
+      "oldTitle": "Martin boots men's British style motorcycle workwear boots thick soled versatile high top yellow boots trendy men's shoes",
+      "newTitle": "Men's Retro Mid-Top Lace-Up Boots with PVC Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/martin-boots-mens-british-style-motorcycle-workwear-boots-thick-soled-versatile-high-top-yellow-boots-trendy-mens-shoes\",\"Martin boots men's British style motorcycle workwear boots thick soled versatile high top yellow boots trendy men's shoes\")",
+      "priceCurrent": 96.72,
+      "priceSheet": 96.72,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371387168",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 53,
+      "oldUrl": "https://zeratta.com/products/martin-boots-mens-autumn-new-style-british-style-workwear-boots-fashionable-mens-casual-mid-top-boots",
+      "newUrl": "https://zeratta.com/products/mens-mixed-material-mid-top-lace-up-boots",
+      "oldTitle": "Martin boots men's autumn new style British style workwear boots fashionable men's casual mid top boots",
+      "newTitle": "Men's Mixed-Material Mid-Top Lace-Up Boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/martin-boots-mens-autumn-new-style-british-style-workwear-boots-fashionable-mens-casual-mid-top-boots\",\"Martin boots men's autumn new style British style workwear boots fashionable men's casual mid top boots\")",
+      "priceCurrent": 69.12,
+      "priceSheet": 69.12,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371419936",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 54,
+      "oldUrl": "https://zeratta.com/products/mens-snow-boots-with-winter-fleece-insulation-outdoor-boots-cotton-shoes-lightweight-boots",
+      "newUrl": "https://zeratta.com/products/mens-faux-suede-lace-up-snow-boots-eva-sole",
+      "oldTitle": "Men's snow boots with winter fleece insulation, outdoor boots, cotton shoes, lightweight boots",
+      "newTitle": "Men's Faux Suede Lace-Up Snow Boots with EVA Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-snow-boots-with-winter-fleece-insulation-outdoor-boots-cotton-shoes-lightweight-boots\",\"Men's snow boots with winter fleece insulation, outdoor boots, cotton shoes, lightweight boots\")",
+      "priceCurrent": 69.75,
+      "priceSheet": 69.75,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371452704",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 55,
+      "oldUrl": "https://zeratta.com/products/rhubarb-boots-anti-slip-trendy-waterproof-british-martin-boots",
+      "newUrl": "https://zeratta.com/products/mens-faux-leather-high-top-round-toe-boots",
+      "oldTitle": "Rhubarb boots anti slip trendy waterproof British Martin boots",
+      "newTitle": "Men's Faux Leather High-Top Round-Toe Boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/rhubarb-boots-anti-slip-trendy-waterproof-british-martin-boots\",\"Rhubarb boots anti slip trendy waterproof British Martin boots\")",
+      "priceCurrent": 74.4,
+      "priceSheet": 74.4,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371485472",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 56,
+      "oldUrl": "https://zeratta.com/products/winter-boots-steel-toe-safety-boots",
+      "newUrl": "https://zeratta.com/products/mens-winter-work-style-ankle-boots",
+      "oldTitle": "Winter Boots Steel Toe Safety Boots",
+      "newTitle": "Men's Winter Work-Style Ankle Boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/winter-boots-steel-toe-safety-boots\",\"Winter Boots Steel Toe Safety Boots\")",
+      "priceCurrent": 110.49,
+      "priceSheet": 110.49,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371551008",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 57,
+      "oldUrl": "https://zeratta.com/products/winter-boots-men-safety-shoes-indestructible-work-shoes-puncture-proof-work-sneakers-male-steel-toe-shoes-work-safety-boots",
+      "newUrl": "https://zeratta.com/products/mens-work-inspired-winter-boots",
+      "oldTitle": "Winter Boots Men Safety Shoes Indestructible Work Shoes Puncture-Proof Work Sneakers Male Steel Toe Shoes Work Safety Boots",
+      "newTitle": "Men's Work-Inspired Winter Boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/winter-boots-men-safety-shoes-indestructible-work-shoes-puncture-proof-work-sneakers-male-steel-toe-shoes-work-safety-boots\",\"Winter Boots Men Safety Shoes Indestructible Work Shoes Puncture-Proof Work Sneakers Male Steel Toe Shoes Work Safety Boots\")",
+      "priceCurrent": 116.16,
+      "priceSheet": 116.16,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371616544",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 58,
+      "oldUrl": "https://zeratta.com/products/cowboy-boots-new-autumn-thick-soled-martin-boots-fashionable-retro-washed-high-top-big-toe-shoes-for-men",
+      "newUrl": "https://zeratta.com/products/mens-denim-high-top-lace-up-boots-pvc-sole",
+      "oldTitle": "Cowboy boots new autumn thick soled Martin boots fashionable retro washed high top big toe shoes for men",
+      "newTitle": "Men's Denim High-Top Lace-Up Boots with PVC Sole",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/cowboy-boots-new-autumn-thick-soled-martin-boots-fashionable-retro-washed-high-top-big-toe-shoes-for-men\",\"Cowboy boots new autumn thick soled Martin boots fashionable retro washed high top big toe shoes for men\")",
+      "priceCurrent": 93.15,
+      "priceSheet": 93.15,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371649312",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 59,
+      "oldUrl": "https://zeratta.com/products/mens-high-top-martin-boots-autumn-and-winter-outdoor-casual-workwear-shoes-retro-frosted-surface-thick-soled-yellow-boots",
+      "newUrl": "https://zeratta.com/products/mens-faux-leather-high-top-lace-up-boots",
+      "oldTitle": "Men's high top Martin boots autumn and winter outdoor casual workwear shoes retro frosted surface thick soled yellow boots",
+      "newTitle": "Men's Faux Leather High-Top Lace-Up Boots",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/mens-high-top-martin-boots-autumn-and-winter-outdoor-casual-workwear-shoes-retro-frosted-surface-thick-soled-yellow-boots\",\"Men's high top Martin boots autumn and winter outdoor casual workwear shoes retro frosted surface thick soled yellow boots\")",
+      "priceCurrent": 104.25,
+      "priceSheet": 104.25,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371682080",
+      "tab": "Mens",
+      "sheetId": 175842485,
+      "row": 60,
+      "oldUrl": "https://zeratta.com/products/safety-boots-men-winter-shoes-steel-toe-safety-shoes",
+      "newUrl": "https://zeratta.com/products/mens-winter-work-style-boots-fur-lined-options",
+      "oldTitle": "Safety Boots Men Winter Shoes Steel Toe Safety Shoes",
+      "newTitle": "Men's Winter Work-Style Boots with Fur-Lined Options",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/safety-boots-men-winter-shoes-steel-toe-safety-shoes\",\"Safety Boots Men Winter Shoes Steel Toe Safety Shoes\")",
+      "priceCurrent": 104.49,
+      "priceSheet": 104.49,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY"
+      }
+    },
+    {
+      "id": "15599371780384",
+      "tab": "Womans",
+      "sheetId": 1979696619,
+      "row": 97,
+      "oldUrl": "https://zeratta.com/products/smile-circle-ankle-boots-suede-leather-women-flat-platform-short-boots-ladies-shoes-fashion-autumn-winter-boots",
+      "newUrl": "https://zeratta.com/products/womens-platform-ankle-boots-fur-lined-options",
+      "oldTitle": "Smile Circle Ankle Boots Suede Leather women Flat platform Short Boots Ladies shoes fashion Autumn winter boots",
+      "newTitle": "Women's Platform Ankle Boots with Fur-Lined Options",
+      "oldFormula": "=HYPERLINK(\"https://zeratta.com/products/smile-circle-ankle-boots-suede-leather-women-flat-platform-short-boots-ladies-shoes-fashion-autumn-winter-boots\",\"Smile Circle Ankle Boots Suede Leather women Flat platform Short Boots Ladies shoes fashion Autumn winter boots\")",
+      "priceCurrent": 106.23,
+      "priceSheet": 106.23,
+      "statusCurrent": "Active",
+      "statusSheet": "Active",
+      "priceFormat": {
+        "type": "CURRENCY",
+        "pattern": "£#,##0.00"
+      }
+    }
+  ],
+  "oneMissing": [
+    {
+      "id": "gid://shopify/Product/15599371845920",
+      "title": "Men's Combat-Style Casual Ankle Boots",
+      "status": "ACTIVE",
+      "price": "136.86",
+      "handle": "mens-combat-style-casual-ankle-boots",
+      "variants": 36
+    }
+  ]
+}
