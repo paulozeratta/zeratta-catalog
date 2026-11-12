@@ -1,0 +1,724 @@
+{
+  "date": "2026-11-12",
+  "type": "Source-grounded description briefs",
+  "count": 61,
+  "briefs": [
+    {
+      "id": "15533039452448",
+      "intro": "A loose-fit men's bomber jacket with a zip front and turn-down collar, designed around simple lines and a solid-colour finish.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Turn-down collar",
+        "Zip-front fastening",
+        "Loose-fit cut",
+        "Long sleeves",
+        "Solid-colour options in black and dark brown"
+      ]
+    },
+    {
+      "id": "15548489433376",
+      "intro": "A deconstructed men's faux leather jacket pairs a relaxed silhouette with a zip front and a fold-down collar.",
+      "materials": "Faux leather (PU) outer; polyester lining",
+      "bullets": [
+        "Relaxed fit",
+        "Zip front",
+        "Fold-down collar",
+        "Mid-long cut",
+        "Solid black finish"
+      ]
+    },
+    {
+      "id": "15551020335392",
+      "intro": "This relaxed workwear jacket draws its character from a pleated design, stand collar and clean zip-front construction.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Stand collar",
+        "Zip closure",
+        "Pleated sleeve design",
+        "Side pockets",
+        "Relaxed fit"
+      ]
+    },
+    {
+      "id": "15551026364704",
+      "intro": "A vintage-inspired faux leather bomber jacket with a stand collar, zip front and a roomy silhouette for everyday styling.",
+      "materials": "Faux leather (PU) outer; polyester composition",
+      "bullets": [
+        "Stand collar",
+        "Zip fastening",
+        "Loose fit",
+        "Side-seam pockets",
+        "Straight hem"
+      ]
+    },
+    {
+      "id": "15551035769120",
+      "intro": "A fleece-style jacket with a stand collar and loose proportions, suited to understated casual layering.",
+      "materials": "Polyester outer and lining",
+      "bullets": [
+        "Stand-up collar",
+        "Long sleeves",
+        "Loose fit",
+        "Black and brown colour options"
+      ]
+    },
+    {
+      "id": "15551038390560",
+      "intro": "A quilted-style men's jacket with a stand collar and relaxed fit, finished with a straightforward zip front.",
+      "materials": "Polyester outer and lining",
+      "bullets": [
+        "Stand collar",
+        "Zip front",
+        "Loose fit",
+        "Long sleeves",
+        "Mid-length cut"
+      ]
+    },
+    {
+      "id": "15551039308064",
+      "intro": "This men's hooded puffer jacket combines a roomy fit with a zip front and a supplier-listed cotton filling.",
+      "materials": "Polyester outer; cotton filling",
+      "bullets": [
+        "Hooded neckline",
+        "Loose-fit silhouette",
+        "Zip-front closure",
+        "Cotton filling listed by EPROLO"
+      ]
+    },
+    {
+      "id": "15551042158880",
+      "intro": "An oversized hooded winter jacket with a zip front and side-seam pockets, built around an easy casual silhouette.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Oversized cut",
+        "Hooded design",
+        "Zip front",
+        "Side-seam pockets",
+        "Solid-colour options"
+      ]
+    },
+    {
+      "id": "15551047074080",
+      "intro": "This hooded faux leather jacket brings together a zip front, pocket detailing and a distinctive ribbed hem.",
+      "materials": "Faux leather (PU); polyester fibre composition",
+      "bullets": [
+        "Hooded styling",
+        "Zip fastening",
+        "Loose fit",
+        "Pocket details",
+        "Ribbed hem"
+      ]
+    },
+    {
+      "id": "15551048089888",
+      "intro": "A double-sided fleece-style jacket with a stand collar and relaxed zip-up silhouette.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Stand-up collar",
+        "Zip-front fastening",
+        "Loose fit",
+        "Long sleeves",
+        "No hood"
+      ]
+    },
+    {
+      "id": "15551050940704",
+      "intro": "A slim-cut faux leather jacket with a zip front and side pockets, featuring a classic fold-down collar.",
+      "materials": "Faux leather (PU) outer; polyester lining",
+      "bullets": [
+        "Slim fit",
+        "Turn-down collar",
+        "Zip fastening",
+        "Side pockets",
+        "Regular jacket length"
+      ]
+    },
+    {
+      "id": "15551052054816",
+      "intro": "A hooded utility puffer jacket with white duck down filling, a zip front and loose-fitting proportions.",
+      "materials": "Polyester fabric; white duck down filling",
+      "bullets": [
+        "Supplier-listed white duck down filling",
+        "Zip-front closure",
+        "Loose fit",
+        "Long sleeves",
+        "Regular jacket length"
+      ]
+    },
+    {
+      "id": "15578318962976",
+      "intro": "A fleece-lined faux leather workwear jacket with a fold-down collar and practical pocket detailing.",
+      "materials": "Faux leather (PU); polyester lining and padding",
+      "bullets": [
+        "Fleece lining",
+        "Zip-front closure",
+        "Side-seam pockets",
+        "Relaxed fit",
+        "Rounded hem"
+      ]
+    },
+    {
+      "id": "15578320044320",
+      "intro": "An oversized faux leather jacket with a stand collar and understated topstitching.",
+      "materials": "Faux leather (PU); polyester lining",
+      "bullets": [
+        "Loose fit",
+        "Stand collar",
+        "Zip front",
+        "Side-slash pockets",
+        "Straight hem"
+      ]
+    },
+    {
+      "id": "15578320109856",
+      "intro": "A unisex varsity-style jacket in faux leather with a stand collar, zip fastening and a relaxed shape.",
+      "materials": "Faux leather (PU); polyester lining",
+      "bullets": [
+        "Stand collar",
+        "Zip front",
+        "Loose fit",
+        "Topstitch detailing",
+        "Side-seam pockets"
+      ]
+    },
+    {
+      "id": "15578320404768",
+      "intro": "This faux leather winter jacket stands out through its contrasting collar and zip-front silhouette.",
+      "materials": "Faux leather (PU); polyester-fibre composition",
+      "bullets": [
+        "Stand collar",
+        "Zip front",
+        "Contrasting colour details",
+        "Pocket detailing",
+        "Straight hem"
+      ]
+    },
+    {
+      "id": "15578320437536",
+      "intro": "A hooded faux leather winter jacket with a zip front and polyester padding, created for structured casual layering.",
+      "materials": "Faux leather (PU); polyester padding",
+      "bullets": [
+        "Hooded neckline",
+        "Zip front",
+        "Loose fit",
+        "Side-seam pockets",
+        "Rounded hem"
+      ]
+    },
+    {
+      "id": "15578320863520",
+      "intro": "A fleece-lined faux leather jacket with a fold-down collar, zip front and relaxed proportions.",
+      "materials": "Faux leather (PU); polyester filling",
+      "bullets": [
+        "Fleece lining",
+        "Turn-down collar",
+        "Zip fastening",
+        "Side-seam pockets",
+        "Loose fit"
+      ]
+    },
+    {
+      "id": "15578321912096",
+      "intro": "This relaxed faux leather outer layer features a turn-down collar, zip front and discreet metal detailing.",
+      "materials": "Faux leather (PU); polyester lining",
+      "bullets": [
+        "Turn-down collar",
+        "Zip front",
+        "Relaxed fit",
+        "Metal detailing",
+        "Side pockets"
+      ]
+    },
+    {
+      "id": "15578322338080",
+      "intro": "A utility-influenced faux leather jacket with multiple pockets and a straightforward zip-front design.",
+      "materials": "Faux leather (PU); polyester composition",
+      "bullets": [
+        "Multiple pockets",
+        "Fold-down collar",
+        "Zip fastening",
+        "Loose fit",
+        "Straight hem"
+      ]
+    },
+    {
+      "id": "15578323026208",
+      "intro": "A unisex winter jacket with fleece-style lining, side pockets and a clean straight hem.",
+      "materials": "Polyester outer and lining",
+      "bullets": [
+        "Fleece-lined construction listed by supplier",
+        "Side pockets",
+        "Straight hem",
+        "Solid-colour finish",
+        "Regular jacket length"
+      ]
+    },
+    {
+      "id": "15578323550496",
+      "intro": "This workwear jacket uses a stand collar and single-breasted fastening for a simple, structured silhouette.",
+      "materials": "Synthetic-fibre blend; polyester lining",
+      "bullets": [
+        "Stand collar",
+        "Single-breasted button front",
+        "Long sleeves",
+        "Regular length",
+        "Available in coffee and black-grey"
+      ]
+    },
+    {
+      "id": "15578326106400",
+      "intro": "A fleece-lined faux leather barn-style jacket with a zip front, fold-down collar and casual utility details.",
+      "materials": "Faux leather (PU); polyester fabric and filling",
+      "bullets": [
+        "Fleece lining",
+        "Zip front",
+        "Fold-down collar",
+        "Side pockets",
+        "Rounded hem"
+      ]
+    },
+    {
+      "id": "15578326925600",
+      "intro": "A distressed-look denim jacket with contrasting panel details and a fold-down collar.",
+      "materials": "Denim and cotton fabric",
+      "bullets": [
+        "Colour-block construction",
+        "Zip front",
+        "Loose fit",
+        "Long sleeves",
+        "Side pockets"
+      ]
+    },
+    {
+      "id": "15578327712032",
+      "intro": "A hooded faux leather winter jacket with a zip front and relaxed streetwear proportions.",
+      "materials": "Faux leather finish identified in EPROLO product name",
+      "bullets": [
+        "Hooded design",
+        "Zip fastening",
+        "Loose-fit cut",
+        "Solid-colour options",
+        "Outerwear silhouette"
+      ]
+    },
+    {
+      "id": "15578329153824",
+      "intro": "A padded faux leather winter jacket combines a lapel collar with a zip front and loose-fitting construction.",
+      "materials": "Faux leather (PU); polyester lining",
+      "bullets": [
+        "Lapel collar",
+        "Zip fastening",
+        "Relaxed fit",
+        "Regular length",
+        "Black and white options"
+      ]
+    },
+    {
+      "id": "15578331775264",
+      "intro": "A washed-look faux leather jacket with a fold-down collar, zipper front and pocket accents.",
+      "materials": "Synthetic leather; polyester-fibre composition",
+      "bullets": [
+        "Washed-style finish",
+        "Fold-down collar",
+        "Zip fastening",
+        "Zipped pocket details",
+        "Regular length"
+      ]
+    },
+    {
+      "id": "15578333020448",
+      "intro": "A longer hooded winter jacket with a zip front and printed accents for a casual outerwear look.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Hooded neckline",
+        "Zip-front fastening",
+        "Loose fit",
+        "Printed detailing",
+        "Straight hem"
+      ]
+    },
+    {
+      "id": "15578337181984",
+      "intro": "A motorcycle-style faux leather jacket with a zip front, relaxed fit and classic fold-down collar.",
+      "materials": "Faux leather (PU); polyester-fibre composition",
+      "bullets": [
+        "Zip fastening",
+        "Fold-down collar",
+        "Loose cut",
+        "Side-seam pockets",
+        "Long sleeves"
+      ]
+    },
+    {
+      "id": "15578339213600",
+      "intro": "A relaxed men's faux leather jacket with a lapel-style collar and simple zip-front closure.",
+      "materials": "Faux leather (PU); polyester fabric",
+      "bullets": [
+        "Fold-down collar",
+        "Zip-front closure",
+        "Casual cut",
+        "Solid black colour option"
+      ]
+    },
+    {
+      "id": "15578341310752",
+      "intro": "A fleece-lined cotton workwear jacket with a button front, generous pockets and a relaxed cut.",
+      "materials": "Cotton fabric; fleece lining",
+      "bullets": [
+        "Button-front fastening",
+        "Loose fit",
+        "Multiple pockets",
+        "Visible stitching details",
+        "Long sleeves"
+      ]
+    },
+    {
+      "id": "15578342326560",
+      "intro": "A padded winter jacket with a stand collar, zip front and loose-fitting cut.",
+      "materials": "Polyester outer and lining; cotton filling",
+      "bullets": [
+        "Stand collar",
+        "Zip fastening",
+        "Loose fit",
+        "Supplier-listed cotton filling",
+        "No hood"
+      ]
+    },
+    {
+      "id": "15578342981920",
+      "intro": "A lightweight-style padded winter jacket with a stand collar and zip front for everyday outerwear styling.",
+      "materials": "Polyester fabric; cotton filling",
+      "bullets": [
+        "Stand-up collar",
+        "Zip front",
+        "Slim fit",
+        "No hood",
+        "Cotton filling listed by supplier"
+      ]
+    },
+    {
+      "id": "15578345439520",
+      "intro": "A denim-style winter jacket with a button front and a slim-cut silhouette.",
+      "materials": "Cotton outer fabric; polyester lining",
+      "bullets": [
+        "Lapel collar",
+        "Single-breasted button front",
+        "Slim fit",
+        "Gradient finish",
+        "Winter jacket style"
+      ]
+    },
+    {
+      "id": "15578345865504",
+      "intro": "A corduroy-style winter jacket with a lapel collar and zip front, made in supplier-listed polyester.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Lapel collar",
+        "Zip front",
+        "Shaped fit",
+        "Slanted hem",
+        "Badge detailing"
+      ]
+    },
+    {
+      "id": "15578346193184",
+      "intro": "A unisex winter jacket with a fleece-lined interior, fold-down collar and relaxed zip-front shape.",
+      "materials": "Polyester outer and lining",
+      "bullets": [
+        "Fleece lining",
+        "Padded interior",
+        "Turn-down collar",
+        "Zip front",
+        "Loose fit"
+      ]
+    },
+    {
+      "id": "15589713281312",
+      "intro": "This denim winter jacket has a loose fit and button-front construction, with long sleeves and no hood.",
+      "materials": "Denim fabric",
+      "bullets": [
+        "Button-front fastening",
+        "Loose cut",
+        "Long sleeves",
+        "No hood",
+        "Multiple denim colour options"
+      ]
+    },
+    {
+      "id": "15589713314080",
+      "intro": "A hooded padded winter jacket with a zip front, waist-shaped silhouette and pocket detailing.",
+      "materials": "Polyester fabric; supplier lists 'down cotton' filling",
+      "bullets": [
+        "Hooded neckline",
+        "Zip closure",
+        "Waist-shaped design",
+        "Pocket detailing",
+        "Long sleeves"
+      ]
+    },
+    {
+      "id": "15589716558112",
+      "intro": "A textured hooded coat with a full zip front and longer proportions for easy casual layering.",
+      "materials": "Polyester composition",
+      "bullets": [
+        "Hooded neckline",
+        "Zip-up front",
+        "Long sleeves",
+        "Supplier lists an unlined construction"
+      ]
+    },
+    {
+      "id": "15589719277856",
+      "intro": "A hooded men's winter jacket with zip fastening, side pockets and a clean, straight hem.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Hooded neckline",
+        "Zip front",
+        "Side-seam pockets",
+        "Straight hem",
+        "Solid-colour options"
+      ]
+    },
+    {
+      "id": "15589722259744",
+      "intro": "This men's jacket uses a long-sleeve design, zip front and fold-down collar for a straightforward outerwear look.",
+      "materials": "",
+      "bullets": [
+        "Long sleeves",
+        "Zip-front construction",
+        "Fold-down collar",
+        "Available in multiple sizes"
+      ]
+    },
+    {
+      "id": "15589727764768",
+      "intro": "A long hooded coat with a zip front and simple lines, made from supplier-listed polyester.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Hooded shape",
+        "Zip fastening",
+        "Long sleeves",
+        "Longline cut",
+        "Black and grey colours"
+      ]
+    },
+    {
+      "id": "15589728420128",
+      "intro": "A reversible men's puffer jacket with a stand collar, zip front and side pockets.",
+      "materials": "Polyester composition; synthetic-fibre fabric",
+      "bullets": [
+        "Reversible design",
+        "Stand collar",
+        "Zip front",
+        "Side-seam pockets",
+        "Contrasting panel details"
+      ]
+    },
+    {
+      "id": "15589729042720",
+      "intro": "A unisex-style short padded jacket with a stand collar, relaxed proportions and pleated detailing.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Stand collar",
+        "Zip front",
+        "Loose fit",
+        "Pleated details",
+        "Regular jacket length"
+      ]
+    },
+    {
+      "id": "15589731500320",
+      "intro": "A short hooded winter jacket with a zip front and relaxed fit, finished in a solid-colour design.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Hooded neckline",
+        "Zip fastening",
+        "Loose fit",
+        "Short-length shape",
+        "Solid-colour options"
+      ]
+    },
+    {
+      "id": "15589732385056",
+      "intro": "A hooded quilted-style winter jacket with a zip front and everyday pocket detailing.",
+      "materials": "Polyester outer and lining",
+      "bullets": [
+        "Hooded silhouette",
+        "Zip front",
+        "Fitted cut",
+        "Side pockets",
+        "Rounded hem"
+      ]
+    },
+    {
+      "id": "15589733302560",
+      "intro": "A hooded puffer jacket with wave-pattern detailing, loose fit and zip-front construction.",
+      "materials": "Polyester fabric; synthetic-fibre blend",
+      "bullets": [
+        "Hooded design identified in supplier title",
+        "Zip fastening",
+        "Loose fit",
+        "Side-seam pockets",
+        "Contrasting panel design"
+      ]
+    },
+    {
+      "id": "15589738316064",
+      "intro": "A casual men's jacket with a textured, plush-style appearance and a supplier-listed polyester composition.",
+      "materials": "Polyester fabric",
+      "bullets": [
+        "Casual jacket shape",
+        "Plush-style finish described in the supplier listing",
+        "Available in multiple sizes"
+      ]
+    },
+    {
+      "id": "15589739594016",
+      "intro": "A unisex winter zip-up jacket with polyester filling, a relaxed cut and thickened construction.",
+      "materials": "Polyester fabric and filling",
+      "bullets": [
+        "Zip-front fastening",
+        "Loose fit",
+        "Thickened padded construction",
+        "No hood"
+      ]
+    },
+    {
+      "id": "15589744378144",
+      "intro": "A hooded men's puffer jacket with a zip front, drawstring detail and supplier-listed white duck down filling.",
+      "materials": "White duck down filling",
+      "bullets": [
+        "White duck down filling listed by supplier",
+        "Zip-front fastening",
+        "Drawstring details",
+        "Thickened construction",
+        "Hooded silhouette"
+      ]
+    },
+    {
+      "id": "15591445365024",
+      "intro": "Chelsea-style ankle boots with a workwear-influenced silhouette and a supplier foot-length chart.",
+      "materials": "",
+      "bullets": [
+        "Chelsea-inspired boot shape",
+        "Sizes listed by the supplier",
+        "Foot-length measurements available in the Size Guide"
+      ]
+    },
+    {
+      "id": "15591445397792",
+      "intro": "Retro-inspired men's high-top ankle boots with a lace-up front and classic casual shape.",
+      "materials": "",
+      "bullets": [
+        "High-top silhouette",
+        "Lace-up front identified in EPROLO title",
+        "Ankle-boot styling",
+        "Multiple shoe sizes available"
+      ]
+    },
+    {
+      "id": "15591446642976",
+      "intro": "A unisex pair of faux leather ankle boots with a lace-up front, rounded toe and rubber sole.",
+      "materials": "Artificial PU (faux leather) upper; rubber outsole",
+      "bullets": [
+        "Lace-up front",
+        "Round toe",
+        "Rubber sole",
+        "Mid-height heel listed at 3–5 cm",
+        "Unisex sizing"
+      ]
+    },
+    {
+      "id": "15591448019232",
+      "intro": "Men's work-style ankle boots with a cow-suede upper, plush lining and rubber sole.",
+      "materials": "Cow-suede upper; plush lining; rubber outsole",
+      "bullets": [
+        "Lace-up front",
+        "Round toe",
+        "Low heel listed at 1–3 cm",
+        "Plush interior lining",
+        "Ankle-height shaft"
+      ]
+    },
+    {
+      "id": "15591449723168",
+      "intro": "Men's high-top boots combining mixed-material upper panels with a rubber sole and round-toe profile.",
+      "materials": "Mixed-material upper; rubber outsole",
+      "bullets": [
+        "Mixed-material panels",
+        "Round toe",
+        "Rubber sole",
+        "Flat heel",
+        "High-top silhouette"
+      ]
+    },
+    {
+      "id": "15591449821472",
+      "intro": "Men's faux leather ankle boots with both lace-up and zip fastening and a thick rubber sole.",
+      "materials": "Faux leather (PU) upper; rubber outsole",
+      "bullets": [
+        "Lace-up front",
+        "Side zip",
+        "Round toe",
+        "Rubber sole",
+        "Mid-height heel listed at 3–5 cm"
+      ]
+    },
+    {
+      "id": "15591451558176",
+      "intro": "Men's mixed-material lace-up boots with a rounded toe and PVC sole.",
+      "materials": "Supplier lists leather and fabric upper; PVC sole",
+      "bullets": [
+        "Mixed-material upper",
+        "Lace fastening",
+        "PVC outsole",
+        "Flat heel",
+        "Rounded toe"
+      ]
+    },
+    {
+      "id": "15591453327648",
+      "intro": "Men's high-top faux leather boots with a lace-up front, rubber sole and rounded toe.",
+      "materials": "Artificial PU (faux leather) upper; rubber sole",
+      "bullets": [
+        "Lace-up fastening",
+        "Round toe",
+        "Rubber sole",
+        "Low-heel construction",
+        "Multiple colour options"
+      ]
+    },
+    {
+      "id": "15591466434848",
+      "intro": "A long brown coat with a single-button front and a loose winter silhouette.",
+      "materials": "Faux leather (PU); polyester fabric",
+      "bullets": [
+        "Single-button fastening",
+        "Loose-fit cut",
+        "Long coat shape",
+        "Brown solid-colour finish"
+      ]
+    },
+    {
+      "id": "15591471448352",
+      "intro": "A double-breasted men's overcoat with a longline silhouette and tailored-style proportions.",
+      "materials": "Polyester and spandex",
+      "bullets": [
+        "Double-breasted front",
+        "Longline shape",
+        "Long sleeves",
+        "Solid-colour styling"
+      ]
+    },
+    {
+      "id": "15591479705888",
+      "intro": "A solid-colour winter overcoat with a straightforward silhouette for seasonal outfits.",
+      "materials": "",
+      "bullets": [
+        "Solid-colour design identified in supplier title",
+        "Winter overcoat silhouette",
+        "Available in multiple sizes"
+      ]
+    }
+  ]
+}
