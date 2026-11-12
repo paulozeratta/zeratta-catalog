@@ -706,16 +706,17 @@
     {
       "id": "15591445365024",
       "oldDescriptionChars": 16311,
-      "newHtml": "<div class=\"zeratta-description-standard\" style=\"font-size:15px;line-height:1.7;color:inherit;font-family:inherit;\"><h3 style=\"font-size:16px !important;line-height:1.35;font-weight:600;text-transform:uppercase;margin:22px 0 9px;padding:0;\">DESCRIPTION</h3><p style=\"margin:0 0 12px;\">Chelsea-style ankle boots with a workwear-influenced silhouette and a supplier foot-length chart. Pair these boots with denim or casual trousers, leaving the shape and finish of the footwear as the focal point.</p><h3 style=\"font-size:16px !important;line-height:1.35;font-weight:600;text-transform:uppercase;margin:22px 0 9px;padding:0;\">PRODUCT DETAILS</h3><ul style=\"margin:0 0 14px;padding-left:22px;\"><li style=\"margin:0 0 5px;\">Chelsea-inspired boot shape</li><li style=\"margin:0 0 5px;\">Sizes listed by the supplier</li><li style=\"margin:0 0 5px;\">Foot-length measurements available in the Size Guide</li></ul><h3 style=\"font-size:16px !important;line-height:1.35;font-weight:600;text-transform:uppercase;margin:22px 0 9px;padding:0;\">SIZE &amp; FIT</h3><p style=\"margin:0 0 12px;\">Available sizes: 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 47. Check the Size Guide for supplier-provided measurements.</p></div>",
-      "newDescriptionChars": 1205,
-      "words": 74,
+      "newHtml": "<div class=\"zeratta-description-standard\" style=\"font-size:15px;line-height:1.7;color:inherit;font-family:inherit;\"><h3 style=\"font-size:16px !important;line-height:1.35;font-weight:600;text-transform:uppercase;margin:22px 0 9px;padding:0;\">DESCRIPTION</h3><p style=\"margin:0 0 12px;\">Chelsea-style ankle boots with a workwear-influenced silhouette and a supplier foot-length chart. Pair these boots with denim or casual trousers, leaving the shape and finish of the footwear as the focal point.</p><h3 style=\"font-size:16px !important;line-height:1.35;font-weight:600;text-transform:uppercase;margin:22px 0 9px;padding:0;\">PRODUCT DETAILS</h3><ul style=\"margin:0 0 14px;padding-left:22px;\"><li style=\"margin:0 0 5px;\">Chelsea-inspired boot shape</li><li style=\"margin:0 0 5px;\">Sizes listed by the supplier</li><li style=\"margin:0 0 5px;\">Foot-length measurements available in the Size Guide</li></ul><h3 style=\"font-size:16px !important;line-height:1.35;font-weight:600;text-transform:uppercase;margin:22px 0 9px;padding:0;\">SIZE &amp; FIT</h3><p style=\"margin:0 0 12px;\">Available sizes: 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48. Check the Size Guide for supplier-provided measurements.</p></div>",
+      "newDescriptionChars": 1201,
+      "words": 73,
       "bullets": 3,
       "material": "",
       "hasChart": true,
       "sizeCount": 12,
       "source": "EPROLO original Shopify HTML and public supplier facts",
       "oldEmbeddedImages": 25,
-      "oldEmbeddedTables": 1
+      "oldEmbeddedTables": 1,
+      "sizeLabelNormalized": true
     },
     {
       "id": "15591445397792",
