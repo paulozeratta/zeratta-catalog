@@ -1,8 +1,8 @@
 {
   "date": "2026-11-13",
   "evidence": "Screenshot enviada pelo lojista: EPROLO URL + SHIPPING COST. Valores tratados como USD de acordo com o padrão EPROLO; país e método não especificados.",
-  "matchedShopify": 5,
-  "pendingUnmatched": 6,
+  "matchedShopify": 6,
+  "pendingUnmatched": 5,
   "items": [
     {
       "row": 1,
@@ -50,8 +50,8 @@
       "row": 7,
       "sourceUrl": "https://eprolo.com/app/product/casual-fashion-mens-short-down-jacket-trendy-street-style-cotton-coat-high-end-lightweight-outerwear",
       "shippingCostUSD": 11,
-      "shopifyProductId": null,
-      "status": "pending_exact_match"
+      "shopifyProductId": "15609360417056",
+      "status": "linked_verified"
     },
     {
       "row": 8,
