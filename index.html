@@ -165,19 +165,19 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
 <header class="top">
  <div class="topline"><div class="eyebrow">Zeratta / Operações / Central de Produtos</div><div class="topdate">Catálogo atualizado · 13 NOV 2026</div></div>
  <h1>Catálogo e simulador de rentabilidade</h1>
- <p>Catálogo sincronizado em 13/11/2026: 196 produtos Shopify (77 ACTIVE e 119 DRAFT na consulta mais recente). Foram incluídos 9 produtos desde a base de 187 de 12/11. Há 185 links EPROLO vinculados e 11 produtos ainda sem link confirmado. Das 11 linhas EPROLO e valores de SHIPPING COST enviados pelo lojista, 6 estão vinculadas a produtos exatos e 5 permanecem para reconciliação. A última inclusão é uma jaqueta masculina com frete de US$ 11 (linha 7); país, transportadora e variante não confirmados. Títulos, imagens e preços em GBP seguem os registros Shopify, sem reprecificação.</p>
+ <p>Catálogo atualizado em 13/11/2026: 195 produtos na base (76 ACTIVE e 119 DRAFT após a exclusão confirmada na Shopify). Desde a base de 187 produtos de 12/11, foram incluídos 9 produtos e removido 1 produto. Há 187 URLs EPROLO cadastradas; 11 vínculos seguem com pendências de confirmação na auditoria. Das 11 linhas EPROLO e valores de SHIPPING COST enviados pelo lojista, 6 estão vinculadas a produtos exatos e 5 permanecem para reconciliação. A última inclusão é uma jaqueta masculina com frete de US$ 11 (linha 7); país, transportadora e variante não confirmados. Títulos, imagens e preços em GBP seguem os registros Shopify, sem reprecificação.</p>
  <nav class="zeratta-catalog-nav" aria-label="Ferramentas do catálogo"><a class="zeratta-calculator-link" href="precificacao/">Calculadora de precificação <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main class="wrap">
  <section class="metrics" aria-label="Indicadores do catálogo">
-  <div class="metric"><b id="count-all">196</b><span>Produtos únicos</span></div>
+  <div class="metric"><b id="count-all">195</b><span>Produtos únicos</span></div>
   <div class="metric"><b id="count-new">97</b><span>Origem Novo</span></div>
-  <div class="metric"><b id="count-old">99</b><span>Demais origens</span></div>
-  <div class="metric"><b id="count-links">185</b><span>Links EPROLO vinculados</span></div>
+  <div class="metric"><b id="count-old">98</b><span>Demais origens</span></div>
+  <div class="metric"><b id="count-links">187</b><span>Links EPROLO vinculados</span></div>
   <div class="metric"><b id="count-freight">38</b><span>Fretes UK sem cotação</span></div>
  </section>
  <section class="notice"><div class="text"><strong>Auditoria Shopify e EPROLO | 09/11/2026</strong>
-<p>A auditoria de 09/11 registrou 177 produtos (168 ACTIVE e 9 DRAFT naquela data). Em 12/11, a base continha 187 produtos, incluindo 12 botas novas. Em 13/11, o catálogo recebeu 9 produtos adicionais, incluindo a jaqueta masculina adicionada por último (total 196). Seis dos links EPROLO e custos de frete informados foram relacionados a produtos exatos; outros cinco permanecem na lista de conferência. Os status (77 ACTIVE, 119 DRAFT) foram reconciliados com a consulta Shopify mais recente; preços dos novos itens foram consultados em 13/11/2026.</p>
+<p>A auditoria de 09/11 registrou 177 produtos (168 ACTIVE e 9 DRAFT naquela data). Em 12/11, a base continha 187 produtos, incluindo 12 botas novas. Em 13/11, o catálogo recebeu 9 produtos adicionais, incluindo a jaqueta masculina adicionada por último (195 após a exclusão de 1 produto). Seis dos links EPROLO e custos de frete informados foram relacionados a produtos exatos; outros cinco permanecem na lista de conferência. Os status na base (76 ACTIVE, 119 DRAFT) refletem a consulta Shopify mais recente, ajustada pela exclusão do produto; preços dos novos itens foram consultados em 13/11/2026.</p>
 <div id="audit-extra" class="details-panel"><ul>
 <li>Shopify Product IDs excluídos: 15591480492320, 15591479836960 e 15589744443680. Registros originais mantidos: 15591480328480, 15591479738656 e 15589744378144.</li>
 <li>Links fornecidos pelo lojista foram relacionados a produtos por nome e descrição. Links adicionais identificados no catálogo público EPROLO receberam o mesmo critério de conferência.</li>
@@ -239,11 +239,11 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
    <span id="save-status">Títulos e notas: alterações locais; fretes, links e preços: GitHub disponível</span>
   </div>
  </section>
- <div class="section-title"><h2>Produtos <span id="visible-count">196</span><small id="visible-total"> / 196</small></h2><small>Ordem: novos primeiro · 196 produtos identificados por Shopify Product ID</small></div>
+ <div class="section-title"><h2>Produtos <span id="visible-count">195</span><small id="visible-total"> / 195</small></h2><small>Ordem: novos primeiro · 195 produtos identificados por Shopify Product ID</small></div>
  <p class="sortNote">* Vínculos EPROLO verificados por URL e nome real quando disponível. Exatamente um registro por Shopify Product ID, sem repetição da mesma URL EPROLO. 11 produtos ainda precisam de confirmação do fornecedor; 5 links do anexo estão na seção de pendências sem vínculo inventado. Valores de frete ausentes são intencionais: cotação real não acessível sem autenticação EPROLO.</p>
  <div id="items" class="list" aria-live="polite"></div>
  <div id="empty" class="empty" hidden>Nenhum produto encontrado. Ajuste os filtros.</div>
- <p class="foot">Fonte: Shopify Admin GraphQL (nove novos produtos em 13/11/2026; 187 anteriores conforme auditoria de 12/11/2026) e EPROLO (links identificáveis). São 196 produtos, incluindo 77 ACTIVE e 119 DRAFT conforme leitura atual; houve seis novas associações EPROLO com fretes informados pelo lojista. Os preços e imagens dos novos produtos foram obtidos na Shopify sem reprecificação. Custo Shopify não necessariamente inclui frete ou tributos. O simulador de contribuição não equivale a lucro contábil líquido; taxa, publicidade, frete, imposto e câmbio devem ser validados antes de decisões de precificação. Este painel funciona offline após carregar, mas fotos e links exigem rede. Propostas UK em GBP (VAT reservado); custos de produto em USD convertidos para GBP; frete UK cotado por produto; CPA de £25 por pedido; histórico USD disponível separadamente.</p>
+ <p class="foot">Fonte: Shopify Admin GraphQL (nove novos produtos em 13/11/2026; 187 anteriores conforme auditoria de 12/11/2026) e EPROLO (links identificáveis). São 195 produtos, incluindo 76 ACTIVE e 119 DRAFT após a exclusão; houve seis novas associações EPROLO com fretes informados pelo lojista. Os preços e imagens dos novos produtos foram obtidos na Shopify sem reprecificação. Custo Shopify não necessariamente inclui frete ou tributos. O simulador de contribuição não equivale a lucro contábil líquido; taxa, publicidade, frete, imposto e câmbio devem ser validados antes de decisões de precificação. Este painel funciona offline após carregar, mas fotos e links exigem rede. Propostas UK em GBP (VAT reservado); custos de produto em USD convertidos para GBP; frete UK cotado por produto; CPA de £25 por pedido; histórico USD disponível separadamente.</p>
  <div class="footeractions"><button type="button" onclick="window.print()">Imprimir catálogo</button><button type="button" id="go-top">Voltar ao topo</button></div>
 </main><div class="toast" id="toast" role="status"></div>
 <script src="data/products.js?v=remove-deleted-15578321912096-20261113"></script>
