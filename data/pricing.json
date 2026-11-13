@@ -1224,6 +1224,78 @@
       "ukSalePriceGBP_v2": 118.35,
       "ukPriceUpdatedAt": 1794253191888,
       "ukPricingModel": "shopify-current-gbp-import-2026-11-09"
+    },
+    "15609158664480": {
+      "regularPrice": 148.02,
+      "discountPct": 0,
+      "salePrice": 148.02,
+      "pricingUpdatedAt": 1794541969972,
+      "ukSalePriceGBP_v2": 148.02,
+      "ukPriceUpdatedAt": 1794541969972,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
+    },
+    "15609158598944": {
+      "regularPrice": 119.94,
+      "discountPct": 0,
+      "salePrice": 119.94,
+      "pricingUpdatedAt": 1794541969972,
+      "ukSalePriceGBP_v2": 119.94,
+      "ukPriceUpdatedAt": 1794541969972,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
+    },
+    "15609158566176": {
+      "regularPrice": 129.33,
+      "discountPct": 0,
+      "salePrice": 129.33,
+      "pricingUpdatedAt": 1794541969972,
+      "ukSalePriceGBP_v2": 129.33,
+      "ukPriceUpdatedAt": 1794541969972,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
+    },
+    "15609158533408": {
+      "regularPrice": 107.97,
+      "discountPct": 0,
+      "salePrice": 107.97,
+      "pricingUpdatedAt": 1794541969972,
+      "ukSalePriceGBP_v2": 107.97,
+      "ukPriceUpdatedAt": 1794541969972,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
+    },
+    "15608777048352": {
+      "regularPrice": 209.9,
+      "discountPct": 42.88,
+      "salePrice": 119.9,
+      "pricingUpdatedAt": 1794541969972,
+      "ukSalePriceGBP_v2": 119.9,
+      "ukPriceUpdatedAt": 1794541969972,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
+    },
+    "15608777015584": {
+      "regularPrice": 209.9,
+      "discountPct": 42.88,
+      "salePrice": 119.9,
+      "pricingUpdatedAt": 1794541969972,
+      "ukSalePriceGBP_v2": 119.9,
+      "ukPriceUpdatedAt": 1794541969972,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
+    },
+    "15608776982816": {
+      "regularPrice": 209.9,
+      "discountPct": 42.88,
+      "salePrice": 119.9,
+      "pricingUpdatedAt": 1794541969972,
+      "ukSalePriceGBP_v2": 119.9,
+      "ukPriceUpdatedAt": 1794541969972,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
+    },
+    "15608776950048": {
+      "regularPrice": 189.9,
+      "discountPct": 47.39,
+      "salePrice": 99.9,
+      "pricingUpdatedAt": 1794541969972,
+      "ukSalePriceGBP_v2": 99.9,
+      "ukPriceUpdatedAt": 1794541969972,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
     }
   }
 }
