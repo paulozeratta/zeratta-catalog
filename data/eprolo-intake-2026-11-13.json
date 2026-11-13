@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-13",
+  "evidence": "Screenshot enviada pelo lojista: EPROLO URL + SHIPPING COST. Valores tratados como USD de acordo com o padrão EPROLO; país e método não especificados.",
+  "matchedShopify": 5,
+  "pendingUnmatched": 6,
+  "items": [
+    {
+      "row": 1,
+      "sourceUrl": "https://eprolo.com/app/product/aywter-american-style-fashion-stand-collar-puffer-coat-winter-outerwear-loose-unisex-couple-cotton-jacket",
+      "shippingCostUSD": 18,
+      "shopifyProductId": "15608777048352",
+      "status": "linked_verified"
+    },
+    {
+      "row": 2,
+      "sourceUrl": "https://eprolo.com/app/product/american-retro-mens-cotton-coat-stand-collar-puffer-jacket-trendy-loose-fit-versatile-outerwear-top",
+      "shippingCostUSD": 17,
+      "shopifyProductId": "15608777015584",
+      "status": "linked_verified"
+    },
+    {
+      "row": 3,
+      "sourceUrl": "https://eprolo.com/app/product/fashion-style-closure-type-collar-type-silhouette-type-of-clothing-casual-fashion-buttoned-stand-collar-puffer-style-unisex-cotton-coat",
+      "shippingCostUSD": 21,
+      "shopifyProductId": "15608776982816",
+      "status": "linked_verified"
+    },
+    {
+      "row": 4,
+      "sourceUrl": "https://eprolo.com/app/product/cozy-hooded-solid-color-cotton-coat-for-men-and-women-casual-thick-puffer-jacket",
+      "shippingCostUSD": 18,
+      "shopifyProductId": "15608776950048",
+      "status": "linked_verified"
+    },
+    {
+      "row": 5,
+      "sourceUrl": "https://eprolo.com/app/mproductdetail.html?id=27639020",
+      "shippingCostUSD": 17,
+      "shopifyProductId": null,
+      "status": "pending_exact_match"
+    },
+    {
+      "row": 6,
+      "sourceUrl": "https://eprolo.com/app/product/down-jacket-short%2C-warm-white-duck-down%2C-unisex%2C-thick-black-gold-down-jacket-jacket",
+      "shippingCostUSD": 20,
+      "shopifyProductId": "15609158533408",
+      "status": "linked_verified"
+    },
+    {
+      "row": 7,
+      "sourceUrl": "https://eprolo.com/app/product/casual-fashion-mens-short-down-jacket-trendy-street-style-cotton-coat-high-end-lightweight-outerwear",
+      "shippingCostUSD": 11,
+      "shopifyProductId": null,
+      "status": "pending_exact_match"
+    },
+    {
+      "row": 8,
+      "sourceUrl": "https://eprolo.com/app/product/mens-lightweight-down-jacket-winter-loose-warm-grid-design-solid-color-versatile-casual-half-high-collar-coat",
+      "shippingCostUSD": 14,
+      "shopifyProductId": null,
+      "status": "pending_exact_match"
+    },
+    {
+      "row": 9,
+      "sourceUrl": "https://eprolo.com/app/product/fashion-style-street-trendy-pattern-style-retro-material-50-white-duck-down-closure-type-zipper-fit-type-loose-type-of-clothing-mens-half-zip-hooded-down-jacket",
+      "shippingCostUSD": 13,
+      "shopifyProductId": null,
+      "status": "pending_exact_match"
+    },
+    {
+      "row": 10,
+      "sourceUrl": "https://eprolo.com/app/product/american-retro-90-white-duck-down-ribbed-hooded-down-jacket-for-men-and-women-lightweight-warm-winter-coat-casual-couple-outerwear",
+      "shippingCostUSD": 19,
+      "shopifyProductId": null,
+      "status": "pending_exact_match"
+    },
+    {
+      "row": 11,
+      "sourceUrl": "https://eprolo.com/app/product/fashion-style-casual-amp-college-style-pattern-style-solid-color-closure-type-zipper-collar-type-stand-collar-silhouette-loose-fit-type-of-clothing-down-jacket-gender-male-occasion-winter-casual-coupl-b793aec2ca334fbc81a95bf17d7c1eef",
+      "shippingCostUSD": 19,
+      "shopifyProductId": null,
+      "status": "pending_exact_match"
+    }
+  ]
+}
