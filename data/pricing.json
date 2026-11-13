@@ -1296,6 +1296,15 @@
       "ukSalePriceGBP_v2": 99.9,
       "ukPriceUpdatedAt": 1794541969972,
       "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
+    },
+    "15609360417056": {
+      "regularPrice": 97.83,
+      "discountPct": 0,
+      "salePrice": 97.83,
+      "pricingUpdatedAt": 1794544686111,
+      "ukSalePriceGBP_v2": 97.83,
+      "ukPriceUpdatedAt": 1794544686111,
+      "ukPricingModel": "shopify-current-gbp-import-2026-11-13"
     }
   }
 }
