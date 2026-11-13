@@ -3523,8 +3523,11 @@
       ]
     },
     "15591451558176": {
-      "sourceUrl": "https://eprolo.com/app/mproductdetail.html?id=33384715",
-      "sourceUpdatedAt": 1794518017792
+      "sourceUrl": "https://eprolo.com/app/product/cyytl-men-boots-winter-casual-shoes-outdoor-anti-slip-designer-luxury-platform-cowboy-chelsea-work-safety-leather-ankle-sneakers",
+      "sourceUpdatedAt": 1794549405809,
+      "sourceVerifiedAt": "2026-11-13T05:56:45.809Z",
+      "eproloProductId": "27239389",
+      "sourceVerification": "Visual match of black boots including logo patch, eyelets, mixed upper and tan lug sole; identical Black/Yellow/Apricot colours; sizes 39 through 44; leather/fabric upper and PVC sole; supplier price USD 8.53."
     },
     "15609158664480": {
       "sourceUrl": "https://eprolo.com/app/product/pu-leather-jacket-men-autumn-winter-light-business-turn-down-collar-thickened-padded-motorcycle-leather-jacket-padded-jacket-men",
@@ -3577,6 +3580,27 @@
       "shippingEvidence": "Linha 7 da planilha em imagem enviada em 13/11/2026; país, método e variante não confirmados",
       "sourceUrl": "https://eprolo.com/app/product/casual-fashion-mens-short-down-jacket-trendy-street-style-cotton-coat-high-end-lightweight-outerwear",
       "sourceUpdatedAt": 1794544686111
+    },
+    "15609158566176": {
+      "sourceUrl": "https://eprolo.com/app/product/mens-lightweight-down-jacket-winter-loose-warm-grid-design-solid-color-versatile-casual-half-high-collar-coat",
+      "sourceUpdatedAt": 1794549405809,
+      "sourceVerifiedAt": "2026-11-13T05:56:45.809Z",
+      "eproloProductId": "31013357",
+      "sourceVerification": "Exact original supplier title and original image; colours White/Gray/Blue/Black; sizes M/L/XL; supplier price USD 26.20."
+    },
+    "15609158598944": {
+      "sourceUrl": "https://eprolo.com/app/product/winter-clothing-men's-down-jacket-men's-down-jacket-korean-version-jacket",
+      "sourceUpdatedAt": 1794549405809,
+      "sourceVerifiedAt": "2026-11-13T05:56:45.809Z",
+      "eproloProductId": "27639020",
+      "sourceVerification": "Exact original supplier title and original image; colours Black/Silver Grey/White; sizes M through 4XL; supplier price USD 18.53."
+    },
+    "15599371616544": {
+      "sourceUrl": "https://eprolo.com/app/product/2024-fashion-couple's--lace-up-british-style-shoes-man-round-toe-solid-ankle-outdoor-boots-casual-high-quality-men-cowboy-boots",
+      "sourceUpdatedAt": 1794549405809,
+      "sourceVerifiedAt": "2026-11-13T05:56:45.809Z",
+      "eproloProductId": "27239174",
+      "sourceVerification": "Exact original supplier title and three original images; colours Black/Blue; sizes 39 through 44; denim upper and PVC sole; supplier price USD 11.55."
     }
   }
 }
