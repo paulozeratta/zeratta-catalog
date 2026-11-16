@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
 <title>Zeratta | Calculadora de precificação</title>
-<meta name="description" content="Calculadora interna de precificação Zeratta, com custos em USD, venda em GBP e imposto Simples em BRL.">
+<meta name="description" content="Calculadora Zeratta para precificação e rentabilidade 100% em dólares americanos (USD), sem conversão de moeda.">
 <style>
 :root{--ink:#191315;--wine:#1a0709;--muted:#786f72;--line:#e4dfdd;--surface:#fff;--bg:#f7f6f5;--soft:#f1efed;--good:#246344;--bad:#a33a39;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:14px;color:var(--ink);background:var(--bg)}
 *{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid #8a535d;outline-offset:2px}
@@ -21,7 +21,7 @@ main{max-width:1268px;margin:auto;padding:28px 24px 55px}.layout{display:grid;gr
 .separation{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:11px;margin:17px 0}.separation:before,.separation:after{content:"";height:1px;flex:1;background:var(--line)}
 .mode{margin:11px 0 0;font-size:11px;border-radius:6px;padding:9px 11px;background:var(--soft);line-height:1.55}.mode b{color:var(--wine)}.field input.active{border-color:#1a0709;box-shadow:0 0 0 1px #1a0709}
 .settings-note{border-top:1px solid var(--line);padding-top:15px;margin-top:17px;font-size:11px;color:var(--muted);line-height:1.7}
-.fxbar{border:1px solid #ded6d2;background:#faf9f8;padding:13px;border-radius:8px;margin-top:14px;font-size:11px;line-height:1.7;color:#605456}.fxbar strong{color:var(--ink)}.fxbar a{text-decoration:underline;text-underline-offset:2px}.fxbar button{background:transparent;border:0;text-decoration:underline;color:var(--wine);padding:0;font-size:11px;font-weight:650}.fxbar #fxStatus{display:block;margin-top:5px}
+
 .result{position:sticky;top:16px}.result-top{border-bottom:1px solid var(--line);padding-bottom:18px}.hero{background:var(--wine);color:#fff;border-radius:9px;padding:26px 23px;margin-top:18px}.hero .caption{font-size:12px;color:#e7d9dc}.hero .price-entry{display:flex;align-items:center;gap:9px;margin-top:9px;min-width:0}
 .hero .price-entry .symbol{font-size:clamp(32px,5vw,45px);font-weight:590;letter-spacing:-.04em}
 .hero .price-entry input{width:100%;min-width:0;max-width:350px;color:#fff;background:#ffffff17;border:1px solid #a18b90;border-radius:6px;padding:8px 12px;font-size:clamp(32px,5vw,52px);font-weight:590;letter-spacing:-.04em;line-height:1.16;font-variant-numeric:tabular-nums}
@@ -39,174 +39,144 @@ main{max-width:1268px;margin:auto;padding:28px 24px 55px}.layout{display:grid;gr
 footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
 @media(max-width:910px){.layout{grid-template-columns:1fr}.result{position:static}}
 @media(max-width:560px){header{padding:26px 19px 30px}main{padding:18px 12px 36px}.panel{padding:17px}.fields{grid-template-columns:1fr}.pair{grid-template-columns:1fr 1fr}.mini{padding:12px}.mini strong{font-size:18px}.hero{padding:20px}.hero .price-entry input{font-size:36px}.headrow{align-items:start}}
-@media print{header{background:#fff;color:#111;padding:10px 0}.headrow .back,.btnrow,.fxbar button{display:none}.headrow .crumb,header p{color:#444}.layout{display:block}.stack{display:none}.result{display:block}.hero{background:#fff;color:#111;border:1px solid #ddd}.hero .caption,.hero .suffix{color:#333}main{padding:10px}.disclaimer{break-inside:avoid}}
+@media print{header{background:#fff;color:#111;padding:10px 0}.headrow .back,.btnrow,.obsolete-control{display:none}.headrow .crumb,header p{color:#444}.layout{display:block}.stack{display:none}.result{display:block}.hero{background:#fff;color:#111;border:1px solid #ddd}.hero .caption,.hero .suffix{color:#333}main{padding:10px}.disclaimer{break-inside:avoid}}
 </style>
 <script>if(sessionStorage.getItem('zeratta-access-ok')!=='1'){location.replace('../');}</script>
 </head>
 <body>
 <header>
- <div class="headrow"><span class="crumb">Zeratta / Operações / Precificação</span><a class="back" href="../" aria-label="Voltar ao catálogo">← Voltar ao catálogo</a></div>
+ <div class="headrow"><span class="crumb">Zeratta / Operações / Precificação • USA / USD</span><a class="back" href="../" aria-label="Voltar ao catálogo">← Voltar ao catálogo</a></div>
  <h1>Calculadora de precificação</h1>
- <p>Do custo em dólares ao preço final de venda em libras. Reserve VAT britânico, CPA, Stripe e Simples Nacional em reais. Todos os valores são calculados sobre uma única venda, com as moedas identificadas.</p>
+ <p>Todos os valores em dólares americanos (USD). Custo do produto, frete, CPA, processamento, preço e lucro em uma única moeda, sem conversão. Cálculo por pedido, com parâmetros editáveis.</p>
 </header>
 <main>
  <div class="layout">
   <div class="stack">
    <section class="panel" aria-labelledby="costTitle">
-    <span class="sectiontag">01 / Custos de origem</span><h2 id="costTitle">Produto e frete</h2>
-    <p class="lead">Informe custo e frete separadamente ou digite apenas o custo total. Todos os três campos usam dólar americano (USD).</p>
+    <span class="sectiontag">01 / Custos · USD</span><h2 id="costTitle">Produto e frete</h2>
+    <p class="lead">Digite produto e frete separados ou informe o custo total diretamente. Não haverá dupla contagem.</p>
     <div class="fields">
-     <div class="field"><label for="productCost">Custo do produto <small>(USD, US$)</small></label><input id="productCost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="Ex.: 19.50"><span class="sub">Valor cobrado pelo fornecedor, em USD.</span></div>
-     <div class="field"><label for="shippingCost">Custo do frete <small>(USD, US$)</small></label><input id="shippingCost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="Ex.: 12.00"><span class="sub">Frete pago à transportadora/fornecedor, em USD.</span></div>
-     <div class="full"><div class="separation">OU PREENCHA DIRETAMENTE</div></div>
-     <div class="field full"><label for="totalCost">Custo total <small>(USD, US$)</small></label><input id="totalCost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="Ex.: 31.50"><span class="sub">Ao editar este campo, o custo total passa a prevalecer e produto + frete não são somados novamente.</span></div>
+     <div class="field"><label for="productCost">Custo do produto <small>(US$)</small></label><input id="productCost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="19.50"><span class="sub">Custo da mercadoria em dólar.</span></div>
+     <div class="field"><label for="shippingCost">Frete de origem <small>(US$)</small></label><input id="shippingCost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="12.00"><span class="sub">Frete efetivamente cobrado pela operação logística.</span></div>
+     <div class="full"><div class="separation">OU INFORME O CUSTO TOTAL</div></div>
+     <div class="field full"><label for="totalCost">Custo total <small>(US$)</small></label><input id="totalCost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="31.50"><span class="sub">Quando este campo for editado, substitui a soma de produto e frete.</span></div>
     </div>
-    <div class="mode" id="costMode" aria-live="polite"><b>Modo detalhado.</b> Preencha os custos para começar.</div>
+    <div class="mode" id="costMode" aria-live="polite">Modo detalhado: produto + frete.</div>
    </section>
    <section class="panel" aria-labelledby="paramsTitle">
-    <span class="sectiontag">02 / Parâmetros ajustáveis</span><h2 id="paramsTitle">Despesas e margem</h2>
-    <p class="lead">As percentagens incidem sobre o preço bruto de venda em GBP (£), já com VAT incluído.</p>
+    <span class="sectiontag">02 / Premissas editáveis · USD</span><h2 id="paramsTitle">Despesas e lucro-alvo</h2>
+    <p class="lead">As taxas percentuais incidem sobre a venda em USD. Ajuste conforme as despesas reais do negócio.</p>
     <div class="fields">
-     <div class="field"><label for="cpa">CPA médio <small>(USD, US$ / pedido)</small></label><input id="cpa" type="number" min="0" step="0.01" value="35.00"><span class="sub">Custo de publicidade estimado para adquirir um pedido.</span></div>
-     <div class="field"><label for="stripePct">Stripe variável <small>(% do preço GBP)</small></label><input id="stripePct" type="number" min="0" max="100" step="0.01" value="4.58"><span class="sub">Estimativa ajustável da taxa total percentual.</span></div>
-     <div class="field"><label for="stripeFixed">Stripe fixa <small>(USD, US$ / transação)</small></label><input id="stripeFixed" type="number" min="0" step="0.01" value="0"><span class="sub">Se houver tarifa fixa; acrescida à Stripe variável.</span></div>
-     <div class="field"><label for="brTax">Simples Brasil <small>(% faturamento em BRL)</small></label><input id="brTax" type="number" min="0" max="100" step="0.01" value="4.00"><span class="sub">Provisão padrão de 4% do faturamento convertido em reais (R$).</span></div>
-     <div class="field"><label for="targetMargin">Margem líquida alvo <small>(% do preço GBP)</small></label><input id="targetMargin" type="number" min="0" max="100" step="0.01" value="20.69"><span class="sub">Meta da precificação atual; editável para outros cenários.</span></div>
-     <div class="field"><label for="vatRate">VAT Reino Unido <small>(% sobre valor sem VAT)</small></label><input id="vatRate" type="number" value="20" disabled aria-disabled="true"><span class="sub">VAT de 20% incluso no preço: reserva igual a preço ÷ 6.</span></div>
+     <div class="field"><label for="cpa">CPA estimado <small>(US$ / pedido)</small></label><input id="cpa" type="number" min="0" step="0.01" value="35"><span class="sub">Aquisição de um pedido; não por peça.</span></div>
+     <div class="field"><label for="stripePct">Processamento <small>(% da venda)</small></label><input id="stripePct" type="number" min="0" max="100" step="0.01" value="5.99"><span class="sub">Estimativa ajustável, inicialmente 5,99%.</span></div>
+     <div class="field"><label for="stripeFixed">Tarifa fixa <small>(US$ / pedido)</small></label><input id="stripeFixed" type="number" min="0" step="0.01" value="0"><span class="sub">Informe a tarifa fixa quando existir.</span></div>
+     <div class="field"><label for="taxPct">Reserva tributária <small>(% da venda)</small></label><input id="taxPct" type="number" min="0" max="100" step="0.01" value="0"><span class="sub">0% por padrão neste cenário; configure apenas se aplicável.</span></div>
+     <div class="field"><label for="reserve">Outras despesas <small>(US$ / pedido)</small></label><input id="reserve" type="number" min="0" step="0.01" value="0"><span class="sub">Reservas, devoluções e custos adicionais não incluídos acima.</span></div>
+     <div class="field"><label for="targetProfit">Lucro-alvo <small>(US$ / pedido)</small></label><input id="targetProfit" type="number" min="0" step="0.01" value="12"><span class="sub">Meta editável para calcular o preço sugerido.</span></div>
     </div>
-    <div class="settings-note">O CPA é cobrado uma vez por pedido nesta simulação. Descontos, reembolsos, imposto de importação, taxas extras do Shopify e diferenças de câmbio na liquidação não entram automaticamente. Ajuste as despesas conforme seus custos reais.</div>
-   </section>
-   <section class="panel" aria-labelledby="fxTitle">
-    <span class="sectiontag">03 / Conversão de moedas</span><h2 id="fxTitle">Câmbio GBP / USD / BRL</h2>
-    <p class="lead">A calculadora tenta carregar a cotação referencial diária. Você pode substituí-la pela taxa efetiva utilizada pelo seu financeiro.</p>
-    <div class="fields">
-     <div class="field"><label for="gbpUsd">1 GBP (£1) equivale a <small>USD (US$)</small></label><input id="gbpUsd" type="number" inputmode="decimal" min="0.000001" step="any" placeholder="Carregando cotação..."><span class="sub">GBP → USD; divide valores em USD para obter GBP.</span></div>
-     <div class="field"><label for="gbpBrl">1 GBP (£1) equivale a <small>BRL (R$)</small></label><input id="gbpBrl" type="number" inputmode="decimal" min="0.000001" step="any" placeholder="Carregando cotação..."><span class="sub">GBP → BRL; converte o faturamento e o Simples para reais.</span></div>
-    </div>
-    <div class="fxbar"><strong id="crossRate">Cotação ainda não disponível.</strong><span id="fxStatus" role="status">Consultando o provedor de câmbio...</span><button type="button" id="refreshFx">Atualizar cotação</button> · <a href="https://www.exchangerate-api.com" target="_blank" rel="noopener noreferrer">Rates By Exchange Rate API</a></div>
+    <div class="settings-note">Os parâmetros são premissas de simulação, não dados fiscais confirmados. Tributos dos EUA, tributos brasileiros, tarifas de importação ou custos logísticos adicionais só entram se informados nos campos pertinentes. Não há conversão de moedas.</div>
    </section>
   </div>
   <section class="panel result" aria-labelledby="resultTitle">
-   <div class="result-top"><span class="sectiontag">Resultado / por pedido</span><h2 id="resultTitle">Preço de venda e rentabilidade</h2><p class="lead" style="margin-bottom:0">Preço em libras esterlinas (GBP), com VAT e todas as despesas informadas incluídas na projeção.</p></div>
-   <div class="hero"><label class="caption" for="salePrice">Preço de venda Zeratta · GBP (£) · editável</label><div class="price-entry"><span class="symbol" aria-hidden="true">£</span><input id="salePrice" type="number" inputmode="decimal" min="0.01" step="0.01" placeholder="0.00" aria-describedby="priceModeHint"></div><div class="suffix" id="priceModeHint">Valor sugerido automaticamente. Digite outro preço em GBP para simular.</div></div>
-   <div class="suggested-line"><span>Preço sugerido pela margem-alvo · GBP (£)</span><strong id="suggestedPrice">£ --</strong></div>
+   <div class="result-top"><span class="sectiontag">Resultado por pedido · USD</span><h2 id="resultTitle">Preço e rentabilidade</h2><p class="lead" style="margin-bottom:0">Sugestão de venda com final .90 para alcançar o lucro-alvo configurado.</p></div>
+   <div class="hero"><label class="caption" for="salePrice">Preço de venda Zeratta · US$ · editável</label><div class="price-entry"><span class="symbol" aria-hidden="true">$</span><input id="salePrice" type="number" min="0.01" inputmode="decimal" step="0.01" placeholder="0.00" aria-describedby="priceModeHint"></div><div class="suffix" id="priceModeHint">Preço sugerido automaticamente; edite para testar outro valor.</div></div>
+   <div class="suggested-line"><span>Preço sugerido · USD</span><strong id="suggestedPrice">US$ --</strong></div>
    <div class="pair">
-    <div class="mini"><span>Lucro estimado · GBP (£)</span><strong class="good" id="profitGBP">£ --</strong><small>Após VAT, custos, CPA, Stripe e Simples</small></div>
-    <div class="mini"><span>Margem · % sobre preço GBP</span><strong id="profitPct">--%</strong><small id="marginTargetLabel">Meta: 20,69%</small></div>
+    <div class="mini"><span>Lucro estimado · USD</span><strong class="good" id="profitUSD">US$ --</strong><small>Após custos e despesas informados</small></div>
+    <div class="mini"><span>Margem sobre a venda</span><strong id="profitPct">--%</strong><small id="marginTargetLabel">Meta: US$ 12 por pedido</small></div>
    </div>
-   <h3 class="breakdown-title">Composição financeira por venda</h3>
-   <div class="lines" id="breakdown" aria-live="polite"><div class="line"><div class="name">Informe um custo em USD e aguarde ou preencha o câmbio.</div></div></div>
+   <h3 class="breakdown-title">Composição financeira</h3>
+   <div class="lines" id="breakdown" aria-live="polite"><div class="line"><div class="name">Informe os custos para começar.</div></div></div>
    <p class="meta-msg" id="message" role="status">O resultado será atualizado automaticamente.</p>
    <div class="btnrow"><button class="btn primary" type="button" id="copyResult" disabled>Copiar resultado</button><button class="btn" type="button" id="resetSuggested" disabled>Usar preço sugerido</button><button class="btn" type="button" id="clearCosts">Limpar custos</button></div>
   </section>
  </div>
- <div class="disclaimer"><b>Escopo tributário e operacional:</b> VAT de 20% é uma reserva para vendas britânicas sujeitas à alíquota padrão, não uma afirmação de que toda remessa terá a mesma responsabilidade tributária. A incidência de import VAT, direitos aduaneiros e as regras de remessas até/acima de £135 dependem da operação. O Simples de 4% é uma premissa solicitada, não um enquadramento tributário verificado; receita, base de cálculo e câmbio fiscal podem diferir. Confirme a classificação com o contador. Cotações referenciais não incluem spread ou taxas efetivas de liquidação.</div>
- <footer>Ferramenta de simulação interna da Zeratta · Alterar o resultado aqui não altera preços na Shopify nem grava novos preços no catálogo.</footer>
+ <div class="disclaimer"><b>Modelo financeiro em USD:</b> preço menos produto, frete, CPA por pedido, processamento, reserva tributária configurada e outras despesas. O resultado é uma estimativa operacional; confirme incidências tributárias e custos reais antes de publicar preços. Alterações feitas aqui não alteram a Shopify.</div>
+ <footer>ZERATTA · USA / USD · Calculadora interna de precificação</footer>
 </main>
 <script>
 (function(){
-'use strict';
-var $=function(id){return document.getElementById(id);};
-var ids=['cpa','stripePct','stripeFixed','brTax','targetMargin'];
-var defaults={cpa:35,stripePct:4.58,stripeFixed:0,brTax:4,targetMargin:20.69};
-var mode='parts',priceSource='auto',lastResult=null,fxOrigin='unavailable';
-var fmt=function(n,c){return new Intl.NumberFormat('pt-BR',{style:'currency',currency:c,minimumFractionDigits:2,maximumFractionDigits:2}).format(n);};
-var digits=function(n,d){return Number(n).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});};
-var val=function(id){return Number($(id).value);};
-var filled=function(id){return $(id).value.trim()!=='';};
-var valid=function(id,upper){var n=val(id);return filled(id)&&Number.isFinite(n)&&n>=0&&(upper===undefined||n<=upper);};
-function saveSettings(){try{var o={};ids.forEach(function(k){o[k]=$(k).value;});localStorage.setItem('zeratta-pricing-settings-v1',JSON.stringify(o));}catch(e){}}
-function restoreSettings(){try{var d=JSON.parse(localStorage.getItem('zeratta-pricing-settings-v1')||'null');if(d){ids.forEach(function(k){if(d[k]!==undefined&&d[k]!==''&&Number.isFinite(Number(d[k])))$(k).value=d[k];});}}catch(e){}}
-function setMode(){var manual=mode==='total';$('totalCost').classList.toggle('active',manual);$('productCost').classList.toggle('active',!manual);$('shippingCost').classList.toggle('active',!manual);$('costMode').innerHTML=manual?'<b>Modo custo total direto (USD).</b> O valor total informado tem prioridade; os campos de produto e frete não são adicionados novamente.':'<b>Modo produto + frete (USD).</b> Custo total preenchido automaticamente; pode substituí-lo a qualquer momento.';}
-function computeParts(){mode='parts';var a=filled('productCost'),b=filled('shippingCost');if(a||b){$('totalCost').value=(val('productCost')+val('shippingCost')).toFixed(2);}else{$('totalCost').value='';}setMode();render();}
-function computeTotal(){mode='total';setMode();render();}
-function putLine(name,detail,main,sub,net){return '<div class="line'+(net?' net':'')+'"><div><span class="name">'+name+'</span><span class="detail">'+detail+'</span></div><div class="value">'+main+(sub?'<small>'+sub+'</small>':'')+'</div></div>';}
-function resetResult(msg){lastResult=null;if(priceSource==='auto')$('salePrice').value='';$('profitGBP').textContent='£ --';$('profitPct').textContent='--%';$('suggestedPrice').textContent='£ --';$('breakdown').innerHTML='<div class="line"><div class="name">A composição financeira aparecerá aqui quando houver dados válidos.</div></div>';$('message').textContent=msg;$('message').classList.add('error');$('copyResult').disabled=true;$('resetSuggested').disabled=true;}
-function render(){
- var ud=val('gbpUsd'),bd=val('gbpBrl');
- $('crossRate').textContent=ud>0&&bd>0?'1 USD (US$) = '+digits(1/ud,5)+' GBP (£) · 1 USD (US$) = '+digits(bd/ud,4)+' BRL (R$)':'Informe as duas taxas de câmbio: GBP → USD e GBP → BRL.';
- $('marginTargetLabel').textContent='Meta: '+digits(val('targetMargin'),2)+'% do preço GBP';
- var hasCost=mode==='total'?filled('totalCost'):(filled('productCost')||filled('shippingCost'));
- if(!hasCost){resetResult('Digite o custo do produto, frete ou custo total em USD (US$).');return;}
- if(!valid('gbpUsd')||!valid('gbpBrl')||ud<=0||bd<=0){resetResult('Informe taxas de câmbio positivas para GBP → USD e GBP → BRL. Não usamos conversão presumida.');return;}
- if(!valid('cpa')||!valid('stripePct',100)||!valid('stripeFixed')||!valid('brTax',100)||!valid('targetMargin',100)){resetResult('Revise os parâmetros: valores não negativos e percentuais entre 0% e 100%.');return;}
- if((mode==='total'&&!valid('totalCost'))||(mode==='parts'&&((filled('productCost')&&!valid('productCost'))||(filled('shippingCost')&&!valid('shippingCost'))))){resetResult('Revise os custos informados em USD. Não use valores negativos.');return;}
- var costUSD=mode==='total'?val('totalCost'):val('productCost')+val('shippingCost');
- var cpaUSD=val('cpa'),stripeFixedUSD=val('stripeFixed'),stripeRate=val('stripePct')/100,taxRate=val('brTax')/100,target=val('targetMargin')/100;
- var vatFraction=20/120;
- var denominator=1-vatFraction-stripeRate-taxRate-target;
- var raw=denominator>0?((costUSD+cpaUSD+stripeFixedUSD)/ud)/denominator:NaN;
- var suggested=Number.isFinite(raw)&&raw<=100000000?Math.round(Math.max(.90,Math.ceil(raw-.90-1e-9)+.90)*100)/100:null;
- $('suggestedPrice').textContent=suggested===null?'Indisponível':fmt(suggested,'GBP');
- $('resetSuggested').disabled=suggested===null||priceSource==='auto';
- if(priceSource==='auto'&&suggested===null){resetResult('Não é possível sugerir um preço com essa margem e despesas. Reduza a meta ou informe um preço de venda manualmente.');return;}
- if(priceSource==='manual'&&(!valid('salePrice')||val('salePrice')<=0)){resetResult('Informe um preço de venda positivo em GBP (£).');return;}
- var price=priceSource==='manual'?val('salePrice'):suggested;
- if(priceSource==='auto')$('salePrice').value=price.toFixed(2);
- $('priceModeHint').textContent=priceSource==='manual'?'Preço definido manualmente em GBP (£). Lucro, VAT, Stripe e Simples recalculados.':'Preço sugerido pela meta de margem, arredondado para cima com final .90. Você pode editar.';
- var costGBP=costUSD/ud,cpaGBP=cpaUSD/ud,vatGBP=price*vatFraction;
- var stripeGBP=price*stripeRate+stripeFixedUSD/ud,stripeUSD=stripeGBP*ud;
- var taxBRL=price*bd*taxRate,taxGBP=taxBRL/bd,profit=price-costGBP-cpaGBP-vatGBP-stripeGBP-taxGBP;
- var margin=100*profit/price;
- var productUSD=mode==='parts'?val('productCost'):null,shippingUSD=mode==='parts'?val('shippingCost'):null;
- var rows=[];
- rows.push(putLine('Preço de venda','GBP (libras), valor bruto com VAT',fmt(price,'GBP'),fmt(price*bd,'BRL')));
- if(mode==='parts'){
-  rows.push(putLine('Custo do produto','USD → GBP na taxa indicada',fmt(productUSD/ud,'GBP'),fmt(productUSD,'USD')));
-  rows.push(putLine('Frete do fornecedor','USD → GBP na taxa indicada',fmt(shippingUSD/ud,'GBP'),fmt(shippingUSD,'USD')));
- }else{
-  rows.push(putLine('Custo total direto','USD → GBP; produto e frete não discriminados',fmt(costGBP,'GBP'),fmt(costUSD,'USD')));
+ 'use strict';
+ var $=function(id){return document.getElementById(id);};
+ var ids=['cpa','stripePct','stripeFixed','taxPct','reserve','targetProfit'];
+ var mode='parts',priceSource='auto',lastResult=null;
+ var usd=function(n){return new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(n);};
+ var digits=function(n){return Number(n).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});};
+ var value=function(id){return Number($(id).value);};
+ var filled=function(id){return $(id).value.trim()!=='';};
+ var valid=function(id,max){return filled(id)&&Number.isFinite(value(id))&&value(id)>=0&&(max===undefined||value(id)<=max);};
+ function persist(){try{var s={};ids.forEach(function(k){s[k]=$(k).value;});localStorage.setItem('zeratta-pricing-usd-v2',JSON.stringify(s));}catch(e){}}
+ function restore(){try{var s=JSON.parse(localStorage.getItem('zeratta-pricing-usd-v2')||'null');if(s)ids.forEach(function(k){if(s[k]!==undefined&&s[k]!==''&&Number.isFinite(Number(s[k])))$(k).value=s[k];});}catch(e){}}
+ function setMode(){
+  var total=mode==='total';
+  $('totalCost').classList.toggle('active',total);
+  $('productCost').classList.toggle('active',!total);
+  $('shippingCost').classList.toggle('active',!total);
+  $('costMode').innerHTML=total?'<b>Modo custo total direto (US$).</b> Produto e frete não serão somados novamente.':'<b>Modo produto + frete (US$).</b> O custo total é calculado pela soma dos campos.';
  }
- rows.push(putLine('VAT britânico','20% incluso · 1/6 do preço bruto GBP',fmt(vatGBP,'GBP'),''));
- rows.push(putLine('CPA médio','USD por pedido → GBP',fmt(cpaGBP,'GBP'),fmt(cpaUSD,'USD')));
- rows.push(putLine('Stripe',''+digits(stripeRate*100,2)+'% do preço GBP + '+fmt(stripeFixedUSD,'USD')+' fixo',fmt(stripeGBP,'GBP'),fmt(stripeUSD,'USD')));
- rows.push(putLine('Simples Nacional',''+digits(taxRate*100,2)+'% do faturamento convertido em BRL',fmt(taxBRL,'BRL'),fmt(taxGBP,'GBP')));
- rows.push(putLine('Lucro projetado','Após todas as despesas listadas · GBP',fmt(profit,'GBP'),digits(margin,2)+'% de margem',true));
- $('profitGBP').textContent=fmt(profit,'GBP');$('profitPct').textContent=digits(margin,2)+'%';
- $('profitGBP').classList.toggle('good',profit>=0);
- $('breakdown').innerHTML=rows.join('');
- $('message').classList.remove('error');
- $('message').textContent=priceSource==='manual'
- ?'Preço manual: '+fmt(price,'GBP')+'. '+(suggested===null?'A margem-alvo configurada não permite um preço recomendado.':'Preço sugerido para alcançar a margem-alvo: '+fmt(suggested,'GBP')+'.')+' Margem real: '+digits(margin,2)+'% sobre o preço bruto.'
- :'Preço mínimo teórico: '+fmt(raw,'GBP')+'. Sugerido com final .90: '+fmt(suggested,'GBP')+'. Margem calculada sobre o faturamento bruto em GBP; não sobre a receita sem VAT.';
- $('copyResult').disabled=false;
- lastResult={price:price,suggested:suggested,source:priceSource,costUSD:costUSD,productUSD:productUSD,shippingUSD:shippingUSD,vatGBP:vatGBP,cpaUSD:cpaUSD,cpaGBP:cpaGBP,stripeUSD:stripeUSD,stripeGBP:stripeGBP,taxBRL:taxBRL,taxGBP:taxGBP,profit:profit,margin:margin,ud:ud,bd:bd};
-}
-function setFX(usd,brl,source){$('gbpUsd').value=Number(usd).toFixed(6);$('gbpBrl').value=Number(brl).toFixed(6);fxOrigin=source;render();}
-function loadRates(force){
- $('fxStatus').textContent='Consultando cotação de referência GBP → USD/BRL...';
- var cache=null;try{cache=JSON.parse(localStorage.getItem('zeratta-pricing-fx-cache-v1')||'null');}catch(e){}
- if(!force&&cache&&Date.now()-cache.savedAt<20*60*60*1000&&cache.usd>0&&cache.brl>0){
-  setFX(cache.usd,cache.brl,'cache');
-  $('fxStatus').textContent='Cotação de referência guardada, atualizada pelo provedor em '+cache.updated+'. Pode ser editada.';
-  return;
+ function computeParts(){mode='parts';$('totalCost').value=(filled('productCost')||filled('shippingCost'))?(value('productCost')+value('shippingCost')).toFixed(2):'';setMode();render();}
+ function computeTotal(){mode='total';setMode();render();}
+ function line(name,detail,val,important){return '<div class="line'+(important?' net':'')+'"><div><span class="name">'+name+'</span><span class="detail">'+detail+'</span></div><div class="value">'+usd(val)+'</div></div>';}
+ function reset(msg){lastResult=null;if(priceSource==='auto')$('salePrice').value='';$('profitUSD').textContent='US$ --';$('profitPct').textContent='--%';$('suggestedPrice').textContent='US$ --';$('breakdown').textContent='A composição aparecerá com dados válidos.';$('message').textContent=msg;$('message').classList.add('error');$('copyResult').disabled=true;$('resetSuggested').disabled=true;}
+ function render(){
+  var hasCost=mode==='total'?filled('totalCost'):(filled('productCost')||filled('shippingCost'));
+  if(!hasCost){reset('Informe os custos do produto, do frete ou o custo total em US$.');return;}
+  if((mode==='total'&&!valid('totalCost'))||(mode==='parts'&&((filled('productCost')&&!valid('productCost'))||(filled('shippingCost')&&!valid('shippingCost'))))||!valid('cpa')||!valid('stripePct',100)||!valid('stripeFixed')||!valid('taxPct',100)||!valid('reserve')||!valid('targetProfit')){
+   reset('Revise os campos: custos e despesas não podem ser negativos; percentuais entre 0% e 100%.');return;
+  }
+  var product=mode==='parts'?value('productCost'):null;
+  var freight=mode==='parts'?value('shippingCost'):null;
+  var cost=mode==='total'?value('totalCost'):product+freight;
+  var cpa=value('cpa'),fee=value('stripePct')/100,tax=value('taxPct')/100,fixed=value('stripeFixed'),reserve=value('reserve'),goal=value('targetProfit');
+  var rate=1-fee-tax;
+  if(!(rate>0)){reset('A soma dos percentuais deve ser inferior a 100%.');return;}
+  var raw=(cost+cpa+fixed+reserve+goal)/rate;
+  var suggested=Math.round((Math.max(0.90,Math.ceil(raw-0.90-1e-9)+0.90))*100)/100;
+  if(!Number.isFinite(suggested)||suggested>100000000){reset('Resultado fora da faixa de cálculo. Revise os parâmetros.');return;}
+  $('suggestedPrice').textContent=usd(suggested);
+  if(priceSource==='manual'&&(!valid('salePrice')||value('salePrice')<=0)){
+   reset('Digite um preço de venda manual maior que zero.');return;
+  }
+  var sale=priceSource==='manual'?value('salePrice'):suggested;
+  if(priceSource==='auto')$('salePrice').value=sale.toFixed(2);
+  var processor=sale*fee+fixed, taxes=sale*tax;
+  var profit=sale-cost-cpa-processor-taxes-reserve;
+  var margin=profit/sale*100;
+  var rows=[line('Receita do pedido','Preço em dólar americano',sale)];
+  if(mode==='parts'){rows.push(line('Produto','Custo de compra em USD',-product));rows.push(line('Frete de origem','Custo logístico em USD',-freight));}
+  else{rows.push(line('Custo total','Produto e frete combinados em USD',-cost));}
+  rows.push(line('CPA','Uma aquisição por pedido',-cpa));
+  rows.push(line('Processamento',digits(fee*100)+'% do preço + '+usd(fixed)+' fixo',-processor));
+  rows.push(line('Reserva tributária',digits(tax*100)+'% da venda em USD',-taxes));
+  rows.push(line('Outras despesas','Valor informado por pedido',-reserve));
+  rows.push(line('Lucro projetado','Margem '+digits(margin)+'% sobre a receita',profit,true));
+  $('breakdown').innerHTML=rows.join('');
+  $('profitUSD').textContent=usd(profit);
+  $('profitUSD').classList.toggle('good',profit>=0);
+  $('profitPct').textContent=digits(margin)+'%';
+  $('marginTargetLabel').textContent='Meta: '+usd(goal)+' por pedido';
+  $('priceModeHint').textContent=priceSource==='manual'?'Preço definido manualmente em US$; margem recalculada.':'Preço sugerido com final .90. Digite outro valor para simular.';
+  $('resetSuggested').disabled=priceSource==='auto';
+  $('copyResult').disabled=false;
+  $('message').classList.remove('error');
+  $('message').textContent=(priceSource==='manual'?'Simulação manual. ':'Sugestão automática. ')+'Preço teórico de referência: '+usd(raw)+'. Lucro do cenário: '+usd(profit)+'.';
+  lastResult={sale:sale,suggested:suggested,cost:cost,product:product,freight:freight,cpa:cpa,processor:processor,tax:taxes,reserve:reserve,profit:profit,margin:margin,goal:goal};
  }
- fetch('https://open.er-api.com/v6/latest/GBP',{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(function(j){
-  if(j.result!=='success'||j.base_code!=='GBP'||!j.rates||!Number.isFinite(j.rates.USD)||!Number.isFinite(j.rates.BRL)||j.rates.USD<=0||j.rates.BRL<=0)throw Error('Cotação inválida');
-  var d={usd:j.rates.USD,brl:j.rates.BRL,updated:j.time_last_update_utc||'data não informada',savedAt:Date.now()};
-  try{localStorage.setItem('zeratta-pricing-fx-cache-v1',JSON.stringify(d));}catch(e){}
-  setFX(d.usd,d.brl,'api');
-  $('fxStatus').textContent='Cotação referencial diária, atualização da fonte: '+d.updated+'. Não é a taxa de liquidação da Stripe.';
- }).catch(function(){
-  if(!filled('gbpUsd')||!filled('gbpBrl')){$('fxStatus').textContent='Cotação indisponível. Insira manualmente 1 GBP em USD e 1 GBP em BRL para calcular.';}
-  else{$('fxStatus').textContent='Falha na atualização. Taxas exibidas não foram confirmadas agora; confira os valores manualmente.';}
-  render();
+ $('productCost').addEventListener('input',computeParts);
+ $('shippingCost').addEventListener('input',computeParts);
+ $('totalCost').addEventListener('input',computeTotal);
+ ids.forEach(function(k){$(k).addEventListener('input',function(){persist();render();});});
+ $('salePrice').addEventListener('input',function(){priceSource='manual';render();});
+ $('resetSuggested').addEventListener('click',function(){priceSource='auto';render();});
+ $('clearCosts').addEventListener('click',function(){['productCost','shippingCost','totalCost'].forEach(function(k){$(k).value='';});mode='parts';priceSource='auto';setMode();render();$('productCost').focus();});
+ $('copyResult').addEventListener('click',function(){
+  if(!lastResult)return;
+  var r=lastResult;
+  var txt=['Zeratta | Precificação USA · USD','Preço de venda: '+usd(r.sale),'Preço sugerido: '+usd(r.suggested),'Custo total: '+usd(r.cost),'CPA: '+usd(r.cpa),'Processamento: '+usd(r.processor),'Reserva tributária: '+usd(r.tax),'Outras despesas: '+usd(r.reserve),'Lucro estimado: '+usd(r.profit),'Margem: '+digits(r.margin)+'%','Lucro-alvo: '+usd(r.goal)].join('\n');
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){$('message').textContent='Resultado em USD copiado.';}).catch(function(){$('message').textContent='Falha ao copiar.';});}
+  else $('message').textContent='O navegador não permitiu copiar automaticamente.';
  });
-}
-$('productCost').addEventListener('input',computeParts);
-$('shippingCost').addEventListener('input',computeParts);
-$('totalCost').addEventListener('input',computeTotal);
-ids.forEach(function(k){$(k).addEventListener('input',function(){saveSettings();render();});});
-['gbpUsd','gbpBrl'].forEach(function(k){$(k).addEventListener('input',function(){fxOrigin='manual';$('fxStatus').textContent='Cotação informada manualmente. Certifique-se de que as taxas correspondem ao seu custo real.';render();});});
-$('refreshFx').addEventListener('click',function(){loadRates(true);});
-$('salePrice').addEventListener('input',function(){priceSource='manual';render();});
-$('resetSuggested').addEventListener('click',function(){priceSource='auto';render();});
-$('clearCosts').addEventListener('click',function(){['productCost','shippingCost','totalCost'].forEach(function(k){$(k).value='';});mode='parts';priceSource='auto';setMode();render();$('productCost').focus();});
-$('copyResult').addEventListener('click',function(){if(!lastResult)return;var r=lastResult;
- var s=['Zeratta | Simulação de precificação','Preço de venda ('+(r.source==='manual'?'manual':'sugerido')+'): '+fmt(r.price,'GBP'),'Preço recomendado pela meta: '+(r.suggested===null?'não disponível':fmt(r.suggested,'GBP')),'Custo total: '+fmt(r.costUSD,'USD')+' = '+fmt(r.costUSD/r.ud,'GBP'),'VAT: '+fmt(r.vatGBP,'GBP'),'CPA: '+fmt(r.cpaUSD,'USD')+' = '+fmt(r.cpaGBP,'GBP'),'Stripe: '+fmt(r.stripeUSD,'USD')+' = '+fmt(r.stripeGBP,'GBP'),'Simples: '+fmt(r.taxBRL,'BRL')+' = '+fmt(r.taxGBP,'GBP'),'Lucro: '+fmt(r.profit,'GBP'),'Margem sobre preço bruto: '+digits(r.margin,2)+'%','Câmbio: 1 GBP = '+digits(r.ud,6)+' USD = '+digits(r.bd,6)+' BRL'].join('\n');
- if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(s).then(function(){$('message').textContent='Resultado copiado com moedas e câmbio.';}).catch(function(){$('message').textContent='Não foi possível copiar automaticamente.';});}else{$('message').textContent='Seu navegador não permite copiar automaticamente.';}
-});
-restoreSettings();setMode();render();loadRates(false);
+ restore();setMode();render();
 })();
 </script>
 </body>
