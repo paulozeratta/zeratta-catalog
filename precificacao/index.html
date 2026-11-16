@@ -60,12 +60,14 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
      <div class="field"><label for="shippingCost">Frete de origem <small>(US$)</small></label><input id="shippingCost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="12.00"><span class="sub">Frete efetivamente cobrado pela operação logística.</span></div>
      <div class="full"><div class="separation">OU INFORME O CUSTO TOTAL</div></div>
      <div class="field full"><label for="totalCost">Custo total <small>(US$)</small></label><input id="totalCost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="31.50"><span class="sub">Quando este campo for editado, substitui a soma de produto e frete.</span></div>
+     <div class="full"><div class="separation">FRETE PAGO PELO CLIENTE · RECEITA</div></div>
+     <div class="field full"><label for="shippingCharged">Frete cobrado do cliente <small>(US$ / pedido)</small></label><input id="shippingCharged" type="number" inputmode="decimal" min="0" step="0.01" value="0.00" placeholder="0.00"><span class="sub">Valor pago pelo cliente além do preço do produto. Não confundir com o custo logístico acima. Para frete grátis, informe US$ 0,00.</span></div>
     </div>
     <div class="mode" id="costMode" aria-live="polite">Modo detalhado: produto + frete.</div>
    </section>
    <section class="panel" aria-labelledby="paramsTitle">
     <span class="sectiontag">02 / Premissas editáveis · USD</span><h2 id="paramsTitle">Despesas e lucro-alvo</h2>
-    <p class="lead">As taxas percentuais incidem sobre a venda em USD. Ajuste conforme as despesas reais do negócio.</p>
+    <p class="lead">As taxas percentuais incidem sobre o total recebido (preço do produto + frete cobrado do cliente). Ajuste conforme as despesas reais do negócio.</p>
     <div class="fields">
      <div class="field"><label for="cpa">CPA estimado <small>(US$ / pedido)</small></label><input id="cpa" type="number" min="0" step="0.01" value="35"><span class="sub">Aquisição de um pedido; não por peça.</span></div>
      <div class="field"><label for="stripePct">Processamento <small>(% da venda)</small></label><input id="stripePct" type="number" min="0" max="100" step="0.01" value="5.99"><span class="sub">Estimativa ajustável, inicialmente 5,99%.</span></div>
@@ -83,7 +85,7 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
    <div class="suggested-line"><span>Preço sugerido · USD</span><strong id="suggestedPrice">US$ --</strong></div>
    <div class="pair">
     <div class="mini"><span>Lucro estimado · USD</span><strong class="good" id="profitUSD">US$ --</strong><small>Após custos e despesas informados</small></div>
-    <div class="mini"><span>Margem sobre a venda</span><strong id="profitPct">--%</strong><small id="marginTargetLabel">Meta: US$ 12 por pedido</small></div>
+    <div class="mini"><span>Margem sobre a receita total</span><strong id="profitPct">--%</strong><small id="marginTargetLabel">Meta: US$ 12 por pedido</small></div>
    </div>
    <h3 class="breakdown-title">Composição financeira</h3>
    <div class="lines" id="breakdown" aria-live="polite"><div class="line"><div class="name">Informe os custos para começar.</div></div></div>
@@ -91,14 +93,14 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
    <div class="btnrow"><button class="btn primary" type="button" id="copyResult" disabled>Copiar resultado</button><button class="btn" type="button" id="resetSuggested" disabled>Usar preço sugerido</button><button class="btn" type="button" id="clearCosts">Limpar custos</button></div>
   </section>
  </div>
- <div class="disclaimer"><b>Modelo financeiro em USD:</b> preço menos produto, frete, CPA por pedido, processamento, reserva tributária configurada e outras despesas. O resultado é uma estimativa operacional; confirme incidências tributárias e custos reais antes de publicar preços. Alterações feitas aqui não alteram a Shopify.</div>
+ <div class="disclaimer"><b>Modelo financeiro em USD:</b> preço de venda + frete cobrado do cliente, menos custo do produto, custo do frete, CPA por pedido, processamento sobre a receita total, reserva tributária configurada e outras despesas. O resultado é uma estimativa operacional; confirme incidências tributárias e custos reais antes de publicar preços. Alterações feitas aqui não alteram a Shopify.</div>
  <footer>ZERATTA · USA / USD · Calculadora interna de precificação</footer>
 </main>
 <script>
 (function(){
  'use strict';
  var $=function(id){return document.getElementById(id);};
- var ids=['cpa','stripePct','stripeFixed','taxPct','reserve','targetProfit'];
+ var ids=['cpa','stripePct','stripeFixed','taxPct','reserve','targetProfit','shippingCharged'];
  var mode='parts',priceSource='auto',lastResult=null;
  var usd=function(n){return new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(n);};
  var digits=function(n){return Number(n).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});};
@@ -121,16 +123,16 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
  function render(){
   var hasCost=mode==='total'?filled('totalCost'):(filled('productCost')||filled('shippingCost'));
   if(!hasCost){reset('Informe os custos do produto, do frete ou o custo total em US$.');return;}
-  if((mode==='total'&&!valid('totalCost'))||(mode==='parts'&&((filled('productCost')&&!valid('productCost'))||(filled('shippingCost')&&!valid('shippingCost'))))||!valid('cpa')||!valid('stripePct',100)||!valid('stripeFixed')||!valid('taxPct',100)||!valid('reserve')||!valid('targetProfit')){
+  if((mode==='total'&&!valid('totalCost'))||(mode==='parts'&&((filled('productCost')&&!valid('productCost'))||(filled('shippingCost')&&!valid('shippingCost'))))||!valid('cpa')||!valid('stripePct',100)||!valid('stripeFixed')||!valid('taxPct',100)||!valid('reserve')||!valid('targetProfit')||!valid('shippingCharged')){
    reset('Revise os campos: custos e despesas não podem ser negativos; percentuais entre 0% e 100%.');return;
   }
   var product=mode==='parts'?value('productCost'):null;
   var freight=mode==='parts'?value('shippingCost'):null;
   var cost=mode==='total'?value('totalCost'):product+freight;
-  var cpa=value('cpa'),fee=value('stripePct')/100,tax=value('taxPct')/100,fixed=value('stripeFixed'),reserve=value('reserve'),goal=value('targetProfit');
+  var cpa=value('cpa'),fee=value('stripePct')/100,tax=value('taxPct')/100,fixed=value('stripeFixed'),reserve=value('reserve'),goal=value('targetProfit'),shippingCharged=value('shippingCharged');
   var rate=1-fee-tax;
   if(!(rate>0)){reset('A soma dos percentuais deve ser inferior a 100%.');return;}
-  var raw=(cost+cpa+fixed+reserve+goal)/rate;
+  var raw=Math.max(0,(cost+cpa+fixed+reserve+goal)/rate-shippingCharged);
   var suggested=Math.round((Math.max(0.90,Math.ceil(raw-0.90-1e-9)+0.90))*100)/100;
   if(!Number.isFinite(suggested)||suggested>100000000){reset('Resultado fora da faixa de cálculo. Revise os parâmetros.');return;}
   $('suggestedPrice').textContent=usd(suggested);
@@ -139,17 +141,20 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
   }
   var sale=priceSource==='manual'?value('salePrice'):suggested;
   if(priceSource==='auto')$('salePrice').value=sale.toFixed(2);
-  var processor=sale*fee+fixed, taxes=sale*tax;
-  var profit=sale-cost-cpa-processor-taxes-reserve;
-  var margin=profit/sale*100;
-  var rows=[line('Receita do pedido','Preço em dólar americano',sale)];
+  var totalRevenue=sale+shippingCharged;
+  var processor=totalRevenue*fee+fixed, taxes=totalRevenue*tax;
+  var profit=totalRevenue-cost-cpa-processor-taxes-reserve;
+  var margin=profit/totalRevenue*100;
+  var rows=[line('Venda de produtos','Preço do produto em dólar americano',sale)];
+  rows.push(line('Frete cobrado do cliente','Receita adicional recebida no pedido',shippingCharged));
+  rows.push(line('Receita total','Produto + frete pago pelo cliente',totalRevenue));
   if(mode==='parts'){rows.push(line('Produto','Custo de compra em USD',-product));rows.push(line('Frete de origem','Custo logístico em USD',-freight));}
   else{rows.push(line('Custo total','Produto e frete combinados em USD',-cost));}
   rows.push(line('CPA','Uma aquisição por pedido',-cpa));
-  rows.push(line('Processamento',digits(fee*100)+'% do preço + '+usd(fixed)+' fixo',-processor));
-  rows.push(line('Reserva tributária',digits(tax*100)+'% da venda em USD',-taxes));
+  rows.push(line('Processamento',digits(fee*100)+'% da receita total + '+usd(fixed)+' fixo',-processor));
+  rows.push(line('Reserva tributária',digits(tax*100)+'% da receita total em USD',-taxes));
   rows.push(line('Outras despesas','Valor informado por pedido',-reserve));
-  rows.push(line('Lucro projetado','Margem '+digits(margin)+'% sobre a receita',profit,true));
+  rows.push(line('Lucro projetado','Margem '+digits(margin)+'% sobre receita total',profit,true));
   $('breakdown').innerHTML=rows.join('');
   $('profitUSD').textContent=usd(profit);
   $('profitUSD').classList.toggle('good',profit>=0);
@@ -160,7 +165,7 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
   $('copyResult').disabled=false;
   $('message').classList.remove('error');
   $('message').textContent=(priceSource==='manual'?'Simulação manual. ':'Sugestão automática. ')+'Preço teórico de referência: '+usd(raw)+'. Lucro do cenário: '+usd(profit)+'.';
-  lastResult={sale:sale,suggested:suggested,cost:cost,product:product,freight:freight,cpa:cpa,processor:processor,tax:taxes,reserve:reserve,profit:profit,margin:margin,goal:goal};
+  lastResult={sale:sale,suggested:suggested,cost:cost,product:product,freight:freight,shippingCharged:shippingCharged,totalRevenue:totalRevenue,cpa:cpa,processor:processor,tax:taxes,reserve:reserve,profit:profit,margin:margin,goal:goal};
  }
  $('productCost').addEventListener('input',computeParts);
  $('shippingCost').addEventListener('input',computeParts);
@@ -172,7 +177,7 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
  $('copyResult').addEventListener('click',function(){
   if(!lastResult)return;
   var r=lastResult;
-  var txt=['Zeratta | Precificação USA · USD','Preço de venda: '+usd(r.sale),'Preço sugerido: '+usd(r.suggested),'Custo total: '+usd(r.cost),'CPA: '+usd(r.cpa),'Processamento: '+usd(r.processor),'Reserva tributária: '+usd(r.tax),'Outras despesas: '+usd(r.reserve),'Lucro estimado: '+usd(r.profit),'Margem: '+digits(r.margin)+'%','Lucro-alvo: '+usd(r.goal)].join('\n');
+  var txt=['Zeratta | Precificação USA · USD','Preço de venda: '+usd(r.sale),'Preço sugerido: '+usd(r.suggested),'Frete cobrado do cliente: '+usd(r.shippingCharged),'Receita total: '+usd(r.totalRevenue),'Custo total: '+usd(r.cost),'CPA: '+usd(r.cpa),'Processamento: '+usd(r.processor),'Reserva tributária: '+usd(r.tax),'Outras despesas: '+usd(r.reserve),'Lucro estimado: '+usd(r.profit),'Margem: '+digits(r.margin)+'%','Lucro-alvo: '+usd(r.goal)].join('\n');
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){$('message').textContent='Resultado em USD copiado.';}).catch(function(){$('message').textContent='Falha ao copiar.';});}
   else $('message').textContent='O navegador não permitiu copiar automaticamente.';
  });
