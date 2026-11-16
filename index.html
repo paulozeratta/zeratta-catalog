@@ -44,6 +44,7 @@
 /* Customer shipping scenario, distinct from supplier shipping cost */
 .shipping-scenario{border:1px solid #dedede;border-radius:9px;padding:14px 15px;margin:0 0 17px;background:#fafafa}
 .shipping-scenario-head{font-size:12px;font-weight:750;margin-bottom:9px}
+.customer-shipping-row{display:flex;align-items:center;flex-wrap:wrap;gap:10px}.customer-shipping-row label{font-size:11px;font-weight:600}.customer-shipping-row input{width:155px;max-width:100%;height:38px;border:1px solid #cfcaca;border-radius:6px;background:#fff;padding:8px 11px;font-size:14px;font-weight:650;color:#161616;font-variant-numeric:tabular-nums}.customer-shipping-row input:focus{outline:2px solid #1a0709;outline-offset:1px}
 .shipping-choice-row{display:flex;flex-wrap:wrap;gap:9px}
 .shipping-choice{display:flex;align-items:center;gap:9px;padding:10px 12px;border:1px solid #dedede;border-radius:7px;background:#fff;cursor:pointer;font-size:11px;font-weight:600;line-height:1.45;flex:1 1 235px}
 .shipping-choice:has(input:checked){border-color:#1a0709;background:#f2eeee;box-shadow:inset 0 0 0 1px #1a0709}
@@ -188,7 +189,12 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
  <small>Fretes anteriores em USD não equivalem a cotações validadas para os Estados Unidos. Valores do simulador não alteram produtos ou variantes na Shopify.</small></section>
  <section class="pricing-controls" aria-label="Simulador financeiro em USD">
  <div class="section-title"><h2>Rentabilidade dos produtos · USD</h2><small>Shopify em USD · valores estimados</small></div>
- <p>Preço publicado, custo do produto, frete de origem, CPA, processamento e lucro em dólares. O preço sugerido usa terminação .90 e a meta de lucro por pedido configurada abaixo. Sem custos verificados, não assuma margem garantida.</p>
+ <p>Preço publicado, custo do produto, frete de origem, frete cobrado ao cliente, CPA, processamento e lucro em dólares. O preço sugerido usa terminação .90 e a meta de lucro por pedido configurada abaixo. Sem custos verificados, não assuma margem garantida.</p>
+ <div class="shipping-scenario" aria-label="Receita de frete cobrada ao cliente">
+  <div class="shipping-scenario-head">Frete cobrado do cliente · US$ por pedido</div>
+  <div class="customer-shipping-row"><label for="customer-shipping">Valor recebido pelo frete (US$)</label><input id="customer-shipping" type="number" min="0" step="0.01" inputmode="decimal" value="0.00" aria-describedby="customer-shipping-note"></div>
+  <p class="shipping-scenario-note" id="customer-shipping-note">Receita adicional paga pelo cliente, separada do custo do frete. Para pedidos com frete grátis, use US$0. O valor é aplicado a todas as simulações abaixo e salvo neste navegador.</p>
+ </div>
  <div class="slidergrid" id="global-sliders"></div>
  <div id="us-pricing-summary" class="finance-dashboard" aria-live="polite"></div>
  </section>
@@ -510,7 +516,7 @@ $('count-all').textContent=PRODUCTS.length;$('count-new').textContent=PRODUCTS.f
 load();render();cloudInit();
 </script><script>
 'use strict';
-const FINANCE_DEFAULTS={cpa:35,processingPct:5.99,processingFixed:0,taxPct:0,returnPct:0,freightFallback:12,profitTarget:12};
+const FINANCE_DEFAULTS={cpa:35,processingPct:5.99,processingFixed:0,taxPct:0,returnPct:0,freightFallback:12,profitTarget:12,customerShipping:0};
 const financeState={...FINANCE_DEFAULTS};
 const financeSliderSpecs=[
  ['cpa','CPA estimado por pedido',0,100,1,'US$','Uma aquisição por pedido, não por item'],
@@ -518,28 +524,31 @@ const financeSliderSpecs=[
  ['processingFixed','Tarifa fixa por pedido',0,5,.05,'US$','Adicione se a sua adquirente cobrar'],
  ['taxPct','Reserva tributária',0,25,.5,'%','0% inicial; ajuste conforme imposto aplicável'],
  ['returnPct','Reserva para devoluções',0,15,.5,'%','Percentual sobre receita, ajustável'],
- ['freightFallback','Frete padrão de simulação',0,60,.5,'US$','Usado quando não há frete cadastrado; não é cotação confirmada'],
+ ['freightFallback','Custo do frete padrão',0,60,.5,'US$','Quanto a Zeratta paga; usado quando não há frete cadastrado. Não é cotação confirmada'],
  ['profitTarget','Lucro-alvo por pedido',0,50,.5,'US$','Meta para preço sugerido com final .90']
 ];
 const money2=x=>Number.isFinite(x)?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(x):'—';
 const perc2=x=>Number.isFinite(x)?x.toFixed(2)+'%':'—';
 const roundCents=x=>Math.round((Number(x)+Number.EPSILON)*100)/100;
 const num2=v=>v!==null&&v!==undefined&&v!==''&&Number.isFinite(Number(v))?Number(v):null;
+try{const savedShipping=localStorage.getItem('zeratta-catalog-customer-shipping-usd-v1');if(savedShipping!==null&&savedShipping.trim()!==''&&Number.isFinite(Number(savedShipping))&&Number(savedShipping)>=0)financeState.customerShipping=roundCents(Number(savedShipping));}catch(e){}
 function modelUSD(p){
  const price=num2(priceModel(p).sale),cost=num2(value(p,'cost')),freightKnown=num2(value(p,'freight'));
  if(price===null||cost===null||price<=0)return null;
  const freight=freightKnown??financeState.freightFallback;
  const feePct=financeState.processingPct/100,taxPct=financeState.taxPct/100,retPct=financeState.returnPct/100;
- const processing=roundCents(price*feePct+financeState.processingFixed);
- const tax=roundCents(price*taxPct),returns=roundCents(price*retPct);
- const gross=roundCents(price),landed=roundCents(cost+freight),cpa=financeState.cpa;
+ const customerShipping=financeState.customerShipping;
+ const gross=roundCents(price+customerShipping),landed=roundCents(cost+freight),cpa=financeState.cpa;
+ const processing=roundCents(gross*feePct+financeState.processingFixed);
+ const tax=roundCents(gross*taxPct),returns=roundCents(gross*retPct);
+ 
  const contribution=roundCents(gross-landed-cpa-processing-tax-returns);
  const margin=100*contribution/gross;
  const den=1-feePct-taxPct-retPct;
- const raw=den>0?(landed+cpa+financeState.processingFixed+financeState.profitTarget)/den:NaN;
+ const raw=den>0?Math.max(0,(landed+cpa+financeState.processingFixed+financeState.profitTarget)/den-customerShipping):NaN;
  const suggested=Number.isFinite(raw)?roundCents(Math.max(.90,Math.ceil(raw-.90-1e-9)+.90)):null;
  const cpaCeiling=roundCents(gross-landed-processing-tax-returns-financeState.profitTarget);
- return {price,cost,freight,freightKnown:freightKnown!==null,gross,landed,cpa,processing,tax,returns,contribution,margin,suggested,cpaCeiling};
+ return {price,customerShipping,cost,freight,freightKnown:freightKnown!==null,gross,landed,cpa,processing,tax,returns,contribution,margin,suggested,cpaCeiling};
 }
 function financeMarkup(p){
  const v=modelUSD(p);
@@ -548,12 +557,13 @@ function financeMarkup(p){
  return '<section class="us-sim-card" data-us-card="'+p.id+'" aria-label="Análise financeira em USD">'+
  '<div class="us-sim-title">VENDA EM DÓLARES AMERICANOS · PREÇO '+(isModified?'SIMULADO':'SHOPIFY')+'</div>'+
  '<div class="us-sim-price">'+money2(v.price)+'</div>'+
- '<div class="us-sim-caption">Preço registrado na Shopify: '+money2(current)+' · Preço sugerido pela meta de lucro: '+money2(v.suggested)+'</div>'+
- '<div class="us-sim-mini"><div><span>Custo produto + frete · USD</span><strong>'+money2(v.landed)+'</strong></div>'+
+ '<div class="us-sim-caption">Preço registrado na Shopify: '+money2(current)+' · Frete cobrado do cliente: '+money2(v.customerShipping)+' · Preço sugerido pela meta de lucro: '+money2(v.suggested)+'</div>'+
+ '<div class="us-sim-mini"><div><span>Receita total (produto + frete cobrado)</span><strong>'+money2(v.gross)+'</strong></div>'+
+ '<div><span>Custo produto + frete de origem · USD</span><strong>'+money2(v.landed)+'</strong></div>'+
  '<div><span>Processamento · USD</span><strong>'+money2(v.processing)+'</strong></div>'+
  '<div><span>Lucro estimado · CPA '+money2(v.cpa)+'</span><strong>'+money2(v.contribution)+'</strong></div>'+
  '<div><span>Margem sobre venda · USD</span><strong>'+perc2(v.margin)+'</strong></div></div>'+
- '<div class="us-sim-caption">Cálculo: '+money2(v.price)+' − produto '+money2(v.cost)+' − frete '+money2(v.freight)+' − CPA '+money2(v.cpa)+' − processamento '+money2(v.processing)+' − reserva tributária '+money2(v.tax)+' − devoluções '+money2(v.returns)+' = '+money2(v.contribution)+'.</div>'+
+ '<div class="us-sim-caption">Cálculo: '+money2(v.price)+' (produto) + '+money2(v.customerShipping)+' (frete cobrado) − '+money2(v.cost)+' (custo produto) − '+money2(v.freight)+' (custo frete) − '+money2(v.cpa)+' (CPA) − '+money2(v.processing)+' (processamento) − '+money2(v.tax)+' (reserva tributária) − '+money2(v.returns)+' (devoluções) = '+money2(v.contribution)+'.</div>'+
  '<div class="us-sim-flag">'+(v.freightKnown?'Frete em USD cadastrado; verificar cotação específica para USA.':'Frete de '+money2(v.freight)+' usado apenas como cenário, sem cotação USA.')+' O custo máximo de variantes deve ser conferido e o lucro não é garantia contábil. Alterar o preço no catálogo não publica na Shopify.</div></section>';
 }
 function buildSliders(){
@@ -576,7 +586,7 @@ function refreshFinanceDashboard(){
   ['Simulações negativas',negative,'Com o CPA e frete configurados']
  ];
  root.innerHTML=boxes.map(([label,val,note])=>'<div class="finance-mini"><label>'+label+'</label><strong>'+val+'</strong><div class="mini-sub">'+note+'</div></div>').join('')+
- '<div class="finance-warning"><strong>USA · USD:</strong> custos e preços em uma única moeda. CPA '+money2(financeState.cpa)+' por pedido, processamento '+perc2(financeState.processingPct)+', meta '+money2(financeState.profitTarget)+'. Fretes históricos devem ser confirmados para entrega nos Estados Unidos. Não há conversão de moeda. A simulação não altera preços publicados.</div>';
+ '<div class="finance-warning"><strong>USA · USD:</strong> custos e preços em uma única moeda. CPA '+money2(financeState.cpa)+' por pedido, frete cobrado do cliente '+money2(financeState.customerShipping)+', processamento '+perc2(financeState.processingPct)+', meta '+money2(financeState.profitTarget)+'. Fretes históricos devem ser confirmados para entrega nos Estados Unidos. Não há conversão de moeda. A simulação não altera preços publicados.</div>';
 }
 function augmentFinance(){
  for(const p of PRODUCTS){
@@ -597,6 +607,16 @@ function refreshProductFinance(id){
 const priorRender=render;
 render=function(){priorRender();augmentFinance();refreshFinanceDashboard()};
 buildSliders();
+const customerShippingInput=document.getElementById('customer-shipping');
+customerShippingInput.value=financeState.customerShipping.toFixed(2);
+customerShippingInput.addEventListener('input',e=>{
+ const val=e.target.value.trim(),parsed=Number(val);
+ if(val===''||!Number.isFinite(parsed)||parsed<0){customerShippingInput.setCustomValidity('Informe um frete em US$ igual ou maior que zero.');return;}
+ customerShippingInput.setCustomValidity('');
+ financeState.customerShipping=roundCents(parsed);
+ try{localStorage.setItem('zeratta-catalog-customer-shipping-usd-v1',String(financeState.customerShipping));}catch(err){}
+ refreshAllFinance();
+});
 document.getElementById('global-sliders').addEventListener('input',e=>{
  const key=e.target.dataset.finSetting;if(!key)return;
  financeState[key]=Number(e.target.value);
@@ -606,11 +626,11 @@ document.getElementById('global-sliders').addEventListener('input',e=>{
 });
 const priorExport=exportCSV;
 exportCSV=function(){
- const head=['Shopify ID','Produto','Status','Loja URL','EPROLO URL','Preço Shopify USD','Preço simulado USD','Preço normal USD','Desconto %','Custo USD','Frete USD cadastrado','Frete USD usado na simulação','Preço sugerido USD','CPA USD','Processamento USD','Reserva tributária USD','Reserva devoluções USD','Lucro USD','Margem %','Frete USA verificado'];
+ const head=['Shopify ID','Produto','Status','Loja URL','EPROLO URL','Preço Shopify USD','Preço simulado USD','Preço normal USD','Desconto %','Custo USD','Frete USD cadastrado','Frete USD usado na simulação','Frete cobrado cliente USD','Receita total USD','Preço sugerido USD','CPA USD','Processamento USD','Reserva tributária USD','Reserva devoluções USD','Lucro USD','Margem %','Frete USA verificado'];
  const rows=[head];
  for(const p of PRODUCTS){
   const v=modelUSD(p),z=priceModel(p),f=validNum(value(p,'freight'));
-  rows.push([p.id,p.shopTitle,p.status,p.storeUrl,value(p,'sourceUrl'),p.shopifyPublishedPrice,z.sale,z.regular,z.discount,value(p,'cost'),f??'',v?.freight??'',v?.suggested??'',v?.cpa??'',v?.processing??'',v?.tax??'',v?.returns??'',v?.contribution??'',v?.margin??'','PENDENTE']);
+  rows.push([p.id,p.shopTitle,p.status,p.storeUrl,value(p,'sourceUrl'),p.shopifyPublishedPrice,z.sale,z.regular,z.discount,value(p,'cost'),f??'',v?.freight??'',v?.customerShipping??'',v?.gross??'',v?.suggested??'',v?.cpa??'',v?.processing??'',v?.tax??'',v?.returns??'',v?.contribution??'',v?.margin??'','PENDENTE']);
  }
  download('zeratta_catalogo_USA_USD.csv','\ufeff'+rows.map(row=>row.map(csvEncode).join(';')).join('\r\n'),'text/csv;charset=utf-8');
 };
