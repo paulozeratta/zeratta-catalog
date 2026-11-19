@@ -171,13 +171,13 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
 </header>
 <main class="wrap">
  <section class="metrics" aria-label="Indicadores do catálogo">
-<div class="metric"><b id="count-all">140</b><span>Produtos da planilha</span></div>
-<div class="metric"><b id="count-new">140</b><span>Novos produtos</span></div>
+<div class="metric"><b id="count-all">159</b><span>Produtos da planilha</span></div>
+<div class="metric"><b id="count-new">159</b><span>Novos produtos</span></div>
 <div class="metric"><b id="count-old">6</b><span>Categorias</span></div>
-<div class="metric"><b id="count-links">140</b><span>Links CJ</span></div>
-<div class="metric"><b id="count-freight">140</b><span>Fretes em branco</span></div>
+<div class="metric"><b id="count-links">159</b><span>Links CJ</span></div>
+<div class="metric"><b id="count-freight">159</b><span>Fretes em branco</span></div>
 </section>
- <section class="notice"><div class="text"><strong>Catálogo CJ · Fonte: planilha de mineração 19/11/2026</strong><p>Os 140 links da planilha substituíram a base anterior. As fotos, links da Zeratta e links do Admin foram associados às fichas de produtos confirmadas na Shopify. Os campos FRETE permanecem vazios; preços e custos não foram importados da planilha.</p><div id="audit-extra" class="details-panel"><ul><li>Base: seis categorias conforme a aba Página1.</li><li>ID de cada produto obtido da URL CJ; registros únicos.</li><li>Importação do CSV disponível para atualizações posteriores.</li></ul></div></div><button class="toggle" id="audit-toggle" type="button" aria-expanded="false">Ver detalhes</button></section>
+ <section class="notice"><div class="text"><strong>Catálogo CJ · Fonte: planilha de mineração 19/11/2026</strong><p>A base atual possui 159 links CJ; dois produtos foram removidos e bloqueados para reimportação automática. As fotos, links da Zeratta e links do Admin foram associados às fichas de produtos confirmadas na Shopify. Os campos FRETE permanecem vazios; preços e custos não foram importados da planilha.</p><div id="audit-extra" class="details-panel"><ul><li>Base: seis categorias conforme a aba Página1.</li><li>ID de cada produto obtido da URL CJ; registros únicos.</li><li>Importação do CSV disponível para atualizações posteriores.</li></ul></div></div><button class="toggle" id="audit-toggle" type="button" aria-expanded="false">Ver detalhes</button></section>
  <section class="us-sim-banner" aria-label="Modelo financeiro USA em USD"><strong>USA · 100% USD · SEM CONVERSÃO DE MOEDAS</strong>
  Preço e custo não informados na planilha. CPA, processamento, frete e rentabilidade podem ser simulados em USD. CPA inicial de US$35/pedido, processamento de 5,99%, lucro-alvo de US$12 por pedido e reserva tributária de 0%: premissas editáveis.
  <small>O campo de frete de origem foi deixado em branco em todos os produtos.</small></section>
@@ -223,14 +223,14 @@ if(hex===PASS_HASH)ok();else document.getElementById('zeratta-access-error').tex
    <span id="save-status">Títulos e notas: alterações locais; fretes, links e preços: GitHub disponível</span>
   </div>
  </section>
- <div class="section-title"><h2>Produtos <span id="visible-count">140</span><small id="visible-total"> / 140</small></h2><small>Ordem e categorias conforme a planilha</small></div>
+ <div class="section-title"><h2>Produtos <span id="visible-count">159</span><small id="visible-total"> / 159</small></h2><small>Ordem e categorias conforme a planilha</small></div>
  <p class="sortNote" id="sheet-sync-status">Base CJ sincronizada em 19/11/2026. A planilha é privada; atualizações podem ser importadas como CSV e publicadas no GitHub. Nenhum frete foi preenchido.</p>
  <div id="items" class="list" aria-live="polite"></div>
  <div id="empty" class="empty" hidden>Nenhum produto encontrado. Ajuste os filtros.</div>
  <p class="foot">Fonte: planilha MINERAÇÃO CJ DROPSHIPPING (19/11/2026). Todos os valores monetários exibidos estão em USD. Preços, custos e fretes precisam ser informados quando disponíveis. O simulador fornece estimativas de contribuição, não lucro contábil garantido. Alterações feitas aqui não atualizam a Shopify.</p>
  <div class="footeractions"><button type="button" onclick="window.print()">Imprimir catálogo</button><button type="button" id="go-top">Voltar ao topo</button></div>
 </main><div class="toast" id="toast" role="status"></div>
-<script src="data/products.js?v=cj-20261119"></script>
+<script src="data/products.js?v=cj-20261119-removed2"></script>
 <script>
 'use strict';
 const PRODUCTS=window.ZERATTA_PRODUCTS;
@@ -632,5 +632,5 @@ $('export-csv').removeEventListener('click',priorExport);
 $('export-csv').addEventListener('click',exportCSV);
 render();
 </script>
-<script src="data/cj-sync.js?v=cj-20261119"></script>
+<script src="data/cj-sync.js?v=cj-20261119-removed2"></script>
 </body></html>
