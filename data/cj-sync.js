@@ -4,6 +4,8 @@
    Consulta pública é apenas opcional e nunca necessária para abrir o catálogo. */
 const CJ_SHEET_ID='1VK3Q6wIYbjOpqsS1RhyD7mqwmraLlegehcPAQKDg_RA';
 const CJ_COLS=[0,2,4,6,8,10];
+// Itens removidos por decisão da ZERATTA; não reimportar da planilha CJ.
+const CJ_EXCLUDED_IDS=new Set(['cj-1447860782342737920','cj-2611090929201605000']);
 let cjPendingProducts=null;
 function cjCsvParse(raw){
  const text=String(raw||'').replace(/^\uFEFF/,'');
@@ -47,6 +49,7 @@ function cjReadSheetRows(rows){
   for(const row of rows.slice(1)){
    const url=String(row[col]||'').trim();if(!url)continue;
    const item=cjUrlToItem(url,categories[i],products.length+1);
+   if(CJ_EXCLUDED_IDS.has(item.id))continue;
    if(seen.has(item.id))continue;
    seen.add(item.id);products.push(item);
   }
