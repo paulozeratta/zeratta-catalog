@@ -24,6 +24,12 @@ A planilha é privada, portanto a leitura automática anônima no GitHub Pages n
 ## Sincronização de novas botas (19/11/2026)
 
 - Planilha contém 21 botas adicionais após os 140 registros originais (51 botas na coluna E, apesar do cabeçalho da planilha ainda mencionar 30).
-- Das 21 novas botas, 10 já estão vinculadas à Shopify; 11 aguardam importação ou verificação. Dados pendentes não devem receber links ou fotos supostos.
+- As 21 novas botas também foram importadas e vinculadas à Shopify: há 161 links Zeratta, 161 links Admin e 161 fotos de produto confirmadas no catálogo.
 - O item cuja URL declara `for-women` exige revisão antes de qualquer publicação como produto masculino.
 - Este arquivo retrata a cópia da planilha consultada durante a atualização; devido ao caráter privado da planilha, não existe atualização contínua sem conexão autorizada.
+
+## Confirmação de importação das 11 botas restantes (19/11/2026)
+
+- Encontradas as 11 botas que antes estavam pendentes, com handle, produto Shopify, imagem real e status atual.
+- Todos os 161 itens da planilha CJ têm agora URL da loja, URL do Admin e foto verificada na Shopify; campo frete continua vazio.
+- Atenção: uma das botas na planilha tem URL/título `for-women` e foi publicada como ACTIVE na Shopify. Sinalização de revisão de gênero preservada; status Shopify não foi alterado nesta sincronização.
