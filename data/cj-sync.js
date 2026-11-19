@@ -28,14 +28,14 @@ function cjUrlToItem(url,category,number){
  const fromSlug=m[1].replace(/-/g,' ').replace(/\bmens\b/ig,"Men's").replace(/\bpu\b/ig,'PU')
   .replace(/\s+/g,' ').trim().replace(/\b[a-z]/g,x=>x.toUpperCase()).replace(/Men'S/g,"Men's");
  return {id,number,shopTitle:old?.shopTitle||fromSlug,before:old?.before||fromSlug,
-  shopHandle:'',storeUrl:'',adminUrl:'',sourceUrl:url,image:old?.image||'',
-  status:'MINERADO',category,origin:'Novo',date:'2026-11-19',
-  price:null,priceMax:null,cost:null,variants:null,sourceOriginalNumbers:[],
+  shopHandle:old?.shopHandle||'',storeUrl:old?.storeUrl||'',adminUrl:old?.adminUrl||'',sourceUrl:url,image:old?.image||'',
+  status:old?.status||'MINERADO',category,origin:'Novo',date:'2026-11-19',
+  price:null,priceMax:null,cost:null,variants:old?.variants??null,sourceOriginalNumbers:[],
   supplierNumber:null,confidence:'cj_link',issues:[],freight:null,
   notes:'',supplierSKU:'',unitCostWorstVariant:null,
   shopifyPublishedPrice:null,shopifyPublishedCompareAt:null,
   originalShopifyPrice:null,recommendedSale:null,
-  shopifyPriceSource:'Planilha CJ · custos e preços não informados'};
+  shopifyPriceSource:'Planilha CJ · custos e preços não informados',shopifyLinkedAt:old?.shopifyLinkedAt||null,imageSource:old?.imageSource||null};
 }
 function cjReadSheetRows(rows){
  if(!Array.isArray(rows)||rows.length<2)throw Error('Planilha vazia');
