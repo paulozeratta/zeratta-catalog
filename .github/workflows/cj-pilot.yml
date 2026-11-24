@@ -1,0 +1,31 @@
+name: CJ API pilot checks
+on:
+  push:
+    branches: [feat/cj-bulk-pricing]
+    paths:
+      - 'automation/cj/**'
+      - '.github/workflows/cj-pilot.yml'
+permissions:
+  contents: read
+concurrency:
+  group: cj-pilot
+  cancel-in-progress: false
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate modules and financial simulation
+        run: |
+          node --check automation/cj/pricing.mjs
+          node --check automation/cj/batch.mjs
+          node --input-type=module -e 'import assert from "node:assert/strict"; import {price,pidFromLink} from "./automation/cj/pricing.mjs"; import {sheetProducts} from "./automation/cj/batch.mjs"; const p={cpa:20,feePct:5.99,taxPct:0,fixed:0,reserve:0,goal:12,shippingCharged:6.99,freeShippingThreshold:119}; assert.equal(price(7.84,p).sale,35.99); assert.equal(price(7.84,p).profit,12.57); assert.equal(price(100,p).shippingRevenue,0); const u="https://www.cjdropshipping.com/product/example-p-123456789.html"; assert.equal(pidFromLink(u),"123456789"); assert.equal(sheetProducts([["SUNGLASSES"],[u],[u]]).length,1);'
+      - name: Authenticate and check for an enabled Shopify connection
+        env:
+          CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
+        run: |
+          node --input-type=module -e 'import {CJ} from "./automation/cj/batch.mjs"; if(!process.env.CJ_API_KEY){console.log("CJ credential not configured; live check skipped");process.exit(0)} try{const s=await new CJ().shops();if(!s.some(x=>String(x.type).toLowerCase()==="shopify"&&Number(x.status)===1))throw Error();console.log("CJ authentication and enabled Shopify connection verified.")}catch{console.error("CJ live check failed; inspect configuration privately.");process.exitCode=1}'
