@@ -1,0 +1,64 @@
+name: Smart Import - CJ connection check
+on:
+  push:
+    branches: [automation/accessories-pricing-v1]
+    paths: ['.github/workflows/cj-connection.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cj-connection-check
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Validate CJ credentials and read-only access
+        env:
+          CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import os, json, time, urllib.request, urllib.error
+          from pathlib import Path
+          base = 'https://developers.cjdropshipping.com/api2.0/v1/'
+          key = os.environ.get('CJ_API_KEY', '').strip()
+          if not key:
+              raise SystemExit('CJ_API_KEY missing in GitHub Secrets.')
+          def call(path, payload=None, token=None):
+              headers = {'Content-Type': 'application/json'}
+              if token:
+                  headers['CJ-Access-Token'] = token
+              req = urllib.request.Request(base+path, headers=headers, data=json.dumps(payload).encode() if payload is not None else None)
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      data = json.load(resp)
+              except urllib.error.HTTPError as e:
+                  raise SystemExit(f'CJ HTTP status: {e.code}') from None
+              except Exception:
+                  raise SystemExit('CJ network or response format error.') from None
+              if data.get('code') != 200 or data.get('result') is not True:
+                  code = data.get('code')
+                  raise SystemExit(f'CJ request rejected; code: {code if isinstance(code, int) else "unknown"}')
+              return data.get('data')
+          auth = call('authentication/getAccessToken', {'apiKey': key})
+          token = auth.get('accessToken') if isinstance(auth, dict) else None
+          if not isinstance(token, str) or not token:
+              raise SystemExit('CJ returned no access token.')
+          print('Authentication: OK')
+          time.sleep(1.3)
+          shops = call('shop/getShops', token=token)
+          if not isinstance(shops, list):
+              raise SystemExit('Unexpected shop response.')
+          active = [s for s in shops if str(s.get('type','')).lower() == 'shopify' and str(s.get('status')) == '1']
+          print('Active Shopify connections:', len(active))
+          time.sleep(1.3)
+          product = call('product/query?pid=2602260806241600400', token=token)
+          if not isinstance(product, dict) or str(product.get('pid')) != '2602260806241600400':
+              raise SystemExit('Product identity not verified.')
+          print('Sample product query: OK')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write('## CJ connection check\n- Authentication: OK\n- Active Shopify connections: '+str(len(active))+'\n- Sample product query: OK\n- No products imported or modified.\n')
+          if not active:
+              raise SystemExit('No active Shopify connection detected.')
+          PY
