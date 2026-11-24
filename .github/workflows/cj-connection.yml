@@ -37,9 +37,9 @@ jobs:
                   raise SystemExit(f'CJ HTTP status: {e.code}') from None
               except Exception:
                   raise SystemExit('CJ network or response format error.') from None
-              if data.get('code') != 200 or data.get('result') is not True:
+              if data.get('code') not in (0, 200) or not (data.get('result') is True or data.get('success') is True):
                   code = data.get('code')
-                  raise SystemExit(f'CJ request rejected; code: {code if isinstance(code, int) else "unknown"}')
+                  raise SystemExit(f'CJ request rejected; code: {code if isinstance(code, int) else "unknown"}; result={data.get("result") is True}; success={data.get("success") is True}')
               return data.get('data')
           auth = call('authentication/getAccessToken', {'apiKey': key})
           token = auth.get('accessToken') if isinstance(auth, dict) else None
