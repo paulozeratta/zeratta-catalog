@@ -80,7 +80,7 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
    </section>
   </div>
   <section class="panel result" aria-labelledby="resultTitle">
-   <div class="result-top"><span class="sectiontag">Resultado por pedido · USD</span><h2 id="resultTitle">Preço e rentabilidade</h2><p class="lead" style="margin-bottom:0">Sugestão de venda com final .90 para alcançar o lucro-alvo configurado.</p></div>
+   <div class="result-top"><span class="sectiontag">Resultado por pedido · USD</span><h2 id="resultTitle">Preço e rentabilidade</h2><p class="lead" style="margin-bottom:0">Sugestão de venda com final .99 para alcançar o lucro-alvo configurado.</p></div>
    <div class="hero"><label class="caption" for="salePrice">Preço de venda Zeratta · US$ · editável</label><div class="price-entry"><span class="symbol" aria-hidden="true">$</span><input id="salePrice" type="number" min="0.01" inputmode="decimal" step="0.01" placeholder="0.00" aria-describedby="priceModeHint"></div><div class="suffix" id="priceModeHint">Preço sugerido automaticamente; edite para testar outro valor.</div></div>
    <div class="suggested-line"><span>Preço sugerido · USD</span><strong id="suggestedPrice">US$ --</strong></div>
    <div class="pair">
@@ -96,7 +96,8 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
  <div class="disclaimer"><b>Modelo financeiro em USD:</b> preço de venda + frete cobrado do cliente, menos custo do produto, custo do frete, CPA por pedido, processamento sobre a receita total, reserva tributária configurada e outras despesas. O resultado é uma estimativa operacional; confirme incidências tributárias e custos reais antes de publicar preços. Alterações feitas aqui não alteram a Shopify.</div>
  <footer>ZERATTA · USA / USD · Calculadora interna de precificação</footer>
 </main>
-<script>
+<script type="module">
+import {calculatePricing} from './engine.mjs';
 (function(){
  'use strict';
  var $=function(id){return document.getElementById(id);};
@@ -132,8 +133,10 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
   var cpa=value('cpa'),fee=value('stripePct')/100,tax=value('taxPct')/100,fixed=value('stripeFixed'),reserve=value('reserve'),goal=value('targetProfit'),shippingCharged=value('shippingCharged');
   var rate=1-fee-tax;
   if(!(rate>0)){reset('A soma dos percentuais deve ser inferior a 100%.');return;}
-  var raw=Math.max(0,(cost+cpa+fixed+reserve+goal)/rate-shippingCharged);
-  var suggested=Math.round((Math.max(0.90,Math.ceil(raw-0.90-1e-9)+0.90))*100)/100;
+  var pricingInput={cost:cost,cpa:cpa,feePct:fee*100,taxPct:tax*100,fixed:fixed,reserve:reserve,goal:goal,shippingCharged:shippingCharged};
+  var computed;
+  try{computed=calculatePricing(pricingInput);}catch(e){reset(e.message);return;}
+  var raw=computed.raw,suggested=computed.suggested;
   if(!Number.isFinite(suggested)||suggested>100000000){reset('Resultado fora da faixa de cálculo. Revise os parâmetros.');return;}
   $('suggestedPrice').textContent=usd(suggested);
   if(priceSource==='manual'&&(!valid('salePrice')||value('salePrice')<=0)){
@@ -141,10 +144,9 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
   }
   var sale=priceSource==='manual'?value('salePrice'):suggested;
   if(priceSource==='auto')$('salePrice').value=sale.toFixed(2);
-  var totalRevenue=sale+shippingCharged;
-  var processor=totalRevenue*fee+fixed, taxes=totalRevenue*tax;
-  var profit=totalRevenue-cost-cpa-processor-taxes-reserve;
-  var margin=profit/totalRevenue*100;
+  var result;
+  try{result=calculatePricing(Object.assign({},pricingInput,{sale:sale}));}catch(e){reset(e.message);return;}
+  var totalRevenue=result.revenue,processor=result.processor,taxes=result.taxes,profit=result.profit,margin=result.margin;
   var rows=[line('Venda de produtos','Preço do produto em dólar americano',sale)];
   rows.push(line('Frete cobrado do cliente','Receita adicional recebida no pedido',shippingCharged));
   rows.push(line('Receita total','Produto + frete pago pelo cliente',totalRevenue));
@@ -160,7 +162,7 @@ footer{color:var(--muted);font-size:11px;line-height:1.7;margin-top:22px}
   $('profitUSD').classList.toggle('good',profit>=0);
   $('profitPct').textContent=digits(margin)+'%';
   $('marginTargetLabel').textContent='Meta: '+usd(goal)+' por pedido';
-  $('priceModeHint').textContent=priceSource==='manual'?'Preço definido manualmente em US$; margem recalculada.':'Preço sugerido com final .90. Digite outro valor para simular.';
+  $('priceModeHint').textContent=priceSource==='manual'?'Preço definido manualmente em US$; margem recalculada.':'Preço sugerido com final .99. Digite outro valor para simular.';
   $('resetSuggested').disabled=priceSource==='auto';
   $('copyResult').disabled=false;
   $('message').classList.remove('error');
