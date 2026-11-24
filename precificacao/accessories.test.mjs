@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {commercialPrice,quoteCandidates} from './accessories.mjs';
+const p={cost:11,cpa:17,feePct:5.99,taxPct:0,fixed:0,reserve:0,goal:12};
+assert.equal(commercialPrice(p,{ceiling:59.99}).sale,39.99);
+assert.equal(commercialPrice(p,{ceiling:34.99}).status,'NO_VIABLE_TIER');
+assert.ok(commercialPrice(p,{ceiling:59.99}).base.profit>=12);
+assert.ok(commercialPrice(p,{ceiling:59.99}).adverse.profit<commercialPrice(p,{ceiling:59.99}).base.profit);
+assert.equal(commercialPrice(p,{ceiling:150,tiers:[119.99,124.99]}).shippingCharged,6.99);
+assert.equal(commercialPrice(p,{ceiling:150,tiers:[124.99]}).shippingCharged,0);
+const rows=[{logisticName:'A',logisticPrice:7,logisticAging:'4-7'},{logisticName:'B',logisticPrice:5,logisticAging:'8-15'}];
+assert.equal(quoteCandidates(rows)[0].status,'SLOW');
+assert.equal(quoteCandidates(rows)[1].status,'REVIEW_TRANSIT_UNIT');
+assert.equal(quoteCandidates(rows,{confirmedBusinessDays:true})[1].status,'CANDIDATE');
+console.log('9 commercial pricing and logistics checks passed.');
