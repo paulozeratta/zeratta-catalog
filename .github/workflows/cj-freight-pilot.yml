@@ -1,0 +1,23 @@
+name: Smart Import - freight and pricing pilot
+on:
+  push:
+    branches: [automation/accessories-pricing-v1]
+    paths: ['.github/workflows/cj-freight-pilot.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cj-connection-check
+  cancel-in-progress: false
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test commercial pricing
+        run: node precificacao/accessories.test.mjs
+      - name: Query real CJ quotes without publishing financial data
+        env:
+          CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
+        run: node scripts/cj-freight-pilot.mjs
